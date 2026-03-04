@@ -28,6 +28,7 @@
         "crossSizing": "auto",
         "padding": "2px 4px"
       },
+      "borderRadius": "91px",
       "textAlign": null,
       "textMode": null
     },
@@ -47,6 +48,7 @@
             "relativeY": 2
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },

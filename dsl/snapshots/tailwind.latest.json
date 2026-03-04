@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-03-04T10:27:41.426Z",
+  "generatedAt": "2026-03-04T10:33:04.530Z",
   "componentCount": 75,
   "components": [
     {
@@ -533,7 +533,7 @@
           {
             "nodeType": "LAYER",
             "name": "矩形 36",
-            "className": "bg-[#0D0D0D] h-[3px] w-[54px]",
+            "className": "bg-[#0D0D0D] h-[3px] rounded-[4px] w-[54px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -705,7 +705,7 @@
           {
             "nodeType": "LAYER",
             "name": "矩形 36",
-            "className": "bg-[#0D0D0D] h-[3px] w-[54px]",
+            "className": "bg-[#0D0D0D] h-[3px] rounded-[4px] w-[54px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -912,7 +912,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 2",
                     "ref": "2-a1-nor-a61a444c",
-                    "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
+                    "className": "bg-[#EDEDED] flex flex-col h-[48px] rounded-[8px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
                       "padding": "14px"
@@ -924,7 +924,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 1",
                     "ref": "2-a1-nor-a61a444c",
-                    "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
+                    "className": "bg-[#EDEDED] flex flex-col h-[48px] rounded-[8px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
                       "padding": "14px"
@@ -936,7 +936,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 6",
                     "ref": "tabs-footer-nor-6-860ba693",
-                    "className": "bg-[#EDEDED] flex flex-col h-[48px] items-center justify-center w-[48px]",
+                    "className": "bg-[#EDEDED] flex flex-col h-[48px] items-center justify-center rounded-[8px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
                       "padding": "14px"
@@ -948,7 +948,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 3",
                     "ref": "2-a1-nor-a61a444c",
-                    "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
+                    "className": "bg-[#EDEDED] flex flex-col h-[48px] rounded-[8px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
                       "padding": "14px"
@@ -1580,7 +1580,7 @@
       "mapped": {
         "nodeType": "INSTANCE",
         "name": "容器 2436",
-        "className": "bg-[#0D0D0D] flex flex-col h-[56px] items-center justify-center px-5 py-4 w-[208px]",
+        "className": "bg-[#0D0D0D] flex flex-col h-[56px] items-center justify-center px-5 py-4 rounded-[8px] w-[208px]",
         "style": {
           "maxWidth": "100%"
         },
@@ -1693,7 +1693,7 @@
           {
             "nodeType": "LAYER",
             "name": "矩形",
-            "className": "bg-[#EDEDED] h-[20px] w-[20px]",
+            "className": "bg-[#EDEDED] h-[20px] rounded-[111.11111450195312px] w-[20px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -1845,7 +1845,7 @@
           {
             "nodeType": "FRAME",
             "name": "容器 3615",
-            "className": "flex flex-col h-[22px] w-[86px]",
+            "className": "flex flex-col h-[22px] rounded-[8px] w-[86px]",
             "style": {
               "maxWidth": "100%",
               "padding": "2px 8px",
@@ -1885,7 +1885,7 @@
             "nodeType": "COMPONENT_REF",
             "name": "容器 2436",
             "ref": "2436-f9c9685f",
-            "className": "bg-[#0D0D0D] flex flex-col h-[56px] items-center justify-center px-5 py-4 w-[208px]",
+            "className": "bg-[#0D0D0D] flex flex-col h-[56px] items-center justify-center px-5 py-4 rounded-[8px] w-[208px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -1895,7 +1895,7 @@
           {
             "nodeType": "FRAME",
             "name": "容器 2462",
-            "className": "bg-[#FEFEFE] flex flex-col gap-1 h-[901px] w-[208px]",
+            "className": "bg-[#FEFEFE] flex flex-col gap-1 h-[901px] rounded-[12px] w-[208px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -1914,7 +1914,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-9ee85330",
-                    "className": "bg-[#F5F5F5] flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "bg-[#F5F5F5] flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -1925,7 +1925,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -1936,7 +1936,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -1947,7 +1947,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -1958,7 +1958,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 3[a1]=nor",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2003,7 +2003,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2014,7 +2014,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2025,7 +2025,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2036,7 +2036,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2092,7 +2092,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2137,7 +2137,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2148,7 +2148,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2159,7 +2159,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2170,7 +2170,7 @@
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 3[a1]=nor",
                     "ref": "son-list-c3d6d542",
-                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+                    "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -2184,7 +2184,7 @@
           {
             "nodeType": "FRAME",
             "name": "用户建议入口",
-            "className": "bg-[#EDEDED] flex flex-row gap-2 h-[50px] items-center justify-center w-[208px]",
+            "className": "bg-[#EDEDED] flex flex-row gap-2 h-[50px] items-center justify-center rounded-[12px] w-[208px]",
             "style": {
               "maxWidth": "100%",
               "padding": "14px 20px"
@@ -2337,7 +2337,7 @@
           {
             "nodeType": "FRAME",
             "name": "容器 3635",
-            "className": "flex flex-row gap-5 h-[38px] items-center px-4 py-2 w-[277px]",
+            "className": "flex flex-row gap-5 h-[38px] items-center px-4 py-2 rounded-[100px] w-[277px]",
             "style": {
               "maxWidth": "100%",
               "background": "rgba(254, 254, 254, 0.15)"
@@ -2408,7 +2408,7 @@
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
                         "ref": "tips-f02c3118",
-                        "className": "flex flex-row h-[16px] w-[22px]",
+                        "className": "flex flex-row h-[16px] rounded-[91px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
                           "padding": "2px 4px",
@@ -2443,7 +2443,7 @@
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
                         "ref": "tips-f02c3118",
-                        "className": "flex flex-row h-[16px] w-[22px]",
+                        "className": "flex flex-row h-[16px] rounded-[91px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
                           "padding": "2px 4px",
@@ -2478,7 +2478,7 @@
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
                         "ref": "tips-f02c3118",
-                        "className": "flex flex-row h-[16px] w-[22px]",
+                        "className": "flex flex-row h-[16px] rounded-[91px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
                           "padding": "2px 4px",
@@ -2513,7 +2513,7 @@
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
                         "ref": "tips-f02c3118",
-                        "className": "flex flex-row h-[16px] w-[22px]",
+                        "className": "flex flex-row h-[16px] rounded-[91px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
                           "padding": "2px 4px",
@@ -2553,7 +2553,7 @@
                 "nodeType": "COMPONENT_REF",
                 "name": "tag/供稿人",
                 "ref": "tag-2c713570",
-                "className": "flex flex-row gap-1 h-[26px] items-center justify-center px-2 py-1 w-[59px]",
+                "className": "flex flex-row gap-1 h-[26px] items-center justify-center px-2 py-1 rounded-[12px] w-[59px]",
                 "style": {
                   "maxWidth": "100%",
                   "background": "rgba(254, 254, 254, 0.2)"
@@ -2654,7 +2654,7 @@
           {
             "nodeType": "FRAME",
             "name": "容器 3794",
-            "className": "flex flex-col h-[480px] w-[1360px]",
+            "className": "flex flex-col h-[480px] rounded-[12px] w-[1360px]",
             "style": {
               "maxWidth": "100%",
               "gap": "-682px"
@@ -2714,7 +2714,7 @@
           {
             "nodeType": "FRAME",
             "name": "容器 3808",
-            "className": "bg-[#FEFEFE] flex flex-col gap-10 h-[1413px] w-[1360px]",
+            "className": "bg-[#FEFEFE] flex flex-col gap-10 h-[1413px] rounded-[12px] w-[1360px]",
             "style": {
               "maxWidth": "100%",
               "padding": "24px 24px 100px"
@@ -2757,7 +2757,7 @@
                 "nodeType": "COMPONENT_REF",
                 "name": "choice/作品",
                 "ref": "choice-56824ac7",
-                "className": "flex flex-row gap-5 h-[80px] items-center w-[1312px]",
+                "className": "flex flex-row gap-5 h-[80px] items-center rounded-[16px] w-[1312px]",
                 "style": {
                   "maxWidth": "100%",
                   "padding": "20px 20px 20px 28px"
@@ -3106,7 +3106,7 @@
           {
             "nodeType": "FRAME",
             "name": "首推card/nor",
-            "className": "flex flex-col h-[174px] items-center justify-between w-[310px]",
+            "className": "flex flex-col h-[174px] items-center justify-between rounded-[8px] w-[310px]",
             "style": {
               "maxWidth": "100%",
               "backgroundImage": "url(\"https://image-resource.mastergo.com/73530934684669/130033446025509/a410bbb81a684001dc5d5d123440823d.jpg\")",
@@ -3128,7 +3128,7 @@
               {
                 "nodeType": "FRAME",
                 "name": "M",
-                "className": "flex flex-row gap-2 h-[38px] items-center px-3 py-2 w-[310px]",
+                "className": "flex flex-row gap-2 h-[38px] items-center px-3 py-2 rounded-none w-[310px]",
                 "style": {
                   "maxWidth": "100%",
                   "backgroundImage": "linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, #111111 162%)"
@@ -3296,7 +3296,7 @@
                   {
                     "nodeType": "FRAME",
                     "name": "容器 3802",
-                    "className": "flex flex-row h-[22px] items-center w-[114px]",
+                    "className": "flex flex-row h-[22px] items-center rounded-[8px] w-[114px]",
                     "style": {
                       "maxWidth": "100%"
                     },
@@ -3362,7 +3362,7 @@
       "mapped": {
         "nodeType": "COMPONENT",
         "name": "choice/作品",
-        "className": "flex flex-row gap-5 h-[80px] items-center w-[1312px]",
+        "className": "flex flex-row gap-5 h-[80px] items-center rounded-[16px] w-[1312px]",
         "style": {
           "maxWidth": "100%",
           "padding": "20px 20px 20px 28px"
@@ -4398,7 +4398,7 @@
                   {
                     "nodeType": "FRAME",
                     "name": "头像",
-                    "className": "flex flex-row h-[68px] w-[68px]",
+                    "className": "flex flex-row h-[68px] rounded-[100px] w-[68px]",
                     "style": {
                       "maxWidth": "100%",
                       "padding": "2px"
@@ -4408,7 +4408,7 @@
                       {
                         "nodeType": "FRAME",
                         "name": "容器 2414",
-                        "className": "flex flex-col h-[64px] items-center justify-end w-[64px]",
+                        "className": "flex flex-col h-[64px] items-center justify-end rounded-[100px] w-[64px]",
                         "style": {
                           "maxWidth": "100%",
                           "backgroundImage": "url(\"https://image-resource.mastergo.com/73530934684669/130033446025509/2c682de64aaf09f2e9844342e46ca225.jpg\")",
@@ -4524,7 +4524,7 @@
               {
                 "nodeType": "FRAME",
                 "name": "sec/S-40px",
-                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 w-[60px]",
+                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 rounded-[55px] w-[60px]",
                 "style": {
                   "maxWidth": "100%"
                 },
@@ -4577,7 +4577,7 @@
               {
                 "nodeType": "FRAME",
                 "name": "sec/S-40px",
-                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 w-[60px]",
+                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 rounded-[55px] w-[60px]",
                 "style": {
                   "maxWidth": "100%"
                 },
@@ -4609,7 +4609,7 @@
               {
                 "nodeType": "FRAME",
                 "name": "sec/S-40px",
-                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 w-[60px]",
+                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 rounded-[55px] w-[60px]",
                 "style": {
                   "maxWidth": "100%"
                 },
@@ -4673,7 +4673,7 @@
               {
                 "nodeType": "FRAME",
                 "name": "sec/S-40px",
-                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 w-[60px]",
+                "className": "bg-[#FEFEFE] flex flex-row gap-1 h-[40px] items-center justify-center px-5 py-0 rounded-[55px] w-[60px]",
                 "style": {
                   "maxWidth": "100%"
                 },
@@ -4725,7 +4725,7 @@
           {
             "nodeType": "LAYER",
             "name": "矩形 61",
-            "className": "h-[15.000000953674316px] w-[18px]",
+            "className": "h-[15.000000953674316px] rounded-[3px] w-[18px]",
             "style": {
               "maxWidth": "100%"
             },
@@ -5131,7 +5131,7 @@
       "mapped": {
         "nodeType": "INSTANCE",
         "name": "侧边导航/son/list",
-        "className": "bg-[#F5F5F5] flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+        "className": "bg-[#F5F5F5] flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
         "style": {
           "maxWidth": "100%"
         },
@@ -5157,7 +5157,7 @@
       "mapped": {
         "nodeType": "INSTANCE",
         "name": "侧边导航/son/list",
-        "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
+        "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 rounded-[8px] w-[192px]",
         "style": {
           "maxWidth": "100%"
         },
@@ -5183,7 +5183,7 @@
       "mapped": {
         "nodeType": "INSTANCE",
         "name": "tabs/footer/nor 6",
-        "className": "bg-[#EDEDED] flex flex-col h-[48px] items-center justify-center w-[48px]",
+        "className": "bg-[#EDEDED] flex flex-col h-[48px] items-center justify-center rounded-[8px] w-[48px]",
         "style": {
           "maxWidth": "100%",
           "padding": "14px"
@@ -5449,7 +5449,7 @@
       "mapped": {
         "nodeType": "INSTANCE",
         "name": "tips",
-        "className": "flex flex-row h-[16px] w-[22px]",
+        "className": "flex flex-row h-[16px] rounded-[91px] w-[22px]",
         "style": {
           "maxWidth": "100%",
           "padding": "2px 4px",

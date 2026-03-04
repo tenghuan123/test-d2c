@@ -29,6 +29,7 @@
         "gap": "120px",
         "padding": "80px 44px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -50,6 +51,7 @@
             "crossSizing": "auto",
             "gap": "60px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -71,6 +73,7 @@
                 "crossSizing": "auto",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -88,6 +91,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -109,6 +113,7 @@
                     "crossSizing": "auto",
                     "gap": "20px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -130,6 +135,7 @@
                         "crossSizing": "auto",
                         "gap": "8px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -149,6 +155,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "single-line"
                         },
@@ -174,6 +181,7 @@
                             "relativeY": 36
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "auto-height"
                         },
@@ -204,6 +212,7 @@
                         "crossSizing": "auto",
                         "gap": "4px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -221,6 +230,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -240,6 +250,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "single-line"
                         },
@@ -273,6 +284,7 @@
                 "crossSizing": "auto",
                 "gap": "16px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -293,6 +305,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -318,6 +331,7 @@
                     "crossSizing": "auto",
                     "padding": "14px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -343,6 +357,7 @@
                     "crossSizing": "auto",
                     "padding": "14px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -370,6 +385,7 @@
                     "crossSizing": "fixed",
                     "padding": "14px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -395,6 +411,7 @@
                     "crossSizing": "auto",
                     "padding": "14px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -419,6 +436,7 @@
             "mainSizing": "fixed",
             "crossSizing": "auto"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -441,6 +459,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -460,6 +479,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -487,6 +507,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -506,6 +527,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -531,6 +553,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -556,6 +579,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -581,6 +605,7 @@
                         "relativeY": 114
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -613,6 +638,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -632,6 +658,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -659,6 +686,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -678,6 +706,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -703,6 +732,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -728,6 +758,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -760,6 +791,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -779,6 +811,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -806,6 +839,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -826,6 +860,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -852,6 +887,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -878,6 +914,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -904,6 +941,7 @@
                         "relativeY": 114
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -936,6 +974,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -955,6 +994,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -982,6 +1022,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -1002,6 +1043,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1028,6 +1070,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1054,6 +1097,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1086,6 +1130,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -1105,6 +1150,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -1132,6 +1178,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -1151,6 +1198,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1176,6 +1224,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1201,6 +1250,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1233,6 +1283,7 @@
                 "crossSizing": "fixed",
                 "gap": "24px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -1252,6 +1303,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "single-line"
                 },
@@ -1279,6 +1331,7 @@
                     "crossSizing": "auto",
                     "gap": "16px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -1298,6 +1351,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1323,6 +1377,7 @@
                         "relativeY": 38
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1348,6 +1403,7 @@
                         "relativeY": 76
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -1373,6 +1429,7 @@
                         "relativeY": 114
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },

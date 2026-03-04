@@ -20,6 +20,7 @@
         "relativeY": 38
       },
       "flexContainerInfo": null,
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -39,6 +40,7 @@
             "relativeY": 12
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },
@@ -68,6 +70,7 @@
             "crossSizing": "auto",
             "padding": "2px 8px"
           },
+          "borderRadius": "8px",
           "textAlign": null,
           "textMode": null
         },
@@ -87,6 +90,7 @@
                 "relativeY": 2
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": "left",
               "textMode": "single-line"
             },

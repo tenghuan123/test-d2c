@@ -77,6 +77,7 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
     ext: {
       layoutStyle: node?.layoutStyle || null,
       flexContainerInfo: node?.flexContainerInfo || null,
+      borderRadius: node?.borderRadius || null,
       textAlign: node?.textAlign || null,
       textMode: node?.textMode || null
     }
@@ -105,6 +106,7 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
             ext: {
               layoutStyle: c?.layoutStyle || null,
               flexContainerInfo: c?.flexContainerInfo || null,
+              borderRadius: c?.borderRadius || null,
               textAlign: c?.textAlign || null,
               textMode: c?.textMode || null
             }
@@ -184,7 +186,8 @@ function createModuleContainer(node, styleRefMap) {
     styleRefs: collectTokenRefs(node, styleRefMap),
     ext: {
       layoutStyle: node?.layoutStyle || null,
-      flexContainerInfo: node?.flexContainerInfo || null
+      flexContainerInfo: node?.flexContainerInfo || null,
+      borderRadius: node?.borderRadius || null
     }
   };
 }

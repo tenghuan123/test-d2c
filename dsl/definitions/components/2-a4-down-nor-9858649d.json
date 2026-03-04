@@ -20,6 +20,7 @@
         "relativeY": 3
       },
       "flexContainerInfo": null,
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -38,6 +39,7 @@
             "relativeY": 0
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -54,6 +56,7 @@
             "relativeY": 6
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

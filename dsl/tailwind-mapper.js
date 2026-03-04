@@ -76,6 +76,16 @@ function mapDirection(value) {
   return map[value] || null;
 }
 
+function mapBorderRadiusClass(raw) {
+  if (raw == null) return null;
+  const value = String(raw).trim();
+  if (!value) return null;
+  if (value === "0" || value === "0px") return "rounded-none";
+  if (value.includes(" ")) return null;
+  const normalized = value.endsWith("px") || value.endsWith("%") ? value : `${value}px`;
+  return `rounded-[${normalized}]`;
+}
+
 function normalizeClasses(classes) {
   return Array.from(new Set(classes.filter(Boolean))).sort().join(" ");
 }
@@ -227,6 +237,9 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
   if (typeof layout?.height === "number" && layout.height > 0) {
     classes.push(`h-[${layout.height}px]`);
   }
+  const radiusClass = mapBorderRadiusClass(node?.ext?.borderRadius);
+  if (radiusClass) classes.push(radiusClass);
+  else if (node?.ext?.borderRadius) style.borderRadius = node.ext.borderRadius;
   if (enablePosition && (Number.isFinite(layout?.relativeX) || Number.isFinite(layout?.relativeY))) {
     if (parentIsRelative) {
       classes.push("absolute");

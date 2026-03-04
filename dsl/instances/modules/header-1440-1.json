@@ -18,7 +18,8 @@
         "flexDirection": "column",
         "mainSizing": "auto",
         "crossSizing": "fixed"
-      }
+      },
+      "borderRadius": null
     }
   },
   "children": [

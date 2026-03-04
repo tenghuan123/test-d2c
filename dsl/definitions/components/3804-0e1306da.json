@@ -26,6 +26,7 @@
         "crossSizing": "auto",
         "gap": "20px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -49,6 +50,7 @@
             "crossSizing": "auto",
             "gap": "4px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -70,6 +72,7 @@
             "crossSizing": "auto",
             "gap": "16px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -89,6 +92,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -108,6 +112,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }

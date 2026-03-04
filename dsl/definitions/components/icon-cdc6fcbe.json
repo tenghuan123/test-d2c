@@ -26,6 +26,7 @@
         "mainSizing": "fixed",
         "crossSizing": "fixed"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -42,6 +43,7 @@
             "relativeY": 1
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -58,6 +60,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -74,6 +77,7 @@
                 "relativeY": 5.5
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -90,6 +94,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -106,6 +111,7 @@
                     "relativeY": 5.24
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }

@@ -20,6 +20,7 @@
         "relativeY": 0
       },
       "flexContainerInfo": null,
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -36,6 +37,7 @@
             "relativeY": 0
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -52,6 +54,7 @@
             "relativeY": 0.34
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -68,6 +71,7 @@
             "relativeY": 0.34
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -84,6 +88,7 @@
             "relativeY": 0.06
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -100,6 +105,7 @@
             "relativeY": 3.25
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -116,6 +122,7 @@
             "relativeY": 3.25
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -132,6 +139,7 @@
             "relativeY": 3.27
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -148,6 +156,7 @@
             "relativeY": 2.43
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

@@ -25,6 +25,7 @@
         "crossSizing": "fixed",
         "gap": "24px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -46,6 +47,7 @@
             "crossSizing": "fixed",
             "gap": "-682px"
           },
+          "borderRadius": "12px",
           "textAlign": null,
           "textMode": null
         },
@@ -64,6 +66,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -86,6 +89,7 @@
                 "crossSizing": "fixed",
                 "gap": "300px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -111,6 +115,7 @@
                     "gap": "40px",
                     "padding": "24px 28px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -135,6 +140,7 @@
                     "crossSizing": "fixed",
                     "padding": "24px 28px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -163,6 +169,7 @@
             "gap": "40px",
             "padding": "24px 24px 100px"
           },
+          "borderRadius": "12px",
           "textAlign": null,
           "textMode": null
         },
@@ -185,6 +192,7 @@
                 "mainSizing": "auto",
                 "crossSizing": "fixed"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -202,6 +210,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -219,6 +228,7 @@
                     "relativeY": null
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -245,6 +255,7 @@
                 "gap": "20px",
                 "padding": "20px 20px 20px 28px"
               },
+              "borderRadius": "16px",
               "textAlign": null,
               "textMode": null
             }
@@ -266,6 +277,7 @@
                 "crossSizing": "fixed",
                 "gap": "60px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -287,6 +299,7 @@
                     "crossSizing": "fixed",
                     "gap": "20px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -310,6 +323,7 @@
                         "crossSizing": "auto",
                         "gap": "40px 24px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -332,6 +346,7 @@
                         "crossSizing": "fixed",
                         "gap": "24px 32px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -349,6 +364,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -371,6 +387,7 @@
                             "crossSizing": "fixed",
                             "gap": "12px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -393,6 +410,7 @@
                             "crossSizing": "fixed",
                             "gap": "12px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -415,6 +433,7 @@
                             "crossSizing": "fixed",
                             "gap": "12px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -440,6 +459,7 @@
                     "crossSizing": "fixed",
                     "gap": "20px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -463,6 +483,7 @@
                         "crossSizing": "auto",
                         "gap": "20px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -485,6 +506,7 @@
                         "crossSizing": "fixed",
                         "gap": "60px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -507,6 +529,7 @@
                             "crossSizing": "fixed",
                             "gap": "24px 32px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         },
@@ -529,6 +552,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -551,6 +575,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -573,6 +598,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -595,6 +621,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -617,6 +644,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -639,6 +667,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -661,6 +690,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -683,6 +713,7 @@
                                 "crossSizing": "fixed",
                                 "gap": "12px"
                               },
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -707,6 +738,7 @@
                             "crossSizing": "auto",
                             "gap": "20px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }

@@ -30,6 +30,7 @@
         "crossSizing": "fixed",
         "padding": "14px"
       },
+      "borderRadius": "8px",
       "textAlign": null,
       "textMode": null
     },
@@ -46,6 +47,7 @@
             "relativeY": 8
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -62,6 +64,7 @@
                 "relativeY": 10.81
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -78,6 +81,7 @@
                 "relativeY": 11.55
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }

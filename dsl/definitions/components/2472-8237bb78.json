@@ -23,6 +23,7 @@
         "mainSizing": "auto",
         "crossSizing": "fixed"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -40,6 +41,7 @@
             "relativeY": null
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

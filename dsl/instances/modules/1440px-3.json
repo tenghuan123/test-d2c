@@ -21,7 +21,8 @@
         "alignItems": "center",
         "mainSizing": "auto",
         "crossSizing": "fixed"
-      }
+      },
+      "borderRadius": null
     }
   },
   "children": [

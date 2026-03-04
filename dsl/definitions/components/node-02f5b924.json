@@ -28,6 +28,7 @@
         "gap": "40px",
         "padding": "24px 28px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -49,6 +50,7 @@
             "crossSizing": "fixed",
             "gap": "20px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -71,6 +73,7 @@
                 "crossSizing": "auto",
                 "gap": "20px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -95,6 +98,7 @@
                     "crossSizing": "auto",
                     "padding": "2px"
                   },
+                  "borderRadius": "100px",
                   "textAlign": null,
                   "textMode": null
                 },
@@ -120,6 +124,7 @@
                         "mainSizing": "fixed",
                         "crossSizing": "fixed"
                       },
+                      "borderRadius": "100px",
                       "textAlign": null,
                       "textMode": null
                     }
@@ -144,6 +149,7 @@
                     "crossSizing": "auto",
                     "gap": "24px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -166,6 +172,7 @@
                         "crossSizing": "auto",
                         "gap": "16px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -186,6 +193,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "single-line"
                         },
@@ -214,6 +222,7 @@
                             "crossSizing": "auto",
                             "gap": "8px"
                           },
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         },
@@ -231,6 +240,7 @@
                                 "relativeY": 0
                               },
                               "flexContainerInfo": null,
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -251,6 +261,7 @@
                                 "relativeY": 0
                               },
                               "flexContainerInfo": null,
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -283,6 +294,7 @@
                 "crossSizing": "auto",
                 "gap": "16px 12px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -307,6 +319,7 @@
                 "crossSizing": "auto",
                 "gap": "24px 12px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -331,6 +344,7 @@
             "crossSizing": "auto",
             "gap": "12px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -357,6 +371,7 @@
                 "gap": "4px",
                 "padding": "0px 20px"
               },
+              "borderRadius": "55px",
               "textAlign": null,
               "textMode": null
             },
@@ -373,6 +388,7 @@
                     "relativeY": 10
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -391,6 +407,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -407,6 +424,7 @@
                         "relativeY": 2.5
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -423,6 +441,7 @@
                         "relativeY": 2.5
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -453,6 +472,7 @@
                 "gap": "4px",
                 "padding": "0px 20px"
               },
+              "borderRadius": "55px",
               "textAlign": null,
               "textMode": null
             },
@@ -470,6 +490,7 @@
                     "rotate": 180
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -486,6 +507,7 @@
                         "relativeY": 3.2
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -516,6 +538,7 @@
                 "gap": "4px",
                 "padding": "0px 20px"
               },
+              "borderRadius": "55px",
               "textAlign": null,
               "textMode": null
             },
@@ -532,6 +555,7 @@
                     "relativeY": 10
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -550,6 +574,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -566,6 +591,7 @@
                         "relativeY": -2.85
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -583,6 +609,7 @@
                             "rotate": 45
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         },
@@ -599,6 +626,7 @@
                                 "relativeY": 0
                               },
                               "flexContainerInfo": null,
+                              "borderRadius": null,
                               "textAlign": null,
                               "textMode": null
                             }
@@ -633,6 +661,7 @@
                 "gap": "4px",
                 "padding": "0px 20px"
               },
+              "borderRadius": "55px",
               "textAlign": null,
               "textMode": null
             },
@@ -657,6 +686,7 @@
                     "crossSizing": "fixed",
                     "gap": "10px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }

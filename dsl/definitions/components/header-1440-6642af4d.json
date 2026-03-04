@@ -30,6 +30,7 @@
         "gap": "16px",
         "padding": "20px 44px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -52,6 +53,7 @@
             "crossSizing": "auto",
             "gap": "28px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -69,6 +71,7 @@
                 "relativeY": 9
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -90,6 +93,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -107,6 +111,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -124,6 +129,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -141,6 +147,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -158,6 +165,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -181,6 +189,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -198,6 +207,7 @@
             "relativeY": 22
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

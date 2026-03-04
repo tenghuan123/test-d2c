@@ -25,6 +25,7 @@
         "crossSizing": "fixed",
         "gap": "12px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -49,6 +50,7 @@
             "mainSizing": "fixed",
             "crossSizing": "fixed"
           },
+          "borderRadius": "8px",
           "textAlign": null,
           "textMode": null
         },
@@ -73,6 +75,7 @@
                 "gap": "4px",
                 "padding": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -98,6 +101,7 @@
                 "gap": "8px",
                 "padding": "8px 12px"
               },
+              "borderRadius": "0px",
               "textAlign": null,
               "textMode": null
             },
@@ -119,6 +123,7 @@
                     "crossSizing": "auto",
                     "gap": "12px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -141,6 +146,7 @@
                         "crossSizing": "auto",
                         "gap": "4px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -158,6 +164,7 @@
                             "relativeY": 4
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -177,6 +184,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "single-line"
                         },
@@ -207,6 +215,7 @@
                         "crossSizing": "auto",
                         "gap": "4px"
                       },
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     },
@@ -224,6 +233,7 @@
                             "relativeY": 4
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": null,
                           "textMode": null
                         }
@@ -243,6 +253,7 @@
                             "relativeY": 0
                           },
                           "flexContainerInfo": null,
+                          "borderRadius": null,
                           "textAlign": "left",
                           "textMode": "single-line"
                         },
@@ -272,6 +283,7 @@
                     "relativeY": 8
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "right",
                   "textMode": "auto-height"
                 },
@@ -297,6 +309,7 @@
                     "relativeY": 8
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "right",
                   "textMode": "single-line"
                 },
@@ -328,6 +341,7 @@
             "crossSizing": "auto",
             "gap": "20px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -349,6 +363,7 @@
                 "crossSizing": "fixed",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -368,6 +383,7 @@
                     "relativeY": 0
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": "left",
                   "textMode": "ellipsis"
                 },
@@ -395,6 +411,7 @@
                     "mainSizing": "auto",
                     "crossSizing": "auto"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 },
@@ -414,6 +431,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "right",
                       "textMode": "single-line"
                     },
@@ -439,6 +457,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "right",
                       "textMode": "single-line"
                     },
@@ -468,6 +487,7 @@
                     "mainSizing": "auto",
                     "crossSizing": "auto"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 },
@@ -487,6 +507,7 @@
                         "relativeY": 0
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": "left",
                       "textMode": "single-line"
                     },
@@ -510,6 +531,7 @@
                         "relativeY": 3
                       },
                       "flexContainerInfo": null,
+                      "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
                     }
@@ -535,6 +557,7 @@
                 "crossSizing": "auto",
                 "padding": "2px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -552,6 +575,7 @@
                     "relativeY": 2
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }

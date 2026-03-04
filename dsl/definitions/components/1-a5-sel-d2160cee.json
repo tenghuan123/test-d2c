@@ -25,6 +25,7 @@
         "crossSizing": "auto",
         "gap": "13px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -47,6 +48,7 @@
             "gap": "4px",
             "padding": "0px 4px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -67,6 +69,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": "left",
               "textMode": "single-line"
             },
@@ -93,6 +96,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": "left",
               "textMode": "single-line"
             },
@@ -119,6 +123,7 @@
             "relativeY": 37
           },
           "flexContainerInfo": null,
+          "borderRadius": "4px",
           "textAlign": null,
           "textMode": null
         }

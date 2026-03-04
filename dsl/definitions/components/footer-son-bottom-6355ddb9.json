@@ -29,6 +29,7 @@
         "gap": "28px",
         "padding": "20px 284px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -48,6 +49,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },
@@ -73,6 +75,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },
@@ -98,6 +101,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },
@@ -123,6 +127,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },
@@ -148,6 +153,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },

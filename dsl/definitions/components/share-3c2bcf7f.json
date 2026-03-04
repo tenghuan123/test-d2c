@@ -27,6 +27,7 @@
         "crossSizing": "fixed",
         "gap": "10px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -43,6 +44,7 @@
             "relativeY": 3.5
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -59,6 +61,7 @@
                 "relativeY": 4.58
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -75,6 +78,7 @@
                 "relativeY": 0
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -91,6 +95,7 @@
                 "relativeY": 9.17
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -107,6 +112,7 @@
                 "relativeY": 4.4
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -123,6 +129,7 @@
                 "relativeY": 8.98
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }

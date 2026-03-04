@@ -26,6 +26,7 @@
         "crossSizing": "auto",
         "gap": "40px 24px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -49,6 +50,7 @@
             "crossSizing": "auto",
             "gap": "4px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -72,6 +74,7 @@
             "crossSizing": "auto",
             "gap": "4px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

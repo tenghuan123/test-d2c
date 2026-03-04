@@ -27,6 +27,7 @@
         "gap": "20px",
         "padding": "20px 20px 20px 28px"
       },
+      "borderRadius": "16px",
       "textAlign": null,
       "textMode": null
     },
@@ -49,6 +50,7 @@
             "crossSizing": "auto",
             "gap": "24px"
           },
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         },
@@ -73,6 +75,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -90,6 +93,7 @@
                 "relativeY": null
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -113,6 +117,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -136,6 +141,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -159,6 +165,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -182,6 +189,7 @@
                 "crossSizing": "auto",
                 "gap": "4px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -207,6 +215,7 @@
                 "gap": "4px",
                 "padding": "4px 8px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -229,6 +238,7 @@
             "relativeY": 20
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }

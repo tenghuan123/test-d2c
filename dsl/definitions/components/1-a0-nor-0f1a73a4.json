@@ -28,6 +28,7 @@
         "gap": "4px",
         "padding": "4px 8px"
       },
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -45,6 +46,7 @@
             "relativeY": 7
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": null,
           "textMode": null
         }
@@ -64,6 +66,7 @@
             "relativeY": 4
           },
           "flexContainerInfo": null,
+          "borderRadius": null,
           "textAlign": "left",
           "textMode": "single-line"
         },

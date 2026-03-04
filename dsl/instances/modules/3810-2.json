@@ -20,7 +20,8 @@
         "crossSizing": "auto",
         "gap": "24px",
         "padding": "40px 44px 200px"
-      }
+      },
+      "borderRadius": null
     }
   },
   "children": [

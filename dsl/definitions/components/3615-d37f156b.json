@@ -20,6 +20,7 @@
         "relativeY": 40
       },
       "flexContainerInfo": null,
+      "borderRadius": null,
       "textAlign": null,
       "textMode": null
     },
@@ -46,6 +47,7 @@
             "crossSizing": "fixed",
             "padding": "16px 20px"
           },
+          "borderRadius": "8px",
           "textAlign": null,
           "textMode": null
         }
@@ -69,6 +71,7 @@
             "crossSizing": "fixed",
             "gap": "4px"
           },
+          "borderRadius": "12px",
           "textAlign": null,
           "textMode": null
         },
@@ -90,6 +93,7 @@
                 "crossSizing": "fixed",
                 "padding": "8px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -116,6 +120,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -140,6 +145,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -164,6 +170,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -188,6 +195,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -212,6 +220,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -234,6 +243,7 @@
                 "mainSizing": "auto",
                 "crossSizing": "fixed"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -257,6 +267,7 @@
                 "crossSizing": "fixed",
                 "padding": "8px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -283,6 +294,7 @@
                     "gap": "4px",
                     "padding": "8px 16px 4px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -307,6 +319,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -331,6 +344,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -355,6 +369,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -379,6 +394,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -401,6 +417,7 @@
                 "mainSizing": "auto",
                 "crossSizing": "fixed"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -424,6 +441,7 @@
                 "crossSizing": "fixed",
                 "padding": "8px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -450,6 +468,7 @@
                     "gap": "4px",
                     "padding": "8px 16px 4px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -467,6 +486,7 @@
                     "relativeY": 38
                   },
                   "flexContainerInfo": null,
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -491,6 +511,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -513,6 +534,7 @@
                 "mainSizing": "auto",
                 "crossSizing": "fixed"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             }
@@ -536,6 +558,7 @@
                 "crossSizing": "fixed",
                 "padding": "8px"
               },
+              "borderRadius": null,
               "textAlign": null,
               "textMode": null
             },
@@ -562,6 +585,7 @@
                     "gap": "4px",
                     "padding": "8px 16px 4px"
                   },
+                  "borderRadius": null,
                   "textAlign": null,
                   "textMode": null
                 }
@@ -586,6 +610,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -610,6 +635,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -634,6 +660,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -658,6 +685,7 @@
                     "gap": "8px",
                     "padding": "12px 16px"
                   },
+                  "borderRadius": "8px",
                   "textAlign": null,
                   "textMode": null
                 }
@@ -688,6 +716,7 @@
             "gap": "8px",
             "padding": "14px 20px"
           },
+          "borderRadius": "12px",
           "textAlign": null,
           "textMode": null
         },
@@ -707,6 +736,7 @@
                 "relativeY": 14
               },
               "flexContainerInfo": null,
+              "borderRadius": null,
               "textAlign": "left",
               "textMode": "single-line"
             },

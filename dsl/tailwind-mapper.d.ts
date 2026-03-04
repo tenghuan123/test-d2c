@@ -9,6 +9,7 @@ export type DslNode = {
       width?: number;
       height?: number;
     };
+    borderRadius?: string | number | null;
     textAlign?: string | null;
     textMode?: string | null;
     flexContainerInfo?: {
