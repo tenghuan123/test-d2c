@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "2-a1-nor-a61a444c",
+  "kind": "component",
+  "source": {
+    "componentId": "1004:044997",
+    "nodeId": "1157:046773/1004:045130"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 2[a1]=nor",
+    "styleRefs": [
+      "{color.ty-30}",
+      "{effect.effect-24-4121}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 48,
+        "height": 48,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "微信",
+        "ref": "node-b9b5acb3",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 20,
+            "height": 20,
+            "relativeX": 14,
+            "relativeY": 14
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

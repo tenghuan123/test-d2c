@@ -1,6 +1,7 @@
 export type DslNode = {
   nodeType?: string;
   name?: string;
+  ref?: string;
   styleRefs?: string[];
   text?: Array<{ text?: string; font?: string | null }>;
   ext?: {

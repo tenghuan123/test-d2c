@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "son-002375d2",
+  "kind": "component",
+  "source": {
+    "componentId": "1237:083311",
+    "nodeId": "737:034341/12:8973/12:8973/12:0307/12:8973/12:0307/12:0307/1237:107793"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "son/人气",
+    "styleRefs": [
+      "{color.ty-20-hover}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 67,
+        "height": 36,
+        "relativeX": 176,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "tag/人气标-black",
+        "ref": "tag-black-89414aeb",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 16,
+            "height": 16,
+            "relativeX": 12,
+            "relativeY": 10
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "154",
+        "styleRefs": [
+          "{textStyle.c-14px}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 23,
+            "height": 22,
+            "relativeX": 32,
+            "relativeY": 7
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "154",
+            "font": "font_8:0883"
+          }
+        ]
+      }
+    ]
+  }
+}

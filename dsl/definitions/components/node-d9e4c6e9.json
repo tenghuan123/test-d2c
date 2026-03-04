@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "node-d9e4c6e9",
+  "kind": "component",
+  "source": {
+    "componentId": "1157:060148",
+    "nodeId": "2726:129309/1466:096191"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "数据展示",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 77,
+        "height": 24,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "228万",
+        "styleRefs": [
+          "{textStyle.h7-16px}",
+          "{color.ty-1}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 45,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "228万",
+            "font": "font_8:070"
+          }
+        ]
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "人气",
+        "styleRefs": [
+          "{textStyle.c-14px}",
+          "{color.white-60-banner}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 28,
+            "height": 22,
+            "relativeX": 49,
+            "relativeY": 1
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "人气",
+            "font": "font_8:1425"
+          }
+        ]
+      }
+    ]
+  }
+}

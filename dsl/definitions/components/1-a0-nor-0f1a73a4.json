@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1-a0-nor-0f1a73a4",
+  "kind": "component",
+  "source": {
+    "componentId": "1066:122595",
+    "nodeId": "1157:038026"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 1[a0]=nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 92,
+        "height": 30,
+        "relativeX": 441,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "alignItems": "center",
+        "mainSizing": "auto",
+        "crossSizing": "auto",
+        "gap": "4px",
+        "padding": "4px 8px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "属性 3[a0]=nor",
+        "ref": "3-a0-nor-dc229f69",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 16,
+            "height": 16,
+            "relativeX": 8,
+            "relativeY": 7
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "条件重置",
+        "styleRefs": [
+          "{textStyle.c-14px}",
+          "{color.ty-50-box-hover}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 56,
+            "height": 22,
+            "relativeX": 28,
+            "relativeY": 4
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "条件重置",
+            "font": "font_8:1425"
+          }
+        ]
+      }
+    ]
+  }
+}

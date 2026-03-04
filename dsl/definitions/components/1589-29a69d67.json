@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1589-29a69d67",
+  "kind": "component",
+  "source": {
+    "componentId": "142:49290",
+    "nodeId": "2726:129309/2726:129254"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "容器 1589",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 110,
+        "height": 24,
+        "relativeX": 443,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "mainSizing": "auto",
+        "crossSizing": "auto",
+        "gap": "4px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "786",
+        "styleRefs": [
+          "{textStyle.h7-16px}",
+          "{color.ty-1}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 110,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "新疆乌鲁木齐...",
+            "font": "font_8:070"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3-a1-nor-9178754c",
+  "kind": "component",
+  "source": {
+    "componentId": "8:1289",
+    "nodeId": "737:034341/12:8973/12:8973/12:0304/12:8973/12:0304/8:1458"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 3[a1]=nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 16,
+        "height": 16,
+        "relativeX": 228,
+        "relativeY": 12
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形",
+        "styleRefs": [
+          "{color.white-0}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "GROUP",
+        "name": "编组",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 18.323158264160156,
+            "height": 18.323280334472656,
+            "relativeX": 3,
+            "relativeY": 3
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "路径",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 11.333333015441895,
+                "height": 11.333333015441895,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "路径",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 2.474879503250122,
+                "height": 2.474879503250122,
+                "relativeX": 9.74,
+                "relativeY": 9.74
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

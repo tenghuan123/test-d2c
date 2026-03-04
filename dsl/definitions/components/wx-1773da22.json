@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "wx-1773da22",
+  "kind": "component",
+  "source": {
+    "componentId": "17:6361",
+    "nodeId": "1157:046773/1004:045130/1004:044998/1004:044993"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "wx",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 24,
+        "height": 24,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形",
+        "styleRefs": [
+          "{color.paint-17-6363}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "GROUP",
+        "name": "编组",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 20.999900817871094,
+            "height": 18.000064849853516,
+            "relativeX": 1.5,
+            "relativeY": 3
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "形状",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 20.999900817871094,
+                "height": 18.000064849853516,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

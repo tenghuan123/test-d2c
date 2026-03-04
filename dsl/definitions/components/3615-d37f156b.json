@@ -24,8 +24,9 @@
     },
     "children": [
       {
-        "nodeType": "INSTANCE",
+        "nodeType": "COMPONENT_REF",
         "name": "容器 2436",
+        "ref": "2436-f9c9685f",
         "styleRefs": [
           "{color.ty-70}"
         ],
@@ -46,50 +47,7 @@
           },
           "textAlign": null,
           "textMode": null
-        },
-        "children": [
-          {
-            "nodeType": "LAYER",
-            "name": "image",
-            "styleRefs": [],
-            "ext": {
-              "layoutStyle": {
-                "width": 224,
-                "height": 94,
-                "relativeX": -12,
-                "relativeY": -19
-              },
-              "flexContainerInfo": null,
-              "textAlign": null,
-              "textMode": null
-            }
-          },
-          {
-            "nodeType": "TEXT",
-            "name": "上传案例，赢奖金",
-            "styleRefs": [
-              "{textStyle.h7-16px}",
-              "{color.paint-1061-132394}"
-            ],
-            "ext": {
-              "layoutStyle": {
-                "width": 118,
-                "height": 24,
-                "relativeX": 45,
-                "relativeY": 16
-              },
-              "flexContainerInfo": null,
-              "textAlign": "left",
-              "textMode": "single-line"
-            },
-            "text": [
-              {
-                "text": "传案例 ，赢奖金",
-                "font": "font_8:070"
-              }
-            ]
-          }
-        ]
+        }
       },
       {
         "nodeType": "FRAME",
@@ -136,8 +94,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-9ee85330",
                 "styleRefs": [
                   "{color.ty-20-hover}"
                 ],
@@ -158,38 +117,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.h7-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "我的主页",
-                        "font": "font_8:070"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -208,38 +141,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 80,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "关注和粉丝",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -258,38 +165,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "收藏",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -308,38 +189,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "浏览记录",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "属性 3[a1]=nor",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -358,40 +213,14 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "系统通知",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               }
             ]
           },
           {
-            "nodeType": "INSTANCE",
+            "nodeType": "COMPONENT_REF",
             "name": "容器 2472",
+            "ref": "2472-8237bb78",
             "styleRefs": [],
             "ext": {
               "layoutStyle": {
@@ -406,26 +235,7 @@
               },
               "textAlign": null,
               "textMode": null
-            },
-            "children": [
-              {
-                "nodeType": "LAYER",
-                "name": "矩形 794",
-                "styleRefs": [
-                  "{color.ty-20-hover}"
-                ],
-                "ext": {
-                  "layoutStyle": {
-                    "width": 200,
-                    "relativeX": null,
-                    "relativeY": null
-                  },
-                  "flexContainerInfo": null,
-                  "textAlign": null,
-                  "textMode": null
-                }
-              }
-            ]
+            }
           },
           {
             "nodeType": "FRAME",
@@ -451,8 +261,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "容器 2471",
+                "ref": "2471-fbe8d2e2",
                 "styleRefs": [
                   "{effect.effect-29-03344}"
                 ],
@@ -473,38 +284,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "创作",
-                    "styleRefs": [
-                      "{textStyle.c-12px}",
-                      "{color.ty-50-box-hover}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 24,
-                        "height": 18,
-                        "relativeX": 16,
-                        "relativeY": 8
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "创作",
-                        "font": "font_14:1379"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -523,38 +308,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "我管理的",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -573,38 +332,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "职务申领",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -623,38 +356,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "搜索动态",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -673,40 +380,14 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 64,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "需求分析",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               }
             ]
           },
           {
-            "nodeType": "INSTANCE",
+            "nodeType": "COMPONENT_REF",
             "name": "容器 2482",
+            "ref": "2472-8237bb78",
             "styleRefs": [],
             "ext": {
               "layoutStyle": {
@@ -721,26 +402,7 @@
               },
               "textAlign": null,
               "textMode": null
-            },
-            "children": [
-              {
-                "nodeType": "LAYER",
-                "name": "矩形 794",
-                "styleRefs": [
-                  "{color.ty-20-hover}"
-                ],
-                "ext": {
-                  "layoutStyle": {
-                    "width": 200,
-                    "relativeX": null,
-                    "relativeY": null
-                  },
-                  "flexContainerInfo": null,
-                  "textAlign": null,
-                  "textMode": null
-                }
-              }
-            ]
+            }
           },
           {
             "nodeType": "FRAME",
@@ -766,8 +428,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "容器 2471",
+                "ref": "2471-fbe8d2e2",
                 "styleRefs": [
                   "{effect.effect-29-03344}"
                 ],
@@ -788,38 +451,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "创作",
-                    "styleRefs": [
-                      "{textStyle.c-12px}",
-                      "{color.ty-50-box-hover}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 24,
-                        "height": 18,
-                        "relativeX": 16,
-                        "relativeY": 8
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "活动",
-                        "font": "font_14:1379"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "属性 3[aA]=奖金",
+                "ref": "3-aa-031be1d5",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -831,88 +468,12 @@
                   "flexContainerInfo": null,
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的粉丝",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "奖金",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  },
-                  {
-                    "nodeType": "FRAME",
-                    "name": "容器 3615",
-                    "styleRefs": [
-                      "{color.paint-2488-118509}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 86,
-                        "height": 22,
-                        "relativeX": 56,
-                        "relativeY": 13
-                      },
-                      "flexContainerInfo": {
-                        "flexDirection": "column",
-                        "mainSizing": "auto",
-                        "crossSizing": "auto",
-                        "padding": "2px 8px"
-                      },
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "TEXT",
-                        "name": "500元待领取",
-                        "styleRefs": [
-                          "{textStyle.c-12px}",
-                          "{color.ty-70}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 70,
-                            "height": 18,
-                            "relativeX": 8,
-                            "relativeY": 2
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "500元待领取",
-                            "font": "font_17:3397"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -931,40 +492,14 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "榜单",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               }
             ]
           },
           {
-            "nodeType": "INSTANCE",
+            "nodeType": "COMPONENT_REF",
             "name": "容器 2483",
+            "ref": "2472-8237bb78",
             "styleRefs": [],
             "ext": {
               "layoutStyle": {
@@ -979,26 +514,7 @@
               },
               "textAlign": null,
               "textMode": null
-            },
-            "children": [
-              {
-                "nodeType": "LAYER",
-                "name": "矩形 794",
-                "styleRefs": [
-                  "{color.ty-20-hover}"
-                ],
-                "ext": {
-                  "layoutStyle": {
-                    "width": 200,
-                    "relativeX": null,
-                    "relativeY": null
-                  },
-                  "flexContainerInfo": null,
-                  "textAlign": null,
-                  "textMode": null
-                }
-              }
-            ]
+            }
           },
           {
             "nodeType": "FRAME",
@@ -1024,8 +540,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "容器 2471",
+                "ref": "2471-fbe8d2e2",
                 "styleRefs": [
                   "{effect.effect-29-03344}"
                 ],
@@ -1046,38 +563,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "创作",
-                    "styleRefs": [
-                      "{textStyle.c-12px}",
-                      "{color.ty-50-box-hover}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 24,
-                        "height": 18,
-                        "relativeX": 16,
-                        "relativeY": 8
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "其他",
-                        "font": "font_14:1379"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -1096,38 +587,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "账号",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -1146,38 +611,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "工单",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "侧边导航/son/list",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -1196,38 +635,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 112,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "提建议，得奖励",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "属性 3[a1]=nor",
+                "ref": "son-list-c3d6d542",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -1246,34 +659,7 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "TEXT",
-                    "name": "我的主页",
-                    "styleRefs": [
-                      "{textStyle.c-16px}",
-                      "{color.ty-70}"
-                    ],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 48,
-                        "height": 24,
-                        "relativeX": 16,
-                        "relativeY": 12
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": "left",
-                      "textMode": "single-line"
-                    },
-                    "text": [
-                      {
-                        "text": "评审团",
-                        "font": "font_14:1843"
-                      }
-                    ]
-                  }
-                ]
+                }
               }
             ]
           }

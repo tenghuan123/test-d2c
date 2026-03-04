@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1-a3-nor-bad58b7d",
+  "kind": "component",
+  "source": {
+    "componentId": "774:066224",
+    "nodeId": "1157:041682"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 1[a3]=nor",
+    "styleRefs": [
+      "{color.ty-30}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 96,
+        "height": 40,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "确定",
+        "styleRefs": [
+          "{textStyle.c-14px}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 56,
+            "height": 22,
+            "relativeX": 20,
+            "relativeY": 9
+          },
+          "flexContainerInfo": null,
+          "textAlign": "center",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "我管理的",
+            "font": "font_8:0883"
+          }
+        ]
+      }
+    ]
+  }
+}

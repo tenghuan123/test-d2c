@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3-a0-nor-dc229f69",
+  "kind": "component",
+  "source": {
+    "componentId": "17:00830",
+    "nodeId": "1157:038026/1066:122596"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 3[a0]=nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 16,
+        "height": 16,
+        "relativeX": 8,
+        "relativeY": 7
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形",
+        "styleRefs": [
+          "{color.white-0}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "GROUP",
+        "name": "编组 3",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 20.00021743774414,
+            "height": 18.937267303466797,
+            "relativeX": 2,
+            "relativeY": 2.53
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "联集 31",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 13.333396911621094,
+                "height": 12.624845504760742,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

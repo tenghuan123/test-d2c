@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "tag-2c713570",
+  "kind": "component",
+  "source": {
+    "componentId": "142:67474",
+    "nodeId": "2726:130025/1466:096257"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "tag/供稿人",
+    "styleRefs": [
+      "{color.paint-347-046071}",
+      "{effect.8}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 97,
+        "height": 26,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "入行年限：10年",
+        "styleRefs": [
+          "{effect.effect-142-47430}",
+          "{textStyle.c-12px}",
+          "{color.ty-10-bg}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 52,
+            "height": 18,
+            "relativeX": 8,
+            "relativeY": 4
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "入行年限:",
+            "font": "font_17:3397"
+          }
+        ]
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "IP：四川",
+        "styleRefs": [
+          "{effect.effect-142-47430}",
+          "{textStyle.c-12px}",
+          "{color.ty-10-bg}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 25,
+            "height": 18,
+            "relativeX": 64,
+            "relativeY": 4
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "10年",
+            "font": "font_17:3397"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "tag-dc0340a2",
+  "kind": "component",
+  "source": {
+    "componentId": "353:92446",
+    "nodeId": "1169:087453/1157:048821"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "光厂认证tag/已认证",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 0,
+        "relativeY": 1
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 1199",
+        "styleRefs": [
+          "{color.white-0}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "矩形 1200",
+        "styleRefs": [
+          "{effect.effect-353-91319}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 22,
+            "height": 19,
+            "relativeX": 1,
+            "relativeY": 3
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "圆形 53",
+        "styleRefs": [
+          "{effect.effect-353-91319}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 8,
+            "height": 8,
+            "relativeX": 8,
+            "relativeY": 7
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

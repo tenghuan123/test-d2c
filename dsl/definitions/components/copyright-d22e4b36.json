@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "copyright-d22e4b36",
+  "kind": "component",
+  "source": {
+    "componentId": "17:6377",
+    "nodeId": "1157:046773/1004:045116"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "copyright",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 12,
+        "height": 12,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 43",
+        "styleRefs": [
+          "{color.paint-17-6379}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 12,
+            "height": 12,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "SVG_ELLIPSE",
+        "name": "圆形 3",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 9,
+            "height": 9,
+            "relativeX": 1.5,
+            "relativeY": 1.5
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "圆形 4",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 3.8409905433654785,
+            "height": 4.5,
+            "relativeX": 3.75,
+            "relativeY": 3.75
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

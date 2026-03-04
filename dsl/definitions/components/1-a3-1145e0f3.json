@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1-a3-1145e0f3",
+  "kind": "component",
+  "source": {
+    "componentId": "1157:048816",
+    "nodeId": "1169:087453"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 1[a3]=已认证",
+    "styleRefs": [
+      "{color.white-80}",
+      "{effect.8}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 142,
+        "height": 24,
+        "relativeX": 32,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 3795",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 106,
+            "height": 22,
+            "relativeX": 6,
+            "relativeY": 1
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "alignItems": "center",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "gap": "2px"
+          },
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "COMPONENT_REF",
+            "name": "光厂认证tag/已认证",
+            "ref": "tag-dc0340a2",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 20,
+                "height": 20,
+                "relativeX": 0,
+                "relativeY": 1
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "TEXT",
+            "name": "光厂认证导演",
+            "styleRefs": [
+              "{textStyle.c-14px}",
+              "{color.ty-70}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 84,
+                "height": 22,
+                "relativeX": 22,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": "center",
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "光厂认证导演",
+                "font": "font_8:1425"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "组 409",
+        "ref": "409-bece76ed",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 12,
+            "height": 12,
+            "relativeX": 124,
+            "relativeY": 6
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

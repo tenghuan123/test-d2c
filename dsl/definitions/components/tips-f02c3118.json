@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "tips-f02c3118",
+  "kind": "component",
+  "source": {
+    "componentId": "287:44297",
+    "nodeId": "2726:130025/3598:137098"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "tips",
+    "styleRefs": [
+      "{color.white-60-banner}",
+      "{effect.8}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 22,
+        "height": 16,
+        "relativeX": 12,
+        "relativeY": -8
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "mainSizing": "auto",
+        "crossSizing": "auto",
+        "padding": "2px 4px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "2",
+        "styleRefs": [
+          "{textStyle.font-8-1175}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 14,
+            "height": 12,
+            "relativeX": 4,
+            "relativeY": 2
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "x2",
+            "font": "font_8:1175"
+          }
+        ]
+      }
+    ]
+  }
+}

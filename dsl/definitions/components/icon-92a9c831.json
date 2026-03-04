@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "icon-92a9c831",
+  "kind": "component",
+  "source": {
+    "componentId": "73:71138",
+    "nodeId": "2726:130025/3598:137079"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "icon/周榜",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "SVG_ELLIPSE",
+        "name": "圆形 24",
+        "styleRefs": [
+          "{color.paint-73-57561}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 22,
+            "height": 22,
+            "relativeX": 1,
+            "relativeY": 1
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "SVG_ELLIPSE",
+        "name": "圆形 25",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 16,
+            "height": 16,
+            "relativeX": 4,
+            "relativeY": 4
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "路径 148",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 12,
+            "height": 11.345455169677734,
+            "relativeX": 6,
+            "relativeY": 6
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

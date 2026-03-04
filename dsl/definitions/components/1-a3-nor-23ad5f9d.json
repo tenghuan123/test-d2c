@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1-a3-nor-23ad5f9d",
+  "kind": "component",
+  "source": {
+    "componentId": "276:76621",
+    "nodeId": "1136:125926/276:76664"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 1[a3]=nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 54,
+        "height": 40,
+        "relativeX": 94,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "mainSizing": "auto",
+        "crossSizing": "auto",
+        "gap": "13px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 1518",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 54,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "gap": "4px",
+            "padding": "0px 4px"
+          },
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "视频",
+            "styleRefs": [
+              "{effect.effect-114-55472}",
+              "{textStyle.h7-16px}",
+              "{color.ty-50-box-hover}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 32,
+                "height": 24,
+                "relativeX": 4,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": "left",
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "图片",
+                "font": "font_8:070"
+              }
+            ]
+          },
+          {
+            "nodeType": "TEXT",
+            "name": "2",
+            "styleRefs": [
+              "{effect.effect-114-55472}",
+              "{textStyle.h7-16px}",
+              "{color.ty-50-box-hover}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 10,
+                "height": 24,
+                "relativeX": 40,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": "left",
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "2",
+                "font": "font_8:070"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 36",
+        "styleRefs": [
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 54,
+            "height": 3,
+            "relativeX": 0,
+            "relativeY": 37
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

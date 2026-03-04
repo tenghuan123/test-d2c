@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "icon-ab9c4a0e",
+  "kind": "component",
+  "source": {
+    "componentId": "73:74568",
+    "nodeId": "2726:130025/3598:137081"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "icon/首页推荐",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "fixed"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "GROUP",
+        "name": "like",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 22,
+            "height": 21.99724006652832,
+            "relativeX": 1,
+            "relativeY": 1
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "矩形",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 18.333332061767578,
+                "height": 18.333332061767578,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "联集 39",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 9.619241714477539,
+                "height": 9.351009368896484,
+                "relativeX": 5.5,
+                "relativeY": 5.5
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "icon-cdc6fcbe",
+  "kind": "component",
+  "source": {
+    "componentId": "73:002006",
+    "nodeId": "2726:130025/3598:137080"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "icon/精选案例",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "fixed"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "GROUP",
+        "name": "1",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 22,
+            "height": 21.99724006652832,
+            "relativeX": 1,
+            "relativeY": 1
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "矩形",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 22,
+                "height": 22,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "GROUP",
+            "name": "组 196",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 13.10980224609375,
+                "height": 11.17251968383789,
+                "relativeX": 4.74,
+                "relativeY": 5.5
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "PATH",
+                "name": "路径 163",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 12.46541690826416,
+                    "height": 11.54754638671875,
+                    "relativeX": 0,
+                    "relativeY": 0
+                  },
+                  "flexContainerInfo": null,
+                  "textAlign": null,
+                  "textMode": null
+                }
+              },
+              {
+                "nodeType": "PATH",
+                "name": "路径 164",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 5.0390625,
+                    "height": 1.2599999904632568,
+                    "relativeX": 3.74,
+                    "relativeY": 5.24
+                  },
+                  "flexContainerInfo": null,
+                  "textAlign": null,
+                  "textMode": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

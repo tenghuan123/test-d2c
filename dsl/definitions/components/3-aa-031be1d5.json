@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3-aa-031be1d5",
+  "kind": "component",
+  "source": {
+    "componentId": "721:015773",
+    "nodeId": "737:034980/1036:023973"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 3[aA]=奖金",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 184,
+        "height": 48,
+        "relativeX": 8,
+        "relativeY": 38
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "我的粉丝",
+        "styleRefs": [
+          "{textStyle.c-16px}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 32,
+            "height": 24,
+            "relativeX": 16,
+            "relativeY": 12
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "奖金",
+            "font": "font_14:1843"
+          }
+        ]
+      },
+      {
+        "nodeType": "FRAME",
+        "name": "容器 3615",
+        "styleRefs": [
+          "{color.paint-2488-118509}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 86,
+            "height": 22,
+            "relativeX": 56,
+            "relativeY": 13
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "padding": "2px 8px"
+          },
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "500元待领取",
+            "styleRefs": [
+              "{textStyle.c-12px}",
+              "{color.ty-70}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 70,
+                "height": 18,
+                "relativeX": 8,
+                "relativeY": 2
+              },
+              "flexContainerInfo": null,
+              "textAlign": "left",
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "500元待领取",
+                "font": "font_17:3397"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

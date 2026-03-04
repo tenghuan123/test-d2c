@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "2-a4-down-nor-8221121b",
+  "kind": "component",
+  "source": {
+    "componentId": "17:7080",
+    "nodeId": "1206:050341/23:5024"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 2[a4]=down-nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 16,
+        "height": 16,
+        "relativeX": 32,
+        "relativeY": 3
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 693",
+        "styleRefs": [
+          "{color.ty-1}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "路径 4",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 8,
+            "height": 4,
+            "relativeX": 4,
+            "relativeY": 6
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

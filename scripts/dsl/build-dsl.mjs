@@ -69,7 +69,7 @@ function collectTokenRefs(node, styleRefMap) {
   return refs;
 }
 
-function toStructure(node, nodeMap, styleRefMap, depth = 0) {
+function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
   const next = {
     nodeType: node?.type || "UNKNOWN",
     name: node?.name || "",
@@ -94,7 +94,24 @@ function toStructure(node, nodeMap, styleRefMap, depth = 0) {
   if (children.length > 0) {
     next.children = children
       .slice(0, MAX_CHILDREN_PER_NODE)
-      .map((c) => toStructure(c, nodeMap, styleRefMap, depth + 1));
+      .map((c) => {
+        if (typeof options.extractNestedComponentRef === "function" && shouldExtractComponentNode(c)) {
+          const refId = options.extractNestedComponentRef(c);
+          return {
+            nodeType: "COMPONENT_REF",
+            name: c?.name || "",
+            ref: refId,
+            styleRefs: collectTokenRefs(c, styleRefMap),
+            ext: {
+              layoutStyle: c?.layoutStyle || null,
+              flexContainerInfo: c?.flexContainerInfo || null,
+              textAlign: c?.textAlign || null,
+              textMode: c?.textMode || null
+            }
+          };
+        }
+        return toStructure(c, nodeMap, styleRefMap, options, depth + 1);
+      });
   }
   return next;
 }
@@ -136,8 +153,7 @@ function normalizeStyles(styles) {
   return { tokens, textStyles, styleRefMap };
 }
 
-function createComponentDefinition(node, nodeMap, styleRefMap, keySeed) {
-  const id = `${slugify(node?.name || node?.type || "component")}-${shortHash(keySeed)}`;
+function createComponentDefinition(node, nodeMap, styleRefMap, id, options = {}) {
   return {
     schemaVersion: VERSION,
     id,
@@ -147,7 +163,7 @@ function createComponentDefinition(node, nodeMap, styleRefMap, keySeed) {
       nodeId: node?.id || null
     },
     propsSchema: {},
-    structure: toStructure(node, nodeMap, styleRefMap)
+    structure: toStructure(node, nodeMap, styleRefMap, options)
   };
 }
 
@@ -162,6 +178,22 @@ function createModuleContainer(node, styleRefMap) {
       flexContainerInfo: node?.flexContainerInfo || null
     }
   };
+}
+
+function shouldExtractComponentNode(node) {
+  if (!node || typeof node !== "object") return false;
+  return Boolean(node.componentId) || node.type === "INSTANCE" || node.type === "COMPONENT";
+}
+
+function collectComponentNodesDeep(rootNode, nodeMap) {
+  const result = [];
+  const visit = (node) => {
+    if (!node) return;
+    if (shouldExtractComponentNode(node)) result.push(node);
+    nodeChildren(node, nodeMap).forEach(visit);
+  };
+  visit(rootNode);
+  return result;
 }
 
 function run() {
@@ -179,14 +211,24 @@ function run() {
   const assets = { images: {}, svgs: {} };
   const dependencyNodes = {};
 
+  function addDependency(from, to) {
+    if (!dependencyNodes[from]) dependencyNodes[from] = [];
+    dependencyNodes[from].push(to);
+    dependencyNodes[from] = Array.from(new Set(dependencyNodes[from])).sort();
+  }
+
   function upsertDefinition(node) {
     const seed = node?.componentId ? `cid:${node.componentId}` : `nid:${node?.id || hash(JSON.stringify(node || {}))}`;
     if (definitionsByKey.has(seed)) {
       const def = definitionsByKey.get(seed);
-      registryComponents[def.id].usageCount += 1;
+      if (!def.__building && registryComponents[def.id]) registryComponents[def.id].usageCount += 1;
       return def.id;
     }
-    const def = createComponentDefinition(node, nodeMap, styleRefMap, seed);
+    const id = `${slugify(node?.name || node?.type || "component")}-${shortHash(seed)}`;
+    definitionsByKey.set(seed, { id, __building: true });
+    const def = createComponentDefinition(node, nodeMap, styleRefMap, id, {
+      extractNestedComponentRef: upsertDefinition
+    });
     definitionsByKey.set(seed, def);
     definitions.push(def);
     registryComponents[def.id] = {
@@ -205,18 +247,20 @@ function run() {
 
   topChildren.forEach((child, index) => {
     const moduleId = `${slugify(child?.name || "module")}-${index + 1}`;
-    const moduleChildren = nodeChildren(child, nodeMap);
     const moduleRefs = [];
     const moduleContainer = createModuleContainer(child, styleRefMap);
-    if (moduleChildren.length === 0) {
-      const componentId = upsertDefinition(child);
+    const directChildren = nodeChildren(child, nodeMap);
+    const rootNodes = directChildren.length > 0 ? directChildren : [child];
+    rootNodes.forEach((node) => {
+      const componentId = upsertDefinition(node);
       moduleRefs.push({ type: "component", ref: componentId, props: {} });
-    } else {
-      moduleChildren.forEach((node) => {
-        const componentId = upsertDefinition(node);
-        moduleRefs.push({ type: "component", ref: componentId, props: {} });
+
+      const nestedExtracted = collectComponentNodesDeep(node, nodeMap);
+      nestedExtracted.slice(1).forEach((nestedNode) => {
+        const nestedId = upsertDefinition(nestedNode);
+        addDependency(`component:${componentId}`, `component:${nestedId}`);
       });
-    }
+    });
     const mod = {
       schemaVersion: VERSION,
       id: moduleId,

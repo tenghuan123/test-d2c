@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "2472-8237bb78",
+  "kind": "component",
+  "source": {
+    "componentId": "638:034696",
+    "nodeId": "737:034980/669:94561"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "容器 2472",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 208,
+        "relativeX": null,
+        "relativeY": null
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "mainSizing": "auto",
+        "crossSizing": "fixed"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 794",
+        "styleRefs": [
+          "{color.ty-20-hover}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 200,
+            "relativeX": null,
+            "relativeY": null
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3-a0-nor-a875a6dc",
+  "kind": "component",
+  "source": {
+    "componentId": "8:1254",
+    "nodeId": "737:034341/12:8973/12:8973/12:0304/12:8973/12:0304/8:1459"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 3[a0]=nor",
+    "styleRefs": [
+      "{color.white-0}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 16,
+        "height": 16,
+        "relativeX": 204,
+        "relativeY": 12
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形",
+        "styleRefs": [
+          "{color.white-0}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "LAYER",
+        "name": "矩形",
+        "styleRefs": [
+          "{color.ty-30}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 20,
+            "height": 20,
+            "relativeX": 2,
+            "relativeY": 2
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "联集 33",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 10.004104614257812,
+            "height": 10.004104614257812,
+            "relativeX": 7,
+            "relativeY": 7
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

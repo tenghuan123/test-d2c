@@ -75,8 +75,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "no-box/black",
+                "ref": "no-box-black-414d0d4b",
                 "styleRefs": [],
                 "ext": {
                   "layoutStyle": {
@@ -88,137 +89,7 @@
                   "flexContainerInfo": null,
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 1",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 106.99999237060547,
-                        "height": 28,
-                        "relativeX": 0,
-                        "relativeY": 0
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 3",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 24.302181243896484,
-                        "height": 27.562944412231445,
-                        "relativeX": 0.08,
-                        "relativeY": 0.34
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 5",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 24.30209732055664,
-                        "height": 27.562944412231445,
-                        "relativeX": 24.38,
-                        "relativeY": 0.34
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 7",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 20.8890380859375,
-                        "height": 6.908240795135498,
-                        "relativeX": 13.93,
-                        "relativeY": 0.06
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 9",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 5.54204797744751,
-                        "height": 6.825334548950195,
-                        "relativeX": 72.15,
-                        "relativeY": 3.25
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 11",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 5.54204797744751,
-                        "height": 6.825334548950195,
-                        "relativeX": 58.04,
-                        "relativeY": 3.25
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 13",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 22.7368106842041,
-                        "height": 22.065013885498047,
-                        "relativeX": 84.2,
-                        "relativeY": 3.27
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  },
-                  {
-                    "nodeType": "PATH",
-                    "name": "Fill 15",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 23.97898292541504,
-                        "height": 22.982940673828125,
-                        "relativeX": 55.94,
-                        "relativeY": 2.43
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    }
-                  }
-                ]
+                }
               },
               {
                 "nodeType": "FRAME",
@@ -337,8 +208,9 @@
                     },
                     "children": [
                       {
-                        "nodeType": "INSTANCE",
+                        "nodeType": "COMPONENT_REF",
                         "name": "copyright",
+                        "ref": "copyright-d22e4b36",
                         "styleRefs": [],
                         "ext": {
                           "layoutStyle": {
@@ -350,59 +222,7 @@
                           "flexContainerInfo": null,
                           "textAlign": null,
                           "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "LAYER",
-                            "name": "矩形 43",
-                            "styleRefs": [
-                              "{color.paint-17-6379}"
-                            ],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 12,
-                                "height": 12,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "SVG_ELLIPSE",
-                            "name": "圆形 3",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 9,
-                                "height": 9,
-                                "relativeX": 1.5,
-                                "relativeY": 1.5
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "PATH",
-                            "name": "圆形 4",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 3.8409905433654785,
-                                "height": 4.5,
-                                "relativeX": 3.75,
-                                "relativeY": 3.75
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          }
-                        ]
+                        }
                       },
                       {
                         "nodeType": "TEXT",
@@ -457,8 +277,9 @@
             },
             "children": [
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "属性 2[a1]=nor",
+                "ref": "2-a1-nor-a61a444c",
                 "styleRefs": [
                   "{color.ty-30}",
                   "{effect.effect-24-4121}"
@@ -473,119 +294,12 @@
                   "flexContainerInfo": null,
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "INSTANCE",
-                    "name": "微信",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 20,
-                        "height": 20,
-                        "relativeX": 14,
-                        "relativeY": 14
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "LAYER",
-                        "name": "矩形",
-                        "styleRefs": [
-                          "{color.white-0}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "INSTANCE",
-                        "name": "wx",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "LAYER",
-                            "name": "矩形",
-                            "styleRefs": [
-                              "{color.paint-17-6363}"
-                            ],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 24,
-                                "height": 24,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "GROUP",
-                            "name": "编组",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 20.999900817871094,
-                                "height": 18.000064849853516,
-                                "relativeX": 1.5,
-                                "relativeY": 3
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            },
-                            "children": [
-                              {
-                                "nodeType": "PATH",
-                                "name": "形状",
-                                "styleRefs": [],
-                                "ext": {
-                                  "layoutStyle": {
-                                    "width": 20.999900817871094,
-                                    "height": 18.000064849853516,
-                                    "relativeX": 0,
-                                    "relativeY": 0
-                                  },
-                                  "flexContainerInfo": null,
-                                  "textAlign": null,
-                                  "textMode": null
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "tabs/footer/nor 2",
+                "ref": "2-a1-nor-a61a444c",
                 "styleRefs": [
                   "{color.ty-30}",
                   "{effect.effect-24-4121}"
@@ -605,119 +319,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "INSTANCE",
-                    "name": "微信",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 20,
-                        "height": 20,
-                        "relativeX": 14,
-                        "relativeY": 14
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "LAYER",
-                        "name": "矩形",
-                        "styleRefs": [
-                          "{color.white-0}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "INSTANCE",
-                        "name": "wx",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "LAYER",
-                            "name": "矩形",
-                            "styleRefs": [
-                              "{color.paint-17-6363}"
-                            ],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 24,
-                                "height": 24,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "GROUP",
-                            "name": "编组",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 20.999900817871094,
-                                "height": 18.000064849853516,
-                                "relativeX": 1.5,
-                                "relativeY": 3
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            },
-                            "children": [
-                              {
-                                "nodeType": "PATH",
-                                "name": "形状",
-                                "styleRefs": [],
-                                "ext": {
-                                  "layoutStyle": {
-                                    "width": 20.999900817871094,
-                                    "height": 18.000064849853516,
-                                    "relativeX": 0,
-                                    "relativeY": 0
-                                  },
-                                  "flexContainerInfo": null,
-                                  "textAlign": null,
-                                  "textMode": null
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "tabs/footer/nor 1",
+                "ref": "2-a1-nor-a61a444c",
                 "styleRefs": [
                   "{color.ty-30}",
                   "{effect.effect-24-4121}"
@@ -737,119 +344,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "INSTANCE",
-                    "name": "微信",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 20,
-                        "height": 20,
-                        "relativeX": 14,
-                        "relativeY": 14
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "LAYER",
-                        "name": "矩形",
-                        "styleRefs": [
-                          "{color.white-0}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "INSTANCE",
-                        "name": "wx",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "LAYER",
-                            "name": "矩形",
-                            "styleRefs": [
-                              "{color.paint-17-6363}"
-                            ],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 24,
-                                "height": 24,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "GROUP",
-                            "name": "编组",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 20.999900817871094,
-                                "height": 18.000064849853516,
-                                "relativeX": 1.5,
-                                "relativeY": 3
-                              },
-                              "flexContainerInfo": null,
-                              "textAlign": null,
-                              "textMode": null
-                            },
-                            "children": [
-                              {
-                                "nodeType": "PATH",
-                                "name": "形状",
-                                "styleRefs": [],
-                                "ext": {
-                                  "layoutStyle": {
-                                    "width": 20.999900817871094,
-                                    "height": 18.000064849853516,
-                                    "relativeX": 0,
-                                    "relativeY": 0
-                                  },
-                                  "flexContainerInfo": null,
-                                  "textAlign": null,
-                                  "textMode": null
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "tabs/footer/nor 6",
+                "ref": "tabs-footer-nor-6-860ba693",
                 "styleRefs": [
                   "{color.ty-30}",
                   "{effect.effect-8-1182}"
@@ -871,63 +371,12 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "FRAME",
-                    "name": "容器",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 32,
-                        "height": 32,
-                        "relativeX": 8,
-                        "relativeY": 8
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "PATH",
-                        "name": "路径",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 29.403491973876953,
-                            "height": 10.375931739807129,
-                            "relativeX": 1.31,
-                            "relativeY": 10.81
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "PATH",
-                        "name": "路径",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 13.208355903625488,
-                            "height": 9.651769638061523,
-                            "relativeX": 8.47,
-                            "relativeY": 11.55
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      }
-                    ]
-                  }
-                ]
+                }
               },
               {
-                "nodeType": "INSTANCE",
+                "nodeType": "COMPONENT_REF",
                 "name": "tabs/footer/nor 3",
+                "ref": "2-a1-nor-a61a444c",
                 "styleRefs": [
                   "{color.ty-30}",
                   "{effect.effect-24-4121}"
@@ -947,77 +396,7 @@
                   },
                   "textAlign": null,
                   "textMode": null
-                },
-                "children": [
-                  {
-                    "nodeType": "INSTANCE",
-                    "name": "邮箱",
-                    "styleRefs": [],
-                    "ext": {
-                      "layoutStyle": {
-                        "width": 20,
-                        "height": 20,
-                        "relativeX": 14,
-                        "relativeY": 14
-                      },
-                      "flexContainerInfo": null,
-                      "textAlign": null,
-                      "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "LAYER",
-                        "name": "矩形 60",
-                        "styleRefs": [
-                          "{color.white-0}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 24,
-                            "height": 24,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "LAYER",
-                        "name": "矩形 61",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 18,
-                            "height": 15.000000953674316,
-                            "relativeX": 3,
-                            "relativeY": 4.5
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "PATH",
-                        "name": "矩形 62",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 6.3651123046875,
-                            "height": 6.3651123046875,
-                            "relativeX": 8.82,
-                            "relativeY": 6.71
-                          },
-                          "flexContainerInfo": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      }
-                    ]
-                  }
-                ]
+                }
               }
             ]
           }

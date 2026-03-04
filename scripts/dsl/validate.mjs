@@ -30,6 +30,20 @@ function collectTokenRefs(value, refs = []) {
   return refs;
 }
 
+function collectComponentRefs(value, refs = []) {
+  if (Array.isArray(value)) {
+    value.forEach((v) => collectComponentRefs(v, refs));
+    return refs;
+  }
+  if (value && typeof value === "object") {
+    if (value.nodeType === "COMPONENT_REF" && typeof value.ref === "string") {
+      refs.push(`component:${value.ref}`);
+    }
+    Object.values(value).forEach((v) => collectComponentRefs(v, refs));
+  }
+  return refs;
+}
+
 function detectCycle(graph) {
   const visiting = new Set();
   const visited = new Set();
@@ -111,6 +125,7 @@ function run() {
         errors.push({ code: "E_TOKEN_REF_NOT_FOUND", message: `component ${json.id} -> ${ref}` });
       }
     });
+    collectComponentRefs(json.structure).forEach((ref) => refIds.add(ref));
   });
 
   const instanceFiles = [

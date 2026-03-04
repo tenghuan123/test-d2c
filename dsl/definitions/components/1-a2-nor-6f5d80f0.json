@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1-a2-nor-6f5d80f0",
+  "kind": "component",
+  "source": {
+    "componentId": "23:5023",
+    "nodeId": "1206:050341"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "属性 1[a2]=nor",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 76,
+        "height": 22,
+        "relativeX": 0,
+        "relativeY": 4
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "alignItems": "center",
+        "mainSizing": "auto",
+        "crossSizing": "auto",
+        "gap": "4px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "类型",
+        "styleRefs": [
+          "{textStyle.c-14px}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 56,
+            "height": 22,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "综合排序",
+            "font": "font_8:0883"
+          }
+        ]
+      },
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "属性 2[a4]=down-nor",
+        "ref": "2-a4-down-nor-8221121b",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 16,
+            "height": 16,
+            "relativeX": 32,
+            "relativeY": 3
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

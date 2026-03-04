@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "share-3c2bcf7f",
+  "kind": "component",
+  "source": {
+    "componentId": "18:1447",
+    "nodeId": "1136:080125"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "share",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 20,
+        "relativeY": 10
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "fixed",
+        "gap": "10px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "GROUP",
+        "name": "高",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 16,
+            "height": 17,
+            "relativeX": 4,
+            "relativeY": 3.5
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "PATH",
+            "name": "圆形 27",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 5,
+                "height": 5,
+                "relativeX": 0,
+                "relativeY": 4.58
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "圆形 28",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 5,
+                "height": 5,
+                "relativeX": 8.33,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "圆形 29",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 5,
+                "height": 5,
+                "relativeX": 8.33,
+                "relativeY": 9.17
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "直线 4",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 3.8526408672332764,
+                "height": 0.78033447265625,
+                "relativeX": 4.74,
+                "relativeY": 4.4
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          },
+          {
+            "nodeType": "PATH",
+            "name": "直线 6",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 3.8526408672332764,
+                "height": 0.78033447265625,
+                "relativeX": 4.74,
+                "relativeY": 8.98
+              },
+              "flexContainerInfo": null,
+              "textAlign": null,
+              "textMode": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

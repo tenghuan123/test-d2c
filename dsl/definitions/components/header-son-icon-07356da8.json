@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "header-son-icon-07356da8",
+  "kind": "component",
+  "source": {
+    "componentId": "1527:114914",
+    "nodeId": "737:034341/12:8973/12:8973/12:0307/12:8973/12:0307/12:0307/1527:114950"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "header/son/icon",
+    "styleRefs": [
+      "{effect.effect-1527-090286}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 44,
+        "height": 36,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "属性 1[a3]=nor",
+        "ref": "1-a3-nor-c9175d91",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 20,
+            "height": 20,
+            "relativeX": 12,
+            "relativeY": 8
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

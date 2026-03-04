@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "node-7c83b954",
+  "kind": "component",
+  "source": {
+    "componentId": "17:6356",
+    "nodeId": "1157:046773/1004:045133/1004:045133/1004:044998"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "邮箱",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 20,
+        "height": 20,
+        "relativeX": 14,
+        "relativeY": 14
+      },
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 60",
+        "styleRefs": [
+          "{color.white-0}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 24,
+            "height": 24,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "LAYER",
+        "name": "矩形 61",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 18,
+            "height": 15.000000953674316,
+            "relativeX": 3,
+            "relativeY": 4.5
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "PATH",
+        "name": "矩形 62",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 6.3651123046875,
+            "height": 6.3651123046875,
+            "relativeX": 8.82,
+            "relativeY": 6.71
+          },
+          "flexContainerInfo": null,
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}

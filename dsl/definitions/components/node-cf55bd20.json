@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "node-cf55bd20",
+  "kind": "component",
+  "source": {
+    "componentId": "347:038522",
+    "nodeId": "1136:079816"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "广告语",
+    "styleRefs": [
+      "{color.paint-347-044580}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 1360,
+        "height": 110,
+        "relativeX": 0,
+        "relativeY": 370
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "mainSizing": "auto",
+        "crossSizing": "fixed",
+        "padding": "24px 28px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 3708",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 800,
+            "height": 92,
+            "relativeX": 100,
+            "relativeY": 20
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "gap": "12px"
+          },
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "致敬经典，延续传奇",
+            "styleRefs": [
+              "{textStyle.h6-18px}",
+              "{color.ty-1}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 234,
+                "height": 28,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null,
+              "textAlign": "left",
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "灵感源源不断，创意生生不息",
+                "font": "font_12:7343"
+              }
+            ]
+          },
+          {
+            "nodeType": "TEXT",
+            "name": "Mike明，服务丰田新车TVC、卫龙非遗公益宣传片、伊利企业宣传片、联通展会产品宣传片、联美品牌宣传片、济源城市宣传片、慧力舍品牌推广短视频、校园演讲大赛短视频、知乎盐书短视频、知乎课件视频包装等大中小型客户，和您一起创造惊艳！",
+            "styleRefs": [
+              "{textStyle.c-14px}",
+              "{color.white-60-banner}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 800,
+                "height": 22,
+                "relativeX": 0,
+                "relativeY": 40
+              },
+              "flexContainerInfo": null,
+              "textAlign": "left",
+              "textMode": "auto-height"
+            },
+            "text": [
+              {
+                "text": "这家伙太懒了，什么介绍都没有",
+                "font": "font_8:1425"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

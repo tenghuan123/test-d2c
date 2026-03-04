@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "son-list-c3d6d542",
+  "kind": "component",
+  "source": {
+    "componentId": "669:94508",
+    "nodeId": "737:034980/669:94669"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "侧边导航/son/list",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 192,
+        "height": 48,
+        "relativeX": 8,
+        "relativeY": 56
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "auto",
+        "gap": "8px",
+        "padding": "12px 16px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "我的主页",
+        "styleRefs": [
+          "{textStyle.c-16px}",
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 80,
+            "height": 24,
+            "relativeX": 16,
+            "relativeY": 12
+          },
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "关注和粉丝",
+            "font": "font_14:1843"
+          }
+        ]
+      }
+    ]
+  }
+}

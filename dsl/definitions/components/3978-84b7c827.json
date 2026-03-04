@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3978-84b7c827",
+  "kind": "component",
+  "source": {
+    "componentId": "3827:150904",
+    "nodeId": "3827:151160"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "容器 3978",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 1312,
+        "height": 30,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "auto",
+        "gap": "40px 24px"
+      },
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "组件 16",
+        "ref": "16-7f9f680b",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 274,
+            "height": 30,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "alignItems": "center",
+            "mainSizing": "fixed",
+            "crossSizing": "auto",
+            "gap": "4px"
+          },
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "COMPONENT_REF",
+        "name": "文本提示",
+        "ref": "node-b007f638",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 234,
+            "height": 22,
+            "relativeX": 314,
+            "relativeY": 4
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "alignItems": "center",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "gap": "4px"
+          },
+          "textAlign": null,
+          "textMode": null
+        }
+      }
+    ]
+  }
+}
