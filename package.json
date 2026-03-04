@@ -10,7 +10,8 @@
     "dsl:build": "node scripts/dsl/build-dsl.mjs",
     "dsl:validate": "node scripts/dsl/validate.mjs",
     "dsl:impact": "node scripts/dsl/impact.mjs",
-    "dsl:diff": "node scripts/dsl/diff-snapshot.mjs"
+    "dsl:diff": "node scripts/dsl/diff-snapshot.mjs",
+    "dsl:tailwind": "node scripts/dsl/to-tailwind.mjs"
   },
   "dependencies": {
     "@react-router/node": "7.12.0",

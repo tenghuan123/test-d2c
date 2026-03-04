@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import tokens from "../../dsl/registry/tokens.json";
+import { mapDslNodeToTailwind } from "../../dsl/tailwind-mapper.js";
 import page1920 from "../../dsl/instances/pages/1920.json";
 import module1440px3 from "../../dsl/instances/modules/1440px-3.json";
 import module38102 from "../../dsl/instances/modules/3810-2.json";
@@ -64,65 +65,15 @@ const componentMap: Record<string, ComponentDefinition> = {
   [defFooter.id]: defFooter as ComponentDefinition,
 };
 
-function resolveToken(ref: string) {
-  if (!ref.startsWith("{") || !ref.endsWith("}")) return null;
-  const path = ref.slice(1, -1).split(".");
-  let current: unknown = tokenStore;
-  for (const key of path) {
-    if (!current || typeof current !== "object" || !(key in current)) return null;
-    current = (current as Record<string, unknown>)[key];
-  }
-  return current;
-}
-
-function buildNodeStyle(node: DslNode): CSSProperties {
-  const style: CSSProperties = {
-    border: "1px solid #e5e7eb",
-    borderRadius: 8,
-    minHeight: 20,
-    minWidth: 20,
-    boxSizing: "border-box",
-  };
-  const layout = node.ext?.layoutStyle;
-  const flex = node.ext?.flexContainerInfo;
-
-  if (typeof layout?.width === "number" && layout.width > 0 && layout.width <= 1360) {
-    style.width = layout.width;
-    style.maxWidth = "100%";
-  } else {
-    style.width = "100%";
-  }
-  if (typeof layout?.height === "number" && layout.height > 0 && layout.height <= 800) {
-    style.height = layout.height;
-  }
-
-  if (flex) {
-    style.display = "flex";
-    style.flexDirection = flex.flexDirection ?? "row";
-    style.justifyContent = flex.justifyContent;
-    style.alignItems = flex.alignItems;
-    style.gap = flex.gap;
-    style.padding = flex.padding;
-  }
-
-  for (const ref of node.styleRefs ?? []) {
-    const value = resolveToken(ref);
-    if (typeof value !== "string") continue;
-    if (value.startsWith("linear-gradient")) {
-      style.backgroundImage = value;
-    } else if (value.startsWith("#") || value.startsWith("rgb")) {
-      style.background = value;
-    }
-  }
-
-  return style;
-}
-
 function RebuildNode({ node }: { node: DslNode }) {
   const children = node.children ?? [];
   const isText = node.nodeType === "TEXT";
+  const mapped = mapDslNodeToTailwind(node, tokenStore);
   return (
-    <div style={buildNodeStyle(node)} className="p-1.5">
+    <div
+      className={`box-border min-h-5 min-w-5 rounded-lg border border-gray-200 p-1.5 ${mapped.className}`.trim()}
+      style={mapped.style as CSSProperties}
+    >
       {isText ? (
         <span className="text-xs text-gray-700">{node.name}</span>
       ) : (
@@ -155,8 +106,13 @@ export function DslRebuildPage() {
         {page.children.map((item) => {
           const mod = moduleMap[item.ref];
           if (!mod) return <div key={item.ref}>missing module: {item.ref}</div>;
+          const mapped = mod.container ? mapDslNodeToTailwind(mod.container, tokenStore) : null;
           return (
-            <section key={mod.id} className="space-y-2" style={mod.container ? buildNodeStyle(mod.container) : undefined}>
+            <section
+              key={mod.id}
+              className={`space-y-2 ${mapped?.className ?? ""}`.trim()}
+              style={mapped ? (mapped.style as CSSProperties) : undefined}
+            >
               {mod.container && (
                 <div className="px-2 pt-2 text-[10px] text-gray-500">
                   {mod.container.nodeType} · {mod.container.name}
