@@ -110,6 +110,7 @@ function run() {
 
   const seenIds = new Set();
   const refIds = new Set();
+  const componentIdToDefs = new Map();
 
   listJsonFiles(join(DSL_DIR, "definitions/components")).forEach((f) => {
     const json = readJson(f);
@@ -120,6 +121,11 @@ function run() {
       errors.push({ code: "E_DUPLICATE_ID", message: `duplicate component id: ${json.id}` });
     }
     seenIds.add(`component:${json.id}`);
+    const sourceComponentId = json?.source?.componentId;
+    if (sourceComponentId) {
+      if (!componentIdToDefs.has(sourceComponentId)) componentIdToDefs.set(sourceComponentId, new Set());
+      componentIdToDefs.get(sourceComponentId).add(json.id);
+    }
     collectTokenRefs(json.structure).forEach((ref) => {
       if (!tokenFlat.has(ref)) {
         errors.push({ code: "E_TOKEN_REF_NOT_FOUND", message: `component ${json.id} -> ${ref}` });
@@ -160,6 +166,15 @@ function run() {
   Object.values(registryComponents).forEach((entry) => {
     if (!seenIds.has(`component:${entry.id}`)) {
       errors.push({ code: "E_REF_NOT_FOUND", message: `registry missing component file: ${entry.id}` });
+    }
+  });
+
+  componentIdToDefs.forEach((defs, componentId) => {
+    if (defs.size > 1) {
+      errors.push({
+        code: "E_COMPONENT_ID_NOT_UNIQUE",
+        message: `componentId ${componentId} maps to multiple definitions: ${Array.from(defs).sort().join(", ")}`
+      });
     }
   });
 

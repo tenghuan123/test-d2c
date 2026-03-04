@@ -4,7 +4,8 @@
   "kind": "component",
   "source": {
     "componentId": null,
-    "nodeId": "1157:045568"
+    "nodeId": "1157:045568",
+    "nodeType": "FRAME"
   },
   "propsSchema": {},
   "structure": {
@@ -511,7 +512,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "card/案例/收藏",
-                            "ref": "card-c449b513",
+                            "ref": "card-38aa4e40",
                             "styleRefs": [],
                             "ext": {
                               "layoutStyle": {

@@ -130,7 +130,6 @@
       "token:color.ty-70"
     ],
     "component:3804-0e1306da": [],
-    "component:card-c449b513": [],
     "component:1-a0-dis-0e7d2d37": [
       "token:color.ty-1"
     ],
@@ -167,7 +166,6 @@
       "component:3978-84b7c827",
       "component:409-bece76ed",
       "component:card-38aa4e40",
-      "component:card-c449b513",
       "component:choice-56824ac7",
       "component:icon-414f9483",
       "component:icon-92a9c831",
@@ -432,9 +430,6 @@
       "component:3809-36f2c6ca"
     ],
     "component:card-38aa4e40": [
-      "component:3809-36f2c6ca"
-    ],
-    "component:card-c449b513": [
       "component:3809-36f2c6ca"
     ],
     "component:choice-56824ac7": [

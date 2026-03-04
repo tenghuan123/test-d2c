@@ -4,7 +4,8 @@
   "kind": "component",
   "source": {
     "componentId": null,
-    "nodeId": "737:034341/12:8807"
+    "nodeId": "737:034341/12:8807",
+    "nodeType": "LAYER"
   },
   "propsSchema": {},
   "structure": {

@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync, unlinkSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = process.cwd();
@@ -159,8 +159,9 @@ function createComponentDefinition(node, nodeMap, styleRefMap, id, options = {})
     id,
     kind: "component",
     source: {
-      componentId: node?.componentId || null,
-      nodeId: node?.id || null
+      componentId: options.componentId ?? node?.componentId ?? null,
+      nodeId: node?.id || null,
+      nodeType: node?.type || null
     },
     propsSchema: {},
     structure: toStructure(node, nodeMap, styleRefMap, options)
@@ -196,6 +197,25 @@ function collectComponentNodesDeep(rootNode, nodeMap) {
   return result;
 }
 
+function collectInstanceComponentIds(rootNode, nodeMap) {
+  const ids = new Set();
+  const visit = (node) => {
+    if (!node) return;
+    if (node?.type === "INSTANCE" && node?.componentId) ids.add(String(node.componentId));
+    nodeChildren(node, nodeMap).forEach(visit);
+  };
+  visit(rootNode);
+  return ids;
+}
+
+function effectiveComponentId(node, instanceComponentIds) {
+  if (node?.componentId) return String(node.componentId);
+  if (node?.type === "COMPONENT" && node?.id && instanceComponentIds.has(String(node.id))) {
+    return String(node.id);
+  }
+  return null;
+}
+
 function run() {
   const raw = readFileSync(SOURCE_FILE, "utf8");
   const input = JSON.parse(raw);
@@ -210,6 +230,7 @@ function run() {
   const registryComponents = {};
   const assets = { images: {}, svgs: {} };
   const dependencyNodes = {};
+  const instanceComponentIds = collectInstanceComponentIds(root, nodeMap);
 
   function addDependency(from, to) {
     if (!dependencyNodes[from]) dependencyNodes[from] = [];
@@ -218,16 +239,33 @@ function run() {
   }
 
   function upsertDefinition(node) {
-    const seed = node?.componentId ? `cid:${node.componentId}` : `nid:${node?.id || hash(JSON.stringify(node || {}))}`;
+    const canonicalComponentId = effectiveComponentId(node, instanceComponentIds);
+    const seed = canonicalComponentId
+      ? `cid:${canonicalComponentId}`
+      : `nid:${node?.id || hash(JSON.stringify(node || {}))}`;
     if (definitionsByKey.has(seed)) {
       const def = definitionsByKey.get(seed);
-      if (!def.__building && registryComponents[def.id]) registryComponents[def.id].usageCount += 1;
+      if (def.__building) return def.id;
+      if (registryComponents[def.id]) registryComponents[def.id].usageCount += 1;
+      if (node?.type === "COMPONENT" && def?.source?.nodeType !== "COMPONENT") {
+        definitionsByKey.set(seed, { id: def.id, __building: true });
+        const upgraded = createComponentDefinition(node, nodeMap, styleRefMap, def.id, {
+          extractNestedComponentRef: upsertDefinition,
+          componentId: canonicalComponentId
+        });
+        definitionsByKey.set(seed, upgraded);
+        const idx = definitions.findIndex((item) => item.id === def.id);
+        if (idx >= 0) definitions[idx] = upgraded;
+        const tokenDeps = (upgraded.structure.styleRefs || []).map((r) => `token:${r.slice(1, -1)}`);
+        dependencyNodes[`component:${upgraded.id}`] = Array.from(new Set(tokenDeps)).sort();
+      }
       return def.id;
     }
     const id = `${slugify(node?.name || node?.type || "component")}-${shortHash(seed)}`;
     definitionsByKey.set(seed, { id, __building: true });
     const def = createComponentDefinition(node, nodeMap, styleRefMap, id, {
-      extractNestedComponentRef: upsertDefinition
+      extractNestedComponentRef: upsertDefinition,
+      componentId: canonicalComponentId
     });
     definitionsByKey.set(seed, def);
     definitions.push(def);
@@ -371,8 +409,13 @@ function run() {
     ...textStyles
   });
   writeJson(join(OUT_DIR, "registry/assets.json"), assets);
+  const componentDefDir = join(OUT_DIR, "definitions/components");
+  const expectedComponentFiles = new Set(definitions.map((def) => `${def.id}.json`));
+  readdirSync(componentDefDir)
+    .filter((file) => file.endsWith(".json") && !expectedComponentFiles.has(file))
+    .forEach((file) => unlinkSync(join(componentDefDir, file)));
   definitions.forEach((def) => {
-    writeJson(join(OUT_DIR, `definitions/components/${def.id}.json`), def);
+    writeJson(join(componentDefDir, `${def.id}.json`), def);
   });
   writeJson(join(OUT_DIR, `instances/pages/${page.id}.json`), page);
   modules.forEach((mod) => {

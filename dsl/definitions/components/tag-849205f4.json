@@ -4,7 +4,8 @@
   "kind": "component",
   "source": {
     "componentId": "278:41810",
-    "nodeId": "2726:130025/1466:096266"
+    "nodeId": "2726:130025/1466:096266",
+    "nodeType": "INSTANCE"
   },
   "propsSchema": {},
   "structure": {

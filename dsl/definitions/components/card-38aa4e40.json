@@ -4,11 +4,12 @@
   "kind": "component",
   "source": {
     "componentId": "1157:039105",
-    "nodeId": "1196:055939"
+    "nodeId": "1157:039105",
+    "nodeType": "COMPONENT"
   },
   "propsSchema": {},
   "structure": {
-    "nodeType": "INSTANCE",
+    "nodeType": "COMPONENT",
     "name": "card/案例/收藏",
     "styleRefs": [],
     "ext": {
@@ -18,7 +19,12 @@
         "relativeX": 0,
         "relativeY": 0
       },
-      "flexContainerInfo": null,
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "mainSizing": "fixed",
+        "crossSizing": "fixed",
+        "gap": "12px"
+      },
       "textAlign": null,
       "textMode": null
     },
