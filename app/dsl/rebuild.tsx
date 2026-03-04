@@ -69,26 +69,32 @@ function RebuildNode({ node }: { node: DslNode }) {
   const children = node.children ?? [];
   const isText = node.nodeType === "TEXT";
   const mapped = mapDslNodeToTailwind(node, tokenStore);
+  const hasVisualLeaf = !isText && children.length === 0;
   return (
-    <div
-      className={`box-border min-h-5 min-w-5 rounded-lg border border-gray-200 p-1.5 ${mapped.className}`.trim()}
-      style={mapped.style as CSSProperties}
-    >
+    <div className={mapped.className} style={mapped.style as CSSProperties}>
       {isText ? (
-        <span className="text-xs text-gray-700">{node.name}</span>
-      ) : (
-        <div className="mb-1 text-[10px] text-gray-500">
-          {node.nodeType} · {node.name}
-        </div>
-      )}
-      {children.length > 0 && (
-        <div className="flex flex-col gap-1">
-          {children.map((child, idx) => (
-            <RebuildNode key={`${child.name ?? "node"}-${idx}`} node={child} />
-          ))}
-        </div>
-      )}
+        <span className="text-sm text-gray-700">{node.name}</span>
+      ) : null}
+      {hasVisualLeaf ? (
+        <div className="h-full w-full rounded-sm border border-gray-200/70" />
+      ) : null}
+      {children.length > 0
+        ? children.map((child, idx) => <RebuildNode key={`${child.name ?? "node"}-${idx}`} node={child} />)
+        : null}
     </div>
+  );
+}
+
+function ModuleRebuild({ moduleId }: { moduleId: string }) {
+  const mod = moduleMap[moduleId];
+  if (!mod) return <div>missing module: {moduleId}</div>;
+  const mapped = mod.container ? mapDslNodeToTailwind(mod.container, tokenStore) : null;
+  return (
+    <section className={mapped?.className} style={mapped ? (mapped.style as CSSProperties) : undefined}>
+      {mod.children.map((child) => (
+        <ComponentRebuild key={child.ref} componentId={child.ref} />
+      ))}
+    </section>
   );
 }
 
@@ -100,31 +106,10 @@ function ComponentRebuild({ componentId }: { componentId: string }) {
 
 export function DslRebuildPage() {
   return (
-    <main className="mx-auto max-w-[1440px] space-y-4 p-4">
-      <h1 className="text-lg font-semibold">DSL 页面还原预览（当前能力）</h1>
-      <div className="space-y-4">
-        {page.children.map((item) => {
-          const mod = moduleMap[item.ref];
-          if (!mod) return <div key={item.ref}>missing module: {item.ref}</div>;
-          const mapped = mod.container ? mapDslNodeToTailwind(mod.container, tokenStore) : null;
-          return (
-            <section
-              key={mod.id}
-              className={`space-y-2 ${mapped?.className ?? ""}`.trim()}
-              style={mapped ? (mapped.style as CSSProperties) : undefined}
-            >
-              {mod.container && (
-                <div className="px-2 pt-2 text-[10px] text-gray-500">
-                  {mod.container.nodeType} · {mod.container.name}
-                </div>
-              )}
-              {mod.children.map((child) => (
-                <ComponentRebuild key={child.ref} componentId={child.ref} />
-              ))}
-            </section>
-          );
-        })}
-      </div>
+    <main className="mx-auto min-h-screen max-w-[1920px] bg-[#f9f9f9]">
+      {page.children.map((item) => (
+        <ModuleRebuild key={item.ref} moduleId={item.ref} />
+      ))}
     </main>
   );
 }

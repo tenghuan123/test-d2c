@@ -36,6 +36,7 @@ function mapBoxSpacing(prefix, raw) {
     const v = pxToTailwindSpace(parts[0].replace("px", ""));
     const h = pxToTailwindSpace(parts[1].replace("px", ""));
     if (!v || !h) return [];
+    if (prefix === "gap") return [`gap-y-${v}`, `gap-x-${h}`];
     return [`${prefix}y-${v}`, `${prefix}x-${h}`];
   }
 
@@ -85,14 +86,14 @@ export function mapDslNodeToTailwind(node, tokenStore) {
   const layout = node?.ext?.layoutStyle;
   const flex = node?.ext?.flexContainerInfo;
 
-  if (typeof layout?.width === "number" && layout.width > 0 && layout.width <= 1360) {
+  if (typeof layout?.width === "number" && layout.width > 0) {
     classes.push(`w-[${layout.width}px]`);
     style.maxWidth = "100%";
   } else {
     style.width = "100%";
   }
 
-  if (typeof layout?.height === "number" && layout.height > 0 && layout.height <= 800) {
+  if (typeof layout?.height === "number" && layout.height > 0) {
     classes.push(`h-[${layout.height}px]`);
   }
 
@@ -125,8 +126,10 @@ export function mapDslNodeToTailwind(node, tokenStore) {
       style.backgroundImage = value;
       continue;
     }
-    if (value.startsWith("#") || value.startsWith("rgb") || value.startsWith("hsl")) {
+    if (value.startsWith("#")) {
       classes.push(`bg-[${value}]`);
+    } else if (value.startsWith("rgb") || value.startsWith("hsl")) {
+      style.background = value;
     }
   }
 
