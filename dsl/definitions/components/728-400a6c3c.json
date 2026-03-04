@@ -19,7 +19,9 @@
         "relativeX": null,
         "relativeY": null
       },
-      "flexContainerInfo": null
+      "flexContainerInfo": null,
+      "textAlign": null,
+      "textMode": null
     }
   }
 }

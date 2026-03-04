@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import tokens from "../../dsl/registry/tokens.json";
+import textStyles from "../../dsl/registry/text-styles.json";
 import { mapDslNodeToTailwind } from "../../dsl/tailwind-mapper.js";
 import page1920 from "../../dsl/instances/pages/1920.json";
 import module1440px3 from "../../dsl/instances/modules/1440px-3.json";
@@ -48,7 +49,8 @@ type ModuleDefinition = {
 };
 
 const page = page1920 as { id: string; children: Array<{ type: "module"; ref: string }> };
-const tokenStore = tokens as Record<string, unknown>;
+const tokenStore = { ...(tokens as Record<string, unknown>), textStyle: textStyles } as Record<string, unknown>;
+const ENABLE_POSITION = import.meta.env.VITE_DSL_ENABLE_POSITION === "1";
 
 const moduleMap: Record<string, ModuleDefinition> = {
   [moduleHeader14401.id]: moduleHeader14401 as ModuleDefinition,
@@ -65,10 +67,15 @@ const componentMap: Record<string, ComponentDefinition> = {
   [defFooter.id]: defFooter as ComponentDefinition,
 };
 
-function RebuildNode({ node }: { node: DslNode }) {
+function hasRelativeClass(className: string) {
+  return className.split(/\s+/).filter(Boolean).includes("relative");
+}
+
+function RebuildNode({ node, parentIsRelative = false }: { node: DslNode; parentIsRelative?: boolean }) {
   const children = node.children ?? [];
   const isText = node.nodeType === "TEXT";
-  const mapped = mapDslNodeToTailwind(node, tokenStore);
+  const mapped = mapDslNodeToTailwind(node, tokenStore, { parentIsRelative, enablePosition: ENABLE_POSITION });
+  const currentIsRelative = hasRelativeClass(mapped.className);
   const hasVisualLeaf = !isText && children.length === 0;
   return (
     <div className={mapped.className} style={mapped.style as CSSProperties}>
@@ -78,8 +85,13 @@ function RebuildNode({ node }: { node: DslNode }) {
       {hasVisualLeaf ? (
         <div className="h-full w-full rounded-sm border border-gray-200/70" />
       ) : null}
+      {mapped.errors?.includes("ABSOLUTE_REQUIRES_PARENT_RELATIVE") ? (
+        <div className="text-[10px] text-red-600">position error: parent must be relative</div>
+      ) : null}
       {children.length > 0
-        ? children.map((child, idx) => <RebuildNode key={`${child.name ?? "node"}-${idx}`} node={child} />)
+        ? children.map((child, idx) => (
+            <RebuildNode key={`${child.name ?? "node"}-${idx}`} node={child} parentIsRelative={currentIsRelative} />
+          ))
         : null}
     </div>
   );
@@ -88,20 +100,26 @@ function RebuildNode({ node }: { node: DslNode }) {
 function ModuleRebuild({ moduleId }: { moduleId: string }) {
   const mod = moduleMap[moduleId];
   if (!mod) return <div>missing module: {moduleId}</div>;
-  const mapped = mod.container ? mapDslNodeToTailwind(mod.container, tokenStore) : null;
+  const mapped = mod.container
+    ? mapDslNodeToTailwind(mod.container, tokenStore, {
+        parentIsRelative: false,
+        enablePosition: ENABLE_POSITION
+      })
+    : null;
+  const moduleIsRelative = hasRelativeClass(mapped?.className || "");
   return (
     <section className={mapped?.className} style={mapped ? (mapped.style as CSSProperties) : undefined}>
       {mod.children.map((child) => (
-        <ComponentRebuild key={child.ref} componentId={child.ref} />
+        <ComponentRebuild key={child.ref} componentId={child.ref} parentIsRelative={moduleIsRelative} />
       ))}
     </section>
   );
 }
 
-function ComponentRebuild({ componentId }: { componentId: string }) {
+function ComponentRebuild({ componentId, parentIsRelative = false }: { componentId: string; parentIsRelative?: boolean }) {
   const definition = componentMap[componentId];
   if (!definition) return <div className="border border-red-200 bg-red-50 p-2">missing component: {componentId}</div>;
-  return <RebuildNode node={definition.structure} />;
+  return <RebuildNode node={definition.structure} parentIsRelative={parentIsRelative} />;
 }
 
 export function DslRebuildPage() {

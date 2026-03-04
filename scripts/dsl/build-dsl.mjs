@@ -6,6 +6,12 @@ const ROOT = process.cwd();
 const SOURCE_FILE = join(ROOT, "mastergo-dsl.json");
 const OUT_DIR = join(ROOT, "dsl");
 const VERSION = "1.0.0";
+const MAX_STRUCTURE_DEPTH = Number.isFinite(Number(process.env.DSL_MAX_DEPTH))
+  ? Number(process.env.DSL_MAX_DEPTH)
+  : 4;
+const MAX_CHILDREN_PER_NODE = Number.isFinite(Number(process.env.DSL_MAX_CHILDREN))
+  ? Number(process.env.DSL_MAX_CHILDREN)
+  : 50;
 
 function hash(input) {
   return createHash("sha1").update(input).digest("hex");
@@ -50,6 +56,16 @@ function collectTokenRefs(node, styleRefMap) {
   if (node?.fill && styleRefMap[node.fill]) refs.push(styleRefMap[node.fill]);
   if (node?.font && styleRefMap[node.font]) refs.push(styleRefMap[node.font]);
   if (node?.effect && styleRefMap[node.effect]) refs.push(styleRefMap[node.effect]);
+  if (Array.isArray(node?.text)) {
+    node.text.forEach((part) => {
+      if (part?.font && styleRefMap[part.font]) refs.push(styleRefMap[part.font]);
+    });
+  }
+  if (Array.isArray(node?.textColor)) {
+    node.textColor.forEach((part) => {
+      if (part?.color && styleRefMap[part.color]) refs.push(styleRefMap[part.color]);
+    });
+  }
   return refs;
 }
 
@@ -60,13 +76,25 @@ function toStructure(node, nodeMap, styleRefMap, depth = 0) {
     styleRefs: collectTokenRefs(node, styleRefMap),
     ext: {
       layoutStyle: node?.layoutStyle || null,
-      flexContainerInfo: node?.flexContainerInfo || null
+      flexContainerInfo: node?.flexContainerInfo || null,
+      textAlign: node?.textAlign || null,
+      textMode: node?.textMode || null
     }
   };
-  if (depth >= 2) return next;
+  if (node?.type === "TEXT") {
+    next.text = Array.isArray(node?.text)
+      ? node.text.map((part) => ({
+          text: part?.text || "",
+          font: part?.font || null
+        }))
+      : [];
+  }
+  if (depth >= MAX_STRUCTURE_DEPTH) return next;
   const children = nodeChildren(node, nodeMap);
   if (children.length > 0) {
-    next.children = children.slice(0, 20).map((c) => toStructure(c, nodeMap, styleRefMap, depth + 1));
+    next.children = children
+      .slice(0, MAX_CHILDREN_PER_NODE)
+      .map((c) => toStructure(c, nodeMap, styleRefMap, depth + 1));
   }
   return next;
 }

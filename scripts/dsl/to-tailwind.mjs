@@ -5,7 +5,9 @@ import { mapDslTreeToTailwind } from "../../dsl/tailwind-mapper.js";
 const ROOT = process.cwd();
 const COMPONENTS_DIR = join(ROOT, "dsl/definitions/components");
 const TOKENS_FILE = join(ROOT, "dsl/registry/tokens.json");
+const TEXT_STYLES_FILE = join(ROOT, "dsl/registry/text-styles.json");
 const OUT_FILE = join(ROOT, "dsl/snapshots/tailwind.latest.json");
+const ENABLE_POSITION = process.env.DSL_ENABLE_POSITION === "1";
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -17,7 +19,8 @@ function writeJson(path, data) {
 
 function run() {
   const tokens = readJson(TOKENS_FILE);
-  const tokenStore = tokens;
+  const textStyles = readJson(TEXT_STYLES_FILE);
+  const tokenStore = { ...tokens, textStyle: textStyles };
   const files = readdirSync(COMPONENTS_DIR).filter((f) => f.endsWith(".json")).sort();
 
   const components = files.map((file) => {
@@ -26,7 +29,9 @@ function run() {
     return {
       id: definition.id,
       file: `definitions/components/${file}`,
-      mapped: mapDslTreeToTailwind(definition.structure || {}, tokenStore)
+      mapped: mapDslTreeToTailwind(definition.structure || {}, tokenStore, {
+        enablePosition: ENABLE_POSITION
+      })
     };
   });
 
@@ -42,7 +47,8 @@ function run() {
     JSON.stringify(
       {
         output: "dsl/snapshots/tailwind.latest.json",
-        componentCount: components.length
+        componentCount: components.length,
+        enablePosition: ENABLE_POSITION
       },
       null,
       2

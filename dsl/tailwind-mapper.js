@@ -80,9 +80,70 @@ function normalizeClasses(classes) {
   return Array.from(new Set(classes.filter(Boolean))).sort().join(" ");
 }
 
-export function mapDslNodeToTailwind(node, tokenStore) {
+function hasClassToken(className, token) {
+  return String(className || "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .includes(token);
+}
+
+function parseLineHeight(value, fontSizePx) {
+  if (value == null || value === "auto") return null;
+  const num = Number(String(value).replace("px", ""));
+  if (!Number.isFinite(num)) return null;
+  if (fontSizePx && num % fontSizePx === 0) {
+    const ratio = num / fontSizePx;
+    if (Number.isFinite(ratio)) return `${ratio}`;
+  }
+  return `${num}px`;
+}
+
+function parseLetterSpacing(value) {
+  if (value == null || value === "auto") return null;
+  const num = Number(String(value).replace("px", ""));
+  if (!Number.isFinite(num)) return null;
+  return `${num}px`;
+}
+
+function mapFontWeight(style) {
+  const s = String(style || "").toLowerCase();
+  if (s.includes("bold") || s.includes("中黑") || s.includes("semibold")) return 600;
+  if (s.includes("medium")) return 500;
+  if (s.includes("regular") || s.includes("常规")) return 400;
+  return null;
+}
+
+function mapFontWeightClass(weight) {
+  if (weight === 400) return "font-normal";
+  if (weight === 500) return "font-medium";
+  if (weight === 600) return "font-semibold";
+  if (weight === 700) return "font-bold";
+  return null;
+}
+
+function applyTextStyleToken(classes, style, value) {
+  if (!isObject(value)) return;
+  const size = Number(value.size);
+  if (Number.isFinite(size)) classes.push(`text-[${size}px]`);
+  if (value.family) style.fontFamily = value.family;
+  const lineHeight = parseLineHeight(value.lineHeight, size);
+  if (lineHeight) classes.push(`leading-[${lineHeight}]`);
+  const letterSpacing = parseLetterSpacing(value.letterSpacing);
+  if (letterSpacing) classes.push(`tracking-[${letterSpacing}]`);
+  const weight = mapFontWeight(value.style);
+  if (weight) {
+    const w = mapFontWeightClass(weight);
+    if (w) classes.push(w);
+    else style.fontWeight = weight;
+  }
+}
+
+export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
   const classes = [];
   const style = {};
+  const errors = [];
+  const enablePosition = options.enablePosition === true;
+  const parentIsRelative = options.parentIsRelative === true;
   const layout = node?.ext?.layoutStyle;
   const flex = node?.ext?.flexContainerInfo;
 
@@ -95,6 +156,15 @@ export function mapDslNodeToTailwind(node, tokenStore) {
 
   if (typeof layout?.height === "number" && layout.height > 0) {
     classes.push(`h-[${layout.height}px]`);
+  }
+  if (enablePosition && (Number.isFinite(layout?.relativeX) || Number.isFinite(layout?.relativeY))) {
+    if (parentIsRelative) {
+      classes.push("absolute");
+      if (Number.isFinite(layout?.relativeX)) classes.push(`left-[${layout.relativeX}px]`);
+      if (Number.isFinite(layout?.relativeY)) classes.push(`top-[${layout.relativeY}px]`);
+    } else {
+      errors.push("ABSOLUTE_REQUIRES_PARENT_RELATIVE");
+    }
   }
 
   if (flex) {
@@ -120,32 +190,61 @@ export function mapDslNodeToTailwind(node, tokenStore) {
   }
 
   for (const ref of node?.styleRefs || []) {
+    const refPath = ref.startsWith("{") && ref.endsWith("}") ? ref.slice(1, -1) : "";
+    const isTextStyleRef = refPath.startsWith("textStyle.");
+    const isColorRef = refPath.startsWith("color.");
     const value = resolveTokenRef(ref, tokenStore);
-    if (typeof value !== "string") continue;
-    if (value.startsWith("linear-gradient")) {
-      style.backgroundImage = value;
+    if (typeof value === "string") {
+      if (value.startsWith("linear-gradient")) {
+        style.backgroundImage = value;
+        continue;
+      }
+      if (value.startsWith("#")) {
+        if (node?.nodeType === "TEXT" && isColorRef) classes.push(`text-[${value}]`);
+        else classes.push(`bg-[${value}]`);
+      } else if (value.startsWith("rgb") || value.startsWith("hsl")) {
+        if (node?.nodeType === "TEXT" && isColorRef) style.color = value;
+        else style.background = value;
+      }
       continue;
     }
-    if (value.startsWith("#")) {
-      classes.push(`bg-[${value}]`);
-    } else if (value.startsWith("rgb") || value.startsWith("hsl")) {
-      style.background = value;
+    if (isTextStyleRef) applyTextStyleToken(classes, style, value);
+  }
+
+  if (node?.nodeType === "TEXT") {
+    if (node?.ext?.textAlign) {
+      const alignMap = { left: "text-left", center: "text-center", right: "text-right", justify: "text-justify" };
+      const alignClass = alignMap[node.ext.textAlign];
+      if (alignClass) classes.push(alignClass);
+      else style.textAlign = node.ext.textAlign;
     }
+    if (node?.ext?.textMode === "single-line") classes.push("whitespace-nowrap");
   }
 
   return {
     className: normalizeClasses(classes),
-    style
+    style,
+    errors
   };
 }
 
-export function mapDslTreeToTailwind(node, tokenStore) {
-  const mapped = mapDslNodeToTailwind(node, tokenStore);
-  return {
-    nodeType: node?.nodeType || "UNKNOWN",
-    name: node?.name || "",
-    className: mapped.className,
-    style: mapped.style,
-    children: Array.isArray(node?.children) ? node.children.map((child) => mapDslTreeToTailwind(child, tokenStore)) : []
-  };
+export function mapDslTreeToTailwind(node, tokenStore, options = {}) {
+  function visit(current, parentIsRelative) {
+    const mapped = mapDslNodeToTailwind(current, tokenStore, {
+      parentIsRelative,
+      enablePosition: options.enablePosition === true
+    });
+    const currentIsRelative = hasClassToken(mapped.className, "relative");
+    return {
+      nodeType: current?.nodeType || "UNKNOWN",
+      name: current?.name || "",
+      className: mapped.className,
+      style: mapped.style,
+      errors: mapped.errors,
+      children: Array.isArray(current?.children)
+        ? current.children.map((child) => visit(child, currentIsRelative))
+        : []
+    };
+  }
+  return visit(node, false);
 }

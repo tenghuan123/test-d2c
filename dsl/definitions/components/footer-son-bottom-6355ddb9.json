@@ -27,13 +27,18 @@
         "crossSizing": "auto",
         "gap": "28px",
         "padding": "20px 284px"
-      }
+      },
+      "textAlign": null,
+      "textMode": null
     },
     "children": [
       {
         "nodeType": "TEXT",
         "name": "增值电信业务经营许可证：川B2-20160192",
-        "styleRefs": [],
+        "styleRefs": [
+          "{textStyle.s-12px-18}",
+          "{color.ty-30}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 232,
@@ -41,13 +46,24 @@
             "relativeX": 210,
             "relativeY": 20
           },
-          "flexContainerInfo": null
-        }
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "增值电信业务经营许可证：川B2-20160192",
+            "font": "font_17:6533"
+          }
+        ]
       },
       {
         "nodeType": "TEXT",
         "name": "蜀ICP备12020238号-4",
-        "styleRefs": [],
+        "styleRefs": [
+          "{textStyle.s-12px-18}",
+          "{color.ty-30}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 126,
@@ -55,13 +71,24 @@
             "relativeX": 470,
             "relativeY": 20
           },
-          "flexContainerInfo": null
-        }
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "蜀ICP备12020238号-4",
+            "font": "font_17:6533"
+          }
+        ]
       },
       {
         "nodeType": "TEXT",
         "name": "川公网安备51019002000262",
-        "styleRefs": [],
+        "styleRefs": [
+          "{textStyle.s-12px-18}",
+          "{color.ty-30}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 157,
@@ -69,13 +96,24 @@
             "relativeX": 624,
             "relativeY": 20
           },
-          "flexContainerInfo": null
-        }
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "川公网安备51019002000262",
+            "font": "font_17:6533"
+          }
+        ]
       },
       {
         "nodeType": "TEXT",
         "name": "广播电视节目制作经营许可证（川）字第20170号",
-        "styleRefs": [],
+        "styleRefs": [
+          "{textStyle.s-12px-18}",
+          "{color.ty-30}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 261,
@@ -83,13 +121,24 @@
             "relativeX": 809,
             "relativeY": 20
           },
-          "flexContainerInfo": null
-        }
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "广播电视节目制作经营许可证（川）字第20170号",
+            "font": "font_17:6533"
+          }
+        ]
       },
       {
         "nodeType": "TEXT",
         "name": "违法和不良信息举报中心",
-        "styleRefs": [],
+        "styleRefs": [
+          "{textStyle.s-12px-18}",
+          "{color.ty-30}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 132,
@@ -97,8 +146,16 @@
             "relativeX": 1098,
             "relativeY": 20
           },
-          "flexContainerInfo": null
-        }
+          "flexContainerInfo": null,
+          "textAlign": "left",
+          "textMode": "single-line"
+        },
+        "text": [
+          {
+            "text": "违法和不良信息举报中心",
+            "font": "font_17:6533"
+          }
+        ]
       }
     ]
   }
