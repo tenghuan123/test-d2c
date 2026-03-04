@@ -238,6 +238,7 @@ export function mapDslTreeToTailwind(node, tokenStore, options = {}) {
     return {
       nodeType: current?.nodeType || "UNKNOWN",
       name: current?.name || "",
+      ref: current?.nodeType === "COMPONENT_REF" ? current?.ref || null : undefined,
       className: mapped.className,
       style: mapped.style,
       errors: mapped.errors,

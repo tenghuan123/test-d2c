@@ -1,10 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-03-04T09:06:29.755Z",
+  "generatedAt": "2026-03-04T09:51:36.575Z",
   "componentCount": 75,
   "components": [
     {
       "id": "1-a0-466e507f",
+      "sourceComponentId": "695:000652",
       "file": "definitions/components/1-a0-466e507f.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -51,6 +52,7 @@
     },
     {
       "id": "1-a0-dis-0e7d2d37",
+      "sourceComponentId": "17:01097",
       "file": "definitions/components/1-a0-dis-0e7d2d37.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -77,6 +79,7 @@
     },
     {
       "id": "1-a0-nor-0f1a73a4",
+      "sourceComponentId": "1066:122595",
       "file": "definitions/components/1-a0-nor-0f1a73a4.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -90,6 +93,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 3[a0]=nor",
+            "ref": "3-a0-nor-dc229f69",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -113,6 +117,7 @@
     },
     {
       "id": "1-a2-nor-056e5400",
+      "sourceComponentId": "8:1454",
       "file": "definitions/components/1-a2-nor-056e5400.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -137,6 +142,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 3[a0]=nor",
+            "ref": "3-a0-nor-a875a6dc",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%",
@@ -148,6 +154,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 3[a1]=nor",
+            "ref": "3-a1-nor-9178754c",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -160,6 +167,7 @@
     },
     {
       "id": "1-a2-nor-2b681135",
+      "sourceComponentId": "142:60456",
       "file": "definitions/components/1-a2-nor-2b681135.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -196,6 +204,7 @@
     },
     {
       "id": "1-a2-nor-3f878337",
+      "sourceComponentId": "641:90978",
       "file": "definitions/components/1-a2-nor-3f878337.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -220,6 +229,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 3[a0]=nor",
+            "ref": "3-a0-nor-a875a6dc",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%",
@@ -231,6 +241,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 3[a1]=nor",
+            "ref": "3-a1-nor-9178754c",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -243,6 +254,7 @@
     },
     {
       "id": "1-a2-nor-6f5d80f0",
+      "sourceComponentId": "23:5023",
       "file": "definitions/components/1-a2-nor-6f5d80f0.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -267,6 +279,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 2[a4]=down-nor",
+            "ref": "2-a4-down-nor-8221121b",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -279,6 +292,7 @@
     },
     {
       "id": "1-a2-nor-aaf25e53",
+      "sourceComponentId": "17:03790",
       "file": "definitions/components/1-a2-nor-aaf25e53.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -303,6 +317,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 2[a4]=down-nor",
+            "ref": "2-a4-down-nor-9858649d",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -315,6 +330,7 @@
     },
     {
       "id": "1-a2-sel-892f547d",
+      "sourceComponentId": "17:01010",
       "file": "definitions/components/1-a2-sel-892f547d.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -341,6 +357,7 @@
     },
     {
       "id": "1-a3-1145e0f3",
+      "sourceComponentId": "1157:048816",
       "file": "definitions/components/1-a3-1145e0f3.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -365,6 +382,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "光厂认证tag/已认证",
+                "ref": "tag-dc0340a2",
                 "className": "h-[20px] w-[20px]",
                 "style": {
                   "maxWidth": "100%"
@@ -388,6 +406,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "组 409",
+            "ref": "409-bece76ed",
             "className": "h-[12px] w-[12px]",
             "style": {
               "maxWidth": "100%"
@@ -400,6 +419,7 @@
     },
     {
       "id": "1-a3-5ss-596277a5",
+      "sourceComponentId": "276:76657",
       "file": "definitions/components/1-a3-5ss-596277a5.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -413,6 +433,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a5]=sel",
+            "ref": "1-a5-sel-d2160cee",
             "className": "flex flex-col h-[40px] w-[54px]",
             "style": {
               "maxWidth": "100%",
@@ -424,6 +445,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a3]=nor",
+            "ref": "1-a3-nor-23ad5f9d",
             "className": "flex flex-col h-[40px] w-[54px]",
             "style": {
               "maxWidth": "100%",
@@ -435,6 +457,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a3]=nor",
+            "ref": "1-a3-nor-23ad5f9d",
             "className": "flex flex-col h-[40px] w-[54px]",
             "style": {
               "maxWidth": "100%",
@@ -446,6 +469,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a3]=nor",
+            "ref": "1-a3-nor-23ad5f9d",
             "className": "flex flex-col h-[40px] w-[54px]",
             "style": {
               "maxWidth": "100%",
@@ -457,6 +481,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a3]=nor",
+            "ref": "1-a3-nor-23ad5f9d",
             "className": "flex flex-col h-[40px] w-[54px]",
             "style": {
               "maxWidth": "100%",
@@ -470,6 +495,7 @@
     },
     {
       "id": "1-a3-nor-23ad5f9d",
+      "sourceComponentId": "276:76621",
       "file": "definitions/components/1-a3-nor-23ad5f9d.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -529,6 +555,7 @@
     },
     {
       "id": "1-a3-nor-bad58b7d",
+      "sourceComponentId": "774:066224",
       "file": "definitions/components/1-a3-nor-bad58b7d.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -555,6 +582,7 @@
     },
     {
       "id": "1-a3-nor-c9175d91",
+      "sourceComponentId": "4789:170500",
       "file": "definitions/components/1-a3-nor-c9175d91.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -590,6 +618,7 @@
     },
     {
       "id": "1-a4-nor-27889cef",
+      "sourceComponentId": "8:1281",
       "file": "definitions/components/1-a4-nor-27889cef.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -616,6 +645,7 @@
     },
     {
       "id": "1-a4-nor-323df651",
+      "sourceComponentId": "8:1205",
       "file": "definitions/components/1-a4-nor-323df651.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -642,6 +672,7 @@
     },
     {
       "id": "1-a5-sel-d2160cee",
+      "sourceComponentId": "276:76612",
       "file": "definitions/components/1-a5-sel-d2160cee.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -701,6 +732,7 @@
     },
     {
       "id": "1-aa-nor-19349920",
+      "sourceComponentId": "731:002371",
       "file": "definitions/components/1-aa-nor-19349920.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -727,6 +759,7 @@
     },
     {
       "id": "1-al-36-2fce34c3",
+      "sourceComponentId": "8:1242",
       "file": "definitions/components/1-al-36-2fce34c3.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -752,6 +785,7 @@
     },
     {
       "id": "1128-80488c9a",
+      "sourceComponentId": null,
       "file": "definitions/components/1128-80488c9a.json",
       "mapped": {
         "nodeType": "FRAME",
@@ -783,6 +817,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "no-box/black",
+                    "ref": "no-box-black-414d0d4b",
                     "className": "h-[28px] w-[107px]",
                     "style": {
                       "maxWidth": "100%"
@@ -844,6 +879,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "copyright",
+                            "ref": "copyright-d22e4b36",
                             "className": "h-[12px] w-[12px]",
                             "style": {
                               "maxWidth": "100%"
@@ -880,6 +916,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 2[a1]=nor",
+                    "ref": "2-a1-nor-a61a444c",
                     "className": "bg-[#EDEDED] h-[48px] w-[48px]",
                     "style": {
                       "maxWidth": "100%"
@@ -890,6 +927,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 2",
+                    "ref": "2-a1-nor-a61a444c",
                     "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
@@ -901,6 +939,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 1",
+                    "ref": "2-a1-nor-a61a444c",
                     "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
@@ -912,6 +951,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 6",
+                    "ref": "tabs-footer-nor-6-860ba693",
                     "className": "bg-[#EDEDED] flex flex-col h-[48px] items-center justify-center w-[48px]",
                     "style": {
                       "maxWidth": "100%",
@@ -923,6 +963,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "tabs/footer/nor 3",
+                    "ref": "2-a1-nor-a61a444c",
                     "className": "bg-[#EDEDED] flex flex-col h-[48px] w-[48px]",
                     "style": {
                       "maxWidth": "100%",
@@ -1380,6 +1421,7 @@
     },
     {
       "id": "1589-29a69d67",
+      "sourceComponentId": "142:49290",
       "file": "definitions/components/1589-29a69d67.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1406,6 +1448,7 @@
     },
     {
       "id": "16-7f9f680b",
+      "sourceComponentId": "3827:150646",
       "file": "definitions/components/16-7f9f680b.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1443,6 +1486,7 @@
     },
     {
       "id": "2-a1-nor-a61a444c",
+      "sourceComponentId": "1004:044997",
       "file": "definitions/components/2-a1-nor-a61a444c.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1456,6 +1500,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "微信",
+            "ref": "node-b9b5acb3",
             "className": "h-[20px] w-[20px]",
             "style": {
               "maxWidth": "100%"
@@ -1468,6 +1513,7 @@
     },
     {
       "id": "2-a4-down-nor-8221121b",
+      "sourceComponentId": "17:7080",
       "file": "definitions/components/2-a4-down-nor-8221121b.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1503,6 +1549,7 @@
     },
     {
       "id": "2-a4-down-nor-9858649d",
+      "sourceComponentId": "17:01017",
       "file": "definitions/components/2-a4-down-nor-9858649d.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1538,6 +1585,7 @@
     },
     {
       "id": "2-a8-right-nor-5852e9b2",
+      "sourceComponentId": "17:7074",
       "file": "definitions/components/2-a8-right-nor-5852e9b2.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1573,6 +1621,7 @@
     },
     {
       "id": "2436-f9c9685f",
+      "sourceComponentId": "638:035977",
       "file": "definitions/components/2436-f9c9685f.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1609,6 +1658,7 @@
     },
     {
       "id": "2471-fbe8d2e2",
+      "sourceComponentId": "638:023082",
       "file": "definitions/components/2471-fbe8d2e2.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1636,6 +1686,7 @@
     },
     {
       "id": "2472-8237bb78",
+      "sourceComponentId": "638:034696",
       "file": "definitions/components/2472-8237bb78.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1661,6 +1712,7 @@
     },
     {
       "id": "3-a0-nor-a875a6dc",
+      "sourceComponentId": "8:1254",
       "file": "definitions/components/3-a0-nor-a875a6dc.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1708,6 +1760,7 @@
     },
     {
       "id": "3-a0-nor-dc229f69",
+      "sourceComponentId": "17:00830",
       "file": "definitions/components/3-a0-nor-dc229f69.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1755,6 +1808,7 @@
     },
     {
       "id": "3-a1-nor-9178754c",
+      "sourceComponentId": "8:1289",
       "file": "definitions/components/3-a1-nor-9178754c.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1812,6 +1866,7 @@
     },
     {
       "id": "3-aa-031be1d5",
+      "sourceComponentId": "721:015773",
       "file": "definitions/components/3-aa-031be1d5.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1862,6 +1917,7 @@
     },
     {
       "id": "3615-d37f156b",
+      "sourceComponentId": "669:94532",
       "file": "definitions/components/3615-d37f156b.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -1875,6 +1931,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "容器 2436",
+            "ref": "2436-f9c9685f",
             "className": "bg-[#0D0D0D] flex flex-col h-[56px] items-center justify-center px-5 py-4 w-[208px]",
             "style": {
               "maxWidth": "100%"
@@ -1903,6 +1960,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-9ee85330",
                     "className": "bg-[#F5F5F5] flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1913,6 +1971,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1923,6 +1982,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1933,6 +1993,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1943,6 +2004,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 3[a1]=nor",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1955,6 +2017,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "容器 2472",
+                "ref": "2472-8237bb78",
                 "className": "flex flex-col w-[208px]",
                 "style": {
                   "maxWidth": "100%"
@@ -1974,6 +2037,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "容器 2471",
+                    "ref": "2471-fbe8d2e2",
                     "className": "flex flex-row gap-1 h-[30px] items-center w-[192px]",
                     "style": {
                       "maxWidth": "100%",
@@ -1985,6 +2049,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -1995,6 +2060,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2005,6 +2071,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2015,6 +2082,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2027,6 +2095,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "容器 2482",
+                "ref": "2472-8237bb78",
                 "className": "flex flex-col w-[208px]",
                 "style": {
                   "maxWidth": "100%"
@@ -2046,6 +2115,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "容器 2471",
+                    "ref": "2471-fbe8d2e2",
                     "className": "flex flex-row gap-1 h-[30px] items-center w-[192px]",
                     "style": {
                       "maxWidth": "100%",
@@ -2057,6 +2127,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 3[aA]=奖金",
+                    "ref": "3-aa-031be1d5",
                     "className": "h-[48px] w-[184px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2067,6 +2138,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2079,6 +2151,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "容器 2483",
+                "ref": "2472-8237bb78",
                 "className": "flex flex-col w-[208px]",
                 "style": {
                   "maxWidth": "100%"
@@ -2098,6 +2171,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "容器 2471",
+                    "ref": "2471-fbe8d2e2",
                     "className": "flex flex-row gap-1 h-[30px] items-center w-[192px]",
                     "style": {
                       "maxWidth": "100%",
@@ -2109,6 +2183,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2119,6 +2194,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2129,6 +2205,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "侧边导航/son/list",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2139,6 +2216,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 3[a1]=nor",
+                    "ref": "son-list-c3d6d542",
                     "className": "flex flex-row gap-2 h-[48px] items-center px-4 py-3 w-[192px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2178,6 +2256,7 @@
     },
     {
       "id": "3678-b1dde581",
+      "sourceComponentId": "1466:096190",
       "file": "definitions/components/3678-b1dde581.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -2191,6 +2270,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "数据展示",
+            "ref": "node-d9e4c6e9",
             "className": "h-[24px] w-[77px]",
             "style": {
               "maxWidth": "100%"
@@ -2212,6 +2292,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "数据展示",
+            "ref": "node-d9e4c6e9",
             "className": "flex flex-row gap-1 h-[24px] items-center justify-center w-[105px]",
             "style": {
               "maxWidth": "100%"
@@ -2233,6 +2314,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "数据展示",
+            "ref": "node-d9e4c6e9",
             "className": "flex flex-row gap-1 h-[24px] items-center justify-center w-[58px]",
             "style": {
               "maxWidth": "100%"
@@ -2254,6 +2336,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "数据展示",
+            "ref": "node-d9e4c6e9",
             "className": "flex flex-row gap-1 h-[24px] items-center justify-center w-[71px]",
             "style": {
               "maxWidth": "100%"
@@ -2275,6 +2358,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "容器 1589",
+            "ref": "1589-29a69d67",
             "className": "flex flex-row gap-1 h-[24px] items-center justify-center w-[110px]",
             "style": {
               "maxWidth": "100%"
@@ -2287,6 +2371,7 @@
     },
     {
       "id": "3679-1d87d1b4",
+      "sourceComponentId": "1466:096219",
       "file": "definitions/components/3679-1d87d1b4.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -2361,6 +2446,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "icon/月榜",
+                        "ref": "icon-daba1c6b",
                         "className": "h-[20px] w-[20px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2371,6 +2457,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
+                        "ref": "tips-f02c3118",
                         "className": "flex flex-row h-[16px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
@@ -2394,6 +2481,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "icon/周榜",
+                        "ref": "icon-92a9c831",
                         "className": "h-[20px] w-[20px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2404,6 +2492,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
+                        "ref": "tips-f02c3118",
                         "className": "flex flex-row h-[16px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
@@ -2427,6 +2516,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "icon/首页推荐",
+                        "ref": "icon-ab9c4a0e",
                         "className": "flex flex-col h-[20px] items-center justify-center w-[20px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2437,6 +2527,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
+                        "ref": "tips-f02c3118",
                         "className": "flex flex-row h-[16px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
@@ -2460,6 +2551,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "icon/精选案例",
+                        "ref": "icon-cdc6fcbe",
                         "className": "flex flex-col h-[20px] items-center justify-center w-[20px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2470,6 +2562,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "tips",
+                        "ref": "tips-f02c3118",
                         "className": "flex flex-row h-[16px] w-[22px]",
                         "style": {
                           "maxWidth": "100%",
@@ -2497,6 +2590,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "tag/供稿人",
+                "ref": "tag-2c713570",
                 "className": "h-[26px] w-[97px]",
                 "style": {
                   "maxWidth": "100%",
@@ -2508,6 +2602,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "tag/供稿人",
+                "ref": "tag-2c713570",
                 "className": "flex flex-row gap-1 h-[26px] items-center justify-center px-2 py-1 w-[59px]",
                 "style": {
                   "maxWidth": "100%",
@@ -2519,6 +2614,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "tag/年龄",
+                "ref": "tag-849205f4",
                 "className": "h-[26px] w-[59px]",
                 "style": {
                   "maxWidth": "100%",
@@ -2534,6 +2630,7 @@
     },
     {
       "id": "3804-0e1306da",
+      "sourceComponentId": null,
       "file": "definitions/components/3804-0e1306da.json",
       "mapped": {
         "nodeType": "COMPONENT",
@@ -2547,6 +2644,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "组件 16",
+            "ref": "16-7f9f680b",
             "className": "flex flex-row gap-1 h-[30px] items-center w-[1084px]",
             "style": {
               "maxWidth": "100%"
@@ -2566,6 +2664,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a3]=nor",
+                "ref": "1-a3-nor-bad58b7d",
                 "className": "bg-[#EDEDED] h-[40px] w-[96px]",
                 "style": {
                   "maxWidth": "100%"
@@ -2576,6 +2675,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[aA]=nor",
+                "ref": "1-aa-nor-19349920",
                 "className": "bg-[#0D0D0D] h-[40px] w-[96px]",
                 "style": {
                   "maxWidth": "100%"
@@ -2590,6 +2690,7 @@
     },
     {
       "id": "3809-36f2c6ca",
+      "sourceComponentId": null,
       "file": "definitions/components/3809-36f2c6ca.json",
       "mapped": {
         "nodeType": "FRAME",
@@ -2632,6 +2733,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "主页信息",
+                    "ref": "node-02f5b924",
                     "className": "flex flex-row gap-10 h-[218px] px-7 py-6 w-[1360px]",
                     "style": {
                       "maxWidth": "100%",
@@ -2643,6 +2745,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "广告语",
+                    "ref": "node-cf55bd20",
                     "className": "flex flex-col h-[110px] px-7 py-6 w-[1360px]",
                     "style": {
                       "maxWidth": "100%",
@@ -2677,6 +2780,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a3]=5ss",
+                    "ref": "1-a3-5ss-596277a5",
                     "className": "h-[40px] w-[450px]",
                     "style": {
                       "maxWidth": "100%"
@@ -2699,6 +2803,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "choice/作品",
+                "ref": "choice-56824ac7",
                 "className": "flex flex-row gap-5 h-[80px] items-center w-[1312px]",
                 "style": {
                   "maxWidth": "100%",
@@ -2728,6 +2833,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "容器 3978",
+                        "ref": "3978-84b7c827",
                         "className": "flex flex-row gap-x-6 gap-y-10 h-[30px] items-center w-[1312px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2747,6 +2853,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "card/案例/收藏",
+                            "ref": "card-38aa4e40",
                             "className": "h-[262px] w-[310px]",
                             "style": {
                               "maxWidth": "100%"
@@ -2757,6 +2864,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "card/案例/收藏",
+                            "ref": "card-38aa4e40",
                             "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                             "style": {
                               "maxWidth": "100%"
@@ -2767,6 +2875,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "card/案例/收藏",
+                            "ref": "card-38aa4e40",
                             "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                             "style": {
                               "maxWidth": "100%"
@@ -2777,6 +2886,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "card/案例/收藏",
+                            "ref": "card-38aa4e40",
                             "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                             "style": {
                               "maxWidth": "100%"
@@ -2800,6 +2910,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "容器 3804",
+                        "ref": "3804-0e1306da",
                         "className": "flex flex-row gap-5 h-[40px] items-center w-[1312px]",
                         "style": {
                           "maxWidth": "100%"
@@ -2828,6 +2939,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2838,6 +2950,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2848,6 +2961,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2858,6 +2972,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2868,6 +2983,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2878,6 +2994,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2888,6 +3005,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2898,6 +3016,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "card/案例/收藏",
+                                "ref": "card-38aa4e40",
                                 "className": "flex flex-col gap-3 h-[262px] w-[310px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -2910,6 +3029,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "L/only",
+                            "ref": "l-only-440d065f",
                             "className": "flex flex-row gap-5 h-[40px] w-[244px]",
                             "style": {
                               "maxWidth": "100%"
@@ -2930,6 +3050,7 @@
     },
     {
       "id": "3978-84b7c827",
+      "sourceComponentId": "3827:150904",
       "file": "definitions/components/3978-84b7c827.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -2943,6 +3064,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "组件 16",
+            "ref": "16-7f9f680b",
             "className": "flex flex-row gap-1 h-[30px] items-center w-[274px]",
             "style": {
               "maxWidth": "100%"
@@ -2953,6 +3075,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "文本提示",
+            "ref": "node-b007f638",
             "className": "flex flex-row gap-1 h-[22px] items-center w-[234px]",
             "style": {
               "maxWidth": "100%"
@@ -2965,6 +3088,7 @@
     },
     {
       "id": "409-bece76ed",
+      "sourceComponentId": "1136:080157",
       "file": "definitions/components/409-bece76ed.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3000,6 +3124,7 @@
     },
     {
       "id": "728-400a6c3c",
+      "sourceComponentId": null,
       "file": "definitions/components/728-400a6c3c.json",
       "mapped": {
         "nodeType": "LAYER",
@@ -3014,6 +3139,7 @@
     },
     {
       "id": "card-38aa4e40",
+      "sourceComponentId": "1157:039105",
       "file": "definitions/components/card-38aa4e40.json",
       "mapped": {
         "nodeType": "COMPONENT",
@@ -3074,6 +3200,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "tag/人气标",
+                            "ref": "tag-bda69645",
                             "className": "h-[14px] w-[14px]",
                             "style": {
                               "maxWidth": "100%"
@@ -3106,6 +3233,7 @@
                           {
                             "nodeType": "COMPONENT_REF",
                             "name": "详情页/icon/star",
+                            "ref": "icon-star-2071444c",
                             "className": "h-[14px] w-[14px]",
                             "style": {
                               "maxWidth": "100%"
@@ -3239,6 +3367,7 @@
                       {
                         "nodeType": "COMPONENT_REF",
                         "name": "属性 2[a8]=right-nor",
+                        "ref": "2-a8-right-nor-5852e9b2",
                         "className": "h-[16px] w-[16px]",
                         "style": {
                           "maxWidth": "100%"
@@ -3263,6 +3392,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a2]=nor",
+                    "ref": "1-a2-nor-2b681135",
                     "className": "h-[20px] w-[20px]",
                     "style": {
                       "maxWidth": "100%"
@@ -3279,6 +3409,7 @@
     },
     {
       "id": "choice-56824ac7",
+      "sourceComponentId": null,
       "file": "definitions/components/choice-56824ac7.json",
       "mapped": {
         "nodeType": "COMPONENT",
@@ -3302,6 +3433,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=nor",
+                "ref": "1-a2-nor-6f5d80f0",
                 "className": "flex flex-row gap-1 h-[22px] items-center justify-end w-[76px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3322,6 +3454,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=nor",
+                "ref": "1-a2-nor-aaf25e53",
                 "className": "flex flex-row gap-1 h-[22px] items-center w-[48px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3332,6 +3465,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=nor",
+                "ref": "1-a2-nor-aaf25e53",
                 "className": "flex flex-row gap-1 h-[22px] items-center w-[76px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3342,6 +3476,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=nor",
+                "ref": "1-a2-nor-aaf25e53",
                 "className": "flex flex-row gap-1 h-[22px] items-center w-[48px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3352,6 +3487,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=nor",
+                "ref": "1-a2-nor-aaf25e53",
                 "className": "flex flex-row gap-1 h-[22px] items-center w-[48px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3362,6 +3498,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a0]=nor",
+                "ref": "1-a0-nor-0f1a73a4",
                 "className": "flex flex-row gap-1 h-[30px] items-center justify-end px-2 py-1 w-[92px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3374,6 +3511,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a2]=nor",
+            "ref": "1-a2-nor-3f878337",
             "className": "bg-[#F5F5F5] h-[40px] w-[260px]",
             "style": {
               "maxWidth": "100%"
@@ -3386,6 +3524,7 @@
     },
     {
       "id": "copyright-d22e4b36",
+      "sourceComponentId": "17:6377",
       "file": "definitions/components/copyright-d22e4b36.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3432,6 +3571,7 @@
     },
     {
       "id": "footer-son-bottom-6355ddb9",
+      "sourceComponentId": null,
       "file": "definitions/components/footer-son-bottom-6355ddb9.json",
       "mapped": {
         "nodeType": "FRAME",
@@ -3502,6 +3642,7 @@
     },
     {
       "id": "header-1440-6642af4d",
+      "sourceComponentId": "12:0267",
       "file": "definitions/components/header-1440-6642af4d.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3525,6 +3666,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "logo/no -box",
+                "ref": "logo-no-box-3b21406c",
                 "className": "h-[22px] w-[126px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3544,6 +3686,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-323df651",
                     "className": "h-[40px] w-[64px]",
                     "style": {
                       "maxWidth": "100%"
@@ -3554,6 +3697,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-323df651",
                     "className": "h-[40px] w-[80px]",
                     "style": {
                       "maxWidth": "100%"
@@ -3564,6 +3708,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-323df651",
                     "className": "h-[40px] w-[64px]",
                     "style": {
                       "maxWidth": "100%"
@@ -3574,6 +3719,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-323df651",
                     "className": "h-[40px] w-[96px]",
                     "style": {
                       "maxWidth": "100%"
@@ -3588,6 +3734,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a2]=nor",
+            "ref": "1-a2-nor-056e5400",
             "className": "h-[40px] w-[260px]",
             "style": {
               "maxWidth": "100%"
@@ -3598,6 +3745,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "son/白色",
+            "ref": "son-f2e2aba0",
             "className": "h-[36px] w-[299px]",
             "style": {
               "maxWidth": "100%"
@@ -3610,6 +3758,7 @@
     },
     {
       "id": "header-son-icon-07356da8",
+      "sourceComponentId": "1527:114914",
       "file": "definitions/components/header-son-icon-07356da8.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3623,6 +3772,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a3]=nor",
+            "ref": "1-a3-nor-c9175d91",
             "className": "h-[20px] w-[20px]",
             "style": {
               "maxWidth": "100%"
@@ -3635,6 +3785,7 @@
     },
     {
       "id": "icon-414f9483",
+      "sourceComponentId": "142:73430",
       "file": "definitions/components/icon-414f9483.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3701,6 +3852,7 @@
     },
     {
       "id": "icon-92a9c831",
+      "sourceComponentId": "73:71138",
       "file": "definitions/components/icon-92a9c831.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3746,6 +3898,7 @@
     },
     {
       "id": "icon-ab9c4a0e",
+      "sourceComponentId": "73:74568",
       "file": "definitions/components/icon-ab9c4a0e.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3792,6 +3945,7 @@
     },
     {
       "id": "icon-cdc6fcbe",
+      "sourceComponentId": "73:002006",
       "file": "definitions/components/icon-cdc6fcbe.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3859,6 +4013,7 @@
     },
     {
       "id": "icon-daba1c6b",
+      "sourceComponentId": "1061:128651",
       "file": "definitions/components/icon-daba1c6b.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3904,6 +4059,7 @@
     },
     {
       "id": "icon-star-2071444c",
+      "sourceComponentId": "14:1775",
       "file": "definitions/components/icon-star-2071444c.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3940,6 +4096,7 @@
     },
     {
       "id": "l-only-440d065f",
+      "sourceComponentId": "657:008949",
       "file": "definitions/components/l-only-440d065f.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -3953,6 +4110,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a0]=dis",
+            "ref": "1-a0-dis-0e7d2d37",
             "className": "bg-[#FEFEFE] h-[40px] w-[82px]",
             "style": {
               "maxWidth": "100%"
@@ -3972,6 +4130,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "属性 1[a2]=sel",
+                "ref": "1-a2-sel-892f547d",
                 "className": "bg-[#0D0D0D] h-[40px] w-[40px]",
                 "style": {
                   "maxWidth": "100%"
@@ -3984,6 +4143,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a0]=dis",
+            "ref": "1-a0-dis-0e7d2d37",
             "className": "bg-[#FEFEFE] h-[40px] w-[82px]",
             "style": {
               "maxWidth": "100%"
@@ -3996,6 +4156,7 @@
     },
     {
       "id": "logo-no-box-3b21406c",
+      "sourceComponentId": "12:0396",
       "file": "definitions/components/logo-no-box-3b21406c.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4165,6 +4326,7 @@
     },
     {
       "id": "no-box-black-414d0d4b",
+      "sourceComponentId": "8:1187",
       "file": "definitions/components/no-box-black-414d0d4b.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4260,6 +4422,7 @@
     },
     {
       "id": "node-02f5b924",
+      "sourceComponentId": null,
       "file": "definitions/components/node-02f5b924.json",
       "mapped": {
         "nodeType": "COMPONENT",
@@ -4352,6 +4515,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "属性 1[a0]=个人",
+                                "ref": "1-a0-466e507f",
                                 "className": "h-[24px] w-[24px]",
                                 "style": {
                                   "maxWidth": "100%"
@@ -4362,6 +4526,7 @@
                               {
                                 "nodeType": "COMPONENT_REF",
                                 "name": "属性 1[a3]=已认证",
+                                "ref": "1-a3-1145e0f3",
                                 "className": "h-[24px] w-[142px]",
                                 "style": {
                                   "maxWidth": "100%",
@@ -4381,6 +4546,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "容器 3678",
+                "ref": "3678-b1dde581",
                 "className": "flex flex-row gap-x-3 gap-y-4 h-[24px] items-center w-[553px]",
                 "style": {
                   "maxWidth": "100%"
@@ -4391,6 +4557,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "容器 3679",
+                "ref": "3679-1d87d1b4",
                 "className": "flex flex-row gap-x-3 gap-y-6 h-[38px] items-center w-[532px]",
                 "style": {
                   "maxWidth": "100%"
@@ -4570,6 +4737,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "share",
+                    "ref": "share-3c2bcf7f",
                     "className": "flex flex-row h-[20px] items-center justify-center w-[20px]",
                     "style": {
                       "maxWidth": "100%",
@@ -4587,6 +4755,7 @@
     },
     {
       "id": "node-7c83b954",
+      "sourceComponentId": "17:6356",
       "file": "definitions/components/node-7c83b954.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4633,6 +4802,7 @@
     },
     {
       "id": "node-b007f638",
+      "sourceComponentId": "3827:150894",
       "file": "definitions/components/node-b007f638.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4657,6 +4827,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[a2]=nor",
+            "ref": "1-a2-nor-2b681135",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -4680,6 +4851,7 @@
     },
     {
       "id": "node-b9b5acb3",
+      "sourceComponentId": "1004:044992",
       "file": "definitions/components/node-b9b5acb3.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4704,6 +4876,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "wx",
+            "ref": "wx-1773da22",
             "className": "h-[24px] w-[24px]",
             "style": {
               "maxWidth": "100%"
@@ -4716,6 +4889,7 @@
     },
     {
       "id": "node-cf55bd20",
+      "sourceComponentId": "347:038522",
       "file": "definitions/components/node-cf55bd20.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4766,6 +4940,7 @@
     },
     {
       "id": "node-d9e4c6e9",
+      "sourceComponentId": "1157:060148",
       "file": "definitions/components/node-d9e4c6e9.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4804,6 +4979,7 @@
     },
     {
       "id": "share-3c2bcf7f",
+      "sourceComponentId": "18:1447",
       "file": "definitions/components/share-3c2bcf7f.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4881,6 +5057,7 @@
     },
     {
       "id": "son-002375d2",
+      "sourceComponentId": "1237:083311",
       "file": "definitions/components/son-002375d2.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4894,6 +5071,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "tag/人气标-black",
+            "ref": "tag-black-89414aeb",
             "className": "h-[16px] w-[16px]",
             "style": {
               "maxWidth": "100%"
@@ -4917,6 +5095,7 @@
     },
     {
       "id": "son-f2e2aba0",
+      "sourceComponentId": "12:1446",
       "file": "definitions/components/son-f2e2aba0.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -4948,6 +5127,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "header/son/icon",
+                    "ref": "header-son-icon-07356da8",
                     "className": "h-[36px] w-[44px]",
                     "style": {
                       "maxWidth": "100%"
@@ -4958,6 +5138,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-27889cef",
                     "className": "h-[36px] w-[52px]",
                     "style": {
                       "maxWidth": "100%"
@@ -4968,6 +5149,7 @@
                   {
                     "nodeType": "COMPONENT_REF",
                     "name": "属性 1[a4]=nor",
+                    "ref": "1-a4-nor-27889cef",
                     "className": "h-[36px] w-[52px]",
                     "style": {
                       "maxWidth": "100%"
@@ -4980,6 +5162,7 @@
               {
                 "nodeType": "COMPONENT_REF",
                 "name": "son/人气",
+                "ref": "son-002375d2",
                 "className": "bg-[#F5F5F5] h-[36px] w-[67px]",
                 "style": {
                   "maxWidth": "100%"
@@ -4992,6 +5175,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "属性 1[aL]=36",
+            "ref": "1-al-36-2fce34c3",
             "className": "h-[36px] w-[36px]",
             "style": {
               "maxWidth": "100%"
@@ -5004,6 +5188,7 @@
     },
     {
       "id": "son-list-9ee85330",
+      "sourceComponentId": "669:94518",
       "file": "definitions/components/son-list-9ee85330.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5030,6 +5215,7 @@
     },
     {
       "id": "son-list-c3d6d542",
+      "sourceComponentId": "669:94508",
       "file": "definitions/components/son-list-c3d6d542.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5056,6 +5242,7 @@
     },
     {
       "id": "tabs-footer-nor-6-860ba693",
+      "sourceComponentId": "17:6383",
       "file": "definitions/components/tabs-footer-nor-6-860ba693.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5103,6 +5290,7 @@
     },
     {
       "id": "tag-2c713570",
+      "sourceComponentId": "142:67474",
       "file": "definitions/components/tag-2c713570.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5141,6 +5329,7 @@
     },
     {
       "id": "tag-849205f4",
+      "sourceComponentId": "278:41810",
       "file": "definitions/components/tag-849205f4.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5155,6 +5344,7 @@
           {
             "nodeType": "COMPONENT_REF",
             "name": "icon/性别/男",
+            "ref": "icon-414f9483",
             "className": "h-[12px] w-[12px]",
             "style": {
               "maxWidth": "100%"
@@ -5178,6 +5368,7 @@
     },
     {
       "id": "tag-bda69645",
+      "sourceComponentId": "1061:025275",
       "file": "definitions/components/tag-bda69645.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5225,6 +5416,7 @@
     },
     {
       "id": "tag-black-89414aeb",
+      "sourceComponentId": "1061:128613",
       "file": "definitions/components/tag-black-89414aeb.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5272,6 +5464,7 @@
     },
     {
       "id": "tag-dc0340a2",
+      "sourceComponentId": "353:92446",
       "file": "definitions/components/tag-dc0340a2.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5318,6 +5511,7 @@
     },
     {
       "id": "tips-f02c3118",
+      "sourceComponentId": "287:44297",
       "file": "definitions/components/tips-f02c3118.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5346,6 +5540,7 @@
     },
     {
       "id": "wx-1773da22",
+      "sourceComponentId": "17:6361",
       "file": "definitions/components/wx-1773da22.json",
       "mapped": {
         "nodeType": "INSTANCE",
@@ -5391,5 +5586,867 @@
         ]
       }
     }
-  ]
+  ],
+  "refStats": {
+    "directRefCounts": {
+      "1-a0-466e507f": 1,
+      "1-a0-dis-0e7d2d37": 2,
+      "1-a0-nor-0f1a73a4": 1,
+      "1-a2-nor-056e5400": 1,
+      "1-a2-nor-2b681135": 2,
+      "1-a2-nor-3f878337": 1,
+      "1-a2-nor-6f5d80f0": 1,
+      "1-a2-nor-aaf25e53": 4,
+      "1-a2-sel-892f547d": 1,
+      "1-a3-1145e0f3": 1,
+      "1-a3-5ss-596277a5": 1,
+      "1-a3-nor-23ad5f9d": 4,
+      "1-a3-nor-bad58b7d": 1,
+      "1-a3-nor-c9175d91": 1,
+      "1-a4-nor-27889cef": 2,
+      "1-a4-nor-323df651": 4,
+      "1-a5-sel-d2160cee": 1,
+      "1-aa-nor-19349920": 1,
+      "1-al-36-2fce34c3": 1,
+      "1589-29a69d67": 1,
+      "16-7f9f680b": 2,
+      "2-a1-nor-a61a444c": 4,
+      "2-a4-down-nor-8221121b": 1,
+      "2-a4-down-nor-9858649d": 1,
+      "2-a8-right-nor-5852e9b2": 1,
+      "2436-f9c9685f": 1,
+      "2471-fbe8d2e2": 3,
+      "2472-8237bb78": 3,
+      "3-a0-nor-a875a6dc": 2,
+      "3-a0-nor-dc229f69": 1,
+      "3-a1-nor-9178754c": 2,
+      "3-aa-031be1d5": 1,
+      "3678-b1dde581": 1,
+      "3679-1d87d1b4": 1,
+      "3804-0e1306da": 1,
+      "3978-84b7c827": 1,
+      "409-bece76ed": 1,
+      "card-38aa4e40": 12,
+      "choice-56824ac7": 1,
+      "copyright-d22e4b36": 1,
+      "header-son-icon-07356da8": 1,
+      "icon-414f9483": 1,
+      "icon-92a9c831": 1,
+      "icon-ab9c4a0e": 1,
+      "icon-cdc6fcbe": 1,
+      "icon-daba1c6b": 1,
+      "icon-star-2071444c": 1,
+      "l-only-440d065f": 1,
+      "logo-no-box-3b21406c": 1,
+      "no-box-black-414d0d4b": 1,
+      "node-02f5b924": 1,
+      "node-b007f638": 1,
+      "node-b9b5acb3": 1,
+      "node-cf55bd20": 1,
+      "node-d9e4c6e9": 4,
+      "share-3c2bcf7f": 1,
+      "son-002375d2": 1,
+      "son-f2e2aba0": 1,
+      "son-list-9ee85330": 1,
+      "son-list-c3d6d542": 13,
+      "tabs-footer-nor-6-860ba693": 1,
+      "tag-2c713570": 2,
+      "tag-849205f4": 1,
+      "tag-bda69645": 1,
+      "tag-black-89414aeb": 1,
+      "tag-dc0340a2": 1,
+      "tips-f02c3118": 4,
+      "wx-1773da22": 1
+    },
+    "expandedRefCounts": {
+      "1-a0-466e507f": 2,
+      "1-a0-dis-0e7d2d37": 4,
+      "1-a0-nor-0f1a73a4": 2,
+      "1-a2-nor-056e5400": 1,
+      "1-a2-nor-2b681135": 16,
+      "1-a2-nor-3f878337": 2,
+      "1-a2-nor-6f5d80f0": 2,
+      "1-a2-nor-aaf25e53": 8,
+      "1-a2-sel-892f547d": 2,
+      "1-a3-1145e0f3": 2,
+      "1-a3-5ss-596277a5": 1,
+      "1-a3-nor-23ad5f9d": 8,
+      "1-a3-nor-bad58b7d": 2,
+      "1-a3-nor-c9175d91": 3,
+      "1-a4-nor-27889cef": 4,
+      "1-a4-nor-323df651": 4,
+      "1-a5-sel-d2160cee": 2,
+      "1-aa-nor-19349920": 2,
+      "1-al-36-2fce34c3": 2,
+      "1589-29a69d67": 3,
+      "16-7f9f680b": 4,
+      "2-a1-nor-a61a444c": 4,
+      "2-a4-down-nor-8221121b": 3,
+      "2-a4-down-nor-9858649d": 9,
+      "2-a8-right-nor-5852e9b2": 13,
+      "2436-f9c9685f": 1,
+      "2471-fbe8d2e2": 3,
+      "2472-8237bb78": 3,
+      "3-a0-nor-a875a6dc": 5,
+      "3-a0-nor-dc229f69": 3,
+      "3-a1-nor-9178754c": 5,
+      "3-aa-031be1d5": 1,
+      "3678-b1dde581": 2,
+      "3679-1d87d1b4": 2,
+      "3804-0e1306da": 1,
+      "3978-84b7c827": 1,
+      "409-bece76ed": 3,
+      "card-38aa4e40": 12,
+      "choice-56824ac7": 1,
+      "copyright-d22e4b36": 1,
+      "header-son-icon-07356da8": 2,
+      "icon-414f9483": 4,
+      "icon-92a9c831": 3,
+      "icon-ab9c4a0e": 3,
+      "icon-cdc6fcbe": 3,
+      "icon-daba1c6b": 3,
+      "icon-star-2071444c": 13,
+      "l-only-440d065f": 1,
+      "logo-no-box-3b21406c": 1,
+      "no-box-black-414d0d4b": 1,
+      "node-02f5b924": 1,
+      "node-b007f638": 2,
+      "node-b9b5acb3": 5,
+      "node-cf55bd20": 1,
+      "node-d9e4c6e9": 12,
+      "share-3c2bcf7f": 2,
+      "son-002375d2": 2,
+      "son-f2e2aba0": 1,
+      "son-list-9ee85330": 1,
+      "son-list-c3d6d542": 13,
+      "tabs-footer-nor-6-860ba693": 1,
+      "tag-2c713570": 6,
+      "tag-849205f4": 3,
+      "tag-bda69645": 13,
+      "tag-black-89414aeb": 3,
+      "tag-dc0340a2": 3,
+      "tips-f02c3118": 12,
+      "wx-1773da22": 6
+    },
+    "unresolvedRefs": [],
+    "cyclicRefs": [],
+    "byComponent": [
+      {
+        "id": "1-a0-466e507f",
+        "sourceComponentId": "695:000652",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a0-dis-0e7d2d37",
+        "sourceComponentId": "17:01097",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a0-nor-0f1a73a4",
+        "sourceComponentId": "1066:122595",
+        "directRefCounts": {
+          "3-a0-nor-dc229f69": 1
+        },
+        "expandedRefCounts": {
+          "3-a0-nor-dc229f69": 1
+        }
+      },
+      {
+        "id": "1-a2-nor-056e5400",
+        "sourceComponentId": "8:1454",
+        "directRefCounts": {
+          "3-a0-nor-a875a6dc": 1,
+          "3-a1-nor-9178754c": 1
+        },
+        "expandedRefCounts": {
+          "3-a0-nor-a875a6dc": 1,
+          "3-a1-nor-9178754c": 1
+        }
+      },
+      {
+        "id": "1-a2-nor-2b681135",
+        "sourceComponentId": "142:60456",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a2-nor-3f878337",
+        "sourceComponentId": "641:90978",
+        "directRefCounts": {
+          "3-a0-nor-a875a6dc": 1,
+          "3-a1-nor-9178754c": 1
+        },
+        "expandedRefCounts": {
+          "3-a0-nor-a875a6dc": 1,
+          "3-a1-nor-9178754c": 1
+        }
+      },
+      {
+        "id": "1-a2-nor-6f5d80f0",
+        "sourceComponentId": "23:5023",
+        "directRefCounts": {
+          "2-a4-down-nor-8221121b": 1
+        },
+        "expandedRefCounts": {
+          "2-a4-down-nor-8221121b": 1
+        }
+      },
+      {
+        "id": "1-a2-nor-aaf25e53",
+        "sourceComponentId": "17:03790",
+        "directRefCounts": {
+          "2-a4-down-nor-9858649d": 1
+        },
+        "expandedRefCounts": {
+          "2-a4-down-nor-9858649d": 1
+        }
+      },
+      {
+        "id": "1-a2-sel-892f547d",
+        "sourceComponentId": "17:01010",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a3-1145e0f3",
+        "sourceComponentId": "1157:048816",
+        "directRefCounts": {
+          "409-bece76ed": 1,
+          "tag-dc0340a2": 1
+        },
+        "expandedRefCounts": {
+          "409-bece76ed": 1,
+          "tag-dc0340a2": 1
+        }
+      },
+      {
+        "id": "1-a3-5ss-596277a5",
+        "sourceComponentId": "276:76657",
+        "directRefCounts": {
+          "1-a3-nor-23ad5f9d": 4,
+          "1-a5-sel-d2160cee": 1
+        },
+        "expandedRefCounts": {
+          "1-a3-nor-23ad5f9d": 4,
+          "1-a5-sel-d2160cee": 1
+        }
+      },
+      {
+        "id": "1-a3-nor-23ad5f9d",
+        "sourceComponentId": "276:76621",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a3-nor-bad58b7d",
+        "sourceComponentId": "774:066224",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a3-nor-c9175d91",
+        "sourceComponentId": "4789:170500",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a4-nor-27889cef",
+        "sourceComponentId": "8:1281",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a4-nor-323df651",
+        "sourceComponentId": "8:1205",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-a5-sel-d2160cee",
+        "sourceComponentId": "276:76612",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-aa-nor-19349920",
+        "sourceComponentId": "731:002371",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1-al-36-2fce34c3",
+        "sourceComponentId": "8:1242",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "1128-80488c9a",
+        "sourceComponentId": null,
+        "directRefCounts": {
+          "2-a1-nor-a61a444c": 4,
+          "copyright-d22e4b36": 1,
+          "no-box-black-414d0d4b": 1,
+          "tabs-footer-nor-6-860ba693": 1
+        },
+        "expandedRefCounts": {
+          "2-a1-nor-a61a444c": 4,
+          "copyright-d22e4b36": 1,
+          "no-box-black-414d0d4b": 1,
+          "node-b9b5acb3": 4,
+          "tabs-footer-nor-6-860ba693": 1,
+          "wx-1773da22": 4
+        }
+      },
+      {
+        "id": "1589-29a69d67",
+        "sourceComponentId": "142:49290",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "16-7f9f680b",
+        "sourceComponentId": "3827:150646",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2-a1-nor-a61a444c",
+        "sourceComponentId": "1004:044997",
+        "directRefCounts": {
+          "node-b9b5acb3": 1
+        },
+        "expandedRefCounts": {
+          "node-b9b5acb3": 1,
+          "wx-1773da22": 1
+        }
+      },
+      {
+        "id": "2-a4-down-nor-8221121b",
+        "sourceComponentId": "17:7080",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2-a4-down-nor-9858649d",
+        "sourceComponentId": "17:01017",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2-a8-right-nor-5852e9b2",
+        "sourceComponentId": "17:7074",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2436-f9c9685f",
+        "sourceComponentId": "638:035977",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2471-fbe8d2e2",
+        "sourceComponentId": "638:023082",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "2472-8237bb78",
+        "sourceComponentId": "638:034696",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "3-a0-nor-a875a6dc",
+        "sourceComponentId": "8:1254",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "3-a0-nor-dc229f69",
+        "sourceComponentId": "17:00830",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "3-a1-nor-9178754c",
+        "sourceComponentId": "8:1289",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "3-aa-031be1d5",
+        "sourceComponentId": "721:015773",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "3615-d37f156b",
+        "sourceComponentId": "669:94532",
+        "directRefCounts": {
+          "2436-f9c9685f": 1,
+          "2471-fbe8d2e2": 3,
+          "2472-8237bb78": 3,
+          "3-aa-031be1d5": 1,
+          "son-list-9ee85330": 1,
+          "son-list-c3d6d542": 13
+        },
+        "expandedRefCounts": {
+          "2436-f9c9685f": 1,
+          "2471-fbe8d2e2": 3,
+          "2472-8237bb78": 3,
+          "3-aa-031be1d5": 1,
+          "son-list-9ee85330": 1,
+          "son-list-c3d6d542": 13
+        }
+      },
+      {
+        "id": "3678-b1dde581",
+        "sourceComponentId": "1466:096190",
+        "directRefCounts": {
+          "1589-29a69d67": 1,
+          "node-d9e4c6e9": 4
+        },
+        "expandedRefCounts": {
+          "1589-29a69d67": 1,
+          "node-d9e4c6e9": 4
+        }
+      },
+      {
+        "id": "3679-1d87d1b4",
+        "sourceComponentId": "1466:096219",
+        "directRefCounts": {
+          "icon-92a9c831": 1,
+          "icon-ab9c4a0e": 1,
+          "icon-cdc6fcbe": 1,
+          "icon-daba1c6b": 1,
+          "tag-2c713570": 2,
+          "tag-849205f4": 1,
+          "tips-f02c3118": 4
+        },
+        "expandedRefCounts": {
+          "icon-414f9483": 1,
+          "icon-92a9c831": 1,
+          "icon-ab9c4a0e": 1,
+          "icon-cdc6fcbe": 1,
+          "icon-daba1c6b": 1,
+          "tag-2c713570": 2,
+          "tag-849205f4": 1,
+          "tips-f02c3118": 4
+        }
+      },
+      {
+        "id": "3804-0e1306da",
+        "sourceComponentId": null,
+        "directRefCounts": {
+          "1-a3-nor-bad58b7d": 1,
+          "1-aa-nor-19349920": 1,
+          "16-7f9f680b": 1
+        },
+        "expandedRefCounts": {
+          "1-a3-nor-bad58b7d": 1,
+          "1-aa-nor-19349920": 1,
+          "16-7f9f680b": 1
+        }
+      },
+      {
+        "id": "3809-36f2c6ca",
+        "sourceComponentId": null,
+        "directRefCounts": {
+          "1-a3-5ss-596277a5": 1,
+          "3804-0e1306da": 1,
+          "3978-84b7c827": 1,
+          "card-38aa4e40": 12,
+          "choice-56824ac7": 1,
+          "l-only-440d065f": 1,
+          "node-02f5b924": 1,
+          "node-cf55bd20": 1
+        },
+        "expandedRefCounts": {
+          "1-a0-466e507f": 1,
+          "1-a0-dis-0e7d2d37": 2,
+          "1-a0-nor-0f1a73a4": 1,
+          "1-a2-nor-2b681135": 13,
+          "1-a2-nor-3f878337": 1,
+          "1-a2-nor-6f5d80f0": 1,
+          "1-a2-nor-aaf25e53": 4,
+          "1-a2-sel-892f547d": 1,
+          "1-a3-1145e0f3": 1,
+          "1-a3-5ss-596277a5": 1,
+          "1-a3-nor-23ad5f9d": 4,
+          "1-a3-nor-bad58b7d": 1,
+          "1-a5-sel-d2160cee": 1,
+          "1-aa-nor-19349920": 1,
+          "1589-29a69d67": 1,
+          "16-7f9f680b": 2,
+          "2-a4-down-nor-8221121b": 1,
+          "2-a4-down-nor-9858649d": 4,
+          "2-a8-right-nor-5852e9b2": 12,
+          "3-a0-nor-a875a6dc": 1,
+          "3-a0-nor-dc229f69": 1,
+          "3-a1-nor-9178754c": 1,
+          "3678-b1dde581": 1,
+          "3679-1d87d1b4": 1,
+          "3804-0e1306da": 1,
+          "3978-84b7c827": 1,
+          "409-bece76ed": 1,
+          "card-38aa4e40": 12,
+          "choice-56824ac7": 1,
+          "icon-414f9483": 1,
+          "icon-92a9c831": 1,
+          "icon-ab9c4a0e": 1,
+          "icon-cdc6fcbe": 1,
+          "icon-daba1c6b": 1,
+          "icon-star-2071444c": 12,
+          "l-only-440d065f": 1,
+          "node-02f5b924": 1,
+          "node-b007f638": 1,
+          "node-cf55bd20": 1,
+          "node-d9e4c6e9": 4,
+          "share-3c2bcf7f": 1,
+          "tag-2c713570": 2,
+          "tag-849205f4": 1,
+          "tag-bda69645": 12,
+          "tag-dc0340a2": 1,
+          "tips-f02c3118": 4
+        }
+      },
+      {
+        "id": "3978-84b7c827",
+        "sourceComponentId": "3827:150904",
+        "directRefCounts": {
+          "16-7f9f680b": 1,
+          "node-b007f638": 1
+        },
+        "expandedRefCounts": {
+          "1-a2-nor-2b681135": 1,
+          "16-7f9f680b": 1,
+          "node-b007f638": 1
+        }
+      },
+      {
+        "id": "409-bece76ed",
+        "sourceComponentId": "1136:080157",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "728-400a6c3c",
+        "sourceComponentId": null,
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "card-38aa4e40",
+        "sourceComponentId": "1157:039105",
+        "directRefCounts": {
+          "1-a2-nor-2b681135": 1,
+          "2-a8-right-nor-5852e9b2": 1,
+          "icon-star-2071444c": 1,
+          "tag-bda69645": 1
+        },
+        "expandedRefCounts": {
+          "1-a2-nor-2b681135": 1,
+          "2-a8-right-nor-5852e9b2": 1,
+          "icon-star-2071444c": 1,
+          "tag-bda69645": 1
+        }
+      },
+      {
+        "id": "choice-56824ac7",
+        "sourceComponentId": null,
+        "directRefCounts": {
+          "1-a0-nor-0f1a73a4": 1,
+          "1-a2-nor-3f878337": 1,
+          "1-a2-nor-6f5d80f0": 1,
+          "1-a2-nor-aaf25e53": 4
+        },
+        "expandedRefCounts": {
+          "1-a0-nor-0f1a73a4": 1,
+          "1-a2-nor-3f878337": 1,
+          "1-a2-nor-6f5d80f0": 1,
+          "1-a2-nor-aaf25e53": 4,
+          "2-a4-down-nor-8221121b": 1,
+          "2-a4-down-nor-9858649d": 4,
+          "3-a0-nor-a875a6dc": 1,
+          "3-a0-nor-dc229f69": 1,
+          "3-a1-nor-9178754c": 1
+        }
+      },
+      {
+        "id": "copyright-d22e4b36",
+        "sourceComponentId": "17:6377",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "footer-son-bottom-6355ddb9",
+        "sourceComponentId": null,
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "header-1440-6642af4d",
+        "sourceComponentId": "12:0267",
+        "directRefCounts": {
+          "1-a2-nor-056e5400": 1,
+          "1-a4-nor-323df651": 4,
+          "logo-no-box-3b21406c": 1,
+          "son-f2e2aba0": 1
+        },
+        "expandedRefCounts": {
+          "1-a2-nor-056e5400": 1,
+          "1-a3-nor-c9175d91": 1,
+          "1-a4-nor-27889cef": 2,
+          "1-a4-nor-323df651": 4,
+          "1-al-36-2fce34c3": 1,
+          "3-a0-nor-a875a6dc": 1,
+          "3-a1-nor-9178754c": 1,
+          "header-son-icon-07356da8": 1,
+          "logo-no-box-3b21406c": 1,
+          "son-002375d2": 1,
+          "son-f2e2aba0": 1,
+          "tag-black-89414aeb": 1
+        }
+      },
+      {
+        "id": "header-son-icon-07356da8",
+        "sourceComponentId": "1527:114914",
+        "directRefCounts": {
+          "1-a3-nor-c9175d91": 1
+        },
+        "expandedRefCounts": {
+          "1-a3-nor-c9175d91": 1
+        }
+      },
+      {
+        "id": "icon-414f9483",
+        "sourceComponentId": "142:73430",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "icon-92a9c831",
+        "sourceComponentId": "73:71138",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "icon-ab9c4a0e",
+        "sourceComponentId": "73:74568",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "icon-cdc6fcbe",
+        "sourceComponentId": "73:002006",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "icon-daba1c6b",
+        "sourceComponentId": "1061:128651",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "icon-star-2071444c",
+        "sourceComponentId": "14:1775",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "l-only-440d065f",
+        "sourceComponentId": "657:008949",
+        "directRefCounts": {
+          "1-a0-dis-0e7d2d37": 2,
+          "1-a2-sel-892f547d": 1
+        },
+        "expandedRefCounts": {
+          "1-a0-dis-0e7d2d37": 2,
+          "1-a2-sel-892f547d": 1
+        }
+      },
+      {
+        "id": "logo-no-box-3b21406c",
+        "sourceComponentId": "12:0396",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "no-box-black-414d0d4b",
+        "sourceComponentId": "8:1187",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "node-02f5b924",
+        "sourceComponentId": null,
+        "directRefCounts": {
+          "1-a0-466e507f": 1,
+          "1-a3-1145e0f3": 1,
+          "3678-b1dde581": 1,
+          "3679-1d87d1b4": 1,
+          "share-3c2bcf7f": 1
+        },
+        "expandedRefCounts": {
+          "1-a0-466e507f": 1,
+          "1-a3-1145e0f3": 1,
+          "1589-29a69d67": 1,
+          "3678-b1dde581": 1,
+          "3679-1d87d1b4": 1,
+          "409-bece76ed": 1,
+          "icon-414f9483": 1,
+          "icon-92a9c831": 1,
+          "icon-ab9c4a0e": 1,
+          "icon-cdc6fcbe": 1,
+          "icon-daba1c6b": 1,
+          "node-d9e4c6e9": 4,
+          "share-3c2bcf7f": 1,
+          "tag-2c713570": 2,
+          "tag-849205f4": 1,
+          "tag-dc0340a2": 1,
+          "tips-f02c3118": 4
+        }
+      },
+      {
+        "id": "node-7c83b954",
+        "sourceComponentId": "17:6356",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "node-b007f638",
+        "sourceComponentId": "3827:150894",
+        "directRefCounts": {
+          "1-a2-nor-2b681135": 1
+        },
+        "expandedRefCounts": {
+          "1-a2-nor-2b681135": 1
+        }
+      },
+      {
+        "id": "node-b9b5acb3",
+        "sourceComponentId": "1004:044992",
+        "directRefCounts": {
+          "wx-1773da22": 1
+        },
+        "expandedRefCounts": {
+          "wx-1773da22": 1
+        }
+      },
+      {
+        "id": "node-cf55bd20",
+        "sourceComponentId": "347:038522",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "node-d9e4c6e9",
+        "sourceComponentId": "1157:060148",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "share-3c2bcf7f",
+        "sourceComponentId": "18:1447",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "son-002375d2",
+        "sourceComponentId": "1237:083311",
+        "directRefCounts": {
+          "tag-black-89414aeb": 1
+        },
+        "expandedRefCounts": {
+          "tag-black-89414aeb": 1
+        }
+      },
+      {
+        "id": "son-f2e2aba0",
+        "sourceComponentId": "12:1446",
+        "directRefCounts": {
+          "1-a4-nor-27889cef": 2,
+          "1-al-36-2fce34c3": 1,
+          "header-son-icon-07356da8": 1,
+          "son-002375d2": 1
+        },
+        "expandedRefCounts": {
+          "1-a3-nor-c9175d91": 1,
+          "1-a4-nor-27889cef": 2,
+          "1-al-36-2fce34c3": 1,
+          "header-son-icon-07356da8": 1,
+          "son-002375d2": 1,
+          "tag-black-89414aeb": 1
+        }
+      },
+      {
+        "id": "son-list-9ee85330",
+        "sourceComponentId": "669:94518",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "son-list-c3d6d542",
+        "sourceComponentId": "669:94508",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tabs-footer-nor-6-860ba693",
+        "sourceComponentId": "17:6383",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tag-2c713570",
+        "sourceComponentId": "142:67474",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tag-849205f4",
+        "sourceComponentId": "278:41810",
+        "directRefCounts": {
+          "icon-414f9483": 1
+        },
+        "expandedRefCounts": {
+          "icon-414f9483": 1
+        }
+      },
+      {
+        "id": "tag-bda69645",
+        "sourceComponentId": "1061:025275",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tag-black-89414aeb",
+        "sourceComponentId": "1061:128613",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tag-dc0340a2",
+        "sourceComponentId": "353:92446",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "tips-f02c3118",
+        "sourceComponentId": "287:44297",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      },
+      {
+        "id": "wx-1773da22",
+        "sourceComponentId": "17:6361",
+        "directRefCounts": {},
+        "expandedRefCounts": {}
+      }
+    ]
+  }
 }
