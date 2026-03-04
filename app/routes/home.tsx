@@ -1,13 +1,13 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { DslPageDemo } from "../dsl/demo";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "DSL Demo" },
+    { name: "description", content: "DSL driven page demo" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <DslPageDemo />;
 }

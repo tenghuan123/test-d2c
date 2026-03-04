@@ -1,0 +1,13 @@
+{
+  "E_SCHEMA_INVALID": "JSON 结构不满足 schema",
+  "E_REQUIRED_FIELD_MISSING": "缺少必填字段",
+  "E_KIND_INVALID": "kind 非法",
+  "E_ID_INVALID": "id 格式非法",
+  "E_REF_NOT_FOUND": "ref 指向不存在的目标",
+  "E_PROP_INVALID": "props 不满足 propsSchema",
+  "E_TOKEN_REF_INVALID": "token 引用格式非法",
+  "E_TOKEN_REF_NOT_FOUND": "token 引用不存在",
+  "E_DEPENDENCY_CYCLE": "依赖图存在环",
+  "E_DUPLICATE_ID": "存在重复 id",
+  "E_FILE_MISSING": "规范要求的文件不存在"
+}

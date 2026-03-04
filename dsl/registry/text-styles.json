@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "h7-16px": {
+    "family": "PingFang SC",
+    "size": 16,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "24",
+    "letterSpacing": "auto"
+  },
+  "c-14px": {
+    "family": "PingFang SC",
+    "size": 14,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "22",
+    "letterSpacing": "auto"
+  },
+  "c-16px": {
+    "family": "PingFang SC",
+    "size": 16,
+    "style": "常规体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "24",
+    "letterSpacing": "auto"
+  },
+  "c-12px": {
+    "family": "PingFang SC",
+    "size": 12,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "18",
+    "letterSpacing": "auto"
+  },
+  "40px": {
+    "family": "PingFang SC",
+    "size": 40,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "60",
+    "letterSpacing": "auto"
+  },
+  "font-8-1175": {
+    "family": "PingFangSC-Medium",
+    "size": 12,
+    "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "12",
+    "letterSpacing": "auto"
+  },
+  "h6-18px": {
+    "family": "PingFang SC",
+    "size": 18,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "28",
+    "letterSpacing": "auto"
+  },
+  "h5-20px": {
+    "family": "PingFang SC",
+    "size": 20,
+    "style": "中黑体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "30",
+    "letterSpacing": "auto"
+  },
+  "font-17-6525": {
+    "family": "PingFang SC",
+    "size": 12,
+    "style": "-Regular",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "12",
+    "letterSpacing": "auto"
+  },
+  "s-12px-18": {
+    "family": "PingFang SC",
+    "size": 12,
+    "style": "常规体",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "18",
+    "letterSpacing": "auto"
+  }
+}

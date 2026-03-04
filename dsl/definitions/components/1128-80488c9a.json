@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1128-80488c9a",
+  "kind": "component",
+  "source": {
+    "componentId": null,
+    "nodeId": "1157:046773/1004:045016"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "FRAME",
+    "name": "容器 1128",
+    "styleRefs": [
+      "{color.ty-20-hover}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 1440,
+        "height": 432,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "auto",
+        "gap": "120px",
+        "padding": "80px 44px"
+      }
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 1126",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 400,
+            "height": 272,
+            "relativeX": 44,
+            "relativeY": 80
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "mainSizing": "auto",
+            "crossSizing": "auto",
+            "gap": "60px"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 1125",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 400,
+                "height": 164,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "auto",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 1157",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 304,
+                "height": 48,
+                "relativeX": 0,
+                "relativeY": 224
+              },
+              "flexContainerInfo": {
+                "flexDirection": "row",
+                "mainSizing": "auto",
+                "crossSizing": "auto",
+                "gap": "16px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "FRAME",
+        "name": "容器 1127",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 832,
+            "height": 182,
+            "relativeX": 564,
+            "relativeY": 80
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "mainSizing": "fixed",
+            "crossSizing": "auto"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 793",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 182,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 797",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 144,
+                "relativeX": 138.67,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 794",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 182,
+                "relativeX": 277.33,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 798",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 144,
+                "relativeX": 416,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 795",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 144,
+                "relativeX": 554.67,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 796",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 138.6666717529297,
+                "height": 182,
+                "relativeX": 693.33,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "alignItems": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "gap": "24px"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

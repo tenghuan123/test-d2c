@@ -1,0 +1,52 @@
+{
+  "source": "mastergo-dsl.json",
+  "sourcePath": "dsl",
+  "targetVersion": "1.0.0",
+  "mappings": [
+    {
+      "source": "dsl.styles.paint_*",
+      "target": "dsl/registry/tokens.json#color",
+      "rule": "style.value[0] 为颜色值时映射到 color token"
+    },
+    {
+      "source": "dsl.styles.font_*",
+      "target": "dsl/registry/text-styles.json",
+      "rule": "font value 映射为文本样式"
+    },
+    {
+      "source": "dsl.styles.effect_*",
+      "target": "dsl/registry/tokens.json#effect",
+      "rule": "effect value 作为 effect token"
+    },
+    {
+      "source": "dsl.nodes.0",
+      "target": "dsl/instances/pages/home.json",
+      "rule": "根节点转 page，children 转实例节点"
+    },
+    {
+      "source": "node.componentId",
+      "target": "dsl/definitions/components/*.json",
+      "rule": "按 componentId 聚合并生成组件定义"
+    },
+    {
+      "source": "node.children",
+      "target": "dsl/instances/modules/*.json",
+      "rule": "根层子树转模块，page 通过 module ref 引用"
+    }
+  ],
+  "idStrategy": {
+    "component": "slug(name)-{hash(componentId)}",
+    "module": "slug(name)-{index}",
+    "page": "slug(name)||home"
+  },
+  "fallbacks": [
+    {
+      "case": "字段无明确目标语义",
+      "strategy": "写入 ext 字段保留原始值"
+    },
+    {
+      "case": "样式 token 缺失",
+      "strategy": "不阻断转换，记录 warning"
+    }
+  ]
+}

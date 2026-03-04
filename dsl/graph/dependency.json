@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "nodes": {
+    "component:header-1440-6642af4d": [
+      "token:color.paint-8-1461",
+      "token:effect.effect-8-1463"
+    ],
+    "component:728-400a6c3c": [
+      "token:color.ty-20-hover"
+    ],
+    "module:header-1440-1": [
+      "component:728-400a6c3c",
+      "component:header-1440-6642af4d"
+    ],
+    "component:3615-d37f156b": [],
+    "component:3809-36f2c6ca": [],
+    "module:3810-2": [
+      "component:3615-d37f156b",
+      "component:3809-36f2c6ca"
+    ],
+    "component:1128-80488c9a": [
+      "token:color.ty-20-hover"
+    ],
+    "component:footer-son-bottom-6355ddb9": [
+      "token:color.ty-70"
+    ],
+    "module:1440px-3": [
+      "component:1128-80488c9a",
+      "component:footer-son-bottom-6355ddb9",
+      "token:color.ty-20-hover"
+    ],
+    "page:1920": [
+      "module:1440px-3",
+      "module:3810-2",
+      "module:header-1440-1"
+    ]
+  },
+  "reverseNodes": {
+    "token:color.paint-8-1461": [
+      "component:header-1440-6642af4d"
+    ],
+    "token:effect.effect-8-1463": [
+      "component:header-1440-6642af4d"
+    ],
+    "token:color.ty-20-hover": [
+      "component:1128-80488c9a",
+      "component:728-400a6c3c",
+      "module:1440px-3"
+    ],
+    "component:728-400a6c3c": [
+      "module:header-1440-1"
+    ],
+    "component:header-1440-6642af4d": [
+      "module:header-1440-1"
+    ],
+    "component:3615-d37f156b": [
+      "module:3810-2"
+    ],
+    "component:3809-36f2c6ca": [
+      "module:3810-2"
+    ],
+    "token:color.ty-70": [
+      "component:footer-son-bottom-6355ddb9"
+    ],
+    "component:1128-80488c9a": [
+      "module:1440px-3"
+    ],
+    "component:footer-son-bottom-6355ddb9": [
+      "module:1440px-3"
+    ],
+    "module:1440px-3": [
+      "page:1920"
+    ],
+    "module:3810-2": [
+      "page:1920"
+    ],
+    "module:header-1440-1": [
+      "page:1920"
+    ]
+  }
+}

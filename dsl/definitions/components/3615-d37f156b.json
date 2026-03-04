@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "3615-d37f156b",
+  "kind": "component",
+  "source": {
+    "componentId": "669:94532",
+    "nodeId": "737:034980"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "容器 3615",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 208,
+        "height": 1055,
+        "relativeX": 44,
+        "relativeY": 40
+      },
+      "flexContainerInfo": null
+    },
+    "children": [
+      {
+        "nodeType": "INSTANCE",
+        "name": "容器 2436",
+        "styleRefs": [
+          "{color.ty-70}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 208,
+            "height": 56,
+            "relativeX": 0,
+            "relativeY": 0
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "mainSizing": "auto",
+            "crossSizing": "fixed",
+            "padding": "16px 20px"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "LAYER",
+            "name": "image",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 224,
+                "height": 94,
+                "relativeX": -12,
+                "relativeY": -19
+              },
+              "flexContainerInfo": null
+            }
+          },
+          {
+            "nodeType": "TEXT",
+            "name": "上传案例，赢奖金",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 118,
+                "height": 24,
+                "relativeX": 45,
+                "relativeY": 16
+              },
+              "flexContainerInfo": null
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "FRAME",
+        "name": "容器 2462",
+        "styleRefs": [
+          "{color.ty-1}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 208,
+            "height": 901,
+            "relativeX": 0,
+            "relativeY": 80
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "mainSizing": "auto",
+            "crossSizing": "fixed",
+            "gap": "4px"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 2486",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "height": 256,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "padding": "8px"
+              }
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "容器 2472",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "relativeX": null,
+                "relativeY": null
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 2487",
+            "styleRefs": [
+              "{effect.effect-29-03344}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "height": 238,
+                "relativeX": 0,
+                "relativeY": 265
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "padding": "8px"
+              }
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "容器 2482",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "relativeX": null,
+                "relativeY": null
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 2488",
+            "styleRefs": [
+              "{effect.effect-29-03344}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "height": 142,
+                "relativeX": 0,
+                "relativeY": 512
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "padding": "8px"
+              }
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "容器 2483",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "relativeX": null,
+                "relativeY": null
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed"
+              }
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 2489",
+            "styleRefs": [
+              "{effect.effect-29-03344}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 208,
+                "height": 238,
+                "relativeX": 0,
+                "relativeY": 663
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "mainSizing": "auto",
+                "crossSizing": "fixed",
+                "padding": "8px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "FRAME",
+        "name": "用户建议入口",
+        "styleRefs": [
+          "{color.ty-30}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 208,
+            "height": 50,
+            "relativeX": 0,
+            "relativeY": 1005
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "mainSizing": "fixed",
+            "crossSizing": "auto",
+            "gap": "8px",
+            "padding": "14px 20px"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "我的素材中心",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 84,
+                "height": 22,
+                "relativeX": 62,
+                "relativeY": 14
+              },
+              "flexContainerInfo": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

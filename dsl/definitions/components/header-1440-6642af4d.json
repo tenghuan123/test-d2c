@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "header-1440-6642af4d",
+  "kind": "component",
+  "source": {
+    "componentId": "12:0267",
+    "nodeId": "737:034341/12:8973"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "INSTANCE",
+    "name": "header/白色/1440以上",
+    "styleRefs": [
+      "{color.paint-8-1461}",
+      "{effect.effect-8-1463}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 1441,
+        "height": 80,
+        "relativeX": 0,
+        "relativeY": 0
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "auto",
+        "gap": "16px",
+        "padding": "20px 44px"
+      }
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 2051",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 762,
+            "height": 40,
+            "relativeX": 44,
+            "relativeY": 20
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "alignItems": "center",
+            "mainSizing": "fixed",
+            "crossSizing": "auto",
+            "gap": "28px"
+          }
+        },
+        "children": [
+          {
+            "nodeType": "INSTANCE",
+            "name": "logo/no -box",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 126,
+                "height": 22,
+                "relativeX": 0,
+                "relativeY": 9
+              },
+              "flexContainerInfo": null
+            }
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 620",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 316,
+                "height": 40,
+                "relativeX": 154,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "row",
+                "mainSizing": "auto",
+                "crossSizing": "auto",
+                "gap": "4px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "INSTANCE",
+        "name": "属性 1[a2]=nor",
+        "styleRefs": [
+          "{effect.effect-8-1182}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 260,
+            "height": 40,
+            "relativeX": 822,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "输入关键词，找视频",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 180,
+                "height": 22,
+                "relativeX": 16,
+                "relativeY": 9
+              },
+              "flexContainerInfo": null
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "属性 3[a0]=nor",
+            "styleRefs": [
+              "{color.white-0}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 16,
+                "height": 16,
+                "relativeX": 204,
+                "relativeY": 12
+              },
+              "flexContainerInfo": null
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "属性 3[a1]=nor",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 16,
+                "height": 16,
+                "relativeX": 228,
+                "relativeY": 12
+              },
+              "flexContainerInfo": null
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "INSTANCE",
+        "name": "son/白色",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 299,
+            "height": 36,
+            "relativeX": 1098,
+            "relativeY": 22
+          },
+          "flexContainerInfo": null
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 2056",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 243,
+                "height": 36,
+                "relativeX": 0,
+                "relativeY": 0
+              },
+              "flexContainerInfo": {
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "mainSizing": "auto",
+                "crossSizing": "auto",
+                "gap": "12px"
+              }
+            }
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "属性 1[aL]=36",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 36,
+                "height": 36,
+                "relativeX": 263,
+                "relativeY": 0
+              },
+              "flexContainerInfo": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

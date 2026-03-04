@@ -1,0 +1,347 @@
+import { createHash } from "node:crypto";
+import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+
+const ROOT = process.cwd();
+const SOURCE_FILE = join(ROOT, "mastergo-dsl.json");
+const OUT_DIR = join(ROOT, "dsl");
+const VERSION = "1.0.0";
+
+function hash(input) {
+  return createHash("sha1").update(input).digest("hex");
+}
+
+function shortHash(input) {
+  return hash(input).slice(0, 8);
+}
+
+function slugify(input) {
+  return String(input || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "node";
+}
+
+function ensureDir(path) {
+  mkdirSync(path, { recursive: true });
+}
+
+function writeJson(path, data) {
+  writeFileSync(path, JSON.stringify(data, null, 2) + "\n", "utf8");
+}
+
+function readJson(path) {
+  return JSON.parse(readFileSync(path, "utf8"));
+}
+
+function resolveNode(node, nodeMap) {
+  if (!node) return null;
+  if (typeof node === "string") return nodeMap[node] || null;
+  return node;
+}
+
+function nodeChildren(node, nodeMap) {
+  const children = Array.isArray(node?.children) ? node.children : [];
+  return children.map((c) => resolveNode(c, nodeMap)).filter(Boolean);
+}
+
+function collectTokenRefs(node, styleRefMap) {
+  const refs = [];
+  if (node?.fill && styleRefMap[node.fill]) refs.push(styleRefMap[node.fill]);
+  if (node?.font && styleRefMap[node.font]) refs.push(styleRefMap[node.font]);
+  if (node?.effect && styleRefMap[node.effect]) refs.push(styleRefMap[node.effect]);
+  return refs;
+}
+
+function toStructure(node, nodeMap, styleRefMap, depth = 0) {
+  const next = {
+    nodeType: node?.type || "UNKNOWN",
+    name: node?.name || "",
+    styleRefs: collectTokenRefs(node, styleRefMap),
+    ext: {
+      layoutStyle: node?.layoutStyle || null,
+      flexContainerInfo: node?.flexContainerInfo || null
+    }
+  };
+  if (depth >= 2) return next;
+  const children = nodeChildren(node, nodeMap);
+  if (children.length > 0) {
+    next.children = children.slice(0, 20).map((c) => toStructure(c, nodeMap, styleRefMap, depth + 1));
+  }
+  return next;
+}
+
+function buildReverseGraph(nodes) {
+  const reverse = {};
+  Object.entries(nodes).forEach(([from, deps]) => {
+    (deps || []).forEach((to) => {
+      if (!reverse[to]) reverse[to] = [];
+      reverse[to].push(from);
+    });
+  });
+  Object.keys(reverse).forEach((k) => {
+    reverse[k] = Array.from(new Set(reverse[k])).sort();
+  });
+  return reverse;
+}
+
+function normalizeStyles(styles) {
+  const tokens = { color: {}, effect: {} };
+  const textStyles = {};
+  const styleRefMap = {};
+  Object.entries(styles || {}).forEach(([key, entry]) => {
+    const tokenName = slugify(entry?.token || key.replace(":", "-"));
+    if (key.startsWith("paint_")) {
+      const colorVal = Array.isArray(entry?.value) ? entry.value[0] : entry?.value;
+      if (typeof colorVal === "string") {
+        tokens.color[tokenName] = colorVal;
+        styleRefMap[key] = `{color.${tokenName}}`;
+      }
+    } else if (key.startsWith("effect_")) {
+      tokens.effect[tokenName] = entry?.value ?? [];
+      styleRefMap[key] = `{effect.${tokenName}}`;
+    } else if (key.startsWith("font_")) {
+      textStyles[tokenName] = entry?.value || {};
+      styleRefMap[key] = `{textStyle.${tokenName}}`;
+    }
+  });
+  return { tokens, textStyles, styleRefMap };
+}
+
+function createComponentDefinition(node, nodeMap, styleRefMap, keySeed) {
+  const id = `${slugify(node?.name || node?.type || "component")}-${shortHash(keySeed)}`;
+  return {
+    schemaVersion: VERSION,
+    id,
+    kind: "component",
+    source: {
+      componentId: node?.componentId || null,
+      nodeId: node?.id || null
+    },
+    propsSchema: {},
+    structure: toStructure(node, nodeMap, styleRefMap)
+  };
+}
+
+function createModuleContainer(node, styleRefMap) {
+  return {
+    nodeType: node?.type || "UNKNOWN",
+    sourceNodeId: node?.id || null,
+    name: node?.name || "",
+    styleRefs: collectTokenRefs(node, styleRefMap),
+    ext: {
+      layoutStyle: node?.layoutStyle || null,
+      flexContainerInfo: node?.flexContainerInfo || null
+    }
+  };
+}
+
+function run() {
+  const raw = readFileSync(SOURCE_FILE, "utf8");
+  const input = JSON.parse(raw);
+  const dsl = input.dsl || {};
+  const nodeMap = dsl.nodes || {};
+  const root = resolveNode(nodeMap["0"], nodeMap);
+  const rootName = slugify(root?.name || "home");
+
+  const { tokens, textStyles, styleRefMap } = normalizeStyles(dsl.styles || {});
+  const definitionsByKey = new Map();
+  const definitions = [];
+  const registryComponents = {};
+  const assets = { images: {}, svgs: {} };
+  const dependencyNodes = {};
+
+  function upsertDefinition(node) {
+    const seed = node?.componentId ? `cid:${node.componentId}` : `nid:${node?.id || hash(JSON.stringify(node || {}))}`;
+    if (definitionsByKey.has(seed)) {
+      const def = definitionsByKey.get(seed);
+      registryComponents[def.id].usageCount += 1;
+      return def.id;
+    }
+    const def = createComponentDefinition(node, nodeMap, styleRefMap, seed);
+    definitionsByKey.set(seed, def);
+    definitions.push(def);
+    registryComponents[def.id] = {
+      id: def.id,
+      file: `../definitions/components/${def.id}.json`,
+      usageCount: 1
+    };
+    const tokenDeps = (def.structure.styleRefs || []).map((r) => `token:${r.slice(1, -1)}`);
+    dependencyNodes[`component:${def.id}`] = Array.from(new Set(tokenDeps)).sort();
+    return def.id;
+  }
+
+  const topChildren = nodeChildren(root, nodeMap);
+  const modules = [];
+  const pageChildren = [];
+
+  topChildren.forEach((child, index) => {
+    const moduleId = `${slugify(child?.name || "module")}-${index + 1}`;
+    const moduleChildren = nodeChildren(child, nodeMap);
+    const moduleRefs = [];
+    const moduleContainer = createModuleContainer(child, styleRefMap);
+    if (moduleChildren.length === 0) {
+      const componentId = upsertDefinition(child);
+      moduleRefs.push({ type: "component", ref: componentId, props: {} });
+    } else {
+      moduleChildren.forEach((node) => {
+        const componentId = upsertDefinition(node);
+        moduleRefs.push({ type: "component", ref: componentId, props: {} });
+      });
+    }
+    const mod = {
+      schemaVersion: VERSION,
+      id: moduleId,
+      kind: "module",
+      container: moduleContainer,
+      children: moduleRefs
+    };
+    modules.push(mod);
+    pageChildren.push({ type: "module", ref: moduleId });
+    const moduleTokenDeps = (moduleContainer.styleRefs || []).map((r) => `token:${r.slice(1, -1)}`);
+    dependencyNodes[`module:${moduleId}`] = [
+      ...moduleRefs.map((n) => `component:${n.ref}`),
+      ...moduleTokenDeps
+    ];
+  });
+
+  const pageId = rootName || "home";
+  const page = {
+    schemaVersion: VERSION,
+    id: pageId,
+    kind: "page",
+    route: "/",
+    children: pageChildren
+  };
+  dependencyNodes[`page:${pageId}`] = pageChildren.map((n) => `module:${n.ref}`);
+
+  const dependency = {
+    schemaVersion: VERSION,
+    nodes: Object.fromEntries(
+      Object.entries(dependencyNodes).map(([k, v]) => [k, Array.from(new Set(v)).sort()])
+    )
+  };
+  dependency.reverseNodes = buildReverseGraph(dependency.nodes);
+
+  ensureDir(OUT_DIR);
+  ensureDir(join(OUT_DIR, "meta"));
+  ensureDir(join(OUT_DIR, "registry"));
+  ensureDir(join(OUT_DIR, "definitions/components"));
+  ensureDir(join(OUT_DIR, "instances/pages"));
+  ensureDir(join(OUT_DIR, "instances/modules"));
+  ensureDir(join(OUT_DIR, "graph"));
+  ensureDir(join(OUT_DIR, "snapshots"));
+
+  const index = {
+    dslVersion: VERSION,
+    schemaVersion: VERSION,
+    meta: {
+      project: "./meta/project.json",
+      version: "./meta/version.json"
+    },
+    registry: "./registry",
+    definitions: "./definitions/components",
+    instances: {
+      pages: "./instances/pages",
+      modules: "./instances/modules"
+    },
+    graph: "./graph/dependency.json"
+  };
+
+  const projectMeta = {
+    name: "mastergo-project",
+    source: "mastergo-dsl.json",
+    generatedAt: new Date().toISOString(),
+    styleCount: Object.keys(dsl.styles || {}).length,
+    rootNodeId: root?.id || "0"
+  };
+
+  const snapshot = {
+    page,
+    modules,
+    components: definitions.map((d) => ({ id: d.id, signature: hash(JSON.stringify(d.structure)) }))
+  };
+  const latestSnapshotFile = join(OUT_DIR, "snapshots/structure.latest.json");
+  const previousSnapshotFile = join(OUT_DIR, "snapshots/structure.prev.json");
+  const diffSnapshotFile = join(OUT_DIR, "snapshots/structure.diff.json");
+
+  let previousSnapshot = null;
+  if (existsSync(latestSnapshotFile)) {
+    previousSnapshot = readJson(latestSnapshotFile);
+    writeJson(previousSnapshotFile, previousSnapshot);
+  }
+
+  const byId = (arr) => Object.fromEntries((arr || []).map((item) => [item.id, item]));
+  const prevMap = previousSnapshot ? byId(previousSnapshot.components) : {};
+  const nextMap = byId(snapshot.components);
+  const added = Object.keys(nextMap).filter((id) => !prevMap[id]);
+  const removed = Object.keys(prevMap).filter((id) => !nextMap[id]);
+  const changed = Object.keys(nextMap).filter(
+    (id) => prevMap[id] && prevMap[id].signature !== nextMap[id].signature
+  );
+
+  const snapshotDiff = {
+    generatedAt: new Date().toISOString(),
+    added,
+    removed,
+    changed
+  };
+
+  writeJson(join(OUT_DIR, "index.json"), index);
+  writeJson(join(OUT_DIR, "meta/project.json"), projectMeta);
+  writeJson(join(OUT_DIR, "registry/components.json"), registryComponents);
+  writeJson(join(OUT_DIR, "registry/tokens.json"), {
+    schemaVersion: VERSION,
+    ...tokens
+  });
+  writeJson(join(OUT_DIR, "registry/text-styles.json"), {
+    schemaVersion: VERSION,
+    ...textStyles
+  });
+  writeJson(join(OUT_DIR, "registry/assets.json"), assets);
+  definitions.forEach((def) => {
+    writeJson(join(OUT_DIR, `definitions/components/${def.id}.json`), def);
+  });
+  writeJson(join(OUT_DIR, `instances/pages/${page.id}.json`), page);
+  modules.forEach((mod) => {
+    writeJson(join(OUT_DIR, `instances/modules/${mod.id}.json`), mod);
+  });
+  writeJson(join(OUT_DIR, "graph/dependency.json"), dependency);
+  writeJson(latestSnapshotFile, snapshot);
+  writeJson(diffSnapshotFile, snapshotDiff);
+
+  const outputFiles = readdirSync(join(OUT_DIR, "definitions/components")).sort();
+  const versionMeta = {
+    schemaVersion: VERSION,
+    generatedAt: new Date().toISOString(),
+    inputHash: hash(raw),
+    outputHash: hash(
+      JSON.stringify({
+        index,
+        projectMeta,
+        registryComponents,
+        outputFiles,
+        page,
+        modules,
+        dependency
+      })
+    )
+  };
+  writeJson(join(OUT_DIR, "meta/version.json"), versionMeta);
+
+  console.log(
+    JSON.stringify(
+      {
+        page: page.id,
+        modules: modules.length,
+        components: definitions.length,
+        tokens: Object.keys(tokens.color).length,
+        snapshotDiff
+      },
+      null,
+      2
+    )
+  );
+}
+
+run();

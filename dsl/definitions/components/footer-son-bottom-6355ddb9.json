@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "footer-son-bottom-6355ddb9",
+  "kind": "component",
+  "source": {
+    "componentId": null,
+    "nodeId": "1157:046773/1004:045000"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "FRAME",
+    "name": "footer/son/bottom",
+    "styleRefs": [
+      "{color.ty-70}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 1440,
+        "height": 58,
+        "relativeX": 0,
+        "relativeY": 432
+      },
+      "flexContainerInfo": {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "mainSizing": "fixed",
+        "crossSizing": "auto",
+        "gap": "28px",
+        "padding": "20px 284px"
+      }
+    },
+    "children": [
+      {
+        "nodeType": "TEXT",
+        "name": "增值电信业务经营许可证：川B2-20160192",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 232,
+            "height": 18,
+            "relativeX": 210,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "蜀ICP备12020238号-4",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 126,
+            "height": 18,
+            "relativeX": 470,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "川公网安备51019002000262",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 157,
+            "height": 18,
+            "relativeX": 624,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "广播电视节目制作经营许可证（川）字第20170号",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 261,
+            "height": 18,
+            "relativeX": 809,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        }
+      },
+      {
+        "nodeType": "TEXT",
+        "name": "违法和不良信息举报中心",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 132,
+            "height": 18,
+            "relativeX": 1098,
+            "relativeY": 20
+          },
+          "flexContainerInfo": null
+        }
+      }
+    ]
+  }
+}

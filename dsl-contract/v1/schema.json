@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/dsl/v1/schema.json",
+  "$defs": {
+    "Id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "TokenRef": {
+      "type": "string",
+      "pattern": "^\\{[a-zA-Z0-9._-]+\\}$"
+    },
+    "NodeRef": {
+      "type": "object",
+      "required": ["type", "ref"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string", "enum": ["component", "module"] },
+        "ref": { "$ref": "#/$defs/Id" },
+        "props": { "type": "object", "additionalProperties": true },
+        "children": { "type": "array", "items": { "$ref": "#/$defs/NodeRef" } }
+      }
+    }
+  },
+  "schemas": {
+    "index": {
+      "type": "object",
+      "required": ["dslVersion", "schemaVersion", "meta", "registry", "definitions", "instances", "graph"],
+      "additionalProperties": false,
+      "properties": {
+        "dslVersion": { "type": "string" },
+        "schemaVersion": { "type": "string" },
+        "meta": {
+          "type": "object",
+          "required": ["project", "version"],
+          "properties": {
+            "project": { "type": "string" },
+            "version": { "type": "string" }
+          }
+        },
+        "registry": { "type": "string" },
+        "definitions": { "type": "string" },
+        "instances": {
+          "type": "object",
+          "required": ["pages", "modules"],
+          "properties": {
+            "pages": { "type": "string" },
+            "modules": { "type": "string" }
+          }
+        },
+        "graph": { "type": "string" }
+      }
+    },
+    "componentDefinition": {
+      "type": "object",
+      "required": ["schemaVersion", "id", "kind", "propsSchema", "structure"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": { "type": "string" },
+        "id": { "$ref": "#/$defs/Id" },
+        "kind": { "type": "string", "const": "component" },
+        "source": { "type": "object", "additionalProperties": true },
+        "propsSchema": { "type": "object", "additionalProperties": true },
+        "structure": { "type": "object", "additionalProperties": true }
+      }
+    },
+    "instancePageOrModule": {
+      "type": "object",
+      "required": ["schemaVersion", "id", "kind", "children"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": { "type": "string" },
+        "id": { "$ref": "#/$defs/Id" },
+        "kind": { "type": "string", "enum": ["page", "module"] },
+        "route": { "type": "string" },
+        "children": { "type": "array", "items": { "$ref": "#/$defs/NodeRef" } }
+      }
+    },
+    "registryComponents": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "file", "usageCount"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/Id" },
+          "file": { "type": "string" },
+          "usageCount": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "dependencyGraph": {
+      "type": "object",
+      "required": ["schemaVersion", "nodes"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": { "type": "string" },
+        "nodes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "reverseNodes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

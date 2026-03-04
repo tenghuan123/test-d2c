@@ -1,0 +1,15 @@
+{
+  "dslVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "meta": {
+    "project": "./meta/project.json",
+    "version": "./meta/version.json"
+  },
+  "registry": "./registry",
+  "definitions": "./definitions/components",
+  "instances": {
+    "pages": "./instances/pages",
+    "modules": "./instances/modules"
+  },
+  "graph": "./graph/dependency.json"
+}

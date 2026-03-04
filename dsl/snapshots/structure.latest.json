@@ -1,0 +1,163 @@
+{
+  "page": {
+    "schemaVersion": "1.0.0",
+    "id": "1920",
+    "kind": "page",
+    "route": "/",
+    "children": [
+      {
+        "type": "module",
+        "ref": "header-1440-1"
+      },
+      {
+        "type": "module",
+        "ref": "3810-2"
+      },
+      {
+        "type": "module",
+        "ref": "1440px-3"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "schemaVersion": "1.0.0",
+      "id": "header-1440-1",
+      "kind": "module",
+      "container": {
+        "nodeType": "INSTANCE",
+        "sourceNodeId": "737:034341",
+        "name": "header/跟随/1440以上",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 1920,
+            "height": 81,
+            "relativeX": 0,
+            "relativeY": -1
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "mainSizing": "auto",
+            "crossSizing": "fixed"
+          }
+        }
+      },
+      "children": [
+        {
+          "type": "component",
+          "ref": "header-1440-6642af4d",
+          "props": {}
+        },
+        {
+          "type": "component",
+          "ref": "728-400a6c3c",
+          "props": {}
+        }
+      ]
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "id": "3810-2",
+      "kind": "module",
+      "container": {
+        "nodeType": "FRAME",
+        "sourceNodeId": "1157:045629",
+        "name": "容器 3810",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 1680,
+            "height": 2157,
+            "relativeX": 120,
+            "relativeY": 80
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "mainSizing": "fixed",
+            "crossSizing": "auto",
+            "gap": "24px",
+            "padding": "40px 44px 200px"
+          }
+        }
+      },
+      "children": [
+        {
+          "type": "component",
+          "ref": "3615-d37f156b",
+          "props": {}
+        },
+        {
+          "type": "component",
+          "ref": "3809-36f2c6ca",
+          "props": {}
+        }
+      ]
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "id": "1440px-3",
+      "kind": "module",
+      "container": {
+        "nodeType": "INSTANCE",
+        "sourceNodeId": "1157:046773",
+        "name": "1440px",
+        "styleRefs": [
+          "{color.ty-20-hover}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 1920,
+            "height": 490,
+            "relativeX": 0,
+            "relativeY": 2237
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "alignItems": "center",
+            "mainSizing": "auto",
+            "crossSizing": "fixed"
+          }
+        }
+      },
+      "children": [
+        {
+          "type": "component",
+          "ref": "1128-80488c9a",
+          "props": {}
+        },
+        {
+          "type": "component",
+          "ref": "footer-son-bottom-6355ddb9",
+          "props": {}
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "header-1440-6642af4d",
+      "signature": "9a0bdf05d94d933c77cc281e88262f33f9e454ba"
+    },
+    {
+      "id": "728-400a6c3c",
+      "signature": "34c14a64d9c9ceff3b3b5c868492145795cfa0c4"
+    },
+    {
+      "id": "3615-d37f156b",
+      "signature": "5a1380cb6d43e2cfc683913af73e458e3b0eda4a"
+    },
+    {
+      "id": "3809-36f2c6ca",
+      "signature": "2bf16ab24e71f0b6c61a5f8b14056aad65625210"
+    },
+    {
+      "id": "1128-80488c9a",
+      "signature": "21502f122571c9cf3d09503c1db08bc3d5bf16ec"
+    },
+    {
+      "id": "footer-son-bottom-6355ddb9",
+      "signature": "33f01406956c87ea07beb6499f5f0be480072f3c"
+    }
+  ]
+}

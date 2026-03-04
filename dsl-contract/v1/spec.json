@@ -1,0 +1,38 @@
+{
+  "dslVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "naming": {
+    "idFormat": "kebab-case",
+    "allowedKinds": ["page", "module", "component"],
+    "tokenRefFormat": "^{[a-zA-Z0-9._-]+}$"
+  },
+  "layout": {
+    "root": "dsl",
+    "requiredFiles": [
+      "dsl/index.json",
+      "dsl/meta/project.json",
+      "dsl/meta/version.json",
+      "dsl/registry/components.json",
+      "dsl/registry/tokens.json",
+      "dsl/registry/text-styles.json",
+      "dsl/registry/assets.json",
+      "dsl/graph/dependency.json"
+    ],
+    "requiredDirs": [
+      "dsl/definitions/components",
+      "dsl/instances/pages",
+      "dsl/instances/modules",
+      "dsl/snapshots"
+    ]
+  },
+  "boundaries": {
+    "registry": "全局资源定义层，含 token、样式、组件注册。",
+    "definitions": "组件定义层，只定义结构与可配置属性。",
+    "instances": "实例层，只允许 ref/props/children 组合。"
+  },
+  "requiredFields": {
+    "common": ["schemaVersion", "id", "kind"],
+    "instanceNode": ["type", "ref"],
+    "componentDefinition": ["propsSchema", "structure"]
+  }
+}
