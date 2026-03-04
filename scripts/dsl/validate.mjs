@@ -90,6 +90,7 @@ function run() {
   const registryComponents = readJson(join(DSL_DIR, "registry/components.json"));
   const tokens = readJson(join(DSL_DIR, "registry/tokens.json"));
   const textStyles = readJson(join(DSL_DIR, "registry/text-styles.json"));
+  const assets = readJson(join(DSL_DIR, "registry/assets.json"));
   const tokenFlat = new Set();
   const walkToken = (obj, prefix = "") => {
     Object.entries(obj || {}).forEach(([k, v]) => {
@@ -104,6 +105,7 @@ function run() {
   };
   walkToken(tokens);
   walkToken({ textStyle: textStyles });
+  walkToken({ asset: assets });
   Object.keys(textStyles || {}).forEach((k) => {
     if (k !== "schemaVersion") tokenFlat.add(`textStyle.${k}`);
   });

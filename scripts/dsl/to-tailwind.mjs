@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const COMPONENTS_DIR = join(ROOT, "dsl/definitions/components");
 const TOKENS_FILE = join(ROOT, "dsl/registry/tokens.json");
 const TEXT_STYLES_FILE = join(ROOT, "dsl/registry/text-styles.json");
+const ASSETS_FILE = join(ROOT, "dsl/registry/assets.json");
 const OUT_FILE = join(ROOT, "dsl/snapshots/tailwind.latest.json");
 const ENABLE_POSITION = process.env.DSL_ENABLE_POSITION === "1";
 const POSITION_MODULE_ALLOWLIST = String(process.env.DSL_POSITION_MODULE_ALLOWLIST || "")
@@ -49,7 +50,8 @@ function collectDirectRefs(node, counts = new Map()) {
 function run() {
   const tokens = readJson(TOKENS_FILE);
   const textStyles = readJson(TEXT_STYLES_FILE);
-  const tokenStore = { ...tokens, textStyle: textStyles };
+  const assets = readJson(ASSETS_FILE);
+  const tokenStore = { ...tokens, textStyle: textStyles, asset: assets };
   const files = readdirSync(COMPONENTS_DIR).filter((f) => f.endsWith(".json")).sort();
 
   const components = files.map((file) => {

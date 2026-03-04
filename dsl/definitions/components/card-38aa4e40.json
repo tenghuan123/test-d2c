@@ -32,7 +32,9 @@
       {
         "nodeType": "FRAME",
         "name": "首推card/nor",
-        "styleRefs": [],
+        "styleRefs": [
+          "{asset.images.paint-70-57466-afcf20f6.url}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 310,

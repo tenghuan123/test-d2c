@@ -36,7 +36,9 @@
       {
         "nodeType": "LAYER",
         "name": "image",
-        "styleRefs": [],
+        "styleRefs": [
+          "{asset.images.paint-995-055033-95624ce7.url}"
+        ],
         "ext": {
           "layoutStyle": {
             "width": 224,

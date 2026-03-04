@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import tokens from "../../dsl/registry/tokens.json";
 import textStyles from "../../dsl/registry/text-styles.json";
+import assets from "../../dsl/registry/assets.json";
 import { mapDslNodeToTailwind } from "../../dsl/tailwind-mapper.js";
 
 type LayoutStyle = {
@@ -45,7 +46,11 @@ type ModuleDefinition = {
   children: Array<{ type: "component"; ref: string }>;
 };
 
-const tokenStore = { ...(tokens as Record<string, unknown>), textStyle: textStyles } as Record<string, unknown>;
+const tokenStore = {
+  ...(tokens as Record<string, unknown>),
+  textStyle: textStyles,
+  asset: assets
+} as Record<string, unknown>;
 const ENABLE_POSITION = import.meta.env.VITE_DSL_ENABLE_POSITION === "1";
 const POSITION_MODULE_ALLOWLIST = String(import.meta.env.VITE_DSL_POSITION_MODULE_ALLOWLIST || "")
   .split(",")

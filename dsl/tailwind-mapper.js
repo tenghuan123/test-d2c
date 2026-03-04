@@ -133,6 +133,27 @@ function mapFontWeight(style) {
   return null;
 }
 
+function mapFontWeightFromFamily(family) {
+  const s = String(family || "").toLowerCase();
+  if (s.includes("bold")) return 700;
+  if (s.includes("semibold")) return 600;
+  if (s.includes("medium")) return 500;
+  if (s.includes("regular")) return 400;
+  return null;
+}
+
+function parseStyleMeta(style) {
+  if (typeof style !== "string") return null;
+  const text = style.trim();
+  if (!text.startsWith("{") || !text.endsWith("}")) return null;
+  try {
+    const parsed = JSON.parse(text);
+    return isObject(parsed) ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
 function mapFontWeightClass(weight) {
   if (weight === 400) return "font-normal";
   if (weight === 500) return "font-medium";
@@ -141,21 +162,50 @@ function mapFontWeightClass(weight) {
   return null;
 }
 
+function toTailwindArbitraryValue(value) {
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, "_")
+    .replace(/"/g, "")
+    .replace(/'/g, "");
+}
+
+function mapFontFamilyClass(family) {
+  if (typeof family !== "string" || family.trim() === "") return null;
+  const normalized = toTailwindArbitraryValue(family);
+  if (!normalized) return null;
+  if (normalized.includes(",")) return `[font-family:${normalized}]`;
+  return `font-[${normalized}]`;
+}
+
 function applyTextStyleToken(classes, style, value) {
   if (!isObject(value)) return;
   const size = Number(value.size);
   if (Number.isFinite(size)) classes.push(`text-[${size}px]`);
-  if (value.family) style.fontFamily = value.family;
+  if (value.family) {
+    const fontFamilyClass = mapFontFamilyClass(value.family);
+    if (fontFamilyClass) classes.push(fontFamilyClass);
+    else style.fontFamily = value.family;
+  }
   const lineHeight = parseLineHeight(value.lineHeight, size);
   if (lineHeight) classes.push(`leading-[${lineHeight}]`);
   const letterSpacing = parseLetterSpacing(value.letterSpacing);
   if (letterSpacing) classes.push(`tracking-[${letterSpacing}]`);
-  const weight = mapFontWeight(value.style);
+  const styleMeta = parseStyleMeta(value.style);
+  const weight =
+    mapFontWeight(value.style) ||
+    mapFontWeight(styleMeta?.fontStyle) ||
+    mapFontWeightFromFamily(value.family);
   if (weight) {
     const w = mapFontWeightClass(weight);
     if (w) classes.push(w);
     else style.fontWeight = weight;
   }
+  if (value.decoration === "underline") classes.push("underline");
+  else if (value.decoration === "line-through") classes.push("line-through");
+  if (value.case === "upper") classes.push("uppercase");
+  else if (value.case === "lower") classes.push("lowercase");
+  else if (value.case === "title") classes.push("capitalize");
 }
 
 export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
@@ -217,6 +267,12 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
     if (typeof value === "string") {
       if (value.startsWith("linear-gradient")) {
         style.backgroundImage = value;
+        continue;
+      }
+      if (/^https?:\/\//.test(value)) {
+        style.backgroundImage = `url("${value}")`;
+        style.backgroundSize = "cover";
+        style.backgroundPosition = "center";
         continue;
       }
       if (value.startsWith("#")) {

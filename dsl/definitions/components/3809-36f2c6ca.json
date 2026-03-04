@@ -53,7 +53,9 @@
           {
             "nodeType": "LAYER",
             "name": "矩形 1210",
-            "styleRefs": [],
+            "styleRefs": [
+              "{asset.images.paint-332-84543-65d65854.url}"
+            ],
             "ext": {
               "layoutStyle": {
                 "width": 1360,

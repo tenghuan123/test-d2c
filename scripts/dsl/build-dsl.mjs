@@ -133,6 +133,7 @@ function buildReverseGraph(nodes) {
 function normalizeStyles(styles) {
   const tokens = { color: {}, effect: {} };
   const textStyles = {};
+  const assets = { images: {}, svgs: {} };
   const styleRefMap = {};
   Object.entries(styles || {}).forEach(([key, entry]) => {
     const tokenName = slugify(entry?.token || key.replace(":", "-"));
@@ -141,6 +142,13 @@ function normalizeStyles(styles) {
       if (typeof colorVal === "string") {
         tokens.color[tokenName] = colorVal;
         styleRefMap[key] = `{color.${tokenName}}`;
+      } else if (colorVal && typeof colorVal === "object" && typeof colorVal.url === "string") {
+        const assetKey = `${tokenName}-${shortHash(colorVal.url)}`;
+        assets.images[assetKey] = {
+          url: colorVal.url,
+          filters: colorVal.filters || ""
+        };
+        styleRefMap[key] = `{asset.images.${assetKey}.url}`;
       }
     } else if (key.startsWith("effect_")) {
       tokens.effect[tokenName] = entry?.value ?? [];
@@ -150,7 +158,7 @@ function normalizeStyles(styles) {
       styleRefMap[key] = `{textStyle.${tokenName}}`;
     }
   });
-  return { tokens, textStyles, styleRefMap };
+  return { tokens, textStyles, assets, styleRefMap };
 }
 
 function createComponentDefinition(node, nodeMap, styleRefMap, id, options = {}) {
@@ -224,11 +232,10 @@ function run() {
   const root = resolveNode(nodeMap["0"], nodeMap);
   const rootName = slugify(root?.name || "home");
 
-  const { tokens, textStyles, styleRefMap } = normalizeStyles(dsl.styles || {});
+  const { tokens, textStyles, assets, styleRefMap } = normalizeStyles(dsl.styles || {});
   const definitionsByKey = new Map();
   const definitions = [];
   const registryComponents = {};
-  const assets = { images: {}, svgs: {} };
   const dependencyNodes = {};
   const instanceComponentIds = collectInstanceComponentIds(root, nodeMap);
 

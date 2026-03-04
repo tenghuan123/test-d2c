@@ -103,6 +103,7 @@
                     "nodeType": "FRAME",
                     "name": "容器 2414",
                     "styleRefs": [
+                      "{asset.images.paint-405-77520-a57beade.url}",
                       "{effect.effect-403-77796}"
                     ],
                     "ext": {
