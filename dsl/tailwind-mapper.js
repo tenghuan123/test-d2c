@@ -87,6 +87,26 @@ function hasClassToken(className, token) {
     .includes(token);
 }
 
+function toStringSet(value) {
+  if (value instanceof Set) return value;
+  if (Array.isArray(value)) return new Set(value.map((item) => String(item)).filter(Boolean));
+  return null;
+}
+
+function shouldApplyAbsolute(node, options) {
+  if (options.enablePosition !== true) return false;
+  const moduleAllowlist = toStringSet(options.positionModuleAllowlist);
+  if (moduleAllowlist && moduleAllowlist.size > 0 && options.moduleId && !moduleAllowlist.has(options.moduleId)) {
+    return false;
+  }
+  const nodeTypeAllowlist = toStringSet(options.positionNodeTypeAllowlist);
+  if (nodeTypeAllowlist && nodeTypeAllowlist.size > 0) {
+    const nodeType = String(node?.nodeType || "");
+    if (!nodeTypeAllowlist.has(nodeType)) return false;
+  }
+  return true;
+}
+
 function parseLineHeight(value, fontSizePx) {
   if (value == null || value === "auto") return null;
   const num = Number(String(value).replace("px", ""));
@@ -142,7 +162,7 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
   const classes = [];
   const style = {};
   const errors = [];
-  const enablePosition = options.enablePosition === true;
+  const enablePosition = shouldApplyAbsolute(node, options);
   const parentIsRelative = options.parentIsRelative === true;
   const layout = node?.ext?.layoutStyle;
   const flex = node?.ext?.flexContainerInfo;
@@ -232,7 +252,10 @@ export function mapDslTreeToTailwind(node, tokenStore, options = {}) {
   function visit(current, parentIsRelative) {
     const mapped = mapDslNodeToTailwind(current, tokenStore, {
       parentIsRelative,
-      enablePosition: options.enablePosition === true
+      enablePosition: options.enablePosition === true,
+      positionModuleAllowlist: options.positionModuleAllowlist,
+      positionNodeTypeAllowlist: options.positionNodeTypeAllowlist,
+      moduleId: options.moduleId
     });
     const currentIsRelative = hasClassToken(mapped.className, "relative");
     return {

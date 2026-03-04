@@ -8,6 +8,14 @@ const TOKENS_FILE = join(ROOT, "dsl/registry/tokens.json");
 const TEXT_STYLES_FILE = join(ROOT, "dsl/registry/text-styles.json");
 const OUT_FILE = join(ROOT, "dsl/snapshots/tailwind.latest.json");
 const ENABLE_POSITION = process.env.DSL_ENABLE_POSITION === "1";
+const POSITION_MODULE_ALLOWLIST = String(process.env.DSL_POSITION_MODULE_ALLOWLIST || "")
+  .split(",")
+  .map((v) => v.trim())
+  .filter(Boolean);
+const POSITION_NODE_TYPE_ALLOWLIST = String(process.env.DSL_POSITION_NODE_TYPE_ALLOWLIST || "")
+  .split(",")
+  .map((v) => v.trim())
+  .filter(Boolean);
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -48,7 +56,9 @@ function run() {
     const full = join(COMPONENTS_DIR, file);
     const definition = readJson(full);
     const mapped = mapDslTreeToTailwind(definition.structure || {}, tokenStore, {
-      enablePosition: ENABLE_POSITION
+      enablePosition: ENABLE_POSITION,
+      positionModuleAllowlist: POSITION_MODULE_ALLOWLIST,
+      positionNodeTypeAllowlist: POSITION_NODE_TYPE_ALLOWLIST
     });
     return {
       id: definition.id,
@@ -122,7 +132,9 @@ function run() {
       {
         output: "dsl/snapshots/tailwind.latest.json",
         componentCount: components.length,
-        enablePosition: ENABLE_POSITION
+        enablePosition: ENABLE_POSITION,
+        positionModuleAllowlist: POSITION_MODULE_ALLOWLIST,
+        positionNodeTypeAllowlist: POSITION_NODE_TYPE_ALLOWLIST
       },
       null,
       2

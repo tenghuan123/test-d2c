@@ -47,6 +47,14 @@ type ModuleDefinition = {
 
 const tokenStore = { ...(tokens as Record<string, unknown>), textStyle: textStyles } as Record<string, unknown>;
 const ENABLE_POSITION = import.meta.env.VITE_DSL_ENABLE_POSITION === "1";
+const POSITION_MODULE_ALLOWLIST = String(import.meta.env.VITE_DSL_POSITION_MODULE_ALLOWLIST || "")
+  .split(",")
+  .map((v) => v.trim())
+  .filter(Boolean);
+const POSITION_NODE_TYPE_ALLOWLIST = String(import.meta.env.VITE_DSL_POSITION_NODE_TYPE_ALLOWLIST || "")
+  .split(",")
+  .map((v) => v.trim())
+  .filter(Boolean);
 
 function fromJsonModule<T>(value: unknown): T {
   if (value && typeof value === "object" && "default" in value) {
@@ -86,19 +94,27 @@ function RebuildNode({
   node,
   parentIsRelative = false,
   rootClassName,
-  dataComponentId
+  dataComponentId,
+  moduleId
 }: {
   node: DslNode;
   parentIsRelative?: boolean;
   rootClassName?: string;
   dataComponentId?: string;
+  moduleId?: string;
 }) {
   if (node.nodeType === "COMPONENT_REF" && node.ref) {
-    return <ComponentRebuild componentId={node.ref} parentIsRelative={parentIsRelative} />;
+    return <ComponentRebuild componentId={node.ref} parentIsRelative={parentIsRelative} moduleId={moduleId} />;
   }
   const children = node.children ?? [];
   const isText = node.nodeType === "TEXT";
-  const mapped = mapDslNodeToTailwind(node, tokenStore, { parentIsRelative, enablePosition: ENABLE_POSITION });
+  const mapped = mapDslNodeToTailwind(node, tokenStore, {
+    parentIsRelative,
+    enablePosition: ENABLE_POSITION,
+    positionModuleAllowlist: POSITION_MODULE_ALLOWLIST,
+    positionNodeTypeAllowlist: POSITION_NODE_TYPE_ALLOWLIST,
+    moduleId
+  });
   const currentIsRelative = hasRelativeClass(mapped.className);
   const hasVisualLeaf = !isText && children.length === 0;
   return (
@@ -118,7 +134,12 @@ function RebuildNode({
       ) : null}
       {children.length > 0
         ? children.map((child, idx) => (
-            <RebuildNode key={`${child.name ?? "node"}-${idx}`} node={child} parentIsRelative={currentIsRelative} />
+            <RebuildNode
+              key={`${child.name ?? "node"}-${idx}`}
+              node={child}
+              parentIsRelative={currentIsRelative}
+              moduleId={moduleId}
+            />
           ))
         : null}
     </div>
@@ -131,20 +152,36 @@ function ModuleRebuild({ moduleId }: { moduleId: string }) {
   const mapped = mod.container
     ? mapDslNodeToTailwind(mod.container, tokenStore, {
         parentIsRelative: false,
-        enablePosition: ENABLE_POSITION
+        enablePosition: ENABLE_POSITION,
+        positionModuleAllowlist: POSITION_MODULE_ALLOWLIST,
+        positionNodeTypeAllowlist: POSITION_NODE_TYPE_ALLOWLIST,
+        moduleId
       })
     : null;
   const moduleIsRelative = hasRelativeClass(mapped?.className || "");
   return (
     <section className={mapped?.className} style={mapped ? (mapped.style as CSSProperties) : undefined}>
       {mod.children.map((child) => (
-        <ComponentRebuild key={child.ref} componentId={child.ref} parentIsRelative={moduleIsRelative} />
+        <ComponentRebuild
+          key={child.ref}
+          componentId={child.ref}
+          parentIsRelative={moduleIsRelative}
+          moduleId={moduleId}
+        />
       ))}
     </section>
   );
 }
 
-function ComponentRebuild({ componentId, parentIsRelative = false }: { componentId: string; parentIsRelative?: boolean }) {
+function ComponentRebuild({
+  componentId,
+  parentIsRelative = false,
+  moduleId
+}: {
+  componentId: string;
+  parentIsRelative?: boolean;
+  moduleId?: string;
+}) {
   const definition = componentMap[componentId];
   if (!definition) return <div className="border border-red-200 bg-red-50 p-2">missing component: {componentId}</div>;
   const compClass = componentClassName(componentId);
@@ -154,6 +191,7 @@ function ComponentRebuild({ componentId, parentIsRelative = false }: { component
       parentIsRelative={parentIsRelative}
       rootClassName={compClass}
       dataComponentId={componentId}
+      moduleId={moduleId}
     />
   );
 }

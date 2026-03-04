@@ -25,6 +25,7 @@ export type DslNode = {
 export type TailwindMappedNode = {
   nodeType: string;
   name: string;
+  ref?: string | null;
   className: string;
   style: Record<string, string | number>;
   errors?: string[];
@@ -34,11 +35,22 @@ export type TailwindMappedNode = {
 export declare function mapDslNodeToTailwind(
   node: DslNode,
   tokenStore: Record<string, unknown>,
-  options?: { parentIsRelative?: boolean; enablePosition?: boolean }
+  options?: {
+    parentIsRelative?: boolean;
+    enablePosition?: boolean;
+    positionModuleAllowlist?: string[] | Set<string>;
+    positionNodeTypeAllowlist?: string[] | Set<string>;
+    moduleId?: string;
+  }
 ): { className: string; style: Record<string, string | number>; errors?: string[] };
 
 export declare function mapDslTreeToTailwind(
   node: DslNode,
   tokenStore: Record<string, unknown>,
-  options?: { enablePosition?: boolean }
+  options?: {
+    enablePosition?: boolean;
+    positionModuleAllowlist?: string[] | Set<string>;
+    positionNodeTypeAllowlist?: string[] | Set<string>;
+    moduleId?: string;
+  }
 ): TailwindMappedNode;
