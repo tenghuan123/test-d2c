@@ -14,7 +14,7 @@ export default function frame() {
       style={{
         background: '#F9F9F9',
         overflow: 'hidden',
-        mixBlendMode: 'pass-through',
+        // // mixBlendMode: 'pass-through',
         position: 'relative'
       }}>
       <div
@@ -31,7 +31,7 @@ export default function frame() {
           position: 'absolute',
           left: '284px',
           top: '120px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -46,7 +46,7 @@ export default function frame() {
             paddingLeft: '20px',
             background: '#0D0D0D',
             borderRadius: '100px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <p
             style={{
@@ -56,7 +56,7 @@ export default function frame() {
               fontSize: '16px',
               fontFamily: 'PingFang SC',
               textAlign: 'center',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             买家
           </p>
@@ -74,7 +74,7 @@ export default function frame() {
             paddingLeft: '20px',
             background: '#EDEDED',
             borderRadius: '100px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <p
             style={{
@@ -84,7 +84,7 @@ export default function frame() {
               fontSize: '16px',
               fontFamily: 'PingFang SC',
               textAlign: 'center',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             卖家
           </p>
@@ -108,7 +108,7 @@ export default function frame() {
           position: 'absolute',
           left: '514px',
           top: '196px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -119,7 +119,7 @@ export default function frame() {
             alignItems: 'center',
             flexDirection: 'row',
             gap: '60px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -137,7 +137,7 @@ export default function frame() {
               paddingLeft: '16px',
               background: '#F5F5F5',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -145,7 +145,7 @@ export default function frame() {
                 color: '#888888',
                 fontSize: '14px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               输入标题/关键词/素材编号
             </p>
@@ -156,7 +156,7 @@ export default function frame() {
                 alignItems: 'center',
                 flexDirection: 'row',
                 gap: '12px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <img
                 src="./asset1/icons/svg_666b0d60.svg"
@@ -167,7 +167,7 @@ export default function frame() {
                   width: '16px',
                   height: '16px',
                   flex: 'none',
-                  mixBlendMode: 'pass-through',
+                  // // mixBlendMode: 'pass-through',
                   position: 'relative'
                 }}>
                 <div
@@ -181,7 +181,7 @@ export default function frame() {
                     right: '0%',
                     top: '0%',
                     bottom: '0%',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}></div>
                 <div style={{ position: 'absolute', left: '2px', top: '2px' }}>
                   <img src="./asset1/icons/svg_005c4897.svg" />
@@ -199,7 +199,7 @@ export default function frame() {
             alignItems: 'flex-start',
             flexDirection: 'column',
             gap: '28px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -209,7 +209,7 @@ export default function frame() {
               alignItems: 'flex-start',
               flexDirection: 'row',
               gap: '24px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <div
               style={{
@@ -220,7 +220,7 @@ export default function frame() {
                 alignItems: 'flex-start',
                 flexDirection: 'row',
                 gap: '24px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <div
                 style={{
@@ -230,7 +230,7 @@ export default function frame() {
                   alignItems: 'center',
                   flexDirection: 'row',
                   gap: '8px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <img
                   src="./asset1/icons/svg_54bdae39.svg"
@@ -243,7 +243,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'row',
                     gap: '4px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -251,7 +251,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     全部
                   </span>
@@ -261,7 +261,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     6
                   </span>
@@ -275,7 +275,7 @@ export default function frame() {
                   alignItems: 'center',
                   flexDirection: 'row',
                   gap: '8px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <img
                   src="./asset1/icons/svg_54bdae39.svg"
@@ -288,7 +288,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'row',
                     gap: '4px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -296,7 +296,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     授权未生效
                   </span>
@@ -306,7 +306,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     0
                   </span>
@@ -320,7 +320,7 @@ export default function frame() {
                   alignItems: 'center',
                   flexDirection: 'row',
                   gap: '8px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <img
                   src="./asset1/icons/svg_54bdae39.svg"
@@ -333,7 +333,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'row',
                     gap: '4px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -341,7 +341,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     授权已生效
                   </span>
@@ -351,7 +351,7 @@ export default function frame() {
                       fontSize: '14px',
                       fontFamily: 'PingFangSC-Regular',
                       lineHeight: '22px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     0
                   </span>
@@ -366,7 +366,7 @@ export default function frame() {
                 alignItems: 'flex-start',
                 flexDirection: 'row',
                 gap: '24px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <div
                 style={{
@@ -375,7 +375,7 @@ export default function frame() {
                   alignItems: 'center',
                   flexDirection: 'row',
                   gap: '4px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <span
                   style={{
@@ -383,7 +383,7 @@ export default function frame() {
                     fontSize: '14px',
                     fontFamily: 'PingFang SC',
                     lineHeight: '22px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   数据导出
                 </span>
@@ -394,7 +394,7 @@ export default function frame() {
                   justifyContent: 'flex-start',
                   alignItems: 'flex-start',
                   flexDirection: 'column',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <span
                   style={{
@@ -402,7 +402,7 @@ export default function frame() {
                     fontSize: '14px',
                     fontFamily: 'PingFang SC',
                     lineHeight: '22px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   批量操作
                 </span>
@@ -417,7 +417,7 @@ export default function frame() {
               alignItems: 'flex-start',
               flexDirection: 'column',
               gap: '16px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <div
               style={{
@@ -426,14 +426,14 @@ export default function frame() {
                 justifyContent: 'flex-end',
                 alignItems: 'center',
                 flexDirection: 'row',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <span
                 style={{
                   color: '#888888',
                   fontSize: '14px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 完成项目后，上传成片案例即可得好礼优惠
               </span>
@@ -451,7 +451,7 @@ export default function frame() {
                 alignItems: 'center',
                 flexDirection: 'column',
                 gap: '60px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <div
                 style={{
@@ -462,7 +462,7 @@ export default function frame() {
                   alignItems: 'flex-start',
                   flexDirection: 'column',
                   gap: '28px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
@@ -472,7 +472,7 @@ export default function frame() {
                     justifyContent: 'flex-start',
                     alignItems: 'flex-start',
                     flexDirection: 'column',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <div
                     style={{
@@ -482,7 +482,7 @@ export default function frame() {
                       justifyContent: 'flex-start',
                       alignItems: 'flex-start',
                       flexDirection: 'row',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -500,7 +500,7 @@ export default function frame() {
                         background: '#F9F9F9',
                         borderTopLeftRadius: '8px',
                         borderBottomLeftRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <p
                         style={{
@@ -508,7 +508,7 @@ export default function frame() {
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         素材/金额
                       </p>
@@ -526,7 +526,7 @@ export default function frame() {
                         paddingRight: '24px',
                         paddingLeft: '24px',
                         background: '#F9F9F9',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <p
                         style={{
@@ -535,7 +535,7 @@ export default function frame() {
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         授权信息
                       </p>
@@ -556,7 +556,7 @@ export default function frame() {
                         background: '#F9F9F9',
                         borderTopRightRadius: '8px',
                         borderBottomRightRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <p
                         style={{
@@ -564,7 +564,7 @@ export default function frame() {
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         操作
                       </p>
@@ -581,7 +581,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -595,7 +595,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -610,7 +610,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -620,14 +620,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -636,7 +636,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -649,14 +649,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -665,7 +665,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -678,14 +678,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -694,7 +694,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -712,7 +712,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -720,7 +720,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -730,7 +730,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -740,7 +740,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -754,7 +754,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -768,7 +768,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/613ba75d8c3c6d76374c9b4f95680e85.png"
@@ -779,7 +779,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -790,7 +790,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -799,7 +799,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -811,7 +811,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -820,14 +820,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -838,7 +838,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -853,7 +853,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -868,14 +868,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -890,7 +890,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -902,7 +902,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -916,7 +916,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -933,7 +933,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -953,7 +953,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -962,7 +962,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -973,7 +973,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -990,14 +990,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -1006,7 +1006,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -1027,7 +1027,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -1042,7 +1042,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -1057,7 +1057,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -1067,14 +1067,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -1083,7 +1083,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -1096,14 +1096,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -1112,7 +1112,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -1125,14 +1125,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -1141,7 +1141,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -1159,7 +1159,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -1167,7 +1167,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -1177,7 +1177,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -1187,7 +1187,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -1202,7 +1202,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -1216,7 +1216,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/024bfd33ed54b9445397283831290ab9.png"
@@ -1227,7 +1227,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -1238,7 +1238,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -1247,7 +1247,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -1259,7 +1259,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -1268,14 +1268,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -1286,7 +1286,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -1301,7 +1301,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -1316,14 +1316,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -1338,7 +1338,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -1350,7 +1350,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -1364,7 +1364,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -1381,7 +1381,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -1401,7 +1401,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -1410,7 +1410,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -1421,7 +1421,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           四川成都光厂领衔创意有限文化公司
                         </p>
@@ -1438,14 +1438,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           查看授权
                         </span>
@@ -1454,7 +1454,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -1475,7 +1475,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -1490,7 +1490,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -1505,7 +1505,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -1515,14 +1515,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -1531,7 +1531,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -1544,14 +1544,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -1560,7 +1560,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -1573,14 +1573,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -1589,7 +1589,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -1602,14 +1602,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             操作员
                           </span>
@@ -1618,7 +1618,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             yinji456
                           </span>
@@ -1636,7 +1636,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -1644,7 +1644,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -1654,7 +1654,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -1664,7 +1664,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -1679,7 +1679,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -1693,7 +1693,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/11e3da065105f959edda08fbbf42fdaa.png"
@@ -1704,7 +1704,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -1715,7 +1715,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -1724,7 +1724,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -1736,7 +1736,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -1745,14 +1745,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -1763,7 +1763,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -1778,7 +1778,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -1793,14 +1793,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -1815,7 +1815,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -1827,7 +1827,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -1841,7 +1841,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -1858,7 +1858,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -1878,7 +1878,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -1887,7 +1887,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -1898,7 +1898,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -1915,14 +1915,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -1931,7 +1931,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -1952,7 +1952,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -1967,7 +1967,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -1982,7 +1982,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -1992,14 +1992,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -2008,7 +2008,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -2021,14 +2021,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -2037,7 +2037,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -2050,14 +2050,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -2066,7 +2066,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -2084,7 +2084,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -2092,7 +2092,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -2102,7 +2102,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -2112,7 +2112,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -2127,7 +2127,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -2141,7 +2141,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/afeeeb38a6d07c57c10b74b61430bced.png"
@@ -2152,7 +2152,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -2163,7 +2163,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -2172,7 +2172,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -2184,7 +2184,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -2193,14 +2193,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -2211,7 +2211,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -2226,7 +2226,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -2241,14 +2241,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -2263,7 +2263,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -2275,7 +2275,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -2289,7 +2289,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -2306,7 +2306,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -2326,7 +2326,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -2335,7 +2335,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -2346,7 +2346,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -2363,14 +2363,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -2379,7 +2379,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -2400,7 +2400,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -2415,7 +2415,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -2430,7 +2430,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -2440,14 +2440,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -2456,7 +2456,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -2469,14 +2469,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -2485,7 +2485,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -2498,14 +2498,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -2514,7 +2514,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -2532,7 +2532,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -2540,7 +2540,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -2550,7 +2550,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -2560,7 +2560,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -2575,7 +2575,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -2589,7 +2589,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/d6b899db799b0db975d2da1d53b12689.png"
@@ -2600,7 +2600,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -2611,7 +2611,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -2620,7 +2620,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -2632,7 +2632,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -2641,14 +2641,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -2659,7 +2659,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -2674,7 +2674,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -2689,14 +2689,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -2711,7 +2711,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -2723,7 +2723,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -2737,7 +2737,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -2754,7 +2754,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -2774,7 +2774,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -2783,7 +2783,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -2794,7 +2794,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -2811,14 +2811,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -2827,7 +2827,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -2848,7 +2848,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -2863,7 +2863,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -2878,7 +2878,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -2888,14 +2888,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -2904,7 +2904,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -2917,14 +2917,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -2933,7 +2933,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -2946,14 +2946,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -2962,7 +2962,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -2980,7 +2980,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -2988,7 +2988,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -2998,7 +2998,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -3008,7 +3008,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -3023,7 +3023,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -3037,7 +3037,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/af924c868a3dc703f531bcda1633ded2.png"
@@ -3048,7 +3048,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -3059,7 +3059,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -3068,7 +3068,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -3080,7 +3080,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -3089,14 +3089,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -3107,7 +3107,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -3122,7 +3122,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -3137,14 +3137,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -3159,7 +3159,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -3171,7 +3171,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -3185,7 +3185,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -3202,7 +3202,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -3222,7 +3222,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -3231,7 +3231,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -3242,7 +3242,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -3259,14 +3259,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -3275,7 +3275,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -3296,7 +3296,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -3311,7 +3311,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -3326,7 +3326,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -3336,14 +3336,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -3352,7 +3352,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -3365,14 +3365,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -3381,7 +3381,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -3394,14 +3394,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -3410,7 +3410,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -3428,7 +3428,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -3436,7 +3436,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -3446,7 +3446,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -3456,7 +3456,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -3471,7 +3471,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -3485,7 +3485,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/c780c1d096d37f350de6462b87d7deda.png"
@@ -3496,7 +3496,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -3507,7 +3507,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -3516,7 +3516,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -3528,7 +3528,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -3537,14 +3537,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -3555,7 +3555,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -3570,7 +3570,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -3585,14 +3585,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -3607,7 +3607,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -3619,7 +3619,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -3633,7 +3633,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -3650,7 +3650,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -3670,7 +3670,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -3679,7 +3679,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -3690,7 +3690,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -3707,14 +3707,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -3723,7 +3723,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -3744,7 +3744,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -3759,7 +3759,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -3774,7 +3774,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -3784,14 +3784,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -3800,7 +3800,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -3813,14 +3813,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -3829,7 +3829,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -3842,14 +3842,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -3858,7 +3858,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -3876,7 +3876,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -3884,7 +3884,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -3894,7 +3894,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -3904,7 +3904,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -3919,7 +3919,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -3933,7 +3933,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/d527e74991037e656aafbb16dc63f236.png"
@@ -3944,7 +3944,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -3955,7 +3955,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -3964,7 +3964,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -3976,7 +3976,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -3985,14 +3985,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -4003,7 +4003,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -4018,7 +4018,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -4033,14 +4033,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -4055,7 +4055,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -4067,7 +4067,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -4081,7 +4081,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -4098,7 +4098,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -4118,7 +4118,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -4127,7 +4127,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -4138,7 +4138,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -4155,14 +4155,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -4171,7 +4171,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -4192,7 +4192,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -4207,7 +4207,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -4222,7 +4222,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -4232,14 +4232,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -4248,7 +4248,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -4261,14 +4261,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -4277,7 +4277,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -4290,14 +4290,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -4306,7 +4306,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -4324,7 +4324,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -4332,7 +4332,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -4342,7 +4342,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -4352,7 +4352,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -4367,7 +4367,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -4381,7 +4381,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/054b810a85d408fd9c21da181e6b9a4a.png"
@@ -4392,7 +4392,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -4403,7 +4403,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -4412,7 +4412,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -4424,7 +4424,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -4433,14 +4433,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -4451,7 +4451,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -4466,7 +4466,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -4481,14 +4481,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -4503,7 +4503,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -4515,7 +4515,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -4529,7 +4529,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -4546,7 +4546,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -4566,7 +4566,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -4575,7 +4575,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -4586,7 +4586,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -4603,14 +4603,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -4619,7 +4619,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -4640,7 +4640,7 @@ export default function frame() {
                       flexDirection: 'column',
                       background: '#FEFEFE',
                       borderRadius: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -4655,7 +4655,7 @@ export default function frame() {
                         background: 'rgba(254,254,254,0)',
                         borderTopLeftRadius: '12px',
                         borderTopRightRadius: '12px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -4670,7 +4670,7 @@ export default function frame() {
                           rowGap: '4px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -4680,14 +4680,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             购买时间
                           </span>
@@ -4696,7 +4696,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             2023.08.30 00:02:10
                           </span>
@@ -4709,14 +4709,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             订单编号
                           </span>
@@ -4725,7 +4725,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             SC230710150056000
                           </span>
@@ -4738,14 +4738,14 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'row',
                             gap: '4px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <span
                             style={{
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             素材编号
                           </span>
@@ -4754,7 +4754,7 @@ export default function frame() {
                               color: '#888888',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             71015005
                           </span>
@@ -4772,7 +4772,7 @@ export default function frame() {
                           gap: '12px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -4780,7 +4780,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           评论
                         </p>
@@ -4790,7 +4790,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           售后
                         </p>
@@ -4800,7 +4800,7 @@ export default function frame() {
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
                             textAlign: 'right',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           下载
                         </p>
@@ -4815,7 +4815,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         paddingBottom: '24px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <div
                         style={{
@@ -4829,7 +4829,7 @@ export default function frame() {
                           gap: '16px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <img
                           src="./asset1/images/26a11c67becf725c1b54503b0747780d.png"
@@ -4840,7 +4840,7 @@ export default function frame() {
                             flex: 'none',
                             borderRadius: '4px',
                             objectFit: 'cover',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}
                         />
                         <div
@@ -4851,7 +4851,7 @@ export default function frame() {
                             alignItems: 'flex-start',
                             flexDirection: 'column',
                             gap: '8px',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           <p
                             style={{
@@ -4860,7 +4860,7 @@ export default function frame() {
                               color: '#0D0D0D',
                               fontSize: '14px',
                               fontFamily: 'PingFang SC',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             春万物复苏惊蛰生长逢时走向
                           </p>
@@ -4872,7 +4872,7 @@ export default function frame() {
                               alignItems: 'center',
                               flexDirection: 'row',
                               gap: '8px',
-                              mixBlendMode: 'pass-through'
+                              // mixBlendMode: 'pass-through'
                             }}>
                             <div
                               style={{
@@ -4881,14 +4881,14 @@ export default function frame() {
                                 alignItems: 'center',
                                 flexDirection: 'row',
                                 gap: '4px',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}>
                               <span
                                 style={{
                                   color: '#0D0D0D',
                                   fontSize: '14px',
                                   fontFamily: 'PingFang SC',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 900元
                               </span>
@@ -4899,7 +4899,7 @@ export default function frame() {
                                 height: '10px',
                                 flex: 'none',
                                 background: '#888888',
-                                mixBlendMode: 'pass-through'
+                                // mixBlendMode: 'pass-through'
                               }}></div>
                             <img
                               src="./asset1/icons/svg_005f06d4.svg"
@@ -4914,7 +4914,7 @@ export default function frame() {
                                 width: '71px',
                                 height: '22px',
                                 flex: 'none',
-                                mixBlendMode: 'pass-through',
+                                // // mixBlendMode: 'pass-through',
                                 position: 'relative'
                               }}>
                               <div
@@ -4929,14 +4929,14 @@ export default function frame() {
                                   position: 'absolute',
                                   left: '0px',
                                   top: '0px',
-                                  mixBlendMode: 'pass-through'
+                                  // mixBlendMode: 'pass-through'
                                 }}>
                                 <div
                                   style={{
                                     width: '16px',
                                     height: '16px',
                                     flex: 'none',
-                                    mixBlendMode: 'pass-through',
+                                    // // mixBlendMode: 'pass-through',
                                     position: 'relative'
                                   }}>
                                   <div
@@ -4951,7 +4951,7 @@ export default function frame() {
                                       right: '0%',
                                       top: '0%',
                                       bottom: '0%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}></div>
                                   <div
                                     style={{
@@ -4963,7 +4963,7 @@ export default function frame() {
                                       right: '5%',
                                       top: '5%',
                                       bottom: '5%',
-                                      mixBlendMode: 'pass-through'
+                                      // mixBlendMode: 'pass-through'
                                     }}>
                                     <div
                                       style={{
@@ -4977,7 +4977,7 @@ export default function frame() {
                                         right: '0%',
                                         top: '0%',
                                         bottom: '0%',
-                                        mixBlendMode: 'pass-through'
+                                        // mixBlendMode: 'pass-through'
                                       }}></div>
                                     <div
                                       style={{
@@ -4994,7 +4994,7 @@ export default function frame() {
                                     color: '#0D0D0D',
                                     fontSize: '14px',
                                     fontFamily: 'PingFang SC',
-                                    mixBlendMode: 'pass-through'
+                                    // mixBlendMode: 'pass-through'
                                   }}>
                                   8折
                                 </span>
@@ -5014,7 +5014,7 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <p
                           style={{
@@ -5023,7 +5023,7 @@ export default function frame() {
                             color: '#0D0D0D',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           个人授权
                         </p>
@@ -5034,7 +5034,7 @@ export default function frame() {
                             color: '#EE4A4A',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           未生效
                         </p>
@@ -5051,14 +5051,14 @@ export default function frame() {
                           gap: '8px',
                           paddingRight: '24px',
                           paddingLeft: '24px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <span
                           style={{
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           获取授权
                         </span>
@@ -5067,7 +5067,7 @@ export default function frame() {
                             color: '#0066CC',
                             fontSize: '14px',
                             fontFamily: 'PingFang SC',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}>
                           升级授权
                         </span>
@@ -5087,7 +5087,7 @@ export default function frame() {
                   justifyContent: 'center',
                   alignItems: 'center',
                   flexDirection: 'column',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
@@ -5096,7 +5096,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'row',
                     gap: '20px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <div
                     style={{
@@ -5113,7 +5113,7 @@ export default function frame() {
                       borderColor: '#EDEDED',
                       borderWidth: '1px',
                       borderRadius: '55px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <p
                       style={{
@@ -5121,7 +5121,7 @@ export default function frame() {
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
                         textAlign: 'center',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       上一页
                     </p>
@@ -5133,7 +5133,7 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'row',
                       gap: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -5146,14 +5146,14 @@ export default function frame() {
                         flexDirection: 'row',
                         background: '#0D0D0D',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#FEFEFE',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         1
                       </span>
@@ -5172,14 +5172,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         2
                       </span>
@@ -5198,14 +5198,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         3
                       </span>
@@ -5224,14 +5224,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         4
                       </span>
@@ -5250,14 +5250,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         5
                       </span>
@@ -5276,14 +5276,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         6
                       </span>
@@ -5302,14 +5302,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         7
                       </span>
@@ -5328,7 +5328,7 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <img
                         src="./asset1/icons/svg_5090068b.svg"
@@ -5351,14 +5351,14 @@ export default function frame() {
                         borderColor: '#EDEDED',
                         borderWidth: '1px',
                         borderRadius: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#888888',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         自定义
                       </span>
@@ -5379,7 +5379,7 @@ export default function frame() {
                       borderColor: '#EDEDED',
                       borderWidth: '1px',
                       borderRadius: '55px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <p
                       style={{
@@ -5387,7 +5387,7 @@ export default function frame() {
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
                         textAlign: 'center',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       下一页
                     </p>
@@ -5409,7 +5409,7 @@ export default function frame() {
           position: 'absolute',
           left: 'calc(100% - 1920px + 0px)',
           top: '0px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -5419,7 +5419,7 @@ export default function frame() {
             justifyContent: 'flex-start',
             alignItems: 'flex-start',
             flexDirection: 'column',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -5436,7 +5436,7 @@ export default function frame() {
               paddingLeft: '44px',
               background: 'rgba(254,254,254,0.92)',
               backdropFilter: 'blur(8px)',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <div
               style={{
@@ -5446,7 +5446,7 @@ export default function frame() {
                 alignItems: 'center',
                 flexDirection: 'row',
                 gap: '28px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <img
                 src="./asset1/icons/svg_452af001.svg"
@@ -5460,7 +5460,7 @@ export default function frame() {
                   alignItems: 'flex-start',
                   flexDirection: 'row',
                   gap: '4px',
-                  mixBlendMode: 'pass-through',
+                  // // mixBlendMode: 'pass-through',
                   position: 'relative'
                 }}>
                 <div
@@ -5474,14 +5474,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     找视频
                   </span>
@@ -5497,14 +5497,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     找图片
                   </span>
@@ -5526,7 +5526,7 @@ export default function frame() {
                     position: 'absolute',
                     left: '140px',
                     top: '-1px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <p
                     style={{
@@ -5535,7 +5535,7 @@ export default function frame() {
                       fontFamily: 'PingFangSC-Medium',
                       textAlign: 'center',
                       lineHeight: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     新
                   </p>
@@ -5551,14 +5551,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     找音乐
                   </span>
@@ -5574,14 +5574,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     找案例
                   </span>
@@ -5603,7 +5603,7 @@ export default function frame() {
                     position: 'absolute',
                     left: '307.94px',
                     top: '-1px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <p
                     style={{
@@ -5612,7 +5612,7 @@ export default function frame() {
                       fontFamily: 'PingFangSC-Medium',
                       textAlign: 'center',
                       lineHeight: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     新
                   </p>
@@ -5628,14 +5628,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     找服务
                   </span>
@@ -5651,14 +5651,14 @@ export default function frame() {
                     paddingRight: '16px',
                     paddingLeft: '16px',
                     background: 'rgba(254,254,254,0)',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '16px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     版权中心
                   </span>
@@ -5683,7 +5683,7 @@ export default function frame() {
                 borderColor: '#CCCCCC',
                 borderWidth: '1px',
                 borderRadius: '100px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <p
                 style={{
@@ -5692,7 +5692,7 @@ export default function frame() {
                   fontSize: '14px',
                   fontFamily: 'PingFang SC',
                   lineHeight: '22px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 输入关键词，找音乐
               </p>
@@ -5703,14 +5703,14 @@ export default function frame() {
                   alignItems: 'flex-start',
                   flexDirection: 'row',
                   gap: '16px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
                     width: '16px',
                     height: '16px',
                     flex: 'none',
-                    mixBlendMode: 'pass-through',
+                    // // mixBlendMode: 'pass-through',
                     position: 'relative'
                   }}>
                   <div
@@ -5724,7 +5724,7 @@ export default function frame() {
                       right: '0%',
                       top: '0%',
                       bottom: '0%',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}></div>
                   <div
                     style={{ position: 'absolute', left: '2px', top: '2px' }}>
@@ -5740,7 +5740,7 @@ export default function frame() {
                 alignItems: 'center',
                 flexDirection: 'row',
                 gap: '16px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <div
                 style={{
@@ -5749,7 +5749,7 @@ export default function frame() {
                   alignItems: 'flex-start',
                   flexDirection: 'row',
                   gap: '4px',
-                  mixBlendMode: 'pass-through',
+                  // // mixBlendMode: 'pass-through',
                   position: 'relative'
                 }}>
                 <div
@@ -5764,14 +5764,14 @@ export default function frame() {
                     paddingLeft: '12px',
                     background: 'rgba(254,254,254,0)',
                     borderRadius: '100px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     邀新
                   </span>
@@ -5793,7 +5793,7 @@ export default function frame() {
                     position: 'absolute',
                     left: '32px',
                     top: '-2px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <p
                     style={{
@@ -5802,7 +5802,7 @@ export default function frame() {
                       fontFamily: 'PingFangSC-Medium',
                       textAlign: 'center',
                       lineHeight: '12px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     惠
                   </p>
@@ -5819,14 +5819,14 @@ export default function frame() {
                     paddingLeft: '12px',
                     background: 'rgba(254,254,254,0)',
                     borderRadius: '100px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     充值
                   </span>
@@ -5843,14 +5843,14 @@ export default function frame() {
                     paddingLeft: '12px',
                     background: 'rgba(254,254,254,0)',
                     borderRadius: '100px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     上传
                   </span>
@@ -5863,7 +5863,7 @@ export default function frame() {
                   alignItems: 'center',
                   flexDirection: 'row',
                   gap: '28px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
@@ -5877,14 +5877,14 @@ export default function frame() {
                     paddingLeft: '16px',
                     background: '#F5F5F5',
                     borderRadius: '100px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     888888.8元
                   </span>
@@ -5894,7 +5894,7 @@ export default function frame() {
                     width: '36px',
                     height: '36px',
                     flex: 'none',
-                    mixBlendMode: 'pass-through',
+                    // // mixBlendMode: 'pass-through',
                     position: 'relative'
                   }}>
                   <img
@@ -5910,7 +5910,7 @@ export default function frame() {
                       width: '36px',
                       height: '36px',
                       objectFit: 'cover',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}
                   />
                 </div>
@@ -5931,7 +5931,7 @@ export default function frame() {
           position: 'absolute',
           left: '514px',
           top: '121px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -5940,14 +5940,14 @@ export default function frame() {
             alignItems: 'center',
             flexDirection: 'row',
             gap: '8px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <span
             style={{
               color: '#404040',
               fontSize: '14px',
               fontFamily: 'PingFang SC',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             首页
           </span>
@@ -5960,7 +5960,7 @@ export default function frame() {
               color: '#404040',
               fontSize: '14px',
               fontFamily: 'PingFang SC',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             买家中心
           </span>
@@ -5973,7 +5973,7 @@ export default function frame() {
               color: '#0D0D0D',
               fontSize: '20px',
               fontFamily: 'PingFang SC',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             购买记录
           </span>
@@ -5987,7 +5987,7 @@ export default function frame() {
             padding: '4px',
             background: '#EDEDED',
             borderRadius: '100px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -6003,14 +6003,14 @@ export default function frame() {
               borderRadius: '100px',
               boxShadow:
                 '0px 0px 10px 0px rgba(0,0,0,0.08), 0px 0px 0px 0px rgba(0,0,0,0.08)',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <span
               style={{
                 color: '#0D0D0D',
                 fontSize: '14px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               视频
             </span>
@@ -6027,14 +6027,14 @@ export default function frame() {
               paddingLeft: '16px',
               background: 'rgba(254,254,254,0)',
               borderRadius: '100px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <span
               style={{
                 color: '#0D0D0D',
                 fontSize: '14px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               图片
             </span>
@@ -6051,14 +6051,14 @@ export default function frame() {
               paddingLeft: '16px',
               background: 'rgba(254,254,254,0)',
               borderRadius: '100px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <span
               style={{
                 color: '#0D0D0D',
                 fontSize: '14px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               音乐
             </span>
@@ -6078,7 +6078,7 @@ export default function frame() {
           position: 'absolute',
           left: '284px',
           top: '196px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -6090,7 +6090,7 @@ export default function frame() {
             padding: '12px',
             background: '#FEFEFE',
             borderRadius: '12px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -6106,7 +6106,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#EDEDED',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6115,7 +6115,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               购买记录
             </p>
@@ -6134,7 +6134,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6143,7 +6143,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               充值与发票
             </p>
@@ -6162,7 +6162,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6171,7 +6171,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               浏览记录
             </p>
@@ -6190,7 +6190,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6199,7 +6199,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               收藏
             </p>
@@ -6218,7 +6218,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6227,7 +6227,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               拍片需求
             </p>
@@ -6246,7 +6246,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6255,7 +6255,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               我的歌单
             </p>
@@ -6271,7 +6271,7 @@ export default function frame() {
             padding: '12px',
             background: '#FEFEFE',
             borderRadius: '12px',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <div
             style={{
@@ -6288,7 +6288,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <img
               src="./asset1/icons/svg_06cd4b94.svg"
@@ -6301,7 +6301,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               账号
             </p>
@@ -6321,7 +6321,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <img
               src="./asset1/icons/svg_0694c912.svg"
@@ -6334,7 +6334,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               操作员
             </p>
@@ -6354,7 +6354,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <img
               src="./asset1/icons/svg_7c4da7e4.svg"
@@ -6367,7 +6367,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               工单
             </p>
@@ -6387,7 +6387,7 @@ export default function frame() {
               paddingLeft: '20px',
               background: '#FEFEFE',
               borderRadius: '8px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <img
               src="./asset1/icons/svg_075c8bbc.svg"
@@ -6400,7 +6400,7 @@ export default function frame() {
                 color: '#0D0D0D',
                 fontSize: '16px',
                 fontFamily: 'PingFang SC',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               消息
             </p>
@@ -6421,7 +6421,7 @@ export default function frame() {
             paddingLeft: '20px',
             background: '#EDEDED',
             borderRadius: '12px',
-            mixBlendMode: 'pass-through',
+            // // mixBlendMode: 'pass-through',
             position: 'relative'
           }}>
           <span
@@ -6429,7 +6429,7 @@ export default function frame() {
               color: '#0D0D0D',
               fontSize: '16px',
               fontFamily: 'PingFang SC',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             提建议，得奖励
           </span>
@@ -6450,7 +6450,7 @@ export default function frame() {
               position: 'absolute',
               left: 'calc(100% - 202px + 149px)',
               top: '7px',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <p
               style={{
@@ -6459,7 +6459,7 @@ export default function frame() {
                 fontFamily: 'PingFangSC-Medium',
                 textAlign: 'center',
                 lineHeight: '12px',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               新
             </p>
@@ -6478,7 +6478,7 @@ export default function frame() {
           position: 'absolute',
           left: '0px',
           bottom: '0px',
-          mixBlendMode: 'pass-through'
+          // mixBlendMode: 'pass-through'
         }}>
         <div
           style={{
@@ -6487,7 +6487,7 @@ export default function frame() {
             justifyContent: 'flex-start',
             alignItems: 'flex-start',
             flexDirection: 'row',
-            mixBlendMode: 'pass-through'
+            // mixBlendMode: 'pass-through'
           }}>
           <img
             src="./asset1/icons/svg_3dd2b3b9.svg"
@@ -6502,7 +6502,7 @@ export default function frame() {
               justifyContent: 'flex-start',
               alignItems: 'flex-start',
               flexDirection: 'column',
-              mixBlendMode: 'pass-through'
+              // mixBlendMode: 'pass-through'
             }}>
             <div
               style={{
@@ -6517,7 +6517,7 @@ export default function frame() {
                 paddingRight: '44px',
                 paddingLeft: '44px',
                 background: '#F5F5F5',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <div
                 style={{
@@ -6527,7 +6527,7 @@ export default function frame() {
                   alignItems: 'flex-start',
                   flexDirection: 'column',
                   gap: '60px',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
@@ -6536,7 +6536,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <img
                     src="./asset1/icons/svg_7fe91bf4.svg"
@@ -6549,7 +6549,7 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '20px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
@@ -6558,14 +6558,14 @@ export default function frame() {
                         alignItems: 'flex-start',
                         flexDirection: 'column',
                         gap: '8px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <span
                         style={{
                           color: '#0D0D0D',
                           fontSize: '18px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         让创意更有价值 , 让世界更生动
                       </span>
@@ -6576,7 +6576,7 @@ export default function frame() {
                           color: '#404040',
                           fontSize: '14px',
                           fontFamily: 'PingFang SC',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！
                       </p>
@@ -6588,7 +6588,7 @@ export default function frame() {
                         alignItems: 'center',
                         flexDirection: 'row',
                         gap: '4px',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       <img
                         src="./asset1/icons/svg_ad1737e0.svg"
@@ -6600,7 +6600,7 @@ export default function frame() {
                           fontSize: '12px',
                           fontFamily: 'PingFang SC',
                           lineHeight: '12px',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         2012-2024
                       </span>
@@ -6614,7 +6614,7 @@ export default function frame() {
                     alignItems: 'flex-start',
                     flexDirection: 'row',
                     gap: '16px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <div
                     style={{
@@ -6625,14 +6625,14 @@ export default function frame() {
                       padding: '14px',
                       background: '#EDEDED',
                       borderRadius: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
                         width: '20px',
                         height: '20px',
                         flex: 'none',
-                        mixBlendMode: 'pass-through',
+                        // // mixBlendMode: 'pass-through',
                         position: 'relative'
                       }}>
                       <div
@@ -6646,7 +6646,7 @@ export default function frame() {
                           right: '0%',
                           top: '0%',
                           bottom: '0%',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}></div>
                       <div
                         style={{
@@ -6658,7 +6658,7 @@ export default function frame() {
                           right: '0%',
                           top: '0%',
                           bottom: '0%',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}>
                         <div
                           style={{
@@ -6671,7 +6671,7 @@ export default function frame() {
                             right: '0%',
                             top: '0%',
                             bottom: '0%',
-                            mixBlendMode: 'pass-through'
+                            // mixBlendMode: 'pass-through'
                           }}></div>
                         <div
                           style={{
@@ -6693,7 +6693,7 @@ export default function frame() {
                       padding: '14px',
                       background: '#EDEDED',
                       borderRadius: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <img
                       src="./asset1/icons/svg_91b63d1e.svg"
@@ -6709,14 +6709,14 @@ export default function frame() {
                       padding: '14px',
                       background: '#EDEDED',
                       borderRadius: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <div
                       style={{
                         width: '20px',
                         height: '20px',
                         flex: 'none',
-                        mixBlendMode: 'pass-through',
+                        // // mixBlendMode: 'pass-through',
                         position: 'relative'
                       }}>
                       <div
@@ -6730,7 +6730,7 @@ export default function frame() {
                           right: '0%',
                           top: '0%',
                           bottom: '0%',
-                          mixBlendMode: 'pass-through'
+                          // mixBlendMode: 'pass-through'
                         }}></div>
                       <div
                         style={{
@@ -6754,7 +6754,7 @@ export default function frame() {
                       padding: '14px',
                       background: '#EDEDED',
                       borderRadius: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <img
                       src="./asset1/icons/svg_005f06d4.svg"
@@ -6770,7 +6770,7 @@ export default function frame() {
                       padding: '14px',
                       background: '#EDEDED',
                       borderRadius: '8px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <img
                       src="./asset1/icons/svg_91b63d1e.svg"
@@ -6788,7 +6788,7 @@ export default function frame() {
                   justifyContent: 'flex-start',
                   alignItems: 'flex-start',
                   flexDirection: 'row',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 <div
                   style={{
@@ -6798,7 +6798,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -6806,7 +6806,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     光厂视频
                   </span>
@@ -6818,14 +6818,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       上传视频
                     </span>
@@ -6834,7 +6834,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       精品视频
                     </span>
@@ -6843,7 +6843,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       精选专辑
                     </span>
@@ -6852,7 +6852,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       免费素材
                     </span>
@@ -6866,7 +6866,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -6874,7 +6874,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     光厂图片
                   </span>
@@ -6886,14 +6886,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       上传图片
                     </span>
@@ -6902,7 +6902,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       精品图片
                     </span>
@@ -6912,7 +6912,7 @@ export default function frame() {
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
                         opacity: '0',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       免费图片
                     </span>
@@ -6926,7 +6926,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -6934,7 +6934,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     光厂音乐
                   </span>
@@ -6946,14 +6946,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       热门音乐
                     </span>
@@ -6962,7 +6962,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       热门歌单
                     </span>
@@ -6971,7 +6971,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       立即入驻
                     </span>
@@ -6985,7 +6985,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -6993,7 +6993,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     光厂案例
                   </span>
@@ -7005,14 +7005,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       上传案例
                     </span>
@@ -7021,7 +7021,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       精选案例
                     </span>
@@ -7031,7 +7031,7 @@ export default function frame() {
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
                         opacity: '0',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       优秀分享
                     </span>
@@ -7045,7 +7045,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -7053,7 +7053,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     光厂服务
                   </span>
@@ -7065,14 +7065,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       上架服务
                     </span>
@@ -7081,7 +7081,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       热门服务
                     </span>
@@ -7090,7 +7090,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       创作人
                     </span>
@@ -7104,7 +7104,7 @@ export default function frame() {
                     alignItems: 'flex-end',
                     flexDirection: 'column',
                     gap: '24px',
-                    mixBlendMode: 'pass-through'
+                    // mixBlendMode: 'pass-through'
                   }}>
                   <span
                     style={{
@@ -7112,7 +7112,7 @@ export default function frame() {
                       color: '#0D0D0D',
                       fontSize: '14px',
                       fontFamily: 'PingFang SC',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     关于光厂
                   </span>
@@ -7124,14 +7124,14 @@ export default function frame() {
                       alignItems: 'flex-start',
                       flexDirection: 'column',
                       gap: '16px',
-                      mixBlendMode: 'pass-through'
+                      // mixBlendMode: 'pass-through'
                     }}>
                     <span
                       style={{
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       关于我们
                     </span>
@@ -7140,7 +7140,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       诚聘英才
                     </span>
@@ -7149,7 +7149,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       帮助中心
                     </span>
@@ -7158,7 +7158,7 @@ export default function frame() {
                         color: '#404040',
                         fontSize: '14px',
                         fontFamily: 'PingFang SC',
-                        mixBlendMode: 'pass-through'
+                        // mixBlendMode: 'pass-through'
                       }}>
                       权责声明
                     </span>
@@ -7179,7 +7179,7 @@ export default function frame() {
                 paddingRight: '284px',
                 paddingLeft: '284px',
                 background: '#0D0D0D',
-                mixBlendMode: 'pass-through'
+                // mixBlendMode: 'pass-through'
               }}>
               <span
                 style={{
@@ -7187,7 +7187,7 @@ export default function frame() {
                   color: '#EDEDED',
                   fontSize: '12px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 增值电信业务经营许可证：川B2-20160192
               </span>
@@ -7197,7 +7197,7 @@ export default function frame() {
                   color: '#EDEDED',
                   fontSize: '12px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 蜀ICP备12020238号-4
               </span>
@@ -7207,7 +7207,7 @@ export default function frame() {
                   color: '#EDEDED',
                   fontSize: '12px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 川公网安备51019002000262
               </span>
@@ -7217,7 +7217,7 @@ export default function frame() {
                   color: '#EDEDED',
                   fontSize: '12px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 广播电视节目制作经营许可证（川）字第20170号
               </span>
@@ -7227,7 +7227,7 @@ export default function frame() {
                   color: '#EDEDED',
                   fontSize: '12px',
                   fontFamily: 'PingFang SC',
-                  mixBlendMode: 'pass-through'
+                  // mixBlendMode: 'pass-through'
                 }}>
                 违法和不良信息举报中心
               </span>
