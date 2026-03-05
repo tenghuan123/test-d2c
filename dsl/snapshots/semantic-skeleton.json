@@ -2,950 +2,3865 @@
   "modules": [
     {
       "id": "header-1440-1",
-      "role": "Header",
-      "confidence": 0.9,
       "name": "header/跟随/1440以上",
+      "ext": {
+        "layoutStyle": {
+          "width": 1920,
+          "height": 81,
+          "relativeX": 0,
+          "relativeY": -1
+        },
+        "flexContainerInfo": {
+          "flexDirection": "column",
+          "mainSizing": "auto",
+          "crossSizing": "fixed"
+        },
+        "borderRadius": null
+      },
+      "depth": 0,
       "children": [
         {
           "id": "header-1440-6642af4d",
-          "role": "Header",
-          "confidence": 0.9,
           "name": "header/白色/1440以上",
+          "ext": {
+            "layoutStyle": {
+              "width": 1441,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "flexContainerInfo": {
+              "flexDirection": "row",
+              "alignItems": "center",
+              "mainSizing": "fixed",
+              "crossSizing": "auto",
+              "gap": "16px",
+              "padding": "20px 44px"
+            },
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
           "children": [
             {
-              "id": "inline_容器 2051_c49nqykyr",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 2051_tdpzohm5o",
               "name": "容器 2051",
+              "ext": {
+                "layoutStyle": {
+                  "width": 762,
+                  "height": 40,
+                  "relativeX": 44,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "alignItems": "center",
+                  "mainSizing": "fixed",
+                  "crossSizing": "auto",
+                  "gap": "28px"
+                },
+                "borderRadius": null,
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
                   "id": "logo-no-box-3b21406c",
-                  "role": "Container",
-                  "confidence": 0.5,
-                  "name": "logo/no -box"
+                  "name": "logo/no -box",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 126,
+                      "height": 22,
+                      "relativeX": 0,
+                      "relativeY": 9
+                    },
+                    "flexContainerInfo": null,
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
+                  "role": "Logo",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Logo"
                 },
                 {
-                  "id": "inline_容器 620_8cmcpk4bg",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 620_i78egblqw",
                   "name": "容器 620",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 316,
+                      "height": 40,
+                      "relativeX": 154,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "4px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "1-a4-nor-323df651",
-                      "role": "Text",
-                      "confidence": 0.7,
                       "name": "属性 1[a4]=nor",
-                      "fromAi": true
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 40,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Container",
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "1-a4-nor-323df651",
-                      "role": "Text",
-                      "confidence": 0.7,
                       "name": "属性 1[a4]=nor",
-                      "fromAi": true
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 80,
+                          "height": 40,
+                          "relativeX": 68,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Container",
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "1-a4-nor-323df651",
-                      "role": "Text",
-                      "confidence": 0.7,
                       "name": "属性 1[a4]=nor",
-                      "fromAi": true
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 40,
+                          "relativeX": 152,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Container",
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "1-a4-nor-323df651",
-                      "role": "Text",
-                      "confidence": 0.7,
                       "name": "属性 1[a4]=nor",
-                      "fromAi": true
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 96,
+                          "height": 40,
+                          "relativeX": 220,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Container",
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
               "id": "1-a2-nor-056e5400",
+              "name": "属性 1[a2]=nor",
+              "ext": {
+                "layoutStyle": {
+                  "width": 260,
+                  "height": 40,
+                  "relativeX": 822,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "属性 1[a2]=nor"
+              "confidence": 0.3,
+              "roleSource": "default",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
               "id": "son-f2e2aba0",
-              "role": "Container",
-              "confidence": 0.5,
-              "name": "son/白色"
+              "name": "son/白色",
+              "ext": {
+                "layoutStyle": {
+                  "width": 299,
+                  "height": 36,
+                  "relativeX": 1098,
+                  "relativeY": 22
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
+              "children": [],
+              "role": "Button",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Button"
             }
           ],
-          "fromAi": true
+          "role": "Header",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Header"
         },
         {
           "id": "728-400a6c3c",
-          "role": "Container",
-          "confidence": 0.5,
-          "name": "矩形 728"
+          "name": "矩形 728",
+          "ext": {
+            "layoutStyle": {
+              "width": 1441,
+              "relativeX": null,
+              "relativeY": null
+            },
+            "flexContainerInfo": null,
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
+          "children": [],
+          "role": "Image",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Image"
         }
       ],
-      "fromAi": true
+      "role": "Header",
+      "confidence": 0.85,
+      "roleSource": "rule",
+      "needsDeepSearch": false,
+      "frozen": true,
+      "roleFrozen": "Header"
     },
     {
       "id": "3810-2",
-      "role": "Container",
-      "confidence": 0.8,
       "name": "容器 3810",
+      "ext": {
+        "layoutStyle": {
+          "width": 1680,
+          "height": 2157,
+          "relativeX": 120,
+          "relativeY": 80
+        },
+        "flexContainerInfo": {
+          "flexDirection": "row",
+          "mainSizing": "fixed",
+          "crossSizing": "auto",
+          "gap": "24px",
+          "padding": "40px 44px 200px"
+        },
+        "borderRadius": null
+      },
+      "depth": 0,
       "children": [
         {
           "id": "3615-d37f156b",
-          "role": "Container",
-          "confidence": 0.5,
           "name": "容器 3615",
+          "ext": {
+            "layoutStyle": {
+              "width": 208,
+              "height": 1055,
+              "relativeX": 44,
+              "relativeY": 40
+            },
+            "flexContainerInfo": null,
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
           "children": [
             {
               "id": "2436-f9c9685f",
+              "name": "容器 2436",
+              "ext": {
+                "layoutStyle": {
+                  "width": 208,
+                  "height": 56,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "mainSizing": "auto",
+                  "crossSizing": "fixed",
+                  "padding": "16px 20px"
+                },
+                "borderRadius": "8px",
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "容器 2436"
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 2462_mo3v34qcw",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 2462_xq2hdyker",
               "name": "容器 2462",
+              "ext": {
+                "layoutStyle": {
+                  "width": 208,
+                  "height": 901,
+                  "relativeX": 0,
+                  "relativeY": 80
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "column",
+                  "mainSizing": "auto",
+                  "crossSizing": "fixed",
+                  "gap": "4px"
+                },
+                "borderRadius": "12px",
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 2486_ki45xm3vi",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 2486_ne3dvb694",
                   "name": "容器 2486",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "height": 256,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "padding": "8px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "son-list-9ee85330",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 8
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 56
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 104
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 152
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
+                      "name": "属性 3[a1]=nor",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 200
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "属性 3[a1]=nor"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
                   "id": "2472-8237bb78",
+                  "name": "容器 2472",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "relativeX": null,
+                      "relativeY": null
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
                   "role": "Container",
-                  "confidence": 0.5,
-                  "name": "容器 2472"
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2487_nem9ea8q7",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 2487_in3wjdvq2",
                   "name": "容器 2487",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "height": 238,
+                      "relativeX": 0,
+                      "relativeY": 265
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "padding": "8px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "2471-fbe8d2e2",
+                      "name": "容器 2471",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 30,
+                          "relativeX": 8,
+                          "relativeY": 8
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "4px",
+                          "padding": "8px 16px 4px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "容器 2471"
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 38
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 86
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 134
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 182
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
                   "id": "2472-8237bb78",
+                  "name": "容器 2482",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "relativeX": null,
+                      "relativeY": null
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
                   "role": "Container",
-                  "confidence": 0.5,
-                  "name": "容器 2482"
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2488_qln8q4zov",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 2488_fnat93gl6",
                   "name": "容器 2488",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "height": 142,
+                      "relativeX": 0,
+                      "relativeY": 512
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "padding": "8px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "2471-fbe8d2e2",
+                      "name": "容器 2471",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 30,
+                          "relativeX": 8,
+                          "relativeY": 8
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "4px",
+                          "padding": "8px 16px 4px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "容器 2471"
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "3-aa-031be1d5",
+                      "name": "属性 3[aA]=奖金",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 184,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 38
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "属性 3[aA]=奖金"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 86
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
                   "id": "2472-8237bb78",
+                  "name": "容器 2483",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "relativeX": null,
+                      "relativeY": null
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
                   "role": "Container",
-                  "confidence": 0.5,
-                  "name": "容器 2483"
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2489_43ip8l1ks",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 2489_0jp8z9def",
                   "name": "容器 2489",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 208,
+                      "height": 238,
+                      "relativeX": 0,
+                      "relativeY": 663
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "padding": "8px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "2471-fbe8d2e2",
+                      "name": "容器 2471",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 30,
+                          "relativeX": 8,
+                          "relativeY": 8
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "4px",
+                          "padding": "8px 16px 4px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "容器 2471"
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 38
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 86
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "侧边导航/son/list"
+                      "name": "侧边导航/son/list",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 134
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Header",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Header"
                     },
                     {
                       "id": "son-list-c3d6d542",
+                      "name": "属性 3[a1]=nor",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 192,
+                          "height": 48,
+                          "relativeX": 8,
+                          "relativeY": 182
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "8px",
+                          "padding": "12px 16px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "属性 3[a1]=nor"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_用户建议入口_boqtekhd9",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_用户建议入口_zw1ij2qrt",
               "name": "用户建议入口",
+              "ext": {
+                "layoutStyle": {
+                  "width": 208,
+                  "height": 50,
+                  "relativeX": 0,
+                  "relativeY": 1005
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "mainSizing": "fixed",
+                  "crossSizing": "auto",
+                  "gap": "8px",
+                  "padding": "14px 20px"
+                },
+                "borderRadius": "12px",
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_我的素材中心_cqylw57f9",
-                  "role": "Container",
-                  "confidence": 0.5,
-                  "name": "我的素材中心"
+                  "id": "inline_我的素材中心_qqh4xi80x",
+                  "name": "我的素材中心",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 84,
+                      "height": 22,
+                      "relativeX": 62,
+                      "relativeY": 14
+                    },
+                    "flexContainerInfo": null,
+                    "borderRadius": null,
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  "depth": 3,
+                  "children": [],
+                  "role": "Image",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Image"
                 }
-              ]
+              ],
+              "role": "Link",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Link"
             }
-          ]
+          ],
+          "role": "Container",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Container"
         },
         {
           "id": "3809-36f2c6ca",
-          "role": "Container",
-          "confidence": 0.8,
           "name": "容器 3809",
+          "ext": {
+            "layoutStyle": {
+              "width": 1360,
+              "height": 1917,
+              "relativeX": 276,
+              "relativeY": 40
+            },
+            "flexContainerInfo": {
+              "flexDirection": "column",
+              "mainSizing": "auto",
+              "crossSizing": "fixed",
+              "gap": "24px"
+            },
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
           "children": [
             {
-              "id": "inline_容器 3794_jryg6wdiv",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 3794_pmgj6ellb",
               "name": "容器 3794",
+              "ext": {
+                "layoutStyle": {
+                  "width": 1360,
+                  "height": 480,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "column",
+                  "mainSizing": "fixed",
+                  "crossSizing": "fixed",
+                  "gap": "-682px"
+                },
+                "borderRadius": "12px",
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_矩形 1210_ojpafdmaw",
-                  "role": "Container",
-                  "confidence": 0.5,
-                  "name": "矩形 1210"
+                  "id": "inline_矩形 1210_px8lvogoy",
+                  "name": "矩形 1210",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 1360,
+                      "height": 480,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": null,
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
+                  "role": "Image",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Image"
                 },
                 {
-                  "id": "inline_容器 3793_aqc0efx6m",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 3793_q5ws5pd0g",
                   "name": "容器 3793",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 1360,
+                      "height": 480,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "justifyContent": "space-between",
+                      "mainSizing": "fixed",
+                      "crossSizing": "fixed",
+                      "gap": "300px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "node-02f5b924",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "主页信息"
+                      "name": "主页信息",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 1360,
+                          "height": 218,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "mainSizing": "fixed",
+                          "crossSizing": "auto",
+                          "gap": "40px",
+                          "padding": "24px 28px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Description",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Description"
                     },
                     {
                       "id": "node-cf55bd20",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "广告语"
+                      "name": "广告语",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 1360,
+                          "height": 110,
+                          "relativeX": 0,
+                          "relativeY": 370
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "fixed",
+                          "padding": "24px 28px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Banner",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Banner"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 3808_9sk1vfyds",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 3808_py6wa39sz",
               "name": "容器 3808",
+              "ext": {
+                "layoutStyle": {
+                  "width": 1360,
+                  "height": 1413,
+                  "relativeX": 0,
+                  "relativeY": 504
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "column",
+                  "mainSizing": "auto",
+                  "crossSizing": "fixed",
+                  "gap": "40px",
+                  "padding": "24px 24px 100px"
+                },
+                "borderRadius": "12px",
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 3797_k79jroxqm",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 3797_9f85pi2jh",
                   "name": "容器 3797",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 1312,
+                      "height": 41,
+                      "relativeX": 24,
+                      "relativeY": 24
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "1-a3-5ss-596277a5",
+                      "name": "属性 1[a3]=5ss",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 450,
+                          "height": 40,
+                          "relativeX": 431,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "属性 1[a3]=5ss"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_矩形 1221_smuf0lev9",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "矩形 1221"
+                      "id": "inline_矩形 1221_tdv1jhkkz",
+                      "name": "矩形 1221",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 1312,
+                          "relativeX": null,
+                          "relativeY": null
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Image",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Image"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
                   "id": "choice-56824ac7",
-                  "role": "Container",
-                  "confidence": 0.5,
-                  "name": "choice/作品"
+                  "name": "choice/作品",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 1312,
+                      "height": 80,
+                      "relativeX": 24,
+                      "relativeY": 105
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "20px",
+                      "padding": "20px 20px 20px 28px"
+                    },
+                    "borderRadius": "16px",
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
+                  "children": [],
+                  "role": "Nav",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Nav"
                 },
                 {
-                  "id": "inline_容器 3807_6731rqpjo",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 3807_n53pevwbd",
                   "name": "容器 3807",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 1312,
+                      "height": 1088,
+                      "relativeX": 24,
+                      "relativeY": 225
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "60px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_容器 3805_2mj6rtxav",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 3805_ugsuyllo0",
                       "name": "容器 3805",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 1312,
+                          "height": 312,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "fixed",
+                          "gap": "20px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
                           "id": "3978-84b7c827",
+                          "name": "容器 3978",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 1312,
+                              "height": 30,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "row",
+                              "alignItems": "center",
+                              "mainSizing": "fixed",
+                              "crossSizing": "auto",
+                              "gap": "40px 24px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "容器 3978"
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 3802_t7tsoauhm",
-                          "role": "Container",
-                          "confidence": 0.5,
+                          "id": "inline_容器 3802_wi05qzwq2",
                           "name": "容器 3802",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 1312,
+                              "height": 262,
+                              "relativeX": 0,
+                              "relativeY": 50
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "row",
+                              "flexWrap": "wrap",
+                              "mainSizing": "fixed",
+                              "crossSizing": "fixed",
+                              "gap": "24px 32px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
                           "children": [
                             {
                               "id": "card-38aa4e40",
+                              "name": "card/案例/收藏",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 310,
+                                  "height": 262,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": null,
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Card",
                               "confidence": 0.9,
-                              "name": "card/案例/收藏",
-                              "fromAi": true
+                              "roleSource": "ai",
+                              "needsDeepSearch": true,
+                              "frozen": true,
+                              "roleFrozen": "Card"
                             },
                             {
                               "id": "card-38aa4e40",
+                              "name": "card/案例/收藏",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 310,
+                                  "height": 262,
+                                  "relativeX": 334,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": {
+                                  "flexDirection": "column",
+                                  "mainSizing": "fixed",
+                                  "crossSizing": "fixed",
+                                  "gap": "12px"
+                                },
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Card",
                               "confidence": 0.9,
-                              "name": "card/案例/收藏",
-                              "fromAi": true
+                              "roleSource": "ai",
+                              "needsDeepSearch": true,
+                              "frozen": true,
+                              "roleFrozen": "Card"
                             },
                             {
                               "id": "card-38aa4e40",
+                              "name": "card/案例/收藏",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 310,
+                                  "height": 262,
+                                  "relativeX": 668,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": {
+                                  "flexDirection": "column",
+                                  "mainSizing": "fixed",
+                                  "crossSizing": "fixed",
+                                  "gap": "12px"
+                                },
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Card",
                               "confidence": 0.9,
-                              "name": "card/案例/收藏",
-                              "fromAi": true
+                              "roleSource": "ai",
+                              "needsDeepSearch": true,
+                              "frozen": true,
+                              "roleFrozen": "Card"
                             },
                             {
                               "id": "card-38aa4e40",
+                              "name": "card/案例/收藏",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 310,
+                                  "height": 262,
+                                  "relativeX": 1002,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": {
+                                  "flexDirection": "column",
+                                  "mainSizing": "fixed",
+                                  "crossSizing": "fixed",
+                                  "gap": "12px"
+                                },
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Card",
                               "confidence": 0.9,
-                              "name": "card/案例/收藏",
-                              "fromAi": true
+                              "roleSource": "ai",
+                              "needsDeepSearch": true,
+                              "frozen": true,
+                              "roleFrozen": "Card"
                             }
-                          ]
+                          ],
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 3806_qvuvmdzom",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 3806_ipavj4bn5",
                       "name": "容器 3806",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 1312,
+                          "height": 716,
+                          "relativeX": 0,
+                          "relativeY": 372
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "fixed",
+                          "gap": "20px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
                           "id": "3804-0e1306da",
+                          "name": "容器 3804",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 1312,
+                              "height": 40,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "row",
+                              "alignItems": "center",
+                              "mainSizing": "fixed",
+                              "crossSizing": "auto",
+                              "gap": "20px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "容器 3804"
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 3811_6unfdx4n5",
-                          "role": "Container",
-                          "confidence": 0.5,
+                          "id": "inline_容器 3811_c5cawzztg",
                           "name": "容器 3811",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 1312,
+                              "height": 656,
+                              "relativeX": 0,
+                              "relativeY": 60
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "column",
+                              "alignItems": "center",
+                              "mainSizing": "auto",
+                              "crossSizing": "fixed",
+                              "gap": "60px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
                           "children": [
                             {
-                              "id": "inline_容器 3802_7w3j7u6nk",
-                              "role": "Container",
-                              "confidence": 0.5,
+                              "id": "inline_容器 3802_xsw4skimp",
                               "name": "容器 3802",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 1312,
+                                  "height": 556,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": {
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                  "mainSizing": "fixed",
+                                  "crossSizing": "fixed",
+                                  "gap": "24px 32px"
+                                },
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
                               "children": [
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 0,
+                                      "relativeY": 0
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 334,
+                                      "relativeY": 0
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 668,
+                                      "relativeY": 0
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 1002,
+                                      "relativeY": 0
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 0,
+                                      "relativeY": 294
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 334,
+                                      "relativeY": 294
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 668,
+                                      "relativeY": 294
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 },
                                 {
                                   "id": "card-38aa4e40",
+                                  "name": "card/案例/收藏",
+                                  "ext": {
+                                    "layoutStyle": {
+                                      "width": 310,
+                                      "height": 262,
+                                      "relativeX": 1002,
+                                      "relativeY": 294
+                                    },
+                                    "flexContainerInfo": {
+                                      "flexDirection": "column",
+                                      "mainSizing": "fixed",
+                                      "crossSizing": "fixed",
+                                      "gap": "12px"
+                                    },
+                                    "borderRadius": null,
+                                    "textAlign": null,
+                                    "textMode": null
+                                  },
+                                  "depth": 7,
+                                  "children": [],
                                   "role": "Card",
                                   "confidence": 0.9,
-                                  "name": "card/案例/收藏",
-                                  "fromAi": true
+                                  "roleSource": "ai",
+                                  "needsDeepSearch": true,
+                                  "frozen": true,
+                                  "roleFrozen": "Card"
                                 }
-                              ]
+                              ],
+                              "role": "Container",
+                              "confidence": 0.85,
+                              "roleSource": "rule",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Container"
                             },
                             {
                               "id": "l-only-440d065f",
+                              "name": "L/only",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 244,
+                                  "height": 40,
+                                  "relativeX": 534,
+                                  "relativeY": 616
+                                },
+                                "flexContainerInfo": {
+                                  "flexDirection": "row",
+                                  "mainSizing": "auto",
+                                  "crossSizing": "auto",
+                                  "gap": "20px"
+                                },
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Container",
-                              "confidence": 0.5,
-                              "name": "L/only"
+                              "confidence": 0.3,
+                              "roleSource": "default",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Container"
                             }
-                          ]
+                          ],
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             }
           ],
-          "fromAi": true
+          "role": "Container",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Container"
         }
       ],
-      "fromAi": true
+      "role": "Container",
+      "confidence": 0.85,
+      "roleSource": "rule",
+      "needsDeepSearch": false,
+      "frozen": true,
+      "roleFrozen": "Container"
     },
     {
       "id": "1440px-3",
-      "role": "Section",
-      "confidence": 0.8,
       "name": "1440px",
+      "ext": {
+        "layoutStyle": {
+          "width": 1920,
+          "height": 490,
+          "relativeX": 0,
+          "relativeY": 2237
+        },
+        "flexContainerInfo": {
+          "flexDirection": "column",
+          "alignItems": "center",
+          "mainSizing": "auto",
+          "crossSizing": "fixed"
+        },
+        "borderRadius": null
+      },
+      "depth": 0,
       "children": [
         {
           "id": "1128-80488c9a",
-          "role": "Container",
-          "confidence": 0.8,
           "name": "容器 1128",
+          "ext": {
+            "layoutStyle": {
+              "width": 1440,
+              "height": 432,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "flexContainerInfo": {
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "mainSizing": "fixed",
+              "crossSizing": "auto",
+              "gap": "120px",
+              "padding": "80px 44px"
+            },
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
           "children": [
             {
-              "id": "inline_容器 1126_y6cfml32l",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 1126_0grftx248",
               "name": "容器 1126",
+              "ext": {
+                "layoutStyle": {
+                  "width": 400,
+                  "height": 272,
+                  "relativeX": 44,
+                  "relativeY": 80
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "column",
+                  "mainSizing": "auto",
+                  "crossSizing": "auto",
+                  "gap": "60px"
+                },
+                "borderRadius": null,
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 1125_qk98oiyta",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 1125_gmlcvuqtn",
                   "name": "容器 1125",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 400,
+                      "height": 164,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "no-box-black-414d0d4b",
+                      "name": "no-box/black",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 107,
+                          "height": 28,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "no-box/black"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 1124_2bsok94oo",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 1124_tvezw543r",
                       "name": "容器 1124",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 400,
+                          "height": 112,
+                          "relativeX": 0,
+                          "relativeY": 52
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "20px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_容器 790_rrxdwkweo",
-                          "role": "Container",
-                          "confidence": 0.5,
+                          "id": "inline_容器 790_9d180zxga",
                           "name": "容器 790",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 400,
+                              "height": 80,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "column",
+                              "mainSizing": "auto",
+                              "crossSizing": "auto",
+                              "gap": "8px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
                           "children": [
                             {
-                              "id": "inline_让创意更有价值 , 让世界更生动_fhzcyqbbh",
+                              "id": "inline_让创意更有价值 , 让世界更生动_x5m4mz956",
+                              "name": "让创意更有价值 , 让世界更生动",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 251,
+                                  "height": 28,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": null,
+                                "borderRadius": null,
+                                "textAlign": "left",
+                                "textMode": "single-line"
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Container",
-                              "confidence": 0.5,
-                              "name": "让创意更有价值 , 让世界更生动"
+                              "confidence": 0.3,
+                              "roleSource": "default",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Container"
                             },
                             {
-                              "id": "inline_我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！_8lrahzu9x",
-                              "role": "Container",
-                              "confidence": 0.5,
-                              "name": "我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！"
+                              "id": "inline_我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！_omkuqr4fg",
+                              "name": "我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 400,
+                                  "height": 44,
+                                  "relativeX": 0,
+                                  "relativeY": 36
+                                },
+                                "flexContainerInfo": null,
+                                "borderRadius": null,
+                                "textAlign": "left",
+                                "textMode": "auto-height"
+                              },
+                              "depth": 6,
+                              "children": [],
+                              "role": "Nav",
+                              "confidence": 0.85,
+                              "roleSource": "rule",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Nav"
                             }
-                          ]
+                          ],
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 249_v9wohck74",
-                          "role": "Container",
-                          "confidence": 0.5,
+                          "id": "inline_容器 249_sxmh2ube6",
                           "name": "容器 249",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 79,
+                              "height": 12,
+                              "relativeX": 0,
+                              "relativeY": 100
+                            },
+                            "flexContainerInfo": {
+                              "flexDirection": "row",
+                              "alignItems": "center",
+                              "mainSizing": "auto",
+                              "crossSizing": "auto",
+                              "gap": "4px"
+                            },
+                            "borderRadius": null,
+                            "textAlign": null,
+                            "textMode": null
+                          },
+                          "depth": 5,
                           "children": [
                             {
                               "id": "copyright-d22e4b36",
-                              "role": "Footer",
-                              "confidence": 0.9,
                               "name": "copyright",
-                              "fromAi": true
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 12,
+                                  "height": 12,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": null,
+                                "borderRadius": null,
+                                "textAlign": null,
+                                "textMode": null
+                              },
+                              "depth": 6,
+                              "children": [],
+                              "role": "Footer",
+                              "confidence": 0.85,
+                              "roleSource": "rule",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Footer"
                             },
                             {
-                              "id": "inline_2012-2024_um194dldy",
+                              "id": "inline_2012-2024_vsmxndglu",
+                              "name": "2012-2024",
+                              "ext": {
+                                "layoutStyle": {
+                                  "width": 63,
+                                  "height": 12,
+                                  "relativeX": 16,
+                                  "relativeY": 0
+                                },
+                                "flexContainerInfo": null,
+                                "borderRadius": null,
+                                "textAlign": "left",
+                                "textMode": "single-line"
+                              },
+                              "depth": 6,
+                              "children": [],
                               "role": "Container",
-                              "confidence": 0.5,
-                              "name": "2012-2024"
+                              "confidence": 0.3,
+                              "roleSource": "default",
+                              "needsDeepSearch": false,
+                              "frozen": true,
+                              "roleFrozen": "Container"
                             }
-                          ]
+                          ],
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 1157_1a69wm1h9",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 1157_3ehi32f75",
                   "name": "容器 1157",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 304,
+                      "height": 48,
+                      "relativeX": 0,
+                      "relativeY": 224
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "16px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
                       "id": "2-a1-nor-a61a444c",
+                      "name": "属性 2[a1]=nor",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 48,
+                          "height": 48,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "属性 2[a1]=nor"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
                       "id": "2-a1-nor-a61a444c",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "tabs/footer/nor 2"
+                      "name": "tabs/footer/nor 2",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 48,
+                          "height": 48,
+                          "relativeX": 64,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "padding": "14px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Footer",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Footer"
                     },
                     {
                       "id": "2-a1-nor-a61a444c",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "tabs/footer/nor 1"
+                      "name": "tabs/footer/nor 1",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 48,
+                          "height": 48,
+                          "relativeX": 128,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "padding": "14px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Footer",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Footer"
                     },
                     {
                       "id": "tabs-footer-nor-6-860ba693",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "tabs/footer/nor 6"
+                      "name": "tabs/footer/nor 6",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 48,
+                          "height": 48,
+                          "relativeX": 192,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "fixed",
+                          "crossSizing": "fixed",
+                          "padding": "14px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Footer",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Footer"
                     },
                     {
                       "id": "2-a1-nor-a61a444c",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "tabs/footer/nor 3"
+                      "name": "tabs/footer/nor 3",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 48,
+                          "height": 48,
+                          "relativeX": 256,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "padding": "14px"
+                        },
+                        "borderRadius": "8px",
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Footer",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Footer"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 1127_565ahjjs6",
-              "role": "Container",
-              "confidence": 0.5,
+              "id": "inline_容器 1127_uk7afapsp",
               "name": "容器 1127",
+              "ext": {
+                "layoutStyle": {
+                  "width": 832,
+                  "height": 182,
+                  "relativeX": 564,
+                  "relativeY": 80
+                },
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "mainSizing": "fixed",
+                  "crossSizing": "auto"
+                },
+                "borderRadius": null,
+                "textAlign": null,
+                "textMode": null
+              },
+              "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 793_u7gfk8ixj",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 793_diskopdck",
                   "name": "容器 793",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 182,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂视频_3vz6e2x1h",
+                      "id": "inline_光厂视频_kmpn2suke",
+                      "name": "光厂视频",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "光厂视频"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_vjfkxgte5",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_9bmmxpfy4",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 136,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传视频_979qz1v7y",
+                          "id": "inline_上传视频_z7ldwtc5z",
+                          "name": "上传视频",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "上传视频"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_精品视频_n4t75bt8j",
+                          "id": "inline_精品视频_nh485mcfy",
+                          "name": "精品视频",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "精品视频"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_精选专辑_cai45q19c",
+                          "id": "inline_精选专辑_o8w4iplrk",
+                          "name": "精选专辑",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "精选专辑"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_免费素材_pztjz3dqm",
-                          "role": "Container",
-                          "confidence": 0.5,
-                          "name": "免费素材"
+                          "id": "inline_免费素材_qzvrdb1en",
+                          "name": "免费素材",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 114
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
+                          "role": "Image",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Image"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 797_1bef9mg1t",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 797_y7m6nwpjq",
                   "name": "容器 797",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 144,
+                      "relativeX": 138.67,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂图片_ys8novcu3",
-                      "role": "Container",
-                      "confidence": 0.5,
-                      "name": "光厂图片"
+                      "id": "inline_光厂图片_qhy1eb2m5",
+                      "name": "光厂图片",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
+                      "role": "Image",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Image"
                     },
                     {
-                      "id": "inline_容器 695_o02upr26f",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_jxbjh9xsr",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 98,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传图片_mfo154qe9",
-                          "role": "Container",
-                          "confidence": 0.5,
-                          "name": "上传图片"
+                          "id": "inline_上传图片_qscpqg472",
+                          "name": "上传图片",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
+                          "role": "Image",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Image"
                         },
                         {
-                          "id": "inline_精品图片_xts60ry8q",
-                          "role": "Container",
-                          "confidence": 0.5,
-                          "name": "精品图片"
+                          "id": "inline_精品图片_4lr3atb8v",
+                          "name": "精品图片",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
+                          "role": "Image",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Image"
                         },
                         {
-                          "id": "inline_免费图片_5j5xkxf69",
-                          "role": "Container",
-                          "confidence": 0.5,
-                          "name": "免费图片"
+                          "id": "inline_免费图片_sc7sqx57x",
+                          "name": "免费图片",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
+                          "role": "Image",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Image"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 794_9mkib0qci",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 794_objuh0mg9",
                   "name": "容器 794",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 182,
+                      "relativeX": 277.33,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂音乐_5r3yebad2",
+                      "id": "inline_光厂音乐_7ptecvnlu",
+                      "name": "光厂音乐",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "光厂音乐"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_hdv1nq1iu",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_z7tyauohp",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 136,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_热门音乐_u4wnqrp61",
+                          "id": "inline_热门音乐_avkshbxp4",
+                          "name": "热门音乐",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "热门音乐"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_免费音效_vnordgus1",
+                          "id": "inline_免费音效_kas58gzph",
+                          "name": "免费音效",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "免费音效"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_热门歌单_8sjqpr8bh",
+                          "id": "inline_热门歌单_4c2x3n4aj",
+                          "name": "热门歌单",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "热门歌单"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_立即入驻_zhnw0wqpc",
+                          "id": "inline_立即入驻_tijvfqeab",
+                          "name": "立即入驻",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 114
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "立即入驻"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 798_kvnbkm4oy",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 798_4e6l6lc0b",
                   "name": "容器 798",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 144,
+                      "relativeX": 416,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂片场_8z81bzrzl",
+                      "id": "inline_光厂片场_7oc049fa6",
+                      "name": "光厂片场",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "光厂片场"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_kdl15arcr",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_q44sj5bka",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 98,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传案例_oq9y557l5",
-                          "role": "Container",
-                          "confidence": 0.5,
-                          "name": "上传案例"
+                          "id": "inline_上传案例_2cbiksbif",
+                          "name": "上传案例",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
+                          "role": "Button",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
+                          "needsDeepSearch": true,
+                          "frozen": true,
+                          "roleFrozen": "Card"
                         },
                         {
-                          "id": "inline_AI搜镜头_edqb92ev4",
+                          "id": "inline_AI搜镜头_dflsw4ytw",
+                          "name": "AI搜镜头",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 55,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "AI搜镜头"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_片场榜单_bzloeodhp",
+                          "id": "inline_片场榜单_ecgjcspi6",
+                          "name": "片场榜单",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "片场榜单"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 795_r486ki8qs",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 795_0kstuptu6",
                   "name": "容器 795",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 144,
+                      "relativeX": 554.67,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂服务_e70acd4lt",
+                      "id": "inline_光厂服务_ojyzvxhbx",
+                      "name": "光厂服务",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "光厂服务"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_z3ok8elox",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_n3vw03hkp",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 98,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上架服务_sw643wfwt",
+                          "id": "inline_上架服务_oqov9z5ti",
+                          "name": "上架服务",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "上架服务"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_热门服务_4hut80zqp",
+                          "id": "inline_热门服务_ntltiim5v",
+                          "name": "热门服务",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "热门服务"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_创作人_2m2vgw5cs",
+                          "id": "inline_创作人_7dx2jfqps",
+                          "name": "创作人",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 42,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "创作人"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 796_knh3a6on7",
-                  "role": "Container",
-                  "confidence": 0.5,
+                  "id": "inline_容器 796_o3qtum8bz",
                   "name": "容器 796",
+                  "ext": {
+                    "layoutStyle": {
+                      "width": 138.6666717529297,
+                      "height": 182,
+                      "relativeX": 693.33,
+                      "relativeY": 0
+                    },
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "flex-end",
+                      "mainSizing": "auto",
+                      "crossSizing": "fixed",
+                      "gap": "24px"
+                    },
+                    "borderRadius": null,
+                    "textAlign": null,
+                    "textMode": null
+                  },
+                  "depth": 3,
                   "children": [
                     {
-                      "id": "inline_关于光厂_047fvsbzr",
+                      "id": "inline_关于光厂_bpvwqb56e",
+                      "name": "关于光厂",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 22,
+                          "relativeX": 82.67,
+                          "relativeY": 0
+                        },
+                        "flexContainerInfo": null,
+                        "borderRadius": null,
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      },
+                      "depth": 4,
+                      "children": [],
                       "role": "Container",
-                      "confidence": 0.5,
-                      "name": "关于光厂"
+                      "confidence": 0.3,
+                      "roleSource": "default",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_jwrxgpndk",
-                      "role": "Container",
-                      "confidence": 0.5,
+                      "id": "inline_容器 695_xihd6jwq0",
                       "name": "容器 695",
+                      "ext": {
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 136,
+                          "relativeX": 82.67,
+                          "relativeY": 46
+                        },
+                        "flexContainerInfo": {
+                          "flexDirection": "column",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "16px"
+                        },
+                        "borderRadius": null,
+                        "textAlign": null,
+                        "textMode": null
+                      },
+                      "depth": 4,
                       "children": [
                         {
-                          "id": "inline_关于我们_ouu599fkq",
+                          "id": "inline_关于我们_vmwh1ecab",
+                          "name": "关于我们",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "关于我们"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_诚聘英才_bs03298zg",
+                          "id": "inline_诚聘英才_sh33r1v62",
+                          "name": "诚聘英才",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 38
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "诚聘英才"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_帮助中心_9dc80wfxu",
+                          "id": "inline_帮助中心_vjz31m2lw",
+                          "name": "帮助中心",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 76
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "帮助中心"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_权责声明_5cczmc074",
+                          "id": "inline_权责声明_qyvmoek3m",
+                          "name": "权责声明",
+                          "ext": {
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 22,
+                              "relativeX": 0,
+                              "relativeY": 114
+                            },
+                            "flexContainerInfo": null,
+                            "borderRadius": null,
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          },
+                          "depth": 5,
+                          "children": [],
                           "role": "Container",
-                          "confidence": 0.5,
-                          "name": "权责声明"
+                          "confidence": 0.3,
+                          "roleSource": "default",
+                          "needsDeepSearch": false,
+                          "frozen": true,
+                          "roleFrozen": "Container"
                         }
-                      ]
+                      ],
+                      "role": "Container",
+                      "confidence": 0.85,
+                      "roleSource": "rule",
+                      "needsDeepSearch": false,
+                      "frozen": true,
+                      "roleFrozen": "Container"
                     }
-                  ]
+                  ],
+                  "role": "Container",
+                  "confidence": 0.85,
+                  "roleSource": "rule",
+                  "needsDeepSearch": false,
+                  "frozen": true,
+                  "roleFrozen": "Container"
                 }
-              ]
+              ],
+              "role": "Container",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             }
           ],
-          "fromAi": true
+          "role": "Container",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Container"
         },
         {
           "id": "footer-son-bottom-6355ddb9",
-          "role": "Container",
-          "confidence": 0.5,
           "name": "footer/son/bottom",
+          "ext": {
+            "layoutStyle": {
+              "width": 1440,
+              "height": 58,
+              "relativeX": 0,
+              "relativeY": 432
+            },
+            "flexContainerInfo": {
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "mainSizing": "fixed",
+              "crossSizing": "auto",
+              "gap": "28px",
+              "padding": "20px 284px"
+            },
+            "borderRadius": null,
+            "textAlign": null,
+            "textMode": null
+          },
+          "depth": 1,
           "children": [
             {
-              "id": "inline_增值电信业务经营许可证：川B2-20160192_jo4kvhi1m",
+              "id": "inline_增值电信业务经营许可证：川B2-20160192_v4lmil0fm",
+              "name": "增值电信业务经营许可证：川B2-20160192",
+              "ext": {
+                "layoutStyle": {
+                  "width": 232,
+                  "height": 18,
+                  "relativeX": 210,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "增值电信业务经营许可证：川B2-20160192"
+              "confidence": 0.3,
+              "roleSource": "default",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_蜀ICP备12020238号-4_bntqvb10l",
+              "id": "inline_蜀ICP备12020238号-4_s5k19zwiu",
+              "name": "蜀ICP备12020238号-4",
+              "ext": {
+                "layoutStyle": {
+                  "width": 126,
+                  "height": 18,
+                  "relativeX": 470,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "蜀ICP备12020238号-4"
+              "confidence": 0.3,
+              "roleSource": "default",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_川公网安备51019002000262_glndjcw0f",
+              "id": "inline_川公网安备51019002000262_69859iggg",
+              "name": "川公网安备51019002000262",
+              "ext": {
+                "layoutStyle": {
+                  "width": 157,
+                  "height": 18,
+                  "relativeX": 624,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "川公网安备51019002000262"
+              "confidence": 0.3,
+              "roleSource": "default",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_广播电视节目制作经营许可证（川）字第20170号_qdeowg46v",
+              "id": "inline_广播电视节目制作经营许可证（川）字第20170号_q9d9cgana",
+              "name": "广播电视节目制作经营许可证（川）字第20170号",
+              "ext": {
+                "layoutStyle": {
+                  "width": 261,
+                  "height": 18,
+                  "relativeX": 809,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              "depth": 2,
+              "children": [],
               "role": "Container",
-              "confidence": 0.5,
-              "name": "广播电视节目制作经营许可证（川）字第20170号"
+              "confidence": 0.3,
+              "roleSource": "default",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Container"
             },
             {
-              "id": "inline_违法和不良信息举报中心_6uvlnzdip",
-              "role": "Container",
-              "confidence": 0.5,
-              "name": "违法和不良信息举报中心"
+              "id": "inline_违法和不良信息举报中心_cu75yx76t",
+              "name": "违法和不良信息举报中心",
+              "ext": {
+                "layoutStyle": {
+                  "width": 132,
+                  "height": 18,
+                  "relativeX": 1098,
+                  "relativeY": 20
+                },
+                "flexContainerInfo": null,
+                "borderRadius": null,
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              "depth": 2,
+              "children": [],
+              "role": "Description",
+              "confidence": 0.85,
+              "roleSource": "rule",
+              "needsDeepSearch": false,
+              "frozen": true,
+              "roleFrozen": "Description"
             }
-          ]
+          ],
+          "role": "Footer",
+          "confidence": 0.85,
+          "roleSource": "rule",
+          "needsDeepSearch": false,
+          "frozen": true,
+          "roleFrozen": "Footer"
         }
       ],
-      "fromAi": true
+      "role": "Footer",
+      "confidence": 0.7,
+      "roleSource": "rule",
+      "needsDeepSearch": false,
+      "frozen": true,
+      "roleFrozen": "Footer"
     }
   ]
 }

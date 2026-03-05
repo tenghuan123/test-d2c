@@ -1,36 +1,13 @@
 {
   "components": [
     {
-      "name": "Component_1-a4-nor-323",
-      "fromNodes": [
-        "1-a4-nor-323df651"
-      ],
-      "count": 4,
-      "similarity": 1
-    },
-    {
       "name": "Component_son-list-c3d",
       "fromNodes": [
         "son-list-c3d6d542"
       ],
       "count": 13,
-      "similarity": 1
-    },
-    {
-      "name": "Component_2472-8237bb7",
-      "fromNodes": [
-        "2472-8237bb78"
-      ],
-      "count": 3,
-      "similarity": 1
-    },
-    {
-      "name": "Component_2471-fbe8d2e",
-      "fromNodes": [
-        "2471-fbe8d2e2"
-      ],
-      "count": 3,
-      "similarity": 1
+      "similarity": 1,
+      "role": "Unknown"
     },
     {
       "name": "Component_card-38aa4e4",
@@ -38,15 +15,8 @@
         "card-38aa4e40"
       ],
       "count": 12,
-      "similarity": 1
-    },
-    {
-      "name": "Component_2-a1-nor-a61",
-      "fromNodes": [
-        "2-a1-nor-a61a444c"
-      ],
-      "count": 4,
-      "similarity": 1
+      "similarity": 1,
+      "role": "Unknown"
     }
   ]
 }
