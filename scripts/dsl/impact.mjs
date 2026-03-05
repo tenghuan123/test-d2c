@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const ROOT = process.cwd();
 const graphFile = join(ROOT, "dsl/graph/dependency.json");
@@ -8,20 +9,7 @@ function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
 }
 
-function run() {
-  const args = process.argv.slice(2);
-  const changedArg = args.find((a) => a.startsWith("--changed="));
-  if (!changedArg) {
-    console.log('用法: npm run dsl:impact -- --changed="component:xxx,token:color.xxx"');
-    process.exit(1);
-  }
-  const changed = changedArg
-    .replace("--changed=", "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
-
-  const graph = readJson(graphFile);
+export function computeImpact(changed, graph) {
   const reverse = graph.reverseNodes || {};
   const queue = [...changed];
   const seen = new Set(changed);
@@ -38,7 +26,26 @@ function run() {
   }
 
   const impacted = Array.from(seen).sort();
-  console.log(JSON.stringify({ changed, impacted }, null, 2));
+  return { changed, impacted };
 }
 
-run();
+function run() {
+  const args = process.argv.slice(2);
+  const changedArg = args.find((a) => a.startsWith("--changed="));
+  if (!changedArg) {
+    console.log('用法: npm run dsl:impact -- --changed="component:xxx,token:color.xxx"');
+    process.exit(1);
+  }
+  const changed = changedArg
+    .replace("--changed=", "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  const graph = readJson(graphFile);
+  const result = computeImpact(changed, graph);
+  console.log(JSON.stringify(result, null, 2));
+}
+
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+if (isMain) run();

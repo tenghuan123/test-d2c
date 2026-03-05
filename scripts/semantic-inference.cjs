@@ -18,6 +18,7 @@ const BFS_MAX_DEPTH = 5;   // Stage 1: 宏观扫描深度
 const DFS_MAX_DEPTH = 10;   // Stage 3: 微观递归深度
 const MIN_REPEAT_COUNT = 5; // Stage 4: 最小重复次数
 const SIMILARITY_THRESHOLD = 0.85; // 相似度阈值
+const CONFIDENCE_THRESHOLD = Number(process.env.CONFIDENCE_THRESHOLD || 0.6);
 const ONLY_USE_AI = false; // 是否只使用 AI 推断
 
 const ALLOWED_ROLES = [
@@ -216,9 +217,10 @@ function collectDeepSearchNodes(tree, nodes = [], currentDepth = 0) {
   if (currentDepth > DFS_MAX_DEPTH) return nodes;
 
   // 如果 ONLY_USE_AI，则收集所有非 inline 节点
+  const lowConfidence = Number.isFinite(tree.confidence) && tree.confidence < CONFIDENCE_THRESHOLD;
   const shouldCollect = ONLY_USE_AI 
     ? (currentDepth > 0 && tree.id && !tree.id.startsWith('inline_'))
-    : (tree.needsDeepSearch && currentDepth > 0);
+    : ((tree.needsDeepSearch || lowConfidence) && currentDepth > 0);
     
   if (shouldCollect) {
     nodes.push({
@@ -453,6 +455,7 @@ async function runPipeline() {
   
   // ===== Stage 3: Targeted DFS =====
   console.log(`\n[Stage 3] Targeted DFS (maxDepth=${DFS_MAX_DEPTH})...`);
+  console.log(`[Stage 3] confidence threshold=${CONFIDENCE_THRESHOLD}`);
   
   // 收集需要深度搜索的节点
   const deepSearchNodes = [];

@@ -8,15 +8,6 @@
       "count": 13,
       "similarity": 1,
       "role": "Unknown"
-    },
-    {
-      "name": "Component_card-38aa4e4",
-      "fromNodes": [
-        "card-38aa4e40"
-      ],
-      "count": 12,
-      "similarity": 1,
-      "role": "Unknown"
     }
   ]
 }

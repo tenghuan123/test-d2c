@@ -11,7 +11,11 @@
     "dsl:validate": "node scripts/dsl/validate.mjs",
     "dsl:impact": "node scripts/dsl/impact.mjs",
     "dsl:diff": "node scripts/dsl/diff-snapshot.mjs",
-    "dsl:tailwind": "node scripts/dsl/to-tailwind.mjs"
+    "dsl:tailwind": "node scripts/dsl/to-tailwind.mjs",
+    "dsl:semantic": "node scripts/semantic-inference.cjs",
+    "dsl:codegen": "node scripts/dsl/codegen.mjs",
+    "dsl:pipeline": "npm run dsl:build && npm run dsl:validate && npm run dsl:semantic && npm run dsl:codegen",
+    "test": "node --test tests/**/*.test.mjs"
   },
   "dependencies": {
     "@react-router/node": "7.12.0",
@@ -27,6 +31,7 @@
     "@types/node": "^22",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "ajv": "^8.18.0",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2",
     "vite": "^7.1.7",

@@ -1,0 +1,19 @@
+name: dsl-check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-dsl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run dsl:build
+      - run: npm run dsl:validate
+      - run: npm run dsl:semantic

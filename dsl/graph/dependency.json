@@ -66,13 +66,6 @@
       "component:son-list-9ee85330",
       "component:son-list-c3d6d542"
     ],
-    "component:1-a0-466e507f": [],
-    "component:tag-dc0340a2": [],
-    "component:409-bece76ed": [],
-    "component:1-a3-1145e0f3": [
-      "token:color.white-80",
-      "token:effect.8"
-    ],
     "component:node-d9e4c6e9": [],
     "component:1589-29a69d67": [],
     "component:3678-b1dde581": [],
@@ -119,10 +112,6 @@
     "component:1-a2-nor-2b681135": [],
     "component:node-b007f638": [],
     "component:3978-84b7c827": [],
-    "component:tag-bda69645": [],
-    "component:icon-star-2071444c": [],
-    "component:2-a8-right-nor-5852e9b2": [],
-    "component:card-38aa4e40": [],
     "component:1-a3-nor-bad58b7d": [
       "token:color.ty-30"
     ],
@@ -130,13 +119,6 @@
       "token:color.ty-70"
     ],
     "component:3804-0e1306da": [],
-    "component:1-a0-dis-0e7d2d37": [
-      "token:color.ty-1"
-    ],
-    "component:1-a2-sel-892f547d": [
-      "token:color.ty-70"
-    ],
-    "component:l-only-440d065f": [],
     "component:3809-36f2c6ca": [
       "component:1-a0-466e507f",
       "component:1-a0-dis-0e7d2d37",
@@ -184,12 +166,29 @@
       "component:tag-dc0340a2",
       "component:tips-f02c3118"
     ],
+    "component:1-a0-466e507f": [],
+    "component:tag-dc0340a2": [],
+    "component:409-bece76ed": [],
+    "component:1-a3-1145e0f3": [
+      "token:color.white-80",
+      "token:effect.8"
+    ],
+    "component:2-a8-right-nor-5852e9b2": [],
+    "component:card-38aa4e40": [],
+    "component:tag-bda69645": [],
+    "component:icon-star-2071444c": [],
+    "component:1-a0-dis-0e7d2d37": [
+      "token:color.ty-1"
+    ],
+    "component:1-a2-sel-892f547d": [
+      "token:color.ty-70"
+    ],
+    "component:l-only-440d065f": [],
     "module:3810-2": [
       "component:3615-d37f156b",
       "component:3809-36f2c6ca"
     ],
     "component:no-box-black-414d0d4b": [],
-    "component:copyright-d22e4b36": [],
     "component:wx-1773da22": [],
     "component:node-b9b5acb3": [],
     "component:2-a1-nor-a61a444c": [
@@ -209,6 +208,7 @@
       "component:wx-1773da22",
       "token:color.ty-20-hover"
     ],
+    "component:copyright-d22e4b36": [],
     "component:node-7c83b954": [],
     "component:footer-son-bottom-6355ddb9": [
       "token:color.ty-70"
@@ -321,16 +321,13 @@
     "component:son-list-c3d6d542": [
       "component:3615-d37f156b"
     ],
-    "token:color.white-80": [
-      "component:1-a3-1145e0f3"
+    "token:color.white-60-banner": [
+      "component:tips-f02c3118"
     ],
     "token:effect.8": [
       "component:1-a3-1145e0f3",
       "component:tag-2c713570",
       "component:tag-849205f4",
-      "component:tips-f02c3118"
-    ],
-    "token:color.white-60-banner": [
       "component:tips-f02c3118"
     ],
     "token:color.paint-347-046071": [
@@ -350,9 +347,6 @@
       "component:1-a3-nor-bad58b7d",
       "component:2-a1-nor-a61a444c",
       "component:tabs-footer-nor-6-860ba693"
-    ],
-    "token:color.ty-1": [
-      "component:1-a0-dis-0e7d2d37"
     ],
     "component:1-a0-466e507f": [
       "component:3809-36f2c6ca"
@@ -482,6 +476,12 @@
     ],
     "component:tips-f02c3118": [
       "component:3809-36f2c6ca"
+    ],
+    "token:color.white-80": [
+      "component:1-a3-1145e0f3"
+    ],
+    "token:color.ty-1": [
+      "component:1-a0-dis-0e7d2d37"
     ],
     "component:3615-d37f156b": [
       "module:3810-2"

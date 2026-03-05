@@ -149,53 +149,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "COMPONENT_REF",
-                        "name": "tag/人气标",
-                        "ref": "tag-bda69645",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 14,
-                            "height": 14,
-                            "relativeX": 0,
-                            "relativeY": 4
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "TEXT",
-                        "name": "43",
-                        "styleRefs": [
-                          "{textStyle.c-14px}",
-                          "{color.ty-20-hover}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 17,
-                            "height": 22,
-                            "relativeX": 18,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "43",
-                            "font": "font_8:1425"
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   },
                   {
                     "nodeType": "FRAME",
@@ -218,53 +172,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "COMPONENT_REF",
-                        "name": "详情页/icon/star",
-                        "ref": "icon-star-2071444c",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 14,
-                            "height": 14,
-                            "relativeX": 0,
-                            "relativeY": 4
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "TEXT",
-                        "name": "7",
-                        "styleRefs": [
-                          "{textStyle.c-14px}",
-                          "{color.ty-20-hover}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 8,
-                            "height": 22,
-                            "relativeX": 18,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "7",
-                            "font": "font_8:1425"
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   }
                 ]
               },

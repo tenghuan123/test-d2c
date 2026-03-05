@@ -175,100 +175,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "TEXT",
-                        "name": "蓝鲸工作室",
-                        "styleRefs": [
-                          "{effect.effect-431-007129}",
-                          "{textStyle.40px}",
-                          "{color.ty-1}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 200,
-                            "height": 60,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "蓝鲸工作室",
-                            "font": "font_8:4973"
-                          }
-                        ]
-                      },
-                      {
-                        "nodeType": "FRAME",
-                        "name": "容器 3798",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 174,
-                            "height": 24,
-                            "relativeX": 216,
-                            "relativeY": 18
-                          },
-                          "flexContainerInfo": {
-                            "flexDirection": "row",
-                            "alignItems": "center",
-                            "mainSizing": "auto",
-                            "crossSizing": "auto",
-                            "gap": "8px"
-                          },
-                          "borderRadius": null,
-                          "textAlign": null,
-                          "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "COMPONENT_REF",
-                            "name": "属性 1[a0]=个人",
-                            "ref": "1-a0-466e507f",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 24,
-                                "height": 24,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "borderRadius": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          },
-                          {
-                            "nodeType": "COMPONENT_REF",
-                            "name": "属性 1[a3]=已认证",
-                            "ref": "1-a3-1145e0f3",
-                            "styleRefs": [
-                              "{color.white-80}",
-                              "{effect.8}"
-                            ],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 142,
-                                "height": 24,
-                                "relativeX": 32,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "borderRadius": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   }
                 ]
               }
@@ -594,46 +501,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "GROUP",
-                        "name": "组",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 17.69865608215332,
-                            "height": 17.181007385253906,
-                            "relativeX": 3.9,
-                            "relativeY": 4.13,
-                            "rotate": 45
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": null,
-                          "textMode": null
-                        },
-                        "children": [
-                          {
-                            "nodeType": "PATH",
-                            "name": "路径",
-                            "styleRefs": [],
-                            "ext": {
-                              "layoutStyle": {
-                                "width": 17.69865608215332,
-                                "height": 17.181007385253906,
-                                "relativeX": 0,
-                                "relativeY": 0
-                              },
-                              "flexContainerInfo": null,
-                              "borderRadius": null,
-                              "textAlign": null,
-                              "textMode": null
-                            }
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   }
                 ]
               }

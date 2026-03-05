@@ -44,7 +44,7 @@
           "depth": 1,
           "children": [
             {
-              "id": "inline_容器 2051_tdpzohm5o",
+              "id": "inline_容器 2051_vqd5823zo",
               "name": "容器 2051",
               "ext": {
                 "layoutStyle": {
@@ -91,7 +91,7 @@
                   "roleFrozen": "Logo"
                 },
                 {
-                  "id": "inline_容器 620_i78egblqw",
+                  "id": "inline_容器 620_j2z9gslbs",
                   "name": "容器 620",
                   "ext": {
                     "layoutStyle": {
@@ -381,7 +381,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 2462_xq2hdyker",
+              "id": "inline_容器 2462_y5k4ebad7",
               "name": "容器 2462",
               "ext": {
                 "layoutStyle": {
@@ -403,7 +403,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 2486_ne3dvb694",
+                  "id": "inline_容器 2486_1w766knyd",
                   "name": "容器 2486",
                   "ext": {
                     "layoutStyle": {
@@ -615,7 +615,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2487_in3wjdvq2",
+                  "id": "inline_容器 2487_gbfgkkgy3",
                   "name": "容器 2487",
                   "ext": {
                     "layoutStyle": {
@@ -827,7 +827,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2488_fnat93gl6",
+                  "id": "inline_容器 2488_ws31oc564",
                   "name": "容器 2488",
                   "ext": {
                     "layoutStyle": {
@@ -970,7 +970,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 2489_0jp8z9def",
+                  "id": "inline_容器 2489_lj5m9qytp",
                   "name": "容器 2489",
                   "ext": {
                     "layoutStyle": {
@@ -1163,7 +1163,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_用户建议入口_zw1ij2qrt",
+              "id": "inline_用户建议入口_byizjjvh3",
               "name": "用户建议入口",
               "ext": {
                 "layoutStyle": {
@@ -1188,7 +1188,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_我的素材中心_qqh4xi80x",
+                  "id": "inline_我的素材中心_901zl8vu0",
                   "name": "我的素材中心",
                   "ext": {
                     "layoutStyle": {
@@ -1250,7 +1250,7 @@
           "depth": 1,
           "children": [
             {
-              "id": "inline_容器 3794_pmgj6ellb",
+              "id": "inline_容器 3794_i7phds6bl",
               "name": "容器 3794",
               "ext": {
                 "layoutStyle": {
@@ -1272,7 +1272,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_矩形 1210_px8lvogoy",
+                  "id": "inline_矩形 1210_g7lc6z2r4",
                   "name": "矩形 1210",
                   "ext": {
                     "layoutStyle": {
@@ -1296,7 +1296,7 @@
                   "roleFrozen": "Image"
                 },
                 {
-                  "id": "inline_容器 3793_q5ws5pd0g",
+                  "id": "inline_容器 3793_2ksxtv2e2",
                   "name": "容器 3793",
                   "ext": {
                     "layoutStyle": {
@@ -1394,7 +1394,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 3808_py6wa39sz",
+              "id": "inline_容器 3808_ov1koajg0",
               "name": "容器 3808",
               "ext": {
                 "layoutStyle": {
@@ -1417,7 +1417,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 3797_9f85pi2jh",
+                  "id": "inline_容器 3797_hfujbfhvg",
                   "name": "容器 3797",
                   "ext": {
                     "layoutStyle": {
@@ -1464,7 +1464,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_矩形 1221_tdv1jhkkz",
+                      "id": "inline_矩形 1221_momtdrjbp",
                       "name": "矩形 1221",
                       "ext": {
                         "layoutStyle": {
@@ -1526,7 +1526,7 @@
                   "roleFrozen": "Nav"
                 },
                 {
-                  "id": "inline_容器 3807_n53pevwbd",
+                  "id": "inline_容器 3807_3dhdj6ssu",
                   "name": "容器 3807",
                   "ext": {
                     "layoutStyle": {
@@ -1548,7 +1548,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_容器 3805_ugsuyllo0",
+                      "id": "inline_容器 3805_c3indui7q",
                       "name": "容器 3805",
                       "ext": {
                         "layoutStyle": {
@@ -1600,7 +1600,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 3802_wi05qzwq2",
+                          "id": "inline_容器 3802_rsoyg0uzk",
                           "name": "容器 3802",
                           "ext": {
                             "layoutStyle": {
@@ -1621,119 +1621,7 @@
                             "textMode": null
                           },
                           "depth": 5,
-                          "children": [
-                            {
-                              "id": "card-38aa4e40",
-                              "name": "card/案例/收藏",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 310,
-                                  "height": 262,
-                                  "relativeX": 0,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": null,
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Card",
-                              "confidence": 0.9,
-                              "roleSource": "ai",
-                              "needsDeepSearch": true,
-                              "frozen": true,
-                              "roleFrozen": "Card"
-                            },
-                            {
-                              "id": "card-38aa4e40",
-                              "name": "card/案例/收藏",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 310,
-                                  "height": 262,
-                                  "relativeX": 334,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": {
-                                  "flexDirection": "column",
-                                  "mainSizing": "fixed",
-                                  "crossSizing": "fixed",
-                                  "gap": "12px"
-                                },
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Card",
-                              "confidence": 0.9,
-                              "roleSource": "ai",
-                              "needsDeepSearch": true,
-                              "frozen": true,
-                              "roleFrozen": "Card"
-                            },
-                            {
-                              "id": "card-38aa4e40",
-                              "name": "card/案例/收藏",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 310,
-                                  "height": 262,
-                                  "relativeX": 668,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": {
-                                  "flexDirection": "column",
-                                  "mainSizing": "fixed",
-                                  "crossSizing": "fixed",
-                                  "gap": "12px"
-                                },
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Card",
-                              "confidence": 0.9,
-                              "roleSource": "ai",
-                              "needsDeepSearch": true,
-                              "frozen": true,
-                              "roleFrozen": "Card"
-                            },
-                            {
-                              "id": "card-38aa4e40",
-                              "name": "card/案例/收藏",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 310,
-                                  "height": 262,
-                                  "relativeX": 1002,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": {
-                                  "flexDirection": "column",
-                                  "mainSizing": "fixed",
-                                  "crossSizing": "fixed",
-                                  "gap": "12px"
-                                },
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Card",
-                              "confidence": 0.9,
-                              "roleSource": "ai",
-                              "needsDeepSearch": true,
-                              "frozen": true,
-                              "roleFrozen": "Card"
-                            }
-                          ],
+                          "children": [],
                           "role": "Container",
                           "confidence": 0.85,
                           "roleSource": "rule",
@@ -1750,7 +1638,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 3806_ipavj4bn5",
+                      "id": "inline_容器 3806_o51vyn9tr",
                       "name": "容器 3806",
                       "ext": {
                         "layoutStyle": {
@@ -1802,7 +1690,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 3811_c5cawzztg",
+                          "id": "inline_容器 3811_y6t3mou6d",
                           "name": "容器 3811",
                           "ext": {
                             "layoutStyle": {
@@ -1823,300 +1711,7 @@
                             "textMode": null
                           },
                           "depth": 5,
-                          "children": [
-                            {
-                              "id": "inline_容器 3802_xsw4skimp",
-                              "name": "容器 3802",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 1312,
-                                  "height": 556,
-                                  "relativeX": 0,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": {
-                                  "flexDirection": "row",
-                                  "flexWrap": "wrap",
-                                  "mainSizing": "fixed",
-                                  "crossSizing": "fixed",
-                                  "gap": "24px 32px"
-                                },
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 0,
-                                      "relativeY": 0
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 334,
-                                      "relativeY": 0
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 668,
-                                      "relativeY": 0
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 1002,
-                                      "relativeY": 0
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 0,
-                                      "relativeY": 294
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 334,
-                                      "relativeY": 294
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 668,
-                                      "relativeY": 294
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                },
-                                {
-                                  "id": "card-38aa4e40",
-                                  "name": "card/案例/收藏",
-                                  "ext": {
-                                    "layoutStyle": {
-                                      "width": 310,
-                                      "height": 262,
-                                      "relativeX": 1002,
-                                      "relativeY": 294
-                                    },
-                                    "flexContainerInfo": {
-                                      "flexDirection": "column",
-                                      "mainSizing": "fixed",
-                                      "crossSizing": "fixed",
-                                      "gap": "12px"
-                                    },
-                                    "borderRadius": null,
-                                    "textAlign": null,
-                                    "textMode": null
-                                  },
-                                  "depth": 7,
-                                  "children": [],
-                                  "role": "Card",
-                                  "confidence": 0.9,
-                                  "roleSource": "ai",
-                                  "needsDeepSearch": true,
-                                  "frozen": true,
-                                  "roleFrozen": "Card"
-                                }
-                              ],
-                              "role": "Container",
-                              "confidence": 0.85,
-                              "roleSource": "rule",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Container"
-                            },
-                            {
-                              "id": "l-only-440d065f",
-                              "name": "L/only",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 244,
-                                  "height": 40,
-                                  "relativeX": 534,
-                                  "relativeY": 616
-                                },
-                                "flexContainerInfo": {
-                                  "flexDirection": "row",
-                                  "mainSizing": "auto",
-                                  "crossSizing": "auto",
-                                  "gap": "20px"
-                                },
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Container"
-                            }
-                          ],
+                          "children": [],
                           "role": "Container",
                           "confidence": 0.85,
                           "roleSource": "rule",
@@ -2209,7 +1804,7 @@
           "depth": 1,
           "children": [
             {
-              "id": "inline_容器 1126_0grftx248",
+              "id": "inline_容器 1126_23g25daph",
               "name": "容器 1126",
               "ext": {
                 "layoutStyle": {
@@ -2231,7 +1826,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 1125_gmlcvuqtn",
+                  "id": "inline_容器 1125_fsdbww7r5",
                   "name": "容器 1125",
                   "ext": {
                     "layoutStyle": {
@@ -2277,7 +1872,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 1124_tvezw543r",
+                      "id": "inline_容器 1124_3dgd7ryre",
                       "name": "容器 1124",
                       "ext": {
                         "layoutStyle": {
@@ -2299,7 +1894,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_容器 790_9d180zxga",
+                          "id": "inline_容器 790_0lelkel8s",
                           "name": "容器 790",
                           "ext": {
                             "layoutStyle": {
@@ -2319,56 +1914,7 @@
                             "textMode": null
                           },
                           "depth": 5,
-                          "children": [
-                            {
-                              "id": "inline_让创意更有价值 , 让世界更生动_x5m4mz956",
-                              "name": "让创意更有价值 , 让世界更生动",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 251,
-                                  "height": 28,
-                                  "relativeX": 0,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": null,
-                                "borderRadius": null,
-                                "textAlign": "left",
-                                "textMode": "single-line"
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Container"
-                            },
-                            {
-                              "id": "inline_我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！_omkuqr4fg",
-                              "name": "我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 400,
-                                  "height": 44,
-                                  "relativeX": 0,
-                                  "relativeY": 36
-                                },
-                                "flexContainerInfo": null,
-                                "borderRadius": null,
-                                "textAlign": "left",
-                                "textMode": "auto-height"
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Nav",
-                              "confidence": 0.85,
-                              "roleSource": "rule",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Nav"
-                            }
-                          ],
+                          "children": [],
                           "role": "Container",
                           "confidence": 0.85,
                           "roleSource": "rule",
@@ -2377,7 +1923,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_容器 249_sxmh2ube6",
+                          "id": "inline_容器 249_k9pqjqatq",
                           "name": "容器 249",
                           "ext": {
                             "layoutStyle": {
@@ -2398,56 +1944,7 @@
                             "textMode": null
                           },
                           "depth": 5,
-                          "children": [
-                            {
-                              "id": "copyright-d22e4b36",
-                              "name": "copyright",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 12,
-                                  "height": 12,
-                                  "relativeX": 0,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": null,
-                                "borderRadius": null,
-                                "textAlign": null,
-                                "textMode": null
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Footer",
-                              "confidence": 0.85,
-                              "roleSource": "rule",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Footer"
-                            },
-                            {
-                              "id": "inline_2012-2024_vsmxndglu",
-                              "name": "2012-2024",
-                              "ext": {
-                                "layoutStyle": {
-                                  "width": 63,
-                                  "height": 12,
-                                  "relativeX": 16,
-                                  "relativeY": 0
-                                },
-                                "flexContainerInfo": null,
-                                "borderRadius": null,
-                                "textAlign": "left",
-                                "textMode": "single-line"
-                              },
-                              "depth": 6,
-                              "children": [],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
-                              "needsDeepSearch": false,
-                              "frozen": true,
-                              "roleFrozen": "Container"
-                            }
-                          ],
+                          "children": [],
                           "role": "Container",
                           "confidence": 0.85,
                           "roleSource": "rule",
@@ -2472,7 +1969,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 1157_3ehi32f75",
+                  "id": "inline_容器 1157_hbkqa9usk",
                   "name": "容器 1157",
                   "ext": {
                     "layoutStyle": {
@@ -2652,7 +2149,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_容器 1127_uk7afapsp",
+              "id": "inline_容器 1127_y7zaftnu5",
               "name": "容器 1127",
               "ext": {
                 "layoutStyle": {
@@ -2673,7 +2170,7 @@
               "depth": 2,
               "children": [
                 {
-                  "id": "inline_容器 793_diskopdck",
+                  "id": "inline_容器 793_hsc6lcmck",
                   "name": "容器 793",
                   "ext": {
                     "layoutStyle": {
@@ -2696,7 +2193,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂视频_kmpn2suke",
+                      "id": "inline_光厂视频_id4izy5em",
                       "name": "光厂视频",
                       "ext": {
                         "layoutStyle": {
@@ -2720,7 +2217,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_9bmmxpfy4",
+                      "id": "inline_容器 695_n4d8rjb3d",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -2742,7 +2239,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传视频_z7ldwtc5z",
+                          "id": "inline_上传视频_cj4t4ujtm",
                           "name": "上传视频",
                           "ext": {
                             "layoutStyle": {
@@ -2766,7 +2263,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_精品视频_nh485mcfy",
+                          "id": "inline_精品视频_vzbmqts21",
                           "name": "精品视频",
                           "ext": {
                             "layoutStyle": {
@@ -2790,7 +2287,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_精选专辑_o8w4iplrk",
+                          "id": "inline_精选专辑_9qxwdpedr",
                           "name": "精选专辑",
                           "ext": {
                             "layoutStyle": {
@@ -2814,7 +2311,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_免费素材_qzvrdb1en",
+                          "id": "inline_免费素材_c83l3e5gj",
                           "name": "免费素材",
                           "ext": {
                             "layoutStyle": {
@@ -2854,7 +2351,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 797_y7m6nwpjq",
+                  "id": "inline_容器 797_f73l7lcdg",
                   "name": "容器 797",
                   "ext": {
                     "layoutStyle": {
@@ -2877,7 +2374,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂图片_qhy1eb2m5",
+                      "id": "inline_光厂图片_mnkkgrern",
                       "name": "光厂图片",
                       "ext": {
                         "layoutStyle": {
@@ -2901,7 +2398,7 @@
                       "roleFrozen": "Image"
                     },
                     {
-                      "id": "inline_容器 695_jxbjh9xsr",
+                      "id": "inline_容器 695_du2hz94rp",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -2923,7 +2420,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传图片_qscpqg472",
+                          "id": "inline_上传图片_51joqx272",
                           "name": "上传图片",
                           "ext": {
                             "layoutStyle": {
@@ -2947,7 +2444,7 @@
                           "roleFrozen": "Image"
                         },
                         {
-                          "id": "inline_精品图片_4lr3atb8v",
+                          "id": "inline_精品图片_fpjc3iig0",
                           "name": "精品图片",
                           "ext": {
                             "layoutStyle": {
@@ -2971,7 +2468,7 @@
                           "roleFrozen": "Image"
                         },
                         {
-                          "id": "inline_免费图片_sc7sqx57x",
+                          "id": "inline_免费图片_k6ntj9f5f",
                           "name": "免费图片",
                           "ext": {
                             "layoutStyle": {
@@ -3011,7 +2508,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 794_objuh0mg9",
+                  "id": "inline_容器 794_wemkp34kg",
                   "name": "容器 794",
                   "ext": {
                     "layoutStyle": {
@@ -3034,7 +2531,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂音乐_7ptecvnlu",
+                      "id": "inline_光厂音乐_uez7hz247",
                       "name": "光厂音乐",
                       "ext": {
                         "layoutStyle": {
@@ -3058,7 +2555,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_z7tyauohp",
+                      "id": "inline_容器 695_miuy6hguf",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -3080,7 +2577,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_热门音乐_avkshbxp4",
+                          "id": "inline_热门音乐_kxopgwfbn",
                           "name": "热门音乐",
                           "ext": {
                             "layoutStyle": {
@@ -3104,7 +2601,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_免费音效_kas58gzph",
+                          "id": "inline_免费音效_z0gp0jnth",
                           "name": "免费音效",
                           "ext": {
                             "layoutStyle": {
@@ -3128,7 +2625,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_热门歌单_4c2x3n4aj",
+                          "id": "inline_热门歌单_94bqrb9vh",
                           "name": "热门歌单",
                           "ext": {
                             "layoutStyle": {
@@ -3152,7 +2649,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_立即入驻_tijvfqeab",
+                          "id": "inline_立即入驻_pi56vyu53",
                           "name": "立即入驻",
                           "ext": {
                             "layoutStyle": {
@@ -3192,7 +2689,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 798_4e6l6lc0b",
+                  "id": "inline_容器 798_zu4wu5y53",
                   "name": "容器 798",
                   "ext": {
                     "layoutStyle": {
@@ -3215,7 +2712,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂片场_7oc049fa6",
+                      "id": "inline_光厂片场_517ejz6qk",
                       "name": "光厂片场",
                       "ext": {
                         "layoutStyle": {
@@ -3239,7 +2736,7 @@
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_q44sj5bka",
+                      "id": "inline_容器 695_5ge0gpz6o",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -3261,7 +2758,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上传案例_2cbiksbif",
+                          "id": "inline_上传案例_jhi7itye2",
                           "name": "上传案例",
                           "ext": {
                             "layoutStyle": {
@@ -3285,7 +2782,7 @@
                           "roleFrozen": "Card"
                         },
                         {
-                          "id": "inline_AI搜镜头_dflsw4ytw",
+                          "id": "inline_AI搜镜头_gwc1sarwm",
                           "name": "AI搜镜头",
                           "ext": {
                             "layoutStyle": {
@@ -3301,15 +2798,15 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Button",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_片场榜单_ecgjcspi6",
+                          "id": "inline_片场榜单_5xt2hwwh7",
                           "name": "片场榜单",
                           "ext": {
                             "layoutStyle": {
@@ -3325,9 +2822,9 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Button",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
@@ -3349,7 +2846,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 795_0kstuptu6",
+                  "id": "inline_容器 795_keg9pz7nx",
                   "name": "容器 795",
                   "ext": {
                     "layoutStyle": {
@@ -3372,7 +2869,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_光厂服务_ojyzvxhbx",
+                      "id": "inline_光厂服务_wge0c9vai",
                       "name": "光厂服务",
                       "ext": {
                         "layoutStyle": {
@@ -3388,15 +2885,15 @@
                       },
                       "depth": 4,
                       "children": [],
-                      "role": "Container",
-                      "confidence": 0.3,
-                      "roleSource": "default",
+                      "role": "Button",
+                      "confidence": 0.9,
+                      "roleSource": "ai",
                       "needsDeepSearch": false,
                       "frozen": true,
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_n3vw03hkp",
+                      "id": "inline_容器 695_086i90k2w",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -3418,7 +2915,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_上架服务_oqov9z5ti",
+                          "id": "inline_上架服务_zk3dkjzw8",
                           "name": "上架服务",
                           "ext": {
                             "layoutStyle": {
@@ -3442,7 +2939,7 @@
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_热门服务_ntltiim5v",
+                          "id": "inline_热门服务_aayartjx2",
                           "name": "热门服务",
                           "ext": {
                             "layoutStyle": {
@@ -3458,15 +2955,15 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Button",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_创作人_7dx2jfqps",
+                          "id": "inline_创作人_mt22s5ayr",
                           "name": "创作人",
                           "ext": {
                             "layoutStyle": {
@@ -3482,9 +2979,9 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Button",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
@@ -3506,7 +3003,7 @@
                   "roleFrozen": "Container"
                 },
                 {
-                  "id": "inline_容器 796_o3qtum8bz",
+                  "id": "inline_容器 796_1bjpof19g",
                   "name": "容器 796",
                   "ext": {
                     "layoutStyle": {
@@ -3529,7 +3026,7 @@
                   "depth": 3,
                   "children": [
                     {
-                      "id": "inline_关于光厂_bpvwqb56e",
+                      "id": "inline_关于光厂_d64lu7mfl",
                       "name": "关于光厂",
                       "ext": {
                         "layoutStyle": {
@@ -3545,15 +3042,15 @@
                       },
                       "depth": 4,
                       "children": [],
-                      "role": "Container",
-                      "confidence": 0.3,
-                      "roleSource": "default",
+                      "role": "Link",
+                      "confidence": 0.9,
+                      "roleSource": "ai",
                       "needsDeepSearch": false,
                       "frozen": true,
                       "roleFrozen": "Container"
                     },
                     {
-                      "id": "inline_容器 695_xihd6jwq0",
+                      "id": "inline_容器 695_ox9ijb609",
                       "name": "容器 695",
                       "ext": {
                         "layoutStyle": {
@@ -3575,7 +3072,7 @@
                       "depth": 4,
                       "children": [
                         {
-                          "id": "inline_关于我们_vmwh1ecab",
+                          "id": "inline_关于我们_giqo9puy1",
                           "name": "关于我们",
                           "ext": {
                             "layoutStyle": {
@@ -3591,15 +3088,15 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Link",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_诚聘英才_sh33r1v62",
+                          "id": "inline_诚聘英才_t34cewxla",
                           "name": "诚聘英才",
                           "ext": {
                             "layoutStyle": {
@@ -3615,15 +3112,15 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Link",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_帮助中心_vjz31m2lw",
+                          "id": "inline_帮助中心_rwpfi3x4e",
                           "name": "帮助中心",
                           "ext": {
                             "layoutStyle": {
@@ -3639,15 +3136,15 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Link",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
                         },
                         {
-                          "id": "inline_权责声明_qyvmoek3m",
+                          "id": "inline_权责声明_fjcpoe183",
                           "name": "权责声明",
                           "ext": {
                             "layoutStyle": {
@@ -3663,9 +3160,9 @@
                           },
                           "depth": 5,
                           "children": [],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "Link",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "needsDeepSearch": false,
                           "frozen": true,
                           "roleFrozen": "Container"
@@ -3727,7 +3224,7 @@
           "depth": 1,
           "children": [
             {
-              "id": "inline_增值电信业务经营许可证：川B2-20160192_v4lmil0fm",
+              "id": "inline_增值电信业务经营许可证：川B2-20160192_l6zw55w9k",
               "name": "增值电信业务经营许可证：川B2-20160192",
               "ext": {
                 "layoutStyle": {
@@ -3751,7 +3248,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_蜀ICP备12020238号-4_s5k19zwiu",
+              "id": "inline_蜀ICP备12020238号-4_qmzyg7g4f",
               "name": "蜀ICP备12020238号-4",
               "ext": {
                 "layoutStyle": {
@@ -3775,7 +3272,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_川公网安备51019002000262_69859iggg",
+              "id": "inline_川公网安备51019002000262_zk99k1hk0",
               "name": "川公网安备51019002000262",
               "ext": {
                 "layoutStyle": {
@@ -3799,7 +3296,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_广播电视节目制作经营许可证（川）字第20170号_q9d9cgana",
+              "id": "inline_广播电视节目制作经营许可证（川）字第20170号_oyvfan25z",
               "name": "广播电视节目制作经营许可证（川）字第20170号",
               "ext": {
                 "layoutStyle": {
@@ -3823,7 +3320,7 @@
               "roleFrozen": "Container"
             },
             {
-              "id": "inline_违法和不良信息举报中心_cu75yx76t",
+              "id": "inline_违法和不良信息举报中心_7lax6tm1w",
               "name": "违法和不良信息举报中心",
               "ext": {
                 "layoutStyle": {

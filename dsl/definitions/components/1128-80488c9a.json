@@ -138,61 +138,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "TEXT",
-                        "name": "让创意更有价值 , 让世界更生动",
-                        "styleRefs": [
-                          "{textStyle.h6-18px}",
-                          "{color.ty-70}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 251,
-                            "height": 28,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "让创意更有价值 , 让世界更生动",
-                            "font": "font_12:7343"
-                          }
-                        ]
-                      },
-                      {
-                        "nodeType": "TEXT",
-                        "name": "我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！",
-                        "styleRefs": [
-                          "{textStyle.c-14px}",
-                          "{color.ty-60}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 400,
-                            "height": 44,
-                            "relativeX": 0,
-                            "relativeY": 36
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "auto-height"
-                        },
-                        "text": [
-                          {
-                            "text": "我们相信，通过平台的效率和体验优化，搭建良性创作环境，就能源源不断输出好的数字创意作品，让世界更生动！",
-                            "font": "font_8:1425"
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   },
                   {
                     "nodeType": "FRAME",
@@ -215,53 +161,7 @@
                       "borderRadius": null,
                       "textAlign": null,
                       "textMode": null
-                    },
-                    "children": [
-                      {
-                        "nodeType": "COMPONENT_REF",
-                        "name": "copyright",
-                        "ref": "copyright-d22e4b36",
-                        "styleRefs": [],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 12,
-                            "height": 12,
-                            "relativeX": 0,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": null,
-                          "textMode": null
-                        }
-                      },
-                      {
-                        "nodeType": "TEXT",
-                        "name": "2012-2024",
-                        "styleRefs": [
-                          "{textStyle.font-17-6525}",
-                          "{color.ty-60}"
-                        ],
-                        "ext": {
-                          "layoutStyle": {
-                            "width": 63,
-                            "height": 12,
-                            "relativeX": 16,
-                            "relativeY": 0
-                          },
-                          "flexContainerInfo": null,
-                          "borderRadius": null,
-                          "textAlign": "left",
-                          "textMode": "single-line"
-                        },
-                        "text": [
-                          {
-                            "text": "2012-2024",
-                            "font": "font_17:6525"
-                          }
-                        ]
-                      }
-                    ]
+                    }
                   }
                 ]
               }

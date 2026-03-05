@@ -1,33 +1,5 @@
-/**
- * Image 组件
- * 来源: dsl/snapshots/semantic-skeleton.json
- */
-export interface ImageProps {
-  src?: string;
-  alt?: string;
-  width?: number | string;
-  height?: number | string;
-  objectFit?: 'cover' | 'contain' | 'fill';
-  rounded?: boolean;
-}
+type ImageProps = { src?: string; alt?: string; className?: string };
 
-export function Image({ 
-  src, 
-  alt = '', 
-  width = '100%', 
-  height = '100%',
-  objectFit = 'cover',
-  rounded = false
-}: ImageProps) {
-  return (
-    <img
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
-      className={`${rounded ? 'rounded' : ''} object-${objectFit}`}
-    />
-  );
+export function Image({ src = "", alt = "", className = "" }: ImageProps) {
+  return <img src={src} alt={alt} className={className} />;
 }
-
-export default Image;
