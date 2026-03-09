@@ -9,6 +9,7 @@
   },
   "propsSchema": {},
   "structure": {
+    "id": "218:1332",
     "nodeType": "FRAME",
     "name": "容器 1670",
     "styleRefs": [],
@@ -32,6 +33,7 @@
     },
     "children": [
       {
+        "id": "218:1343",
         "nodeType": "FRAME",
         "name": "容器 1183",
         "styleRefs": [],
@@ -55,6 +57,7 @@
         },
         "children": [
           {
+            "id": "218:1344",
             "nodeType": "TEXT",
             "name": "购物车",
             "styleRefs": [
@@ -76,6 +79,7 @@
             ]
           },
           {
+            "id": "218:2873",
             "nodeType": "INSTANCE",
             "name": "closed-2 2",
             "styleRefs": [],
@@ -88,6 +92,7 @@
             },
             "children": [
               {
+                "id": "218:2873/218:1913",
                 "nodeType": "RECTANGLE",
                 "name": "矩形 700",
                 "styleRefs": [
@@ -102,6 +107,7 @@
                 }
               },
               {
+                "id": "218:2873/218:1910",
                 "nodeType": "BOOLEAN_OPERATION",
                 "name": "联集 33",
                 "styleRefs": [
@@ -117,6 +123,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:2873/218:1912",
                     "nodeType": "PEN",
                     "name": "路径",
                     "styleRefs": [],
@@ -129,6 +136,7 @@
                     }
                   },
                   {
+                    "id": "218:2873/218:1911",
                     "nodeType": "PEN",
                     "name": "路径",
                     "styleRefs": [],
@@ -147,6 +155,7 @@
         ]
       },
       {
+        "id": "218:1333",
         "nodeType": "FRAME",
         "name": "容器 1669",
         "styleRefs": [],
@@ -170,6 +179,7 @@
         },
         "children": [
           {
+            "id": "218:1334",
             "nodeType": "FRAME",
             "name": "容器 1672",
             "styleRefs": [],
@@ -193,6 +203,7 @@
             },
             "children": [
               {
+                "id": "403:0378",
                 "nodeType": "FRAME",
                 "name": "组 365",
                 "styleRefs": [],
@@ -216,6 +227,7 @@
                 },
                 "children": [
                   {
+                    "id": "403:0383",
                     "nodeType": "FRAME",
                     "name": "base/all/16-have-number",
                     "styleRefs": [],
@@ -239,6 +251,7 @@
                     },
                     "children": [
                       {
+                        "id": "403:0384",
                         "nodeType": "INSTANCE",
                         "name": "base/16px-have-number 1",
                         "styleRefs": [],
@@ -262,6 +275,7 @@
                         },
                         "children": [
                           {
+                            "id": "403:0384/218:1935",
                             "nodeType": "FRAME",
                             "name": "容器 1518",
                             "styleRefs": [],
@@ -285,6 +299,7 @@
                             },
                             "children": [
                               {
+                                "id": "403:0384/218:1936",
                                 "nodeType": "TEXT",
                                 "name": "视频",
                                 "styleRefs": [
@@ -306,6 +321,7 @@
                                 ]
                               },
                               {
+                                "id": "403:0384/218:1939",
                                 "nodeType": "TEXT",
                                 "name": "2",
                                 "styleRefs": [
@@ -329,6 +345,7 @@
                             ]
                           },
                           {
+                            "id": "403:0384/218:1934",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 36",
                             "styleRefs": [
@@ -345,6 +362,7 @@
                         ]
                       },
                       {
+                        "id": "403:0390",
                         "nodeType": "INSTANCE",
                         "name": "base/16px-have-number 3",
                         "styleRefs": [],
@@ -368,6 +386,7 @@
                         },
                         "children": [
                           {
+                            "id": "403:0390/218:2006",
                             "nodeType": "FRAME",
                             "name": "容器 1518",
                             "styleRefs": [],
@@ -391,6 +410,7 @@
                             },
                             "children": [
                               {
+                                "id": "403:0390/218:2012",
                                 "nodeType": "TEXT",
                                 "name": "视频",
                                 "styleRefs": [
@@ -412,6 +432,7 @@
                                 ]
                               },
                               {
+                                "id": "403:0390/218:2007",
                                 "nodeType": "TEXT",
                                 "name": "2",
                                 "styleRefs": [
@@ -435,6 +456,7 @@
                             ]
                           },
                           {
+                            "id": "403:0390/218:2005",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 36",
                             "styleRefs": [
@@ -451,6 +473,7 @@
                         ]
                       },
                       {
+                        "id": "403:0396",
                         "nodeType": "INSTANCE",
                         "name": "base/16px-have-number 2",
                         "styleRefs": [],
@@ -474,6 +497,7 @@
                         },
                         "children": [
                           {
+                            "id": "403:0396/218:2006",
                             "nodeType": "FRAME",
                             "name": "容器 1518",
                             "styleRefs": [],
@@ -497,6 +521,7 @@
                             },
                             "children": [
                               {
+                                "id": "403:0396/218:2012",
                                 "nodeType": "TEXT",
                                 "name": "视频",
                                 "styleRefs": [
@@ -518,6 +543,7 @@
                                 ]
                               },
                               {
+                                "id": "403:0396/218:2007",
                                 "nodeType": "TEXT",
                                 "name": "2",
                                 "styleRefs": [
@@ -541,6 +567,7 @@
                             ]
                           },
                           {
+                            "id": "403:0396/218:2005",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 36",
                             "styleRefs": [
@@ -559,6 +586,7 @@
                     ]
                   },
                   {
+                    "id": "403:0402",
                     "nodeType": "RECTANGLE",
                     "name": "矩形备份 59",
                     "styleRefs": [
@@ -577,6 +605,7 @@
             ]
           },
           {
+            "id": "218:1342",
             "nodeType": "FRAME",
             "name": "容器 1408",
             "styleRefs": [],
@@ -600,6 +629,7 @@
             },
             "children": [
               {
+                "id": "218:4471",
                 "nodeType": "INSTANCE",
                 "name": "购物车list",
                 "styleRefs": [],
@@ -623,6 +653,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4471/218:3293",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -646,6 +677,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4471/218:3294",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -658,6 +690,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4471/218:3294/218:2091",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -672,6 +705,7 @@
                             }
                           },
                           {
+                            "id": "218:4471/218:3294/218:2092",
                             "nodeType": "PEN",
                             "name": "Base备份",
                             "styleRefs": [
@@ -688,6 +722,7 @@
                         ]
                       },
                       {
+                        "id": "218:4471/218:3295",
                         "nodeType": "FRAME",
                         "name": "容器 1519",
                         "styleRefs": [],
@@ -711,6 +746,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4471/218:3308",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -724,6 +760,7 @@
                             }
                           },
                           {
+                            "id": "218:4471/218:3296",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -747,6 +784,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4471/218:3305",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -768,6 +806,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4471/218:3297",
                                 "nodeType": "FRAME",
                                 "name": "容器 1674",
                                 "styleRefs": [],
@@ -791,6 +830,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4471/218:3302",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -812,6 +852,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4471/218:3301",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -826,6 +867,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4471/218:3298",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -855,6 +897,7 @@
                     ]
                   },
                   {
+                    "id": "218:4471/218:3280",
                     "nodeType": "FRAME",
                     "name": "容器 1398",
                     "styleRefs": [],
@@ -878,6 +921,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4471/218:3290",
                         "nodeType": "TEXT",
                         "name": "个人授权",
                         "styleRefs": [
@@ -899,6 +943,7 @@
                         ]
                       },
                       {
+                        "id": "218:4471/218:3281",
                         "nodeType": "FRAME",
                         "name": "容器 1188",
                         "styleRefs": [],
@@ -922,6 +967,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4471/218:3287",
                             "nodeType": "TEXT",
                             "name": "30",
                             "styleRefs": [
@@ -943,6 +989,7 @@
                             ]
                           },
                           {
+                            "id": "218:4471/218:3282",
                             "nodeType": "FRAME",
                             "name": "容器 1386",
                             "styleRefs": [],
@@ -966,6 +1013,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4471/218:3283",
                                 "nodeType": "TEXT",
                                 "name": "元",
                                 "styleRefs": [
@@ -995,6 +1043,7 @@
                 ]
               },
               {
+                "id": "218:4452",
                 "nodeType": "INSTANCE",
                 "name": "购物车list/nor 1",
                 "styleRefs": [],
@@ -1018,6 +1067,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4452/218:3293",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -1041,6 +1091,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4452/218:3294",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -1053,6 +1104,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4452/218:3294/218:2091",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -1067,6 +1119,7 @@
                             }
                           },
                           {
+                            "id": "218:4452/218:3294/218:2092",
                             "nodeType": "PEN",
                             "name": "Base备份",
                             "styleRefs": [
@@ -1083,6 +1136,7 @@
                         ]
                       },
                       {
+                        "id": "218:4452/218:3295",
                         "nodeType": "FRAME",
                         "name": "容器 1519",
                         "styleRefs": [],
@@ -1106,6 +1160,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4452/218:3308",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -1119,6 +1174,7 @@
                             }
                           },
                           {
+                            "id": "218:4452/218:3296",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -1142,6 +1198,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4452/218:3305",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -1163,6 +1220,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4452/218:3297",
                                 "nodeType": "FRAME",
                                 "name": "容器 1674",
                                 "styleRefs": [],
@@ -1186,6 +1244,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4452/218:3302",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -1207,6 +1266,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4452/218:3301",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -1221,6 +1281,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4452/218:3298",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -1250,6 +1311,7 @@
                     ]
                   },
                   {
+                    "id": "218:4452/218:3280",
                     "nodeType": "FRAME",
                     "name": "容器 1398",
                     "styleRefs": [],
@@ -1273,6 +1335,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4452/218:3290",
                         "nodeType": "TEXT",
                         "name": "个人授权",
                         "styleRefs": [
@@ -1294,6 +1357,7 @@
                         ]
                       },
                       {
+                        "id": "218:4452/218:3281",
                         "nodeType": "FRAME",
                         "name": "容器 1188",
                         "styleRefs": [],
@@ -1317,6 +1381,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4452/218:3287",
                             "nodeType": "TEXT",
                             "name": "30",
                             "styleRefs": [
@@ -1338,6 +1403,7 @@
                             ]
                           },
                           {
+                            "id": "218:4452/218:3282",
                             "nodeType": "FRAME",
                             "name": "容器 1386",
                             "styleRefs": [],
@@ -1361,6 +1427,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4452/218:3283",
                                 "nodeType": "TEXT",
                                 "name": "元",
                                 "styleRefs": [
@@ -1390,6 +1457,7 @@
                 ]
               },
               {
+                "id": "218:4414",
                 "nodeType": "INSTANCE",
                 "name": "购物车list/nor 8",
                 "styleRefs": [],
@@ -1413,6 +1481,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4414/218:3293",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -1436,6 +1505,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4414/218:3294",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -1448,6 +1518,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4414/218:3294/218:2717",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -1462,6 +1533,7 @@
                             }
                           },
                           {
+                            "id": "218:4414/218:3294/218:2719",
                             "nodeType": "PEN",
                             "name": "Base",
                             "styleRefs": [
@@ -1476,6 +1548,7 @@
                             }
                           },
                           {
+                            "id": "218:4414/218:3294/218:2718",
                             "nodeType": "PEN",
                             "name": "路径",
                             "styleRefs": [],
@@ -1490,6 +1563,7 @@
                         ]
                       },
                       {
+                        "id": "218:4414/218:3295",
                         "nodeType": "FRAME",
                         "name": "容器 1519",
                         "styleRefs": [],
@@ -1513,6 +1587,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4414/218:3308",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -1526,6 +1601,7 @@
                             }
                           },
                           {
+                            "id": "218:4414/218:3296",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -1549,6 +1625,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4414/218:3305",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -1570,6 +1647,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4414/218:3297",
                                 "nodeType": "FRAME",
                                 "name": "容器 1674",
                                 "styleRefs": [],
@@ -1593,6 +1671,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4414/218:3302",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -1614,6 +1693,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4414/218:3301",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -1628,6 +1708,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4414/218:3298",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -1657,6 +1738,7 @@
                     ]
                   },
                   {
+                    "id": "218:4414/218:3280",
                     "nodeType": "FRAME",
                     "name": "容器 1398",
                     "styleRefs": [],
@@ -1680,6 +1762,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4414/218:3290",
                         "nodeType": "TEXT",
                         "name": "个人授权",
                         "styleRefs": [
@@ -1701,6 +1784,7 @@
                         ]
                       },
                       {
+                        "id": "218:4414/218:3281",
                         "nodeType": "FRAME",
                         "name": "容器 1188",
                         "styleRefs": [],
@@ -1724,6 +1808,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4414/218:3287",
                             "nodeType": "TEXT",
                             "name": "30",
                             "styleRefs": [
@@ -1745,6 +1830,7 @@
                             ]
                           },
                           {
+                            "id": "218:4414/218:3282",
                             "nodeType": "FRAME",
                             "name": "容器 1386",
                             "styleRefs": [],
@@ -1768,6 +1854,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4414/218:3283",
                                 "nodeType": "TEXT",
                                 "name": "元",
                                 "styleRefs": [
@@ -1797,6 +1884,7 @@
                 ]
               },
               {
+                "id": "218:4681",
                 "nodeType": "INSTANCE",
                 "name": "购物车list 1",
                 "styleRefs": [
@@ -1822,6 +1910,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4681/218:3467",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -1845,6 +1934,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4681/218:3468",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -1857,6 +1947,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4681/218:3468/218:2132",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -1871,6 +1962,7 @@
                             }
                           },
                           {
+                            "id": "218:4681/218:3468/218:2133",
                             "nodeType": "PEN",
                             "name": "Base",
                             "styleRefs": [
@@ -1885,6 +1977,7 @@
                             }
                           },
                           {
+                            "id": "218:4681/218:3468/218:2134",
                             "nodeType": "PEN",
                             "name": "路径",
                             "styleRefs": [],
@@ -1899,6 +1992,7 @@
                         ]
                       },
                       {
+                        "id": "218:4681/218:3469",
                         "nodeType": "FRAME",
                         "name": "容器 1520",
                         "styleRefs": [],
@@ -1922,6 +2016,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4681/218:3470",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -1935,6 +2030,7 @@
                             }
                           },
                           {
+                            "id": "218:4681/218:3471",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -1958,6 +2054,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4681/218:3480",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -1979,6 +2076,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4681/218:3472",
                                 "nodeType": "FRAME",
                                 "name": "容器 1675",
                                 "styleRefs": [],
@@ -2002,6 +2100,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4681/218:3476",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -2023,6 +2122,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4681/218:3479",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -2037,6 +2137,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4681/218:3473",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -2066,6 +2167,7 @@
                     ]
                   },
                   {
+                    "id": "218:4681/218:3450",
                     "nodeType": "FRAME",
                     "name": "容器 1452",
                     "styleRefs": [],
@@ -2089,6 +2191,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4681/218:3451",
                         "nodeType": "TEXT",
                         "name": "移除",
                         "styleRefs": [
@@ -2110,6 +2213,7 @@
                         ]
                       },
                       {
+                        "id": "218:4681/218:3454",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
                         "styleRefs": [],
@@ -2133,6 +2237,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4681/218:3464",
                             "nodeType": "TEXT",
                             "name": "企业PLUS授权",
                             "styleRefs": [
@@ -2154,6 +2259,7 @@
                             ]
                           },
                           {
+                            "id": "218:4681/218:3455",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
                             "styleRefs": [],
@@ -2177,6 +2283,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4681/218:3461",
                                 "nodeType": "TEXT",
                                 "name": "380",
                                 "styleRefs": [
@@ -2198,6 +2305,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4681/218:3456",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
                                 "styleRefs": [],
@@ -2221,6 +2329,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4681/218:3457",
                                     "nodeType": "TEXT",
                                     "name": "元",
                                     "styleRefs": [
@@ -2252,6 +2361,7 @@
                 ]
               },
               {
+                "id": "218:4395",
                 "nodeType": "INSTANCE",
                 "name": "购物车list/nor 7",
                 "styleRefs": [],
@@ -2275,6 +2385,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4395/218:3293",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -2298,6 +2409,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4395/218:3294",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -2310,6 +2422,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4395/218:3294/218:2091",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -2324,6 +2437,7 @@
                             }
                           },
                           {
+                            "id": "218:4395/218:3294/218:2092",
                             "nodeType": "PEN",
                             "name": "Base备份",
                             "styleRefs": [
@@ -2340,6 +2454,7 @@
                         ]
                       },
                       {
+                        "id": "218:4395/218:3295",
                         "nodeType": "FRAME",
                         "name": "容器 1519",
                         "styleRefs": [],
@@ -2363,6 +2478,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4395/218:3308",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -2376,6 +2492,7 @@
                             }
                           },
                           {
+                            "id": "218:4395/218:3296",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -2399,6 +2516,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4395/218:3305",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -2420,6 +2538,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4395/218:3297",
                                 "nodeType": "FRAME",
                                 "name": "容器 1674",
                                 "styleRefs": [],
@@ -2443,6 +2562,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4395/218:3302",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -2464,6 +2584,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4395/218:3301",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -2478,6 +2599,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4395/218:3298",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -2507,6 +2629,7 @@
                     ]
                   },
                   {
+                    "id": "218:4395/218:3280",
                     "nodeType": "FRAME",
                     "name": "容器 1398",
                     "styleRefs": [],
@@ -2530,6 +2653,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4395/218:3290",
                         "nodeType": "TEXT",
                         "name": "个人授权",
                         "styleRefs": [
@@ -2551,6 +2675,7 @@
                         ]
                       },
                       {
+                        "id": "218:4395/218:3281",
                         "nodeType": "FRAME",
                         "name": "容器 1188",
                         "styleRefs": [],
@@ -2574,6 +2699,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4395/218:3287",
                             "nodeType": "TEXT",
                             "name": "30",
                             "styleRefs": [
@@ -2595,6 +2721,7 @@
                             ]
                           },
                           {
+                            "id": "218:4395/218:3282",
                             "nodeType": "FRAME",
                             "name": "容器 1386",
                             "styleRefs": [],
@@ -2618,6 +2745,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4395/218:3283",
                                 "nodeType": "TEXT",
                                 "name": "元",
                                 "styleRefs": [
@@ -2647,6 +2775,7 @@
                 ]
               },
               {
+                "id": "218:4433",
                 "nodeType": "INSTANCE",
                 "name": "购物车list/nor 6",
                 "styleRefs": [],
@@ -2670,6 +2799,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4433/218:3293",
                     "nodeType": "FRAME",
                     "name": "容器 1401",
                     "styleRefs": [],
@@ -2693,6 +2823,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4433/218:3294",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -2705,6 +2836,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4433/218:3294/218:2132",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -2719,6 +2851,7 @@
                             }
                           },
                           {
+                            "id": "218:4433/218:3294/218:2133",
                             "nodeType": "PEN",
                             "name": "Base",
                             "styleRefs": [
@@ -2733,6 +2866,7 @@
                             }
                           },
                           {
+                            "id": "218:4433/218:3294/218:2134",
                             "nodeType": "PEN",
                             "name": "路径",
                             "styleRefs": [],
@@ -2747,6 +2881,7 @@
                         ]
                       },
                       {
+                        "id": "218:4433/218:3295",
                         "nodeType": "FRAME",
                         "name": "容器 1519",
                         "styleRefs": [],
@@ -2770,6 +2905,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4433/218:3308",
                             "nodeType": "RECTANGLE",
                             "name": "矩形 406",
                             "styleRefs": [],
@@ -2783,6 +2919,7 @@
                             }
                           },
                           {
+                            "id": "218:4433/218:3296",
                             "nodeType": "FRAME",
                             "name": "容器 1396",
                             "styleRefs": [],
@@ -2806,6 +2943,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4433/218:3305",
                                 "nodeType": "TEXT",
                                 "name": "2023拜年EDIUS系列-模板可编辑修",
                                 "styleRefs": [
@@ -2827,6 +2965,7 @@
                                 ]
                               },
                               {
+                                "id": "218:4433/218:3297",
                                 "nodeType": "FRAME",
                                 "name": "容器 1674",
                                 "styleRefs": [],
@@ -2850,6 +2989,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4433/218:3302",
                                     "nodeType": "TEXT",
                                     "name": "ID：098675",
                                     "styleRefs": [
@@ -2871,6 +3011,7 @@
                                     ]
                                   },
                                   {
+                                    "id": "218:4433/218:3301",
                                     "nodeType": "RECTANGLE",
                                     "name": "矩形 702",
                                     "styleRefs": [
@@ -2885,6 +3026,7 @@
                                     }
                                   },
                                   {
+                                    "id": "218:4433/218:3298",
                                     "nodeType": "TEXT",
                                     "name": "类型：视频素材",
                                     "styleRefs": [
@@ -2914,6 +3056,7 @@
                     ]
                   },
                   {
+                    "id": "218:4433/218:3280",
                     "nodeType": "FRAME",
                     "name": "容器 1398",
                     "styleRefs": [],
@@ -2937,6 +3080,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4433/218:3290",
                         "nodeType": "TEXT",
                         "name": "个人授权",
                         "styleRefs": [
@@ -2958,6 +3102,7 @@
                         ]
                       },
                       {
+                        "id": "218:4433/218:3281",
                         "nodeType": "FRAME",
                         "name": "容器 1188",
                         "styleRefs": [],
@@ -2981,6 +3126,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4433/218:3287",
                             "nodeType": "TEXT",
                             "name": "30",
                             "styleRefs": [
@@ -3002,6 +3148,7 @@
                             ]
                           },
                           {
+                            "id": "218:4433/218:3282",
                             "nodeType": "FRAME",
                             "name": "容器 1386",
                             "styleRefs": [],
@@ -3025,6 +3172,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4433/218:3283",
                                 "nodeType": "TEXT",
                                 "name": "元",
                                 "styleRefs": [

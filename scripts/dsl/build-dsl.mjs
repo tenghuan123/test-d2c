@@ -72,6 +72,7 @@ function collectTokenRefs(node, styleRefMap) {
 
 function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
   const next = {
+    id: node?.id || null,
     nodeType: node?.type || "UNKNOWN",
     name: node?.name || "",
     styleRefs: collectTokenRefs(node, styleRefMap),
@@ -103,6 +104,7 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
         if (typeof options.extractNestedComponentRef === "function" && shouldExtractComponentNode(c)) {
           const refId = options.extractNestedComponentRef(c);
           const componentRef = {
+            id: c?.id || null,
             nodeType: "COMPONENT_REF",
             name: c?.name || "",
             ref: refId,

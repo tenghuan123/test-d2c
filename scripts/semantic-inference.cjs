@@ -16,7 +16,7 @@ const projectRoot = '/Users/tenghuan/programming/vjshi/code/test-d2c';
 // ==================== 配置 ====================
 const BFS_MAX_DEPTH = 5;   // Stage 1: 宏观扫描深度
 const DFS_MAX_DEPTH = 10;   // Stage 3: 微观递归深度
-const MIN_REPEAT_COUNT = 5; // Stage 4: 最小重复次数
+const MIN_REPEAT_COUNT = Number(process.env.MIN_REPEAT_COUNT || 2); // Stage 4: 最小重复次数
 const SIMILARITY_THRESHOLD = 0.85; // 相似度阈值
 const CONFIDENCE_THRESHOLD = Number(process.env.CONFIDENCE_THRESHOLD || 0.6);
 const ONLY_USE_AI = false; // 是否只使用 AI 推断
@@ -92,6 +92,8 @@ function loadModuleStructure(mod) {
   const root = {
     id: mod.id,
     name: mod.container?.name || mod.id,
+    nodeType: mod.container?.nodeType || "FRAME",
+    text: Array.isArray(mod.container?.text) ? mod.container.text : [],
     ext: mod.container?.ext,
     children: []
   };
@@ -104,6 +106,8 @@ function loadModuleStructure(mod) {
           const compNode = {
             id: child.ref,
             name: compDef.structure.name,
+            nodeType: compDef.structure.nodeType || "FRAME",
+            text: Array.isArray(compDef.structure.text) ? compDef.structure.text : [],
             ext: compDef.structure.ext,
             children: []
           };
@@ -129,10 +133,13 @@ function loadComponentDefinition(refId) {
 function loadChildrenRecursive(sourceNode, targetNode, depth) {
   if (depth > DFS_MAX_DEPTH || !sourceNode.children) return;
   
-  for (const child of sourceNode.children) {
+  for (let idx = 0; idx < sourceNode.children.length; idx += 1) {
+    const child = sourceNode.children[idx];
     const childNode = {
-      id: child.ref || `inline_${child.name}_${Math.random().toString(36).substr(2, 9)}`,
+      id: child.id || child.ref || `inline_${String(child.name || "node").replace(/\s+/g, "_")}_${depth}_${idx}`,
       name: child.name || child.ref || 'Unknown',
+      nodeType: child.nodeType || "UNKNOWN",
+      text: Array.isArray(child.text) ? child.text : [],
       ext: child.ext,
       children: []
     };
@@ -149,6 +156,8 @@ function stage1ShallowBFS(tree, currentDepth = 0) {
   const result = {
     id: tree.id,
     name: tree.name,
+    nodeType: tree.nodeType || "UNKNOWN",
+    text: Array.isArray(tree.text) ? tree.text : [],
     ext: tree.ext,
     depth: currentDepth,
     children: []
@@ -168,6 +177,21 @@ function stage1ShallowBFS(tree, currentDepth = 0) {
  * Stage 1: 为所有 Level 0-2 节点推断角色
  */
 function stage1InferRoles(shallowTree, depth = 0, parentRole = null) {
+  if (shallowTree?.nodeType === "TEXT") {
+    shallowTree.role = "Text";
+    shallowTree.confidence = 0.95;
+    shallowTree.roleSource = "nodeType";
+    shallowTree.parentRole = parentRole || null;
+    shallowTree.depth = depth;
+    shallowTree.needsDeepSearch = false;
+    if (shallowTree.children) {
+      for (const child of shallowTree.children) {
+        stage1InferRoles(child, depth + 1, shallowTree.role);
+      }
+    }
+    return shallowTree;
+  }
+
   // 如果 ONLY_USE_AI，则跳过规则推断
   let inferred = null;
   if (!ONLY_USE_AI) {
@@ -177,6 +201,7 @@ function stage1InferRoles(shallowTree, depth = 0, parentRole = null) {
   shallowTree.role = inferred?.role || (depth === 0 ? "Section" : "Container");
   shallowTree.confidence = inferred?.confidence || 0.3; // AI 推断时降低默认置信度
   shallowTree.roleSource = inferred?.source || 'default';
+  shallowTree.parentRole = parentRole || null;
   shallowTree.depth = depth;
   
   // 标记需要深度搜索的节点
@@ -351,14 +376,44 @@ function extractSignature(tree) {
     return null;
   }
   
+  const children = Array.isArray(tree.children) ? tree.children : [];
+  const childRoleSeq = children.slice(0, 8).map((c) => c.role || 'Container');
+  const childTextHints = children
+    .slice(0, 8)
+    .map((c) => {
+      if (!Array.isArray(c?.text)) return "";
+      return c.text
+        .map((part) => String(part?.text || "").trim())
+        .join("")
+        .replace(/\s+/g, " ")
+        .slice(0, 32);
+    });
+  const selfTextHint = Array.isArray(tree?.text)
+    ? tree.text
+        .map((part) => String(part?.text || "").trim())
+        .join("")
+        .replace(/\s+/g, " ")
+        .slice(0, 32)
+    : "";
   const sig = {
-    role: tree.role,
-    childCount: tree.children?.length || 0,
-    childRoles: tree.children?.slice(0, 5).map(c => c.role).sort(),
+    role: tree.role || 'Container',
+    nodeType: tree.nodeType || 'UNKNOWN',
+    parentRole: tree.parentRole || null,
+    depth: Number.isFinite(tree.depth) ? tree.depth : null,
+    childCount: children.length,
+    childRoleSeq,
+    childRoles: children
+      .slice(0, 8)
+      .map((c) => c.role || 'Container')
+      .sort(),
+    childTextHints,
+    selfTextHint,
     ext: tree.ext ? {
       hasBorderRadius: !!tree.ext.borderRadius,
       hasFlex: !!tree.ext.flexContainerInfo,
-      flexDirection: tree.ext.flexContainerInfo?.flexDirection
+      flexDirection: tree.ext.flexContainerInfo?.flexDirection || null,
+      hasTextMode: !!tree.ext.textMode,
+      textMode: tree.ext.textMode || null
     } : null
   };
   return JSON.stringify(sig);
@@ -381,40 +436,68 @@ function calculateSimilarity(sig1, sig2) {
  * 统计相同 component id 出现的次数
  */
 function stage4DetectRepetition(skeleton) {
-  const idCount = {};
-  
-  function collectIds(tree) {
-    if (tree.id && !tree.id.startsWith('inline_')) {
-      idCount[tree.id] = (idCount[tree.id] || 0) + 1;
+  const groups = new Map();
+
+  function collectBySignature(tree, moduleId) {
+    const signature = extractSignature(tree);
+    if (signature) {
+      const scopedKey = `${moduleId}::${signature}`;
+      if (!groups.has(scopedKey)) {
+        groups.set(scopedKey, {
+          signature,
+          moduleId,
+          role: tree.role || 'Container',
+          fromNodes: []
+        });
+      }
+      groups.get(scopedKey).fromNodes.push(tree.id);
     }
     if (tree.children) {
       for (const child of tree.children) {
-        collectIds(child);
+        collectBySignature(child, moduleId);
       }
     }
   }
-  
+
   for (const mod of skeleton.modules) {
-    collectIds(mod);
+    collectBySignature(mod, mod.id || "unknown-module");
   }
-  
-  // 生成组件映射（只保留出现 >= MIN_REPEAT_COUNT 次的）
-  const components = [];
-  for (const [id, count] of Object.entries(idCount)) {
-    if (count >= MIN_REPEAT_COUNT) {
-      components.push({
-        name: `Component_${id.substring(0, 12)}`,
-        fromNodes: [id],
-        count,
+
+  const components = Array.from(groups.values())
+    .map((group) => {
+      const stableNameSeed = Buffer.from(group.signature).toString('base64').replace(/[^a-zA-Z0-9]/g, '').slice(0, 12);
+      const parsedSig = JSON.parse(group.signature);
+      return {
+        name: `Component_${group.role}_${stableNameSeed || 'Group'}`,
+        signature: group.signature,
+        signatureMeta: parsedSig,
+        fromNodes: group.fromNodes.slice().sort(),
+        count: group.fromNodes.length,
         similarity: 1.0,
-        role: 'Unknown' // 可以后续通过规则推断
-      });
-    }
-  }
-  
-  // 按 count 降序排列
-  components.sort((a, b) => b.count - a.count);
-  
+        role: group.role,
+        moduleId: group.moduleId
+      };
+    })
+    .filter((group) => {
+      if (group.count < MIN_REPEAT_COUNT) return false;
+      if (group.role === "Text") return false;
+      if ((group.signatureMeta?.childCount || 0) === 0) return false;
+      if ((group.signatureMeta?.childCount || 0) < 2 && group.count < 3) return false;
+      return true;
+    })
+    .map((group) => ({
+      name: group.name,
+      signature: group.signature,
+      fromNodes: group.fromNodes,
+      count: group.count,
+      similarity: group.similarity,
+      role: group.role
+    }))
+    .sort((a, b) => {
+      if (b.count !== a.count) return b.count - a.count;
+      return a.name.localeCompare(b.name);
+    });
+
   return { components };
 }
 

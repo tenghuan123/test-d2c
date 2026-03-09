@@ -9,6 +9,7 @@
   },
   "propsSchema": {},
   "structure": {
+    "id": "218:1350",
     "nodeType": "FRAME",
     "name": "容器 1449",
     "styleRefs": [],
@@ -32,6 +33,7 @@
     },
     "children": [
       {
+        "id": "218:1351",
         "nodeType": "RECTANGLE",
         "name": "矩形备份 57",
         "styleRefs": [
@@ -46,6 +48,7 @@
         }
       },
       {
+        "id": "218:4331",
         "nodeType": "INSTANCE",
         "name": "抽屉/常驻按钮",
         "styleRefs": [
@@ -71,6 +74,7 @@
         },
         "children": [
           {
+            "id": "218:4331/218:3180",
             "nodeType": "FRAME",
             "name": "容器 1447",
             "styleRefs": [],
@@ -94,6 +98,7 @@
             },
             "children": [
               {
+                "id": "218:4331/218:3203",
                 "nodeType": "FRAME",
                 "name": "容器 944",
                 "styleRefs": [],
@@ -117,6 +122,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4331/218:3204",
                     "nodeType": "FRAME",
                     "name": "容器 943",
                     "styleRefs": [],
@@ -140,6 +146,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4331/218:3205",
                         "nodeType": "INSTANCE",
                         "name": "check-box 1",
                         "styleRefs": [],
@@ -152,6 +159,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4331/218:3205/218:2091",
                             "nodeType": "RECTANGLE",
                             "name": "矩形",
                             "styleRefs": [
@@ -166,6 +174,7 @@
                             }
                           },
                           {
+                            "id": "218:4331/218:3205/218:2092",
                             "nodeType": "PEN",
                             "name": "Base备份",
                             "styleRefs": [
@@ -182,6 +191,7 @@
                         ]
                       },
                       {
+                        "id": "218:4331/218:3206",
                         "nodeType": "TEXT",
                         "name": "全选",
                         "styleRefs": [
@@ -207,6 +217,7 @@
                 ]
               },
               {
+                "id": "218:4331/218:3181",
                 "nodeType": "FRAME",
                 "name": "容器 1446",
                 "styleRefs": [],
@@ -230,6 +241,7 @@
                 },
                 "children": [
                   {
+                    "id": "218:4331/218:3200",
                     "nodeType": "TEXT",
                     "name": "已选 5 件",
                     "styleRefs": [
@@ -251,6 +263,7 @@
                     ]
                   },
                   {
+                    "id": "218:4331/218:3182",
                     "nodeType": "FRAME",
                     "name": "容器 1445",
                     "styleRefs": [],
@@ -274,6 +287,7 @@
                     },
                     "children": [
                       {
+                        "id": "218:4331/218:3197",
                         "nodeType": "TEXT",
                         "name": "总计：",
                         "styleRefs": [
@@ -295,6 +309,7 @@
                         ]
                       },
                       {
+                        "id": "218:4331/218:3183",
                         "nodeType": "FRAME",
                         "name": "容器 1439",
                         "styleRefs": [],
@@ -307,6 +322,7 @@
                         },
                         "children": [
                           {
+                            "id": "218:4331/218:3184",
                             "nodeType": "FRAME",
                             "name": "容器 1441",
                             "styleRefs": [],
@@ -330,6 +346,7 @@
                             },
                             "children": [
                               {
+                                "id": "218:4331/218:3185",
                                 "nodeType": "FRAME",
                                 "name": "容器 1443",
                                 "styleRefs": [],
@@ -353,6 +370,7 @@
                                 },
                                 "children": [
                                   {
+                                    "id": "218:4331/218:3186",
                                     "nodeType": "GROUP",
                                     "name": "组 158",
                                     "styleRefs": [],
@@ -365,6 +383,7 @@
                                     },
                                     "children": [
                                       {
+                                        "id": "218:4331/218:3187",
                                         "nodeType": "FRAME",
                                         "name": "容器 1440",
                                         "styleRefs": [],
@@ -388,6 +407,7 @@
                                         },
                                         "children": [
                                           {
+                                            "id": "218:4331/218:3193",
                                             "nodeType": "TEXT",
                                             "name": "738",
                                             "styleRefs": [
@@ -409,6 +429,7 @@
                                             ]
                                           },
                                           {
+                                            "id": "218:4331/218:3188",
                                             "nodeType": "FRAME",
                                             "name": "容器 1438",
                                             "styleRefs": [],
@@ -448,6 +469,7 @@
             ]
           },
           {
+            "id": "218:4331/218:3209",
             "nodeType": "INSTANCE",
             "name": "L-168px",
             "styleRefs": [
@@ -473,6 +495,7 @@
             },
             "children": [
               {
+                "id": "218:4331/218:3209/218:1848",
                 "nodeType": "TEXT",
                 "name": "确定",
                 "styleRefs": [

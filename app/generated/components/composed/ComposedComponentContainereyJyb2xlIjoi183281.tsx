@@ -1,0 +1,22 @@
+import { Container } from "../base/Container";
+import { Text } from "../base/Text";
+import { ComposedComponentContainereyJyb2xlIjoi183282 } from "./ComposedComponentContainereyJyb2xlIjoi183282";
+
+type GeneratedPageProps = { data?: Record<string, unknown> };
+
+export function ComposedComponentContainereyJyb2xlIjoi183281({
+  data = {},
+}: GeneratedPageProps) {
+  return (
+    <Container
+      className="flex flex-row h-[30px] items-center justify-start w-[49px]"
+      style={{ maxWidth: "100%", gap: "2px", padding: "0px 0px 0px 0px" }}
+    >
+      <Text
+        className="font-[system-ui] leading-[30px] text-[#0d0d0d] text-[20px] tracking-[0px] whitespace-nowrap"
+        value={String(data?.["30Text"] ?? "130")}
+      />
+      <ComposedComponentContainereyJyb2xlIjoi183282 data={data} />
+    </Container>
+  );
+}

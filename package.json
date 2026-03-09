@@ -14,8 +14,8 @@
     "dsl:diff": "node scripts/dsl/diff-snapshot.mjs",
     "dsl:tailwind": "node scripts/dsl/to-tailwind.mjs",
     "dsl:semantic": "node scripts/semantic-inference.cjs",
-    "dsl:codegen": "node scripts/dsl/codegen.mjs",
-    "dsl:pipeline": "npm run dsl:build && npm run dsl:validate && npm run dsl:semantic && npm run dsl:codegen",
+    "dsl:codegen": "node scripts/dsl/codegen.mjs && npx prettier --write \"app/generated/**/*.tsx\"",
+    "dsl:pipeline": "npm run dsl:build:asset && npm run dsl:validate && npm run dsl:semantic && npm run dsl:tailwind && npm run dsl:codegen",
     "test": "node --test tests/**/*.test.mjs"
   },
   "dependencies": {

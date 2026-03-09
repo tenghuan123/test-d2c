@@ -326,6 +326,7 @@ export function mapDslTreeToTailwind(node, tokenStore, options = {}) {
     });
     const currentIsRelative = hasClassToken(mapped.className, "relative");
     return {
+      id: current?.id || null,
       nodeType: current?.nodeType || "UNKNOWN",
       name: current?.name || "",
       ref: current?.nodeType === "COMPONENT_REF" ? current?.ref || null : undefined,

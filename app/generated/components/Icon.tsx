@@ -8,7 +8,7 @@ export interface IconProps {
   color?: string;
 }
 
-export function Icon({ name, size = 24, color = 'currentColor' }: IconProps) {
+export function Icon({ name, size = 24, color = "currentColor" }: IconProps) {
   // 实际项目中可以接入 icon library 如 lucide-react, heroicons 等
   return (
     <svg
