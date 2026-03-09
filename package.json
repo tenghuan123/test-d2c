@@ -8,6 +8,7 @@
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "dsl:build": "node scripts/dsl/build-dsl.mjs",
+    "dsl:build:asset": "node scripts/dsl/build-from-assets.mjs",
     "dsl:validate": "node scripts/dsl/validate.mjs",
     "dsl:impact": "node scripts/dsl/impact.mjs",
     "dsl:diff": "node scripts/dsl/diff-snapshot.mjs",

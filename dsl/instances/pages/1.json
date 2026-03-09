@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1",
+  "kind": "page",
+  "route": "/",
+  "children": [
+    {
+      "type": "module",
+      "ref": "1671-1"
+    }
+  ]
+}

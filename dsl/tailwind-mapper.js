@@ -230,8 +230,6 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
   if (typeof layout?.width === "number" && layout.width > 0) {
     classes.push(`w-[${layout.width}px]`);
     style.maxWidth = "100%";
-  } else {
-    style.width = "100%";
   }
 
   if (typeof layout?.height === "number" && layout.height > 0) {

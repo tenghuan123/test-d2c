@@ -1,14 +1,15 @@
 import { createHash } from "node:crypto";
 import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync, unlinkSync } from "node:fs";
-import { join } from "node:path";
+import { basename, isAbsolute, join } from "node:path";
+import { normalizeDslInput } from "./input-adapter.mjs";
 
 const ROOT = process.cwd();
-const SOURCE_FILE = join(ROOT, "mastergo-dsl.json");
+const SOURCE_FILE_DEFAULT = "mastergo-dsl.json";
 const OUT_DIR = join(ROOT, "dsl");
 const VERSION = "1.0.0";
 const MAX_STRUCTURE_DEPTH = Number.isFinite(Number(process.env.DSL_MAX_DEPTH))
   ? Number(process.env.DSL_MAX_DEPTH)
-  : 4;
+  : 10;
 const MAX_CHILDREN_PER_NODE = Number.isFinite(Number(process.env.DSL_MAX_CHILDREN))
   ? Number(process.env.DSL_MAX_CHILDREN)
   : 50;
@@ -82,6 +83,9 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
       textMode: node?.textMode || null
     }
   };
+  if (typeof node?.asset === "string" && node.asset) {
+    next.ext.asset = node.asset;
+  }
   if (node?.type === "TEXT") {
     next.text = Array.isArray(node?.text)
       ? node.text.map((part) => ({
@@ -98,7 +102,7 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
       .map((c) => {
         if (typeof options.extractNestedComponentRef === "function" && shouldExtractComponentNode(c)) {
           const refId = options.extractNestedComponentRef(c);
-          return {
+          const componentRef = {
             nodeType: "COMPONENT_REF",
             name: c?.name || "",
             ref: refId,
@@ -111,6 +115,10 @@ function toStructure(node, nodeMap, styleRefMap, options = {}, depth = 0) {
               textMode: c?.textMode || null
             }
           };
+          if (typeof c?.asset === "string" && c.asset) {
+            componentRef.ext.asset = c.asset;
+          }
+          return componentRef;
         }
         return toStructure(c, nodeMap, styleRefMap, options, depth + 1);
       });
@@ -194,7 +202,10 @@ function createModuleContainer(node, styleRefMap) {
 
 function shouldExtractComponentNode(node) {
   if (!node || typeof node !== "object") return false;
-  return Boolean(node.componentId) || node.type === "INSTANCE" || node.type === "COMPONENT";
+  if ((node.type === "INSTANCE" || node.type === "COMPONENT") && node.children?.length > 0) {
+    return false;
+  }
+  return Boolean(node.componentId) || node.type === "COMPONENT";
 }
 
 function collectComponentNodesDeep(rootNode, nodeMap) {
@@ -227,12 +238,26 @@ function effectiveComponentId(node, instanceComponentIds) {
   return null;
 }
 
+function resolveSourceFile() {
+  const arg = process.argv.find((item) => item.startsWith("--input="));
+  const fromArg = arg ? arg.slice("--input=".length) : "";
+  const fromEnv = process.env.DSL_SOURCE || "";
+  const source = fromArg || fromEnv || SOURCE_FILE_DEFAULT;
+  return isAbsolute(source) ? source : join(ROOT, source);
+}
+
 function run() {
-  const raw = readFileSync(SOURCE_FILE, "utf8");
-  const input = JSON.parse(raw);
+  const sourceFile = resolveSourceFile();
+  const raw = readFileSync(sourceFile, "utf8");
+  const parsed = JSON.parse(raw);
+  const normalized = normalizeDslInput(parsed, basename(sourceFile));
+  const input = normalized.canonical;
   const dsl = input.dsl || {};
   const nodeMap = dsl.nodes || {};
   const root = resolveNode(nodeMap["0"], nodeMap);
+  if (!root) {
+    throw new Error(`missing root node "0" in normalized input: ${basename(sourceFile)}`);
+  }
   const rootName = slugify(root?.name || "home");
 
   const { tokens, textStyles, assets, styleRefMap } = normalizeStyles(dsl.styles || {});
@@ -370,7 +395,8 @@ function run() {
 
   const projectMeta = {
     name: "mastergo-project",
-    source: "mastergo-dsl.json",
+    source: basename(sourceFile),
+    sourceType: normalized.sourceType,
     generatedAt: new Date().toISOString(),
     styleCount: Object.keys(dsl.styles || {}).length,
     rootNodeId: root?.id || "0"
@@ -427,9 +453,19 @@ function run() {
   definitions.forEach((def) => {
     writeJson(join(componentDefDir, `${def.id}.json`), def);
   });
-  writeJson(join(OUT_DIR, `instances/pages/${page.id}.json`), page);
+  const pageDir = join(OUT_DIR, "instances/pages");
+  const expectedPageFiles = new Set([`${page.id}.json`]);
+  readdirSync(pageDir)
+    .filter((file) => file.endsWith(".json") && !expectedPageFiles.has(file))
+    .forEach((file) => unlinkSync(join(pageDir, file)));
+  writeJson(join(pageDir, `${page.id}.json`), page);
+  const moduleDir = join(OUT_DIR, "instances/modules");
+  const expectedModuleFiles = new Set(modules.map((mod) => `${mod.id}.json`));
+  readdirSync(moduleDir)
+    .filter((file) => file.endsWith(".json") && !expectedModuleFiles.has(file))
+    .forEach((file) => unlinkSync(join(moduleDir, file)));
   modules.forEach((mod) => {
-    writeJson(join(OUT_DIR, `instances/modules/${mod.id}.json`), mod);
+    writeJson(join(moduleDir, `${mod.id}.json`), mod);
   });
   writeJson(join(OUT_DIR, "graph/dependency.json"), dependency);
   writeJson(latestSnapshotFile, snapshot);

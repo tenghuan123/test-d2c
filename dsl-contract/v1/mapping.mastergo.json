@@ -1,5 +1,9 @@
 {
   "source": "mastergo-dsl.json",
+  "supportedSources": [
+    "mastergo-dsl.json",
+    "drawer-dsl.json"
+  ],
   "sourcePath": "dsl",
   "targetVersion": "1.0.0",
   "mappings": [
@@ -32,6 +36,21 @@
       "source": "node.children",
       "target": "dsl/instances/modules/*.json",
       "rule": "根层子树转模块，page 通过 module ref 引用"
+    },
+    {
+      "source": "drawer.layout",
+      "target": "dsl.nodes.*.(layoutStyle|flexContainerInfo)",
+      "rule": "drawer layout 归一到布局字段，兼容 tailwind/semantic 阶段"
+    },
+    {
+      "source": "drawer.style/background|border + drawer.text.*",
+      "target": "dsl.styles.(paint_*|font_*|effect_*) + node.(fill|text|textColor)",
+      "rule": "内联样式与文本样式提取为样式注册并在节点上建立引用"
+    },
+    {
+      "source": "drawer.component.componentId + drawer.component.variant",
+      "target": "node.componentId + node.componentInfo.properties",
+      "rule": "实例组件ID提升并保留变体信息用于组件聚合"
     }
   ],
   "idStrategy": {

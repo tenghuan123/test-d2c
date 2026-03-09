@@ -1,124 +1,41 @@
 {
   "page": {
     "schemaVersion": "1.0.0",
-    "id": "1920",
+    "id": "1",
     "kind": "page",
     "route": "/",
     "children": [
       {
         "type": "module",
-        "ref": "header-1440-1"
-      },
-      {
-        "type": "module",
-        "ref": "3810-2"
-      },
-      {
-        "type": "module",
-        "ref": "1440px-3"
+        "ref": "1671-1"
       }
     ]
   },
   "modules": [
     {
       "schemaVersion": "1.0.0",
-      "id": "header-1440-1",
-      "kind": "module",
-      "container": {
-        "nodeType": "INSTANCE",
-        "sourceNodeId": "737:034341",
-        "name": "header/跟随/1440以上",
-        "styleRefs": [],
-        "ext": {
-          "layoutStyle": {
-            "width": 1920,
-            "height": 81,
-            "relativeX": 0,
-            "relativeY": -1
-          },
-          "flexContainerInfo": {
-            "flexDirection": "column",
-            "mainSizing": "auto",
-            "crossSizing": "fixed"
-          },
-          "borderRadius": null
-        }
-      },
-      "children": [
-        {
-          "type": "component",
-          "ref": "header-1440-6642af4d",
-          "props": {}
-        },
-        {
-          "type": "component",
-          "ref": "728-400a6c3c",
-          "props": {}
-        }
-      ]
-    },
-    {
-      "schemaVersion": "1.0.0",
-      "id": "3810-2",
+      "id": "1671-1",
       "kind": "module",
       "container": {
         "nodeType": "FRAME",
-        "sourceNodeId": "1157:045629",
-        "name": "容器 3810",
-        "styleRefs": [],
-        "ext": {
-          "layoutStyle": {
-            "width": 1680,
-            "height": 2157,
-            "relativeX": 120,
-            "relativeY": 80
-          },
-          "flexContainerInfo": {
-            "flexDirection": "row",
-            "mainSizing": "fixed",
-            "crossSizing": "auto",
-            "gap": "24px",
-            "padding": "40px 44px 200px"
-          },
-          "borderRadius": null
-        }
-      },
-      "children": [
-        {
-          "type": "component",
-          "ref": "3615-d37f156b",
-          "props": {}
-        },
-        {
-          "type": "component",
-          "ref": "3809-36f2c6ca",
-          "props": {}
-        }
-      ]
-    },
-    {
-      "schemaVersion": "1.0.0",
-      "id": "1440px-3",
-      "kind": "module",
-      "container": {
-        "nodeType": "INSTANCE",
-        "sourceNodeId": "1157:046773",
-        "name": "1440px",
+        "sourceNodeId": "218:1329",
+        "name": "容器 1671",
         "styleRefs": [
-          "{color.ty-20-hover}"
+          "{color.paint-drawer-135f9c7255}"
         ],
         "ext": {
           "layoutStyle": {
-            "width": 1920,
-            "height": 490,
-            "relativeX": 0,
-            "relativeY": 2237
+            "width": 514,
+            "height": 1276
           },
           "flexContainerInfo": {
             "flexDirection": "column",
+            "justifyContent": "flex-start",
             "alignItems": "center",
+            "gap": "50px",
+            "padding": "0px 0px 0px 0px",
             "mainSizing": "auto",
-            "crossSizing": "fixed"
+            "crossSizing": "auto"
           },
           "borderRadius": null
         }
@@ -126,12 +43,12 @@
       "children": [
         {
           "type": "component",
-          "ref": "1128-80488c9a",
+          "ref": "1670-e2bac79e",
           "props": {}
         },
         {
           "type": "component",
-          "ref": "footer-son-bottom-6355ddb9",
+          "ref": "1449-7d0eb97c",
           "props": {}
         }
       ]
@@ -139,304 +56,12 @@
   ],
   "components": [
     {
-      "id": "logo-no-box-3b21406c",
-      "signature": "934fc6cb4f140d31df0b1333be7a0d381960fc6c"
+      "id": "1670-e2bac79e",
+      "signature": "ec30a2066cf6f709c52cef692a5f0d373af3e8e3"
     },
     {
-      "id": "1-a4-nor-323df651",
-      "signature": "7680af9c7bfa99434abb315b7c9e91bbbf07a352"
-    },
-    {
-      "id": "3-a0-nor-a875a6dc",
-      "signature": "2a942d67d2a329c6d72cf4382c67df58ba338248"
-    },
-    {
-      "id": "3-a1-nor-9178754c",
-      "signature": "9d8b95ce753cbbd1b260bbb6d56d18924f926983"
-    },
-    {
-      "id": "1-a2-nor-056e5400",
-      "signature": "4266ec2a01d4d73314cd93ffb13c48c88a31c08f"
-    },
-    {
-      "id": "1-a3-nor-c9175d91",
-      "signature": "ec7fd30277b103df9abbc8cf317edbee730cc2b1"
-    },
-    {
-      "id": "header-son-icon-07356da8",
-      "signature": "cad67c8e07ee163948d699bec9b1abcc301c9b43"
-    },
-    {
-      "id": "1-a4-nor-27889cef",
-      "signature": "4915aa6417f78f9bba0eed81ee50019ef0c69224"
-    },
-    {
-      "id": "tag-black-89414aeb",
-      "signature": "eba9d580a9e9db07baf01beca12e9493b8c55a6f"
-    },
-    {
-      "id": "son-002375d2",
-      "signature": "c79dbd94f7499ee3b79f83c8998f2aa249df7f3e"
-    },
-    {
-      "id": "1-al-36-2fce34c3",
-      "signature": "07bcf8673ce3174646e04be4cc2516b8cfbbab41"
-    },
-    {
-      "id": "son-f2e2aba0",
-      "signature": "10bd586e743d42293c07a5fe793738450709c04e"
-    },
-    {
-      "id": "header-1440-6642af4d",
-      "signature": "2f10ae2c79e5d3ec74bb903914634e88d1a61666"
-    },
-    {
-      "id": "728-400a6c3c",
-      "signature": "806d8648a1389c2d6507174c0ce6e60d100c7a5b"
-    },
-    {
-      "id": "2436-f9c9685f",
-      "signature": "2b6ad8e83ed9eac967196193c63704ea631dc2c6"
-    },
-    {
-      "id": "son-list-9ee85330",
-      "signature": "d44f06a991f3df3d771dca8559e04bca1540cf39"
-    },
-    {
-      "id": "son-list-c3d6d542",
-      "signature": "04c8b280a0f3efae3d044ad8fba6389605205ccc"
-    },
-    {
-      "id": "2472-8237bb78",
-      "signature": "caab79ecd44dcaca5b93ce32088a17da78a3dce9"
-    },
-    {
-      "id": "2471-fbe8d2e2",
-      "signature": "034d46a2cd04860fb62ec05e364d9b8a38209b27"
-    },
-    {
-      "id": "3-aa-031be1d5",
-      "signature": "a286ceca94fe182419662320382dce67062ea32c"
-    },
-    {
-      "id": "3615-d37f156b",
-      "signature": "c09ee8ad7feb0f6e6b7534cb5dc381a2e5c54856"
-    },
-    {
-      "id": "node-d9e4c6e9",
-      "signature": "47ecd7f56ddf32e5d7c40402e79c9ddd38a0a1ff"
-    },
-    {
-      "id": "1589-29a69d67",
-      "signature": "d7277bde0e291dbf77a1392a5e3ffc426147455a"
-    },
-    {
-      "id": "3678-b1dde581",
-      "signature": "3ff2fd0552920f0e9e04eda08f2f476b82214499"
-    },
-    {
-      "id": "icon-daba1c6b",
-      "signature": "331759beb74aa8e3468739da0df2132f70ffcec1"
-    },
-    {
-      "id": "tips-f02c3118",
-      "signature": "b5c582cfdee512b15cdd5b9f5ea9a356d862aef5"
-    },
-    {
-      "id": "icon-92a9c831",
-      "signature": "f42582563e7198e80f78d87e398588cf704abc1e"
-    },
-    {
-      "id": "icon-ab9c4a0e",
-      "signature": "b9bde14582f8d9f3812db9d06440f8dea2b4afce"
-    },
-    {
-      "id": "icon-cdc6fcbe",
-      "signature": "3b9d470cdc252f3694cf74f0f134c035ede4c479"
-    },
-    {
-      "id": "tag-2c713570",
-      "signature": "297c58ec670609286a0a042889a800487f9bf592"
-    },
-    {
-      "id": "icon-414f9483",
-      "signature": "d496ac24823ec42315286cd6d9f74b10b5ccd15e"
-    },
-    {
-      "id": "tag-849205f4",
-      "signature": "da26996d6702db53151e4a1002e7bc73f2fe0927"
-    },
-    {
-      "id": "3679-1d87d1b4",
-      "signature": "7f34ca95d66399121fd43a46de5d21c1348bf708"
-    },
-    {
-      "id": "share-3c2bcf7f",
-      "signature": "fb2f72a91e759882c407b3dde2fb156fafb26963"
-    },
-    {
-      "id": "node-02f5b924",
-      "signature": "6a6181ed69fbea9b0a00aed853ce56ccc1359481"
-    },
-    {
-      "id": "node-cf55bd20",
-      "signature": "98ac5095141514237d8c5380db2613125dd4661f"
-    },
-    {
-      "id": "1-a5-sel-d2160cee",
-      "signature": "a48f7cd5eacbbd6531fe6fd4d046f43ffc0b747c"
-    },
-    {
-      "id": "1-a3-nor-23ad5f9d",
-      "signature": "f52c92f441c4a5998e0aa0255bda9aa67cbdf68d"
-    },
-    {
-      "id": "1-a3-5ss-596277a5",
-      "signature": "0ec73b1f7864d704e1be5fcae2ac8aed3ff16df0"
-    },
-    {
-      "id": "2-a4-down-nor-8221121b",
-      "signature": "feda75b8a68cb7e29582af9c1251da148fdcdbba"
-    },
-    {
-      "id": "1-a2-nor-6f5d80f0",
-      "signature": "9baf427efa637ac0be93bea435e1e68e1ffb577f"
-    },
-    {
-      "id": "2-a4-down-nor-9858649d",
-      "signature": "49167282eb9fb158fdcf5e7a8b87d837c9aa316a"
-    },
-    {
-      "id": "1-a2-nor-aaf25e53",
-      "signature": "d3ea813e3ff4415f35f133dd3d1a14e73262e226"
-    },
-    {
-      "id": "3-a0-nor-dc229f69",
-      "signature": "33b2d3e2ded8a1c150d5ee5eaea12d88e2dc23e0"
-    },
-    {
-      "id": "1-a0-nor-0f1a73a4",
-      "signature": "9d48cd30f050949049ca1592e3d515e86f946d4b"
-    },
-    {
-      "id": "1-a2-nor-3f878337",
-      "signature": "a4ccb6bb5b514876462955e43fcd6f7b0cd17f73"
-    },
-    {
-      "id": "choice-56824ac7",
-      "signature": "0a9e83906d662393c8509f8b3df5bf1ff635e657"
-    },
-    {
-      "id": "16-7f9f680b",
-      "signature": "08142aba254e8cb63628c643e34ab662e06edc6d"
-    },
-    {
-      "id": "1-a2-nor-2b681135",
-      "signature": "342621bffafdd8c17ca03510688f16cca03eb64d"
-    },
-    {
-      "id": "node-b007f638",
-      "signature": "811f2043ac61c9aedcdea2380dbf74fc8a26408d"
-    },
-    {
-      "id": "3978-84b7c827",
-      "signature": "d65c8a14f8987c89a077c2cf4bd6216106cdc31a"
-    },
-    {
-      "id": "1-a3-nor-bad58b7d",
-      "signature": "f5f7ec0ea9b873c00a576249159e590fb8219ddd"
-    },
-    {
-      "id": "1-aa-nor-19349920",
-      "signature": "0e8b764159ce9da3d11cfe789754d1e52f9c3f29"
-    },
-    {
-      "id": "3804-0e1306da",
-      "signature": "6a1cd0ef11b5a264c9f75abf2b4aa7ded1a9e36e"
-    },
-    {
-      "id": "3809-36f2c6ca",
-      "signature": "2b22c2e025049e2f67cd5c2a486f9f17b9b19952"
-    },
-    {
-      "id": "1-a0-466e507f",
-      "signature": "ea7da9a7802d33693885f1ced544d4eac6b5dfaf"
-    },
-    {
-      "id": "tag-dc0340a2",
-      "signature": "6cf754357925e7699313ba6f03462f7c4be9c9e7"
-    },
-    {
-      "id": "409-bece76ed",
-      "signature": "aa3b6f07c15a3695b74aaa069909c650b5bba6d5"
-    },
-    {
-      "id": "1-a3-1145e0f3",
-      "signature": "8efbd36b5eb1ea47bfd8d7adaf9199e107e59b01"
-    },
-    {
-      "id": "2-a8-right-nor-5852e9b2",
-      "signature": "ca9a83efda72f392219583b519fe23c313add353"
-    },
-    {
-      "id": "card-38aa4e40",
-      "signature": "fc8fa61283e88d8743b653d9202211b0895660cf"
-    },
-    {
-      "id": "tag-bda69645",
-      "signature": "dc006b6e02dd9c5b4a130f991c09d5024f7a5444"
-    },
-    {
-      "id": "icon-star-2071444c",
-      "signature": "8b67b7a40931dd31aa9619b4b31ee06e99d5a396"
-    },
-    {
-      "id": "1-a0-dis-0e7d2d37",
-      "signature": "5a485ad4f56945a1f6c6b9e19a6b9be7cdd2ed66"
-    },
-    {
-      "id": "1-a2-sel-892f547d",
-      "signature": "fd2b189e429cf6e01b2673302be37023c6a33f56"
-    },
-    {
-      "id": "l-only-440d065f",
-      "signature": "5d14abec8ca33b4aaabb67bae5d7c86c25de0a27"
-    },
-    {
-      "id": "no-box-black-414d0d4b",
-      "signature": "1631a1c9cda4d12770f29ecb5cb4f6cc0e2ae9cf"
-    },
-    {
-      "id": "wx-1773da22",
-      "signature": "85b7a2e12c0b6cecf3f15871f042406ef55a0370"
-    },
-    {
-      "id": "node-b9b5acb3",
-      "signature": "7041f2ceb6355feb5a8de4a64ccf18d2714d528b"
-    },
-    {
-      "id": "2-a1-nor-a61a444c",
-      "signature": "5ecc50db199e14d7af054a8966de49220babfcec"
-    },
-    {
-      "id": "tabs-footer-nor-6-860ba693",
-      "signature": "9865736560291412acbf2bdea383b65dbaae2652"
-    },
-    {
-      "id": "1128-80488c9a",
-      "signature": "fe4adcf0e2711263f66d2bccf475fed0d62ff63f"
-    },
-    {
-      "id": "copyright-d22e4b36",
-      "signature": "34d23fadce0e36f9968e8a681199b39062965b48"
-    },
-    {
-      "id": "node-7c83b954",
-      "signature": "69d7dc83f6f8e98793f6aad6f081378c381bac39"
-    },
-    {
-      "id": "footer-son-bottom-6355ddb9",
-      "signature": "61ad59458cc0988001281470ab8d36fcd3945bd1"
+      "id": "1449-7d0eb97c",
+      "signature": "81feaa6d239103037f85cbc707bfa35c37fa98ef"
     }
   ]
 }

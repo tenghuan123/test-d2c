@@ -1,13 +1,3 @@
 {
-  "components": [
-    {
-      "name": "Component_son-list-c3d",
-      "fromNodes": [
-        "son-list-c3d6d542"
-      ],
-      "count": 13,
-      "similarity": 1,
-      "role": "Unknown"
-    }
-  ]
+  "components": []
 }

@@ -21,10 +21,12 @@ type DslNode = {
   nodeType?: string;
   name?: string;
   ref?: string;
+  text?: Array<{ text?: string }>;
   styleRefs?: string[];
   ext?: {
     layoutStyle?: LayoutStyle;
     flexContainerInfo?: FlexStyle | null;
+    asset?: string | null;
   };
   children?: DslNode[];
 };
@@ -113,6 +115,9 @@ function RebuildNode({
   }
   const children = node.children ?? [];
   const isText = node.nodeType === "TEXT";
+  const textValue = Array.isArray(node.text)
+    ? node.text.map((part) => part?.text || "").join("")
+    : node.name || "";
   const mapped = mapDslNodeToTailwind(node, tokenStore, {
     parentIsRelative,
     enablePosition: ENABLE_POSITION,
@@ -122,16 +127,20 @@ function RebuildNode({
   });
   const currentIsRelative = hasRelativeClass(mapped.className);
   const hasVisualLeaf = !isText && children.length === 0;
+  const assetUrl = node.ext?.asset 
+    ? node.ext.asset.replace(/^\.\/asset/, "/assets") 
+    : null;
+  const hasAsset = Boolean(assetUrl);
   return (
     <div
       className={`${rootClassName ?? ""} ${mapped.className}`.trim()}
       style={mapped.style as CSSProperties}
       data-component-id={dataComponentId}
     >
-      {isText ? (
-        <span className="text-sm text-gray-700">{node.name}</span>
-      ) : null}
-      {hasVisualLeaf ? (
+      {isText ? textValue : null}
+      {hasAsset ? (
+        <img src={assetUrl!} alt={node.name || "asset"} className="h-full w-full object-cover" />
+      ) : hasVisualLeaf ? (
         <div className="h-full w-full rounded-sm border border-gray-200/70" />
       ) : null}
       {mapped.errors?.includes("ABSOLUTE_REQUIRES_PARENT_RELATIVE") ? (

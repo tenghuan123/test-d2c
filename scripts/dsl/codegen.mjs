@@ -72,7 +72,7 @@ function run() {
   const modulesCode = JSON.stringify(modules, null, 2);
   const pageCode = `${importLines}
 
-const roleComponentMap = {
+const roleComponentMap: Record<string, any> = {
 ${roleMapEntries}
 };
 

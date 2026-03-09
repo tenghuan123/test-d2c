@@ -1,93 +1,57 @@
 {
   "schemaVersion": "1.0.0",
-  "h7-16px": {
-    "family": "PingFang SC",
+  "font-drawer-aa7577ba6d": {
+    "family": "system-ui",
+    "size": 24,
+    "style": "400",
+    "decoration": "none",
+    "case": "none",
+    "lineHeight": "36",
+    "letterSpacing": "0"
+  },
+  "font-drawer-ae250ce15c": {
+    "family": "system-ui",
     "size": 16,
-    "style": "中黑体",
+    "style": "400",
     "decoration": "none",
     "case": "none",
     "lineHeight": "24",
-    "letterSpacing": "auto"
+    "letterSpacing": "0"
   },
-  "c-14px": {
-    "family": "PingFang SC",
+  "font-drawer-93efbd69e1": {
+    "family": "system-ui",
     "size": 14,
-    "style": "中黑体",
+    "style": "400",
     "decoration": "none",
     "case": "none",
     "lineHeight": "22",
-    "letterSpacing": "auto"
+    "letterSpacing": "0"
   },
-  "c-16px": {
-    "family": "PingFang SC",
-    "size": 16,
-    "style": "常规体",
-    "decoration": "none",
-    "case": "none",
-    "lineHeight": "24",
-    "letterSpacing": "auto"
-  },
-  "c-12px": {
-    "family": "PingFang SC",
-    "size": 12,
-    "style": "中黑体",
-    "decoration": "none",
-    "case": "none",
-    "lineHeight": "18",
-    "letterSpacing": "auto"
-  },
-  "40px": {
-    "family": "PingFang SC",
-    "size": 40,
-    "style": "中黑体",
-    "decoration": "none",
-    "case": "none",
-    "lineHeight": "60",
-    "letterSpacing": "auto"
-  },
-  "font-8-1175": {
-    "family": "PingFangSC-Medium",
-    "size": 12,
-    "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
-    "decoration": "none",
-    "case": "none",
-    "lineHeight": "12",
-    "letterSpacing": "auto"
-  },
-  "h6-18px": {
-    "family": "PingFang SC",
-    "size": 18,
-    "style": "中黑体",
-    "decoration": "none",
-    "case": "none",
-    "lineHeight": "28",
-    "letterSpacing": "auto"
-  },
-  "h5-20px": {
-    "family": "PingFang SC",
+  "font-drawer-fd75f27baa": {
+    "family": "system-ui",
     "size": 20,
-    "style": "中黑体",
+    "style": "400",
     "decoration": "none",
     "case": "none",
     "lineHeight": "30",
-    "letterSpacing": "auto"
+    "letterSpacing": "0"
   },
-  "font-17-6525": {
-    "family": "PingFang SC",
-    "size": 12,
-    "style": "-Regular",
+  "font-drawer-801333db63": {
+    "family": "system-ui",
+    "size": 14,
+    "style": "400",
     "decoration": "none",
     "case": "none",
-    "lineHeight": "12",
-    "letterSpacing": "auto"
+    "lineHeight": "14",
+    "letterSpacing": "0"
   },
-  "s-12px-18": {
-    "family": "PingFang SC",
-    "size": 12,
-    "style": "常规体",
+  "font-drawer-e9060f290d": {
+    "family": "system-ui",
+    "size": 28,
+    "style": "400",
     "decoration": "none",
     "case": "none",
-    "lineHeight": "18",
-    "letterSpacing": "auto"
+    "lineHeight": "42",
+    "letterSpacing": "0"
   }
 }

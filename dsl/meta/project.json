@@ -1,7 +1,8 @@
 {
   "name": "mastergo-project",
-  "source": "mastergo-dsl.json",
-  "generatedAt": "2026-03-05T07:52:30.387Z",
-  "styleCount": 85,
-  "rootNodeId": "737:034090"
+  "source": "dsl.json",
+  "sourceType": "drawer",
+  "generatedAt": "2026-03-09T03:51:14.156Z",
+  "styleCount": 18,
+  "rootNodeId": "0"
 }

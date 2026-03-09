@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1449-7d0eb97c",
+  "kind": "component",
+  "source": {
+    "componentId": null,
+    "nodeId": "218:1350",
+    "nodeType": "FRAME"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "FRAME",
+    "name": "容器 1449",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 514,
+        "height": 171
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "gap": "0px",
+        "padding": "0px 0px 0px 0px",
+        "mainSizing": "auto",
+        "crossSizing": "auto"
+      },
+      "borderRadius": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "RECTANGLE",
+        "name": "矩形备份 57",
+        "styleRefs": [
+          "{color.paint-drawer-b8ed5689c1}"
+        ],
+        "ext": {
+          "layoutStyle": null,
+          "flexContainerInfo": null,
+          "borderRadius": 0.5,
+          "textAlign": null,
+          "textMode": null
+        }
+      },
+      {
+        "nodeType": "INSTANCE",
+        "name": "抽屉/常驻按钮",
+        "styleRefs": [
+          "{color.paint-drawer-135f9c7255}"
+        ],
+        "ext": {
+          "layoutStyle": {
+            "width": 514,
+            "height": 170
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "gap": "16px",
+            "padding": "28px 40px 28px 40px",
+            "mainSizing": "auto",
+            "crossSizing": "auto"
+          },
+          "borderRadius": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 1447",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 434,
+                "height": 42
+              },
+              "flexContainerInfo": {
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "alignItems": "center",
+                "gap": "40px",
+                "padding": "0px 0px 0px 0px",
+                "mainSizing": "auto",
+                "crossSizing": "auto"
+              },
+              "borderRadius": null,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "FRAME",
+                "name": "容器 944",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 56,
+                    "height": 22
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "0px 0px 0px 0px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 943",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 56,
+                        "height": 22
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "8px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base备份",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "TEXT",
+                        "name": "全选",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-6df3f6da49}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "全选",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "FRAME",
+                "name": "容器 1446",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 338,
+                    "height": 42
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "center",
+                    "gap": "12px",
+                    "padding": "0px 0px 0px 0px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "TEXT",
+                    "name": "已选 5 件",
+                    "styleRefs": [
+                      "{textStyle.font-drawer-93efbd69e1}",
+                      "{color.paint-drawer-9a42531110}"
+                    ],
+                    "ext": {
+                      "layoutStyle": null,
+                      "flexContainerInfo": null,
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": "single-line"
+                    },
+                    "text": [
+                      {
+                        "text": "已选 5 件",
+                        "font": "font_drawer_93efbd69e1"
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1445",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 113,
+                        "height": 42
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "4px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "总计：",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "总计：",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1439",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1441",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 67,
+                                "height": 42
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "center",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1443",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 67,
+                                    "height": 42
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start",
+                                    "gap": "4px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "GROUP",
+                                    "name": "组 158",
+                                    "styleRefs": [],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    },
+                                    "children": [
+                                      {
+                                        "nodeType": "FRAME",
+                                        "name": "容器 1440",
+                                        "styleRefs": [],
+                                        "ext": {
+                                          "layoutStyle": {
+                                            "width": 67,
+                                            "height": 42
+                                          },
+                                          "flexContainerInfo": {
+                                            "flexDirection": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "center",
+                                            "gap": "4px",
+                                            "padding": "0px 0px 0px 0px",
+                                            "mainSizing": "auto",
+                                            "crossSizing": "auto"
+                                          },
+                                          "borderRadius": null,
+                                          "textAlign": null,
+                                          "textMode": null
+                                        },
+                                        "children": [
+                                          {
+                                            "nodeType": "TEXT",
+                                            "name": "738",
+                                            "styleRefs": [
+                                              "{textStyle.font-drawer-e9060f290d}",
+                                              "{color.paint-drawer-9f4378ccfb}"
+                                            ],
+                                            "ext": {
+                                              "layoutStyle": null,
+                                              "flexContainerInfo": null,
+                                              "borderRadius": null,
+                                              "textAlign": null,
+                                              "textMode": "single-line"
+                                            },
+                                            "text": [
+                                              {
+                                                "text": "738",
+                                                "font": "font_drawer_e9060f290d"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "nodeType": "FRAME",
+                                            "name": "容器 1438",
+                                            "styleRefs": [],
+                                            "ext": {
+                                              "layoutStyle": {
+                                                "width": 14,
+                                                "height": 22
+                                              },
+                                              "flexContainerInfo": {
+                                                "flexDirection": "column",
+                                                "justifyContent": "flex-start",
+                                                "alignItems": "flex-start",
+                                                "gap": "0px",
+                                                "padding": "8px 0px 0px 0px",
+                                                "mainSizing": "auto",
+                                                "crossSizing": "auto"
+                                              },
+                                              "borderRadius": null,
+                                              "textAlign": null,
+                                              "textMode": null
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "L-168px",
+            "styleRefs": [
+              "{color.paint-drawer-6df3f6da49}"
+            ],
+            "ext": {
+              "layoutStyle": {
+                "width": 434,
+                "height": 56
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "gap": "0px",
+                "padding": "16px 40px 16px 40px",
+                "mainSizing": "auto",
+                "crossSizing": "auto"
+              },
+              "borderRadius": 55,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "TEXT",
+                "name": "确定",
+                "styleRefs": [
+                  "{textStyle.font-drawer-ae250ce15c}",
+                  "{color.paint-drawer-135f9c7255}"
+                ],
+                "ext": {
+                  "layoutStyle": null,
+                  "flexContainerInfo": null,
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": "single-line"
+                },
+                "text": [
+                  {
+                    "text": "立即购买",
+                    "font": "font_drawer_ae250ce15c"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

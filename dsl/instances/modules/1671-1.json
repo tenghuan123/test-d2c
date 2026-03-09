@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1671-1",
+  "kind": "module",
+  "container": {
+    "nodeType": "FRAME",
+    "sourceNodeId": "218:1329",
+    "name": "容器 1671",
+    "styleRefs": [
+      "{color.paint-drawer-135f9c7255}"
+    ],
+    "ext": {
+      "layoutStyle": {
+        "width": 514,
+        "height": 1276
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "gap": "50px",
+        "padding": "0px 0px 0px 0px",
+        "mainSizing": "auto",
+        "crossSizing": "auto"
+      },
+      "borderRadius": null
+    }
+  },
+  "children": [
+    {
+      "type": "component",
+      "ref": "1670-e2bac79e",
+      "props": {}
+    },
+    {
+      "type": "component",
+      "ref": "1449-7d0eb97c",
+      "props": {}
+    }
+  ]
+}

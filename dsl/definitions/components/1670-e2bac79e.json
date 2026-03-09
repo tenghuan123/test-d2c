@@ -1,0 +1,3062 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "1670-e2bac79e",
+  "kind": "component",
+  "source": {
+    "componentId": null,
+    "nodeId": "218:1332",
+    "nodeType": "FRAME"
+  },
+  "propsSchema": {},
+  "structure": {
+    "nodeType": "FRAME",
+    "name": "容器 1670",
+    "styleRefs": [],
+    "ext": {
+      "layoutStyle": {
+        "width": 514,
+        "height": 1055
+      },
+      "flexContainerInfo": {
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "gap": "32px",
+        "padding": "0px 0px 0px 0px",
+        "mainSizing": "auto",
+        "crossSizing": "auto"
+      },
+      "borderRadius": null,
+      "textAlign": null,
+      "textMode": null
+    },
+    "children": [
+      {
+        "nodeType": "FRAME",
+        "name": "容器 1183",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 514,
+            "height": 72
+          },
+          "flexContainerInfo": {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "gap": "24px",
+            "padding": "36px 40px 0px 40px",
+            "mainSizing": "auto",
+            "crossSizing": "auto"
+          },
+          "borderRadius": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "TEXT",
+            "name": "购物车",
+            "styleRefs": [
+              "{textStyle.font-drawer-aa7577ba6d}",
+              "{color.paint-drawer-6df3f6da49}"
+            ],
+            "ext": {
+              "layoutStyle": null,
+              "flexContainerInfo": null,
+              "borderRadius": null,
+              "textAlign": null,
+              "textMode": "single-line"
+            },
+            "text": [
+              {
+                "text": "购物车",
+                "font": "font_drawer_aa7577ba6d"
+              }
+            ]
+          },
+          {
+            "nodeType": "INSTANCE",
+            "name": "closed-2 2",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": null,
+              "flexContainerInfo": null,
+              "borderRadius": null,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "RECTANGLE",
+                "name": "矩形 700",
+                "styleRefs": [
+                  "{color.paint-drawer-135f9c7255}"
+                ],
+                "ext": {
+                  "layoutStyle": null,
+                  "flexContainerInfo": null,
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": null
+                }
+              },
+              {
+                "nodeType": "BOOLEAN_OPERATION",
+                "name": "联集 33",
+                "styleRefs": [
+                  "{color.paint-drawer-6df3f6da49}"
+                ],
+                "ext": {
+                  "layoutStyle": null,
+                  "flexContainerInfo": null,
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": null,
+                  "asset": "./asset/icon/icon_0.svg"
+                },
+                "children": [
+                  {
+                    "nodeType": "PEN",
+                    "name": "路径",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": null,
+                      "flexContainerInfo": null,
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    }
+                  },
+                  {
+                    "nodeType": "PEN",
+                    "name": "路径",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": null,
+                      "flexContainerInfo": null,
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeType": "FRAME",
+        "name": "容器 1669",
+        "styleRefs": [],
+        "ext": {
+          "layoutStyle": {
+            "width": 514,
+            "height": 951
+          },
+          "flexContainerInfo": {
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "gap": "20px",
+            "padding": "0px 20px 0px 20px",
+            "mainSizing": "auto",
+            "crossSizing": "auto"
+          },
+          "borderRadius": null,
+          "textAlign": null,
+          "textMode": null
+        },
+        "children": [
+          {
+            "nodeType": "FRAME",
+            "name": "容器 1672",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 474,
+                "height": 43
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "gap": "0px",
+                "padding": "0px 20px 0px 20px",
+                "mainSizing": "auto",
+                "crossSizing": "auto"
+              },
+              "borderRadius": null,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "FRAME",
+                "name": "组 365",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 434,
+                    "height": 43
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "alignItems": "flex-start",
+                    "gap": "0px",
+                    "padding": "0px 0px 0px 0px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": null,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "base/all/16-have-number",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 242,
+                        "height": 43
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "flex-start",
+                        "gap": "40px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "base/16px-have-number 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 54,
+                            "height": 43
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "column",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start",
+                            "gap": "16px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1518",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 54,
+                                "height": 24
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "4px",
+                                "padding": "0px 4px 0px 4px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "视频",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "视频",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "6",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 36",
+                            "styleRefs": [
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "base/16px-have-number 3",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 54,
+                            "height": 43
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "column",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start",
+                            "gap": "16px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1518",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 54,
+                                "height": 24
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "4px",
+                                "padding": "0px 4px 0px 4px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "视频",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-017367f77d}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "图片",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-017367f77d}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 36",
+                            "styleRefs": [
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "base/16px-have-number 2",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 54,
+                            "height": 43
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "column",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start",
+                            "gap": "16px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1518",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 54,
+                                "height": 24
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "4px",
+                                "padding": "0px 4px 0px 4px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "视频",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-017367f77d}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "音乐",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-017367f77d}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 36",
+                            "styleRefs": [
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "RECTANGLE",
+                    "name": "矩形备份 59",
+                    "styleRefs": [
+                      "{color.paint-drawer-5c6e4291a8}"
+                    ],
+                    "ext": {
+                      "layoutStyle": null,
+                      "flexContainerInfo": null,
+                      "borderRadius": 0.5,
+                      "textAlign": null,
+                      "textMode": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nodeType": "FRAME",
+            "name": "容器 1408",
+            "styleRefs": [],
+            "ext": {
+              "layoutStyle": {
+                "width": 474,
+                "height": 888
+              },
+              "flexContainerInfo": {
+                "flexDirection": "column",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "gap": "0px",
+                "padding": "0px 0px 0px 0px",
+                "mainSizing": "auto",
+                "crossSizing": "auto"
+              },
+              "borderRadius": null,
+              "textAlign": null,
+              "textMode": null
+            },
+            "children": [
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 8,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base备份",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1519",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_0.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1674",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：视频素材",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1398",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "个人授权",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "个人授权",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1188",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 41,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "2px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "30",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-fd75f27baa}",
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "30",
+                                "font": "font_drawer_fd75f27baa"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1386",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 14,
+                                "height": 16
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "2px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "元",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-801333db63}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "元",
+                                    "font": "font_drawer_801333db63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list/nor 1",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 8,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base备份",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1519",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_1.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1674",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：C4D工程",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1398",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "个人授权",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "企业授权",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1188",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 49,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "2px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "30",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-fd75f27baa}",
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "130",
+                                "font": "font_drawer_fd75f27baa"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1386",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 14,
+                                "height": 16
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "2px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "元",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-801333db63}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "元",
+                                    "font": "font_drawer_801333db63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list/nor 8",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 8,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base",
+                            "styleRefs": [
+                              "{color.paint-drawer-a6a82a4d6c}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "路径",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1519",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_2.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1674",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：C4D工程",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1398",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "个人授权",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "企业授权",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1188",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 49,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "2px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "30",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-fd75f27baa}",
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "130",
+                                "font": "font_drawer_fd75f27baa"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1386",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 14,
+                                "height": 16
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "2px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "元",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-801333db63}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "元",
+                                    "font": "font_drawer_801333db63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list 1",
+                "styleRefs": [
+                  "{color.paint-drawer-bcc83c1020}"
+                ],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 12,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base",
+                            "styleRefs": [
+                              "{color.paint-drawer-9bd0ad5f1a}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "路径",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1520",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_3.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1675",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：视频素材",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1452",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "60px",
+                        "padding": "0px 0px 0px 36px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "移除",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-6df3f6da49}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "移除",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1398",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 310,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "16px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "企业PLUS授权",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-93efbd69e1}",
+                              "{color.paint-drawer-9a42531110}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "企业PLUS授权",
+                                "font": "font_drawer_93efbd69e1"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1188",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 53,
+                                "height": 30
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start",
+                                "alignItems": "center",
+                                "gap": "2px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "380",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-fd75f27baa}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "380",
+                                    "font": "font_drawer_fd75f27baa"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1386",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 14,
+                                    "height": 16
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start",
+                                    "gap": "0px",
+                                    "padding": "2px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "元",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-801333db63}",
+                                      "{color.paint-drawer-6df3f6da49}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "元",
+                                        "font": "font_drawer_801333db63"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list/nor 7",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 8,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base备份",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1519",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_4.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1674",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：C4D工程",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1398",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "个人授权",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "企业授权",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1188",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 49,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "2px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "30",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-fd75f27baa}",
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "130",
+                                "font": "font_drawer_fd75f27baa"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1386",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 14,
+                                "height": 16
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "2px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "元",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-801333db63}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "元",
+                                    "font": "font_drawer_801333db63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": "INSTANCE",
+                "name": "购物车list/nor 6",
+                "styleRefs": [],
+                "ext": {
+                  "layoutStyle": {
+                    "width": 474,
+                    "height": 148
+                  },
+                  "flexContainerInfo": {
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "12px",
+                    "padding": "20px 20px 20px 20px",
+                    "mainSizing": "auto",
+                    "crossSizing": "auto"
+                  },
+                  "borderRadius": 8,
+                  "textAlign": null,
+                  "textMode": null
+                },
+                "children": [
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1401",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 66
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "INSTANCE",
+                        "name": "check-box 1",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形",
+                            "styleRefs": [
+                              "{color.paint-drawer-135f9c7255}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "Base",
+                            "styleRefs": [
+                              "{color.paint-drawer-9bd0ad5f1a}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          },
+                          {
+                            "nodeType": "PEN",
+                            "name": "路径",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1519",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 398,
+                            "height": 66
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "12px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "RECTANGLE",
+                            "name": "矩形 406",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": 4,
+                              "textAlign": null,
+                              "textMode": null,
+                              "asset": "./asset/image/image_5.png"
+                            }
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1396",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 269,
+                                "height": 58
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "12px",
+                                "padding": "0px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "2023拜年EDIUS系列-模板可编辑修",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-ae250ce15c}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "2023拜年EDIUS系列-模板可编辑修",
+                                    "font": "font_drawer_ae250ce15c"
+                                  }
+                                ]
+                              },
+                              {
+                                "nodeType": "FRAME",
+                                "name": "容器 1674",
+                                "styleRefs": [],
+                                "ext": {
+                                  "layoutStyle": {
+                                    "width": 269,
+                                    "height": 22
+                                  },
+                                  "flexContainerInfo": {
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "gap": "12px",
+                                    "padding": "0px 0px 0px 0px",
+                                    "mainSizing": "auto",
+                                    "crossSizing": "auto"
+                                  },
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": null
+                                },
+                                "children": [
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "ID：098675",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "ID：098675",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "nodeType": "RECTANGLE",
+                                    "name": "矩形 702",
+                                    "styleRefs": [
+                                      "{color.paint-drawer-9aa46ad91d}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": null
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "TEXT",
+                                    "name": "类型：视频素材",
+                                    "styleRefs": [
+                                      "{textStyle.font-drawer-93efbd69e1}",
+                                      "{color.paint-drawer-9a42531110}"
+                                    ],
+                                    "ext": {
+                                      "layoutStyle": null,
+                                      "flexContainerInfo": null,
+                                      "borderRadius": null,
+                                      "textAlign": null,
+                                      "textMode": "single-line"
+                                    },
+                                    "text": [
+                                      {
+                                        "text": "类型：视频素材",
+                                        "font": "font_drawer_93efbd69e1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "FRAME",
+                    "name": "容器 1398",
+                    "styleRefs": [],
+                    "ext": {
+                      "layoutStyle": {
+                        "width": 434,
+                        "height": 30
+                      },
+                      "flexContainerInfo": {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "16px",
+                        "padding": "0px 0px 0px 0px",
+                        "mainSizing": "auto",
+                        "crossSizing": "auto"
+                      },
+                      "borderRadius": null,
+                      "textAlign": null,
+                      "textMode": null
+                    },
+                    "children": [
+                      {
+                        "nodeType": "TEXT",
+                        "name": "个人授权",
+                        "styleRefs": [
+                          "{textStyle.font-drawer-93efbd69e1}",
+                          "{color.paint-drawer-9a42531110}"
+                        ],
+                        "ext": {
+                          "layoutStyle": null,
+                          "flexContainerInfo": null,
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": "single-line"
+                        },
+                        "text": [
+                          {
+                            "text": "企业授权",
+                            "font": "font_drawer_93efbd69e1"
+                          }
+                        ]
+                      },
+                      {
+                        "nodeType": "FRAME",
+                        "name": "容器 1188",
+                        "styleRefs": [],
+                        "ext": {
+                          "layoutStyle": {
+                            "width": 49,
+                            "height": 30
+                          },
+                          "flexContainerInfo": {
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "gap": "2px",
+                            "padding": "0px 0px 0px 0px",
+                            "mainSizing": "auto",
+                            "crossSizing": "auto"
+                          },
+                          "borderRadius": null,
+                          "textAlign": null,
+                          "textMode": null
+                        },
+                        "children": [
+                          {
+                            "nodeType": "TEXT",
+                            "name": "30",
+                            "styleRefs": [
+                              "{textStyle.font-drawer-fd75f27baa}",
+                              "{color.paint-drawer-6df3f6da49}"
+                            ],
+                            "ext": {
+                              "layoutStyle": null,
+                              "flexContainerInfo": null,
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": "single-line"
+                            },
+                            "text": [
+                              {
+                                "text": "130",
+                                "font": "font_drawer_fd75f27baa"
+                              }
+                            ]
+                          },
+                          {
+                            "nodeType": "FRAME",
+                            "name": "容器 1386",
+                            "styleRefs": [],
+                            "ext": {
+                              "layoutStyle": {
+                                "width": 14,
+                                "height": 16
+                              },
+                              "flexContainerInfo": {
+                                "flexDirection": "column",
+                                "justifyContent": "flex-start",
+                                "alignItems": "flex-start",
+                                "gap": "0px",
+                                "padding": "2px 0px 0px 0px",
+                                "mainSizing": "auto",
+                                "crossSizing": "auto"
+                              },
+                              "borderRadius": null,
+                              "textAlign": null,
+                              "textMode": null
+                            },
+                            "children": [
+                              {
+                                "nodeType": "TEXT",
+                                "name": "元",
+                                "styleRefs": [
+                                  "{textStyle.font-drawer-801333db63}",
+                                  "{color.paint-drawer-6df3f6da49}"
+                                ],
+                                "ext": {
+                                  "layoutStyle": null,
+                                  "flexContainerInfo": null,
+                                  "borderRadius": null,
+                                  "textAlign": null,
+                                  "textMode": "single-line"
+                                },
+                                "text": [
+                                  {
+                                    "text": "元",
+                                    "font": "font_drawer_801333db63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
