@@ -146,11 +146,16 @@ function extractText(node) {
   return String(node?.name || "");
 }
 
-function toComposedName(name, fallbackId) {
-  const raw = String(name || "").replace(/[^a-zA-Z0-9]+/g, "");
-  const suffix = String(fallbackId || "").replace(/[^a-zA-Z0-9]+/g, "").slice(-6) || "Node";
-  const head = raw ? raw[0].toUpperCase() + raw.slice(1) : "Component";
-  return `Composed${head}${suffix}`;
+function toComposedName(moduleName, role, index) {
+  const safeModule = String(moduleName || "Unknown")
+    .replace(/[^a-zA-Z0-9]+/g, "")
+    .replace(/^[a-z]/, (c) => c.toUpperCase()) || "Unknown";
+  const safeRole = String(role || "Container")
+    .replace(/[^a-zA-Z0-9]+/g, "")
+    .replace(/^[a-z]/, (c) => c.toUpperCase()) || "Container";
+  const idx = Number(index) || 1;
+  const idxStr = idx < 10 ? `0${idx}` : String(idx);
+  return `Composed${safeModule}${safeRole}${idxStr}`;
 }
 
 function renderNode(node, options) {
@@ -260,16 +265,43 @@ function run() {
   const components = Array.isArray(componentMap?.components) ? componentMap.components : [];
   const nodeToComposed = new Map();
   const composedDefs = [];
-  components.forEach((item) => {
+
+  const sortedComponents = components
+    .map((item) => ({
+      item,
+      moduleName: item.moduleName || "Unknown",
+      role: item.role || "Container",
+      rootId: Array.isArray(item?.fromNodes) ? item.fromNodes[0] : null
+    }))
+    .filter((c) => c.rootId)
+    .sort((a, b) => {
+      if (a.moduleName !== b.moduleName) return a.moduleName.localeCompare(b.moduleName);
+      if (a.role !== b.role) return a.role.localeCompare(b.role);
+      return String(a.rootId).localeCompare(String(b.rootId));
+    });
+
+  const groupCounts = new Map();
+  for (const c of sortedComponents) {
+    const key = `${c.moduleName}_${c.role}`;
+    groupCounts.set(key, (groupCounts.get(key) || 0) + 1);
+  }
+  const groupIndexes = new Map();
+
+  for (const c of sortedComponents) {
+    const { item, moduleName, role, rootId } = c;
     const fromNodes = Array.isArray(item?.fromNodes) ? item.fromNodes : [];
-    if (!fromNodes.length) return;
-    const rootId = fromNodes[0];
+    if (!fromNodes.length) continue;
     const rootNode = nodeIndex.get(rootId);
-    if (!rootNode) return;
-    const composedName = toComposedName(item.name || item.role, rootId);
+    if (!rootNode) continue;
+
+    const key = `${moduleName}_${role}`;
+    const idx = (groupIndexes.get(key) || 0) + 1;
+    groupIndexes.set(key, idx);
+    const composedName = toComposedName(moduleName, role, idx);
+
     fromNodes.forEach((id) => nodeToComposed.set(String(id), composedName));
     composedDefs.push({ name: composedName, rootId, rootNode });
-  });
+  }
 
   const composedFileSet = new Set(composedDefs.map((item) => `${item.name}.tsx`));
   readdirSync(OUT_COMPOSED_COMPONENTS_DIR)

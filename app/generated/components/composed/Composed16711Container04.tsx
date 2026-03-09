@@ -1,12 +1,10 @@
 import { Container } from "../base/Container";
 import { Text } from "../base/Text";
-import { ComposedComponentContainereyJyb2xlIjoi183297 } from "./ComposedComponentContainereyJyb2xlIjoi183297";
+import { Composed16711Container05 } from "./Composed16711Container05";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi183296({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Container04({ data = {} }: GeneratedPageProps) {
   return (
     <Container
       className="flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]"
@@ -18,7 +16,7 @@ export function ComposedComponentContainereyJyb2xlIjoi183296({
           data?.["2023-ediusText"] ?? "2023拜年EDIUS系列-模板可编辑修",
         )}
       />
-      <ComposedComponentContainereyJyb2xlIjoi183297 data={data} />
+      <Composed16711Container05 data={data} />
     </Container>
   );
 }

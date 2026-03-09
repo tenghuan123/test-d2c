@@ -3,9 +3,7 @@ import { Text } from "../base/Text";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi183282({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Container02({ data = {} }: GeneratedPageProps) {
   return (
     <Container
       className="flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]"

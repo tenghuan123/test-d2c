@@ -1,8 +1,8 @@
 {
   "components": [
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
-      "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"List\",\"depth\":5,\"childCount\":2,\"childRoleSeq\":[\"Container\",\"Container\"],\"childRoles\":[\"Container\",\"Container\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
+      "name": "Component_16711_Card",
+      "signature": "{\"role\":\"Card\",\"nodeType\":\"FRAME\",\"parentRole\":\"List\",\"depth\":5,\"childCount\":2,\"childRoleSeq\":[\"Input\",\"Container\"],\"childRoles\":[\"Container\",\"Input\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3293",
         "218:4414/218:3293",
@@ -13,10 +13,12 @@
       ],
       "count": 6,
       "similarity": 1,
-      "role": "Container"
+      "role": "Card",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":2,\"childRoleSeq\":[\"Image\",\"Container\"],\"childRoles\":[\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3295",
@@ -28,10 +30,12 @@
       ],
       "count": 6,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":7,\"childCount\":2,\"childRoleSeq\":[\"Text\",\"Container\"],\"childRoles\":[\"Container\",\"Text\"],\"childTextHints\":[\"2023拜年EDIUS系列-模板可编辑修\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"column\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3296",
@@ -43,11 +47,13 @@
       ],
       "count": 6,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_List_eyJyb2xlIjoi",
-      "signature": "{\"role\":\"List\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":4,\"childCount\":2,\"childRoleSeq\":[\"Container\",\"Container\"],\"childRoles\":[\"Container\",\"Container\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":true,\"hasFlex\":true,\"flexDirection\":\"column\",\"hasTextMode\":false,\"textMode\":null}}",
+      "name": "Component_16711_List",
+      "signature": "{\"role\":\"List\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":4,\"childCount\":2,\"childRoleSeq\":[\"Card\",\"Card\"],\"childRoles\":[\"Card\",\"Card\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":true,\"hasFlex\":true,\"flexDirection\":\"column\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395",
         "218:4414",
@@ -58,10 +64,12 @@
       ],
       "count": 6,
       "similarity": 1,
-      "role": "List"
+      "role": "List",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":7,\"childCount\":1,\"childRoleSeq\":[\"Text\"],\"childRoles\":[\"Text\"],\"childTextHints\":[\"元\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"column\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3282",
@@ -72,24 +80,13 @@
       ],
       "count": 5,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
-      "signature": "{\"role\":\"Container\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":2,\"childRoleSeq\":[\"Image\",\"Container\"],\"childRoles\":[\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":false,\"flexDirection\":null,\"hasTextMode\":false,\"textMode\":null}}",
-      "fromNodes": [
-        "218:4331/218:3205",
-        "218:4395/218:3294",
-        "218:4452/218:3294",
-        "218:4471/218:3294"
-      ],
-      "count": 4,
-      "similarity": 1,
-      "role": "Container"
-    },
-    {
-      "name": "Component_Container_eyJyb2xlIjoi",
-      "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"List\",\"depth\":5,\"childCount\":2,\"childRoleSeq\":[\"Text\",\"Container\"],\"childRoles\":[\"Container\",\"Text\"],\"childTextHints\":[\"企业授权\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
+      "name": "Component_16711_Card",
+      "signature": "{\"role\":\"Card\",\"nodeType\":\"FRAME\",\"parentRole\":\"List\",\"depth\":5,\"childCount\":2,\"childRoleSeq\":[\"Text\",\"Container\"],\"childRoles\":[\"Container\",\"Text\"],\"childTextHints\":[\"企业授权\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3280",
         "218:4414/218:3280",
@@ -98,10 +95,12 @@
       ],
       "count": 4,
       "similarity": 1,
-      "role": "Container"
+      "role": "Card",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":2,\"childRoleSeq\":[\"Text\",\"Container\"],\"childRoles\":[\"Container\",\"Text\"],\"childTextHints\":[\"130\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3281",
@@ -111,10 +110,12 @@
       ],
       "count": 4,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":2,\"childRoleSeq\":[\"Container\",\"Image\"],\"childRoles\":[\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"column\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "403:0384",
@@ -123,10 +124,12 @@
       ],
       "count": 3,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":8,\"childCount\":3,\"childRoleSeq\":[\"Text\",\"Image\",\"Text\"],\"childRoles\":[\"Image\",\"Text\",\"Text\"],\"childTextHints\":[\"ID：098675\",\"\",\"类型：视频素材\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4433/218:3297",
@@ -135,10 +138,12 @@
       ],
       "count": 3,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
+      "name": "Component_16711_Container",
       "signature": "{\"role\":\"Container\",\"nodeType\":\"FRAME\",\"parentRole\":\"Container\",\"depth\":8,\"childCount\":3,\"childRoleSeq\":[\"Text\",\"Image\",\"Text\"],\"childRoles\":[\"Image\",\"Text\",\"Text\"],\"childTextHints\":[\"ID：098675\",\"\",\"类型：C4D工程\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":true,\"flexDirection\":\"row\",\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4395/218:3297",
@@ -147,11 +152,27 @@
       ],
       "count": 3,
       "similarity": 1,
-      "role": "Container"
+      "role": "Container",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     },
     {
-      "name": "Component_Container_eyJyb2xlIjoi",
-      "signature": "{\"role\":\"Container\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":3,\"childRoleSeq\":[\"Image\",\"Container\",\"Container\"],\"childRoles\":[\"Container\",\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":false,\"flexDirection\":null,\"hasTextMode\":false,\"textMode\":null}}",
+      "name": "Component_16711_Input",
+      "signature": "{\"role\":\"Input\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":2,\"childRoleSeq\":[\"Image\",\"Container\"],\"childRoles\":[\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":false,\"flexDirection\":null,\"hasTextMode\":false,\"textMode\":null}}",
+      "fromNodes": [
+        "218:4395/218:3294",
+        "218:4452/218:3294",
+        "218:4471/218:3294"
+      ],
+      "count": 3,
+      "similarity": 1,
+      "role": "Input",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
+    },
+    {
+      "name": "Component_16711_Input",
+      "signature": "{\"role\":\"Input\",\"nodeType\":\"INSTANCE\",\"parentRole\":\"Container\",\"depth\":6,\"childCount\":3,\"childRoleSeq\":[\"Image\",\"Container\",\"Container\"],\"childRoles\":[\"Container\",\"Container\",\"Image\"],\"childTextHints\":[\"\",\"\",\"\"],\"selfTextHint\":\"\",\"ext\":{\"hasBorderRadius\":false,\"hasFlex\":false,\"flexDirection\":null,\"hasTextMode\":false,\"textMode\":null}}",
       "fromNodes": [
         "218:4414/218:3294",
         "218:4433/218:3294",
@@ -159,7 +180,9 @@
       ],
       "count": 3,
       "similarity": 1,
-      "role": "Container"
+      "role": "Input",
+      "moduleId": "1671-1",
+      "moduleName": "16711"
     }
   ]
 }

@@ -1,10 +1,12 @@
+import { ActionButton } from "./components/base/ActionButton";
 import { Button } from "./components/base/Button";
+import { Card } from "./components/base/Card";
 import { Container } from "./components/base/Container";
+import { Icon } from "./components/base/Icon";
 import { Image } from "./components/base/Image";
 import { Text } from "./components/base/Text";
-import { ComposedComponentContainereyJyb2xlIjoi030384 } from "./components/composed/ComposedComponentContainereyJyb2xlIjoi030384";
-import { ComposedComponentContainereyJyb2xlIjoi183205 } from "./components/composed/ComposedComponentContainereyJyb2xlIjoi183205";
-import { ComposedComponentListeyJyb2xlIjoi184395 } from "./components/composed/ComposedComponentListeyJyb2xlIjoi184395";
+import { Composed16711Container07 } from "./components/composed/Composed16711Container07";
+import { Composed16711List01 } from "./components/composed/Composed16711List01";
 
 export type GeneratedPageProps = { data?: Record<string, unknown> };
 
@@ -21,17 +23,17 @@ export default function Page({ data = {} }: GeneratedPageProps) {
               className="font-[system-ui] leading-[36px] text-[#0d0d0d] text-[24px] tracking-[0px] whitespace-nowrap"
               value={String(data?.["nodeText"] ?? "购物车")}
             />
-            <Container>
+            <Card>
               <Container className="bg-[#fefefe]" />
-              <Container className="bg-[#0d0d0d]">
+              <Icon className="bg-[#0d0d0d]">
                 <Container>
                   <Text value={String(data?.["nodeText"] ?? "路径")} />
                 </Container>
                 <Container>
                   <Text value={String(data?.["nodeText"] ?? "路径")} />
                 </Container>
-              </Container>
-            </Container>
+              </Icon>
+            </Card>
           </Container>
           <Container
             className="flex flex-col gap-5 h-[951px] items-center justify-start w-[514px]"
@@ -49,9 +51,9 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                   className="flex flex-row gap-10 h-[43px] items-start justify-start w-[242px]"
                   style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
                 >
-                  <ComposedComponentContainereyJyb2xlIjoi030384 data={data} />
-                  <ComposedComponentContainereyJyb2xlIjoi030384 data={data} />
-                  <ComposedComponentContainereyJyb2xlIjoi030384 data={data} />
+                  <Composed16711Container07 data={data} />
+                  <Composed16711Container07 data={data} />
+                  <Composed16711Container07 data={data} />
                 </Container>
                 <Container className="bg-[#ededed] rounded-[0.5px]" />
               </Container>
@@ -60,12 +62,12 @@ export default function Page({ data = {} }: GeneratedPageProps) {
               className="flex flex-col gap-0 h-[888px] items-start justify-start w-[474px]"
               style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
             >
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
-              <ComposedComponentListeyJyb2xlIjoi184395 data={data} />
+              <Composed16711List01 data={data} />
+              <Composed16711List01 data={data} />
+              <Composed16711List01 data={data} />
+              <Composed16711List01 data={data} />
+              <Composed16711List01 data={data} />
+              <Composed16711List01 data={data} />
             </Container>
           </Container>
         </Container>
@@ -87,7 +89,12 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                   className="flex flex-row gap-2 h-[22px] items-center justify-start w-[56px]"
                   style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
                 >
-                  <ComposedComponentContainereyJyb2xlIjoi183205 data={data} />
+                  <Container>
+                    <Container className="bg-[#fefefe]" />
+                    <Container className="bg-[#fefefe] rounded-[4px]">
+                      <Text value={String(data?.["baseText"] ?? "Base备份")} />
+                    </Container>
+                  </Container>
                   <Text
                     className="font-[system-ui] leading-[22px] text-[#0d0d0d] text-[14px] tracking-[0px] whitespace-nowrap"
                     value={String(data?.["nodeText"] ?? "全选")}
@@ -152,7 +159,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 </Container>
               </Container>
             </Container>
-            <Container
+            <ActionButton
               className="bg-[#0d0d0d] flex flex-col gap-0 h-[56px] items-center justify-center rounded-[55px] w-[434px]"
               style={{ maxWidth: "100%", padding: "16px 40px 16px 40px" }}
             >
@@ -160,7 +167,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 className="font-[system-ui] leading-[24px] text-[#fefefe] text-[16px] tracking-[0px] whitespace-nowrap"
                 value={String(data?.["nodeText"] ?? "立即购买")}
               />
-            </Container>
+            </ActionButton>
           </Button>
         </Container>
       </Container>

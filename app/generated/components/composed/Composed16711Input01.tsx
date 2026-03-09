@@ -1,18 +1,17 @@
 import { Container } from "../base/Container";
 import { Image } from "../base/Image";
+import { Input } from "../base/Input";
 import { Text } from "../base/Text";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi183205({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Input01({ data = {} }: GeneratedPageProps) {
   return (
-    <Container>
+    <Input>
       <Container className="bg-[#fefefe]" />
       <Container className="bg-[#fefefe] rounded-[4px]">
         <Text value={String(data?.["baseText"] ?? "Base备份")} />
       </Container>
-    </Container>
+    </Input>
   );
 }

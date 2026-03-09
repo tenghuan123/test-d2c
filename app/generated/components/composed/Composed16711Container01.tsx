@@ -1,12 +1,10 @@
 import { Container } from "../base/Container";
 import { Text } from "../base/Text";
-import { ComposedComponentContainereyJyb2xlIjoi183282 } from "./ComposedComponentContainereyJyb2xlIjoi183282";
+import { Composed16711Container02 } from "./Composed16711Container02";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi183281({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Container01({ data = {} }: GeneratedPageProps) {
   return (
     <Container
       className="flex flex-row h-[30px] items-center justify-start w-[49px]"
@@ -16,7 +14,7 @@ export function ComposedComponentContainereyJyb2xlIjoi183281({
         className="font-[system-ui] leading-[30px] text-[#0d0d0d] text-[20px] tracking-[0px] whitespace-nowrap"
         value={String(data?.["30Text"] ?? "130")}
       />
-      <ComposedComponentContainereyJyb2xlIjoi183282 data={data} />
+      <Composed16711Container02 data={data} />
     </Container>
   );
 }

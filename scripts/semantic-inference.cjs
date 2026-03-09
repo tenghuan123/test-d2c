@@ -192,15 +192,21 @@ function stage1InferRoles(shallowTree, depth = 0, parentRole = null) {
     return shallowTree;
   }
 
-  // 如果 ONLY_USE_AI，则跳过规则推断
+  // 如果 ONLY_USE_AI，则跳过规则推断，role 设为 null 待 AI 填充
   let inferred = null;
   if (!ONLY_USE_AI) {
     inferred = inferRoleByRule(shallowTree.name, shallowTree.ext, depth, parentRole);
   }
   
-  shallowTree.role = inferred?.role || (depth === 0 ? "Section" : "Container");
-  shallowTree.confidence = inferred?.confidence || 0.3; // AI 推断时降低默认置信度
-  shallowTree.roleSource = inferred?.source || 'default';
+  if (ONLY_USE_AI) {
+    shallowTree.role = null;
+    shallowTree.confidence = 0;
+    shallowTree.roleSource = 'pending-ai';
+  } else {
+    shallowTree.role = inferred?.role || (depth === 0 ? "Section" : "Container");
+    shallowTree.confidence = inferred?.confidence || 0.3;
+    shallowTree.roleSource = inferred?.source || 'default';
+  }
   shallowTree.parentRole = parentRole || null;
   shallowTree.depth = depth;
   
@@ -302,19 +308,18 @@ ${JSON.stringify(nodes, null, 2)}
       headers: {
         "Authorization": `Bearer ${OPENAI_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://vjshi.com",
         "X-Title": "DSL Semantic Inference"
       },
       body: JSON.stringify({
-        model: "openai/gpt-4o-mini",
+        model: "google/gemini-3-flash-preview",
         messages: [{ role: "user", content: prompt }],
-        temperature: 0.3,
+        temperature: 1,
         max_tokens: 4000
       })
     });
 
     if (!response.ok) {
-      console.error("OpenAI API error:", response.status);
+      console.error("OpenAI API error:", response.status, response);
       return {};
     }
 
@@ -465,17 +470,21 @@ function stage4DetectRepetition(skeleton) {
 
   const components = Array.from(groups.values())
     .map((group) => {
-      const stableNameSeed = Buffer.from(group.signature).toString('base64').replace(/[^a-zA-Z0-9]/g, '').slice(0, 12);
       const parsedSig = JSON.parse(group.signature);
+      const rawModule = group.moduleId || "Unknown";
+      const moduleName = rawModule
+        .replace(/[^a-zA-Z0-9]+/g, "")
+        .replace(/^[a-z]/, (c) => c.toUpperCase()) || "Unknown";
       return {
-        name: `Component_${group.role}_${stableNameSeed || 'Group'}`,
+        name: `Component_${moduleName}_${group.role}`,
         signature: group.signature,
         signatureMeta: parsedSig,
         fromNodes: group.fromNodes.slice().sort(),
         count: group.fromNodes.length,
         similarity: 1.0,
         role: group.role,
-        moduleId: group.moduleId
+        moduleId: group.moduleId,
+        moduleName
       };
     })
     .filter((group) => {
@@ -485,14 +494,22 @@ function stage4DetectRepetition(skeleton) {
       if ((group.signatureMeta?.childCount || 0) < 2 && group.count < 3) return false;
       return true;
     })
-    .map((group) => ({
-      name: group.name,
-      signature: group.signature,
-      fromNodes: group.fromNodes,
-      count: group.count,
-      similarity: group.similarity,
-      role: group.role
-    }))
+    .map((group) => {
+      const rawModule = group.moduleId || "Unknown";
+      const moduleName = rawModule
+        .replace(/[^a-zA-Z0-9]+/g, "")
+        .replace(/^[a-z]/, (c) => c.toUpperCase()) || "Unknown";
+      return {
+        name: group.name,
+        signature: group.signature,
+        fromNodes: group.fromNodes,
+        count: group.count,
+        similarity: group.similarity,
+        role: group.role,
+        moduleId: group.moduleId,
+        moduleName
+      };
+    })
     .sort((a, b) => {
       if (b.count !== a.count) return b.count - a.count;
       return a.name.localeCompare(b.name);

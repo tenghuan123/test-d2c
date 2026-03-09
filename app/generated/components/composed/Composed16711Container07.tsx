@@ -4,9 +4,7 @@ import { Text } from "../base/Text";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi030384({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Container07({ data = {} }: GeneratedPageProps) {
   return (
     <Container
       className="flex flex-col gap-4 h-[43px] items-start justify-start w-[54px]"

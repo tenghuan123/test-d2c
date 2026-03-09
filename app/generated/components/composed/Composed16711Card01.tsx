@@ -1,14 +1,12 @@
-import { Container } from "../base/Container";
+import { Card } from "../base/Card";
 import { Text } from "../base/Text";
-import { ComposedComponentContainereyJyb2xlIjoi183281 } from "./ComposedComponentContainereyJyb2xlIjoi183281";
+import { Composed16711Container01 } from "./Composed16711Container01";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function ComposedComponentContainereyJyb2xlIjoi183280({
-  data = {},
-}: GeneratedPageProps) {
+export function Composed16711Card01({ data = {} }: GeneratedPageProps) {
   return (
-    <Container
+    <Card
       className="flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]"
       style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
     >
@@ -16,7 +14,7 @@ export function ComposedComponentContainereyJyb2xlIjoi183280({
         className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
         value={String(data?.["nodeText"] ?? "企业授权")}
       />
-      <ComposedComponentContainereyJyb2xlIjoi183281 data={data} />
-    </Container>
+      <Composed16711Container01 data={data} />
+    </Card>
   );
 }
