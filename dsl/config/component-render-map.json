@@ -1,0 +1,11 @@
+{
+  "mappings": [
+    {
+      "matchKey": "16711_Component_16711_Input_01",
+      "moduleName": "16711",
+      "name": "Component_16711_Input",
+      "fromNodes": ["218:4331/218:3205"],
+      "renderAs": "Checkbox"
+    }
+  ]
+}

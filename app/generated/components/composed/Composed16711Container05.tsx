@@ -1,24 +1,21 @@
 import { Container } from "../base/Container";
 import { Image } from "../base/Image";
-import { Text } from "../base/Text";
+import { Composed16711Container06 } from "./Composed16711Container06";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Container05({ data = {} }: GeneratedPageProps) {
   return (
     <Container
-      className="flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]"
+      className="flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]"
       style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
     >
-      <Text
-        className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
-        value={String(data?.["id-098675Text"] ?? "ID：098675")}
+      <Image
+        className="rounded-[4px]"
+        src={String(data?.["406Src"] ?? "/assets/image/image_4.png")}
+        alt="矩形 406"
       />
-      <Container className="bg-[#cccccc]" />
-      <Text
-        className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
-        value={String(data?.["nodeText"] ?? "类型：C4D工程")}
-      />
+      <Composed16711Container06 data={data} />
     </Container>
   );
 }

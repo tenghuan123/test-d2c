@@ -205,7 +205,7 @@
                       "roleFrozen": "Container"
                     }
                   ],
-                  "role": "Card",
+                  "role": "Icon",
                   "confidence": 0.85,
                   "roleSource": "ai",
                   "parentRole": "Container",
@@ -458,9 +458,9 @@
                                   "roleFrozen": "Image"
                                 }
                               ],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
+                              "role": "Card",
+                              "confidence": 0.85,
+                              "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
                               "frozen": true,
@@ -602,9 +602,9 @@
                                   "roleFrozen": "Image"
                                 }
                               ],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
+                              "role": "Card",
+                              "confidence": 0.85,
+                              "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
                               "frozen": true,
@@ -746,18 +746,18 @@
                                   "roleFrozen": "Image"
                                 }
                               ],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
+                              "role": "Card",
+                              "confidence": 0.85,
+                              "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
                               "frozen": true,
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Container",
-                          "confidence": 0.3,
-                          "roleSource": "default",
+                          "role": "List",
+                          "confidence": 0.9,
+                          "roleSource": "ai",
                           "parentRole": "Container",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -786,9 +786,9 @@
                           "roleFrozen": "Image"
                         }
                       ],
-                      "role": "Container",
-                      "confidence": 0.3,
-                      "roleSource": "default",
+                      "role": "Section",
+                      "confidence": 0.8,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": false,
                       "frozen": true,
@@ -938,7 +938,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.8,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -1174,9 +1174,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -1357,9 +1357,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -1367,8 +1367,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -1484,7 +1484,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.8,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -1720,9 +1720,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -1903,9 +1903,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -1913,8 +1913,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -2052,7 +2052,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.85,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -2288,9 +2288,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -2471,9 +2471,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -2481,8 +2481,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -2620,7 +2620,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.85,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -2856,9 +2856,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -3100,9 +3100,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -3110,8 +3110,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -3227,7 +3227,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.8,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -3463,9 +3463,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -3646,9 +3646,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -3656,8 +3656,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -3795,7 +3795,7 @@
                                 }
                               ],
                               "role": "Input",
-                              "confidence": 0.85,
+                              "confidence": 0.9,
                               "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
@@ -4031,9 +4031,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -4214,9 +4214,9 @@
                               "roleFrozen": "Container"
                             }
                           ],
-                          "role": "Card",
-                          "confidence": 0.9,
-                          "roleSource": "ai",
+                          "role": "Container",
+                          "confidence": 0.85,
+                          "roleSource": "rule",
                           "parentRole": "List",
                           "needsDeepSearch": false,
                           "frozen": true,
@@ -4224,8 +4224,8 @@
                         }
                       ],
                       "role": "List",
-                      "confidence": 0.85,
-                      "roleSource": "rule",
+                      "confidence": 0.95,
+                      "roleSource": "ai",
                       "parentRole": "Container",
                       "needsDeepSearch": true,
                       "frozen": true,
@@ -4464,9 +4464,9 @@
                                   "roleFrozen": "Container"
                                 }
                               ],
-                              "role": "Container",
-                              "confidence": 0.3,
-                              "roleSource": "default",
+                              "role": "Input",
+                              "confidence": 0.9,
+                              "roleSource": "ai",
                               "parentRole": "Container",
                               "needsDeepSearch": false,
                               "frozen": true,
@@ -4775,7 +4775,35 @@
                                                     "textMode": null
                                                   },
                                                   "depth": 11,
-                                                  "children": [],
+                                                  "children": [
+                                                    {
+                                                      "id": "218:4331/218:3189",
+                                                      "name": "元",
+                                                      "nodeType": "TEXT",
+                                                      "text": [
+                                                        {
+                                                          "text": "元",
+                                                          "font": "font_drawer_801333db63"
+                                                        }
+                                                      ],
+                                                      "ext": {
+                                                        "layoutStyle": null,
+                                                        "flexContainerInfo": null,
+                                                        "borderRadius": null,
+                                                        "textAlign": null,
+                                                        "textMode": "single-line"
+                                                      },
+                                                      "depth": 12,
+                                                      "children": [],
+                                                      "role": "Text",
+                                                      "confidence": 0.95,
+                                                      "roleSource": "nodeType",
+                                                      "parentRole": "Container",
+                                                      "needsDeepSearch": false,
+                                                      "frozen": true,
+                                                      "roleFrozen": "Text"
+                                                    }
+                                                  ],
                                                   "role": "Container",
                                                   "confidence": 0.85,
                                                   "roleSource": "rule",
@@ -4909,7 +4937,7 @@
                       "roleFrozen": "Text"
                     }
                   ],
-                  "role": "ActionButton",
+                  "role": "Button",
                   "confidence": 0.95,
                   "roleSource": "ai",
                   "parentRole": "Button",

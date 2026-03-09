@@ -1,21 +1,18 @@
 import { Container } from "../base/Container";
-import { Image } from "../base/Image";
-import { Composed16711Container04 } from "./Composed16711Container04";
+import { Text } from "../base/Text";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Container03({ data = {} }: GeneratedPageProps) {
   return (
     <Container
-      className="flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]"
-      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
+      className="flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]"
+      style={{ maxWidth: "100%", padding: "2px 0px 0px 0px" }}
     >
-      <Image
-        className="rounded-[4px]"
-        src={String(data?.["406Src"] ?? "/assets/image/image_4.png")}
-        alt="矩形 406"
+      <Text
+        className="font-[system-ui] leading-[1] text-[#0d0d0d] text-[14px] tracking-[0px] whitespace-nowrap"
+        value={String(data?.["nodeText"] ?? "元")}
       />
-      <Composed16711Container04 data={data} />
     </Container>
   );
 }

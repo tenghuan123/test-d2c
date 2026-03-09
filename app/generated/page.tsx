@@ -1,11 +1,12 @@
-import { ActionButton } from "./components/base/ActionButton";
 import { Button } from "./components/base/Button";
-import { Card } from "./components/base/Card";
 import { Container } from "./components/base/Container";
 import { Icon } from "./components/base/Icon";
 import { Image } from "./components/base/Image";
+import { List } from "./components/base/List";
+import { Section } from "./components/base/Section";
 import { Text } from "./components/base/Text";
-import { Composed16711Container07 } from "./components/composed/Composed16711Container07";
+import { Composed16711Card01 } from "./components/composed/Composed16711Card01";
+import { Composed16711Input01 } from "./components/composed/Composed16711Input01";
 import { Composed16711List01 } from "./components/composed/Composed16711List01";
 
 export type GeneratedPageProps = { data?: Record<string, unknown> };
@@ -23,7 +24,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
               className="font-[system-ui] leading-[36px] text-[#0d0d0d] text-[24px] tracking-[0px] whitespace-nowrap"
               value={String(data?.["nodeText"] ?? "购物车")}
             />
-            <Card>
+            <Icon>
               <Container className="bg-[#fefefe]" />
               <Icon className="bg-[#0d0d0d]">
                 <Container>
@@ -33,7 +34,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                   <Text value={String(data?.["nodeText"] ?? "路径")} />
                 </Container>
               </Icon>
-            </Card>
+            </Icon>
           </Container>
           <Container
             className="flex flex-col gap-5 h-[951px] items-center justify-start w-[514px]"
@@ -43,20 +44,20 @@ export default function Page({ data = {} }: GeneratedPageProps) {
               className="flex flex-col gap-0 h-[43px] items-start justify-start w-[474px]"
               style={{ maxWidth: "100%", padding: "0px 20px 0px 20px" }}
             >
-              <Container
+              <Section
                 className="flex flex-col gap-0 h-[43px] items-start justify-center w-[434px]"
                 style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
               >
-                <Container
+                <List
                   className="flex flex-row gap-10 h-[43px] items-start justify-start w-[242px]"
                   style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
                 >
-                  <Composed16711Container07 data={data} />
-                  <Composed16711Container07 data={data} />
-                  <Composed16711Container07 data={data} />
-                </Container>
+                  <Composed16711Card01 data={data} />
+                  <Composed16711Card01 data={data} />
+                  <Composed16711Card01 data={data} />
+                </List>
                 <Container className="bg-[#ededed] rounded-[0.5px]" />
-              </Container>
+              </Section>
             </Container>
             <Container
               className="flex flex-col gap-0 h-[888px] items-start justify-start w-[474px]"
@@ -89,12 +90,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                   className="flex flex-row gap-2 h-[22px] items-center justify-start w-[56px]"
                   style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
                 >
-                  <Container>
-                    <Container className="bg-[#fefefe]" />
-                    <Container className="bg-[#fefefe] rounded-[4px]">
-                      <Text value={String(data?.["baseText"] ?? "Base备份")} />
-                    </Container>
-                  </Container>
+                  <Composed16711Input01 data={data} />
                   <Text
                     className="font-[system-ui] leading-[22px] text-[#0d0d0d] text-[14px] tracking-[0px] whitespace-nowrap"
                     value={String(data?.["nodeText"] ?? "全选")}
@@ -146,9 +142,8 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                               }}
                             >
                               <Text
-                                value={String(
-                                  data?.["1438Text"] ?? "容器 1438",
-                                )}
+                                className="font-[system-ui] leading-[1] text-[#ee4a4a] text-[14px] tracking-[0px] whitespace-nowrap"
+                                value={String(data?.["nodeText"] ?? "元")}
                               />
                             </Container>
                           </Container>
@@ -159,7 +154,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 </Container>
               </Container>
             </Container>
-            <ActionButton
+            <Button
               className="bg-[#0d0d0d] flex flex-col gap-0 h-[56px] items-center justify-center rounded-[55px] w-[434px]"
               style={{ maxWidth: "100%", padding: "16px 40px 16px 40px" }}
             >
@@ -167,7 +162,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 className="font-[system-ui] leading-[24px] text-[#fefefe] text-[16px] tracking-[0px] whitespace-nowrap"
                 value={String(data?.["nodeText"] ?? "立即购买")}
               />
-            </ActionButton>
+            </Button>
           </Button>
         </Container>
       </Container>

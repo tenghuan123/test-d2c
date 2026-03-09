@@ -4,7 +4,7 @@ import { Text } from "../base/Text";
 
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
-export function Composed16711Container07({ data = {} }: GeneratedPageProps) {
+export function Composed16711Container08({ data = {} }: GeneratedPageProps) {
   return (
     <Container
       className="flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]"
@@ -17,7 +17,7 @@ export function Composed16711Container07({ data = {} }: GeneratedPageProps) {
       <Container className="bg-[#cccccc]" />
       <Text
         className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
-        value={String(data?.["nodeText"] ?? "类型：C4D工程")}
+        value={String(data?.["nodeText"] ?? "类型：视频素材")}
       />
     </Container>
   );

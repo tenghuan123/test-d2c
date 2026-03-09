@@ -4,19 +4,19 @@ overview: 在不影响全局 Input 渲染的前提下，新增一份 JSON 映射
 todos:
   - id: add-render-map-json
     content: 新增 component-render-map.json，定义单组件到 Checkbox 的映射规则
-    status: pending
+    status: completed
   - id: wire-map-in-codegen
     content: 在 codegen.mjs 读取映射配置并构建 nodeId->renderAs 映射
-    status: pending
+    status: completed
   - id: apply-render-override
     content: 在 renderNode 中按 nodeId 覆盖渲染组件，未命中保持原 role
-    status: pending
+    status: completed
   - id: emit-checkbox-template
     content: 在 emitComponent 增加 Checkbox 专用生成模板与 import 逻辑
-    status: pending
+    status: completed
   - id: verify-codegen-typecheck
     content: 执行 codegen 与 typecheck，确认仅目标组件切换为 Checkbox
-    status: pending
+    status: completed
 isProject: false
 ---
 

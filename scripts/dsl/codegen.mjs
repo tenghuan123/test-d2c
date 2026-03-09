@@ -5,6 +5,7 @@ const ROOT = process.cwd();
 const SKELETON_FILE = join(ROOT, "dsl/snapshots/semantic-skeleton.json");
 const COMPONENT_MAP_FILE = join(ROOT, "dsl/snapshots/component-map.json");
 const TAILWIND_FILE = join(ROOT, "dsl/snapshots/tailwind.latest.json");
+const RENDER_MAP_FILE = join(ROOT, "dsl/config/component-render-map.json");
 const OUT_DIR = join(ROOT, "app/generated");
 const OUT_COMPONENTS_DIR = join(OUT_DIR, "components/base");
 const OUT_COMPOSED_COMPONENTS_DIR = join(OUT_DIR, "components/composed");
@@ -80,7 +81,8 @@ function emitComponent(role) {
     Title: "h2",
     Description: "p",
     Image: "img",
-    Button: "button"
+    Button: "button",
+    Checkbox: "div"
   };
   const tag = tagMap[role] || "div";
   if (role === "Image") {
@@ -90,6 +92,16 @@ type ${role}Props = { src?: string; alt?: string; className?: string; style?: CS
 
 export function ${role}({ src = "", alt = "", className = "", style }: ${role}Props) {
   return <img src={src} alt={alt} className={className} style={style} />;
+}
+`;
+  }
+  if (role === "Checkbox") {
+    return `import { Checkbox as CheckboxPrimitive } from "~/components/ui/checkbox";
+
+type CheckboxProps = { checked?: boolean; defaultChecked?: boolean; onCheckedChange?: (checked: boolean) => void; className?: string; disabled?: boolean; };
+
+export function Checkbox({ checked, defaultChecked, onCheckedChange, className = "", disabled }: CheckboxProps) {
+  return <CheckboxPrimitive checked={checked} defaultChecked={defaultChecked} onCheckedChange={onCheckedChange} className={className} disabled={disabled} />;
 }
 `;
   }
@@ -166,10 +178,15 @@ function renderNode(node, options) {
     allowComposed,
     roleSet,
     composedSet,
-    activeComposedStack
+    activeComposedStack,
+    nodeIdToRenderAs
   } = options;
   const id = String(node?.id || "");
-  const role = toIdentifier(node?.role || node?.roleFrozen || "Container");
+  let role = toIdentifier(node?.role || node?.roleFrozen || "Container");
+  const overrideRole = nodeIdToRenderAs?.get(id);
+  if (overrideRole) {
+    role = overrideRole;
+  }
   const children = getChildren(node);
   const mapped = tailwindNodeMap.get(id) || tailwindNodeMap.get(`name:${String(node?.name || "")}`) || {};
   const className = normalizeClassName(mapped.className || "");
@@ -206,16 +223,20 @@ function renderNode(node, options) {
   if (!children.length && fallbackText) {
     roleSet.add("Text");
     const key = `${slugify(node?.name || id)}Text`;
+    if (role === "Checkbox") return `<${role}${attrs}${styleAttr} />`;
     return `<${role}${attrs}${styleAttr}><Text value={String(data?.[${escapedLiteral(key)}] ?? ${escapedLiteral(fallbackText)})} /></${role}>`;
   }
   const childCode = children.map((child) => renderNode(child, options)).join("");
   if (!childCode) return `<${role}${attrs}${styleAttr} />`;
+  if (role === "Checkbox") return `<${role}${attrs}${styleAttr} />`;
   return `<${role}${attrs}${styleAttr}>${childCode}</${role}>`;
 }
 
 function emitComposedComponent(name, node, context) {
   const roleSet = new Set();
   const composedSet = new Set();
+  const rootId = String(node?.id || "");
+  const rootOverrideRole = context.nodeIdToRenderAs?.get(rootId);
   const jsx = renderNode(node, {
     tailwindNodeMap: context.tailwindNodeMap,
     nodeToComposed: context.nodeToComposed,
@@ -223,8 +244,14 @@ function emitComposedComponent(name, node, context) {
     allowComposed: true,
     roleSet,
     composedSet,
-    activeComposedStack: new Set([name])
+    activeComposedStack: new Set([name]),
+    nodeIdToRenderAs: context.nodeIdToRenderAs
   });
+  let finalJsx = jsx;
+  if (rootOverrideRole) {
+    finalJsx = `<${rootOverrideRole} />`;
+    roleSet.add(rootOverrideRole);
+  }
   const imports = Array.from(roleSet)
     .sort()
     .map((role) => `import { ${role} } from "../base/${role}";`)
@@ -240,7 +267,7 @@ function emitComposedComponent(name, node, context) {
 type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function ${name}({ data = {} }: GeneratedPageProps) {
-  return (${jsx});
+  return (${finalJsx});
 }
 `;
 }
@@ -249,15 +276,31 @@ function run() {
   const skeleton = readJson(SKELETON_FILE);
   const componentMap = readJson(COMPONENT_MAP_FILE);
   const tailwindSnapshot = readJson(TAILWIND_FILE);
+  const renderMapConfig = readJson(RENDER_MAP_FILE);
+  const nodeIdToRenderAs = new Map();
+  if (Array.isArray(renderMapConfig?.mappings)) {
+    for (const mapping of renderMapConfig.mappings) {
+      const fromNodes = Array.isArray(mapping.fromNodes) ? mapping.fromNodes : [];
+      const renderAs = mapping.renderAs;
+      for (const nodeId of fromNodes) {
+        nodeIdToRenderAs.set(String(nodeId), String(renderAs));
+      }
+    }
+  }
   const roles = new Set(["Container"]);
   (skeleton.modules || []).forEach((mod) => walkRoles(mod, roles));
   const sortedRoles = Array.from(roles).sort();
   const tailwindNodeMap = collectTailwindNodeMap(tailwindSnapshot);
   const nodeIndex = collectNodeIndex(skeleton.modules || []);
+  const renderAsSet = new Set(Array.from(nodeIdToRenderAs.values()));
 
   mkdirSync(OUT_COMPONENTS_DIR, { recursive: true });
   mkdirSync(OUT_COMPOSED_COMPONENTS_DIR, { recursive: true });
   sortedRoles.forEach((role) => {
+    const code = emitComponent(role);
+    writeFileSync(join(OUT_COMPONENTS_DIR, `${role}.tsx`), code, "utf8");
+  });
+  renderAsSet.forEach((role) => {
     const code = emitComponent(role);
     writeFileSync(join(OUT_COMPONENTS_DIR, `${role}.tsx`), code, "utf8");
   });
@@ -313,7 +356,8 @@ function run() {
       tailwindNodeMap,
       nodeToComposed,
       composedNodeIds,
-      currentRootId: item.rootId
+      currentRootId: item.rootId,
+      nodeIdToRenderAs
     });
     writeFileSync(join(OUT_COMPOSED_COMPONENTS_DIR, `${item.name}.tsx`), code, "utf8");
   });
@@ -329,7 +373,8 @@ function run() {
         allowComposed: true,
         roleSet: pageRoleSet,
         composedSet: pageComposedSet,
-        activeComposedStack: new Set()
+        activeComposedStack: new Set(),
+        nodeIdToRenderAs
       })
     )
     .join("");

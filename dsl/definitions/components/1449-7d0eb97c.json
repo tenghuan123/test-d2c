@@ -450,7 +450,31 @@
                                               "borderRadius": null,
                                               "textAlign": null,
                                               "textMode": null
-                                            }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": "218:4331/218:3189",
+                                                "nodeType": "TEXT",
+                                                "name": "元",
+                                                "styleRefs": [
+                                                  "{textStyle.font-drawer-801333db63}",
+                                                  "{color.paint-drawer-9f4378ccfb}"
+                                                ],
+                                                "ext": {
+                                                  "layoutStyle": null,
+                                                  "flexContainerInfo": null,
+                                                  "borderRadius": null,
+                                                  "textAlign": null,
+                                                  "textMode": "single-line"
+                                                },
+                                                "text": [
+                                                  {
+                                                    "text": "元",
+                                                    "font": "font_drawer_801333db63"
+                                                  }
+                                                ]
+                                              }
+                                            ]
                                           }
                                         ]
                                       }

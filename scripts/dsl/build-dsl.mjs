@@ -3,6 +3,14 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync, unlink
 import { basename, isAbsolute, join } from "node:path";
 import { normalizeDslInput } from "./input-adapter.mjs";
 
+try {
+  const envContent = readFileSync(join(process.cwd(), ".env"), "utf8");
+  envContent.split("\n").forEach((line) => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+  });
+} catch {}
+
 const ROOT = process.cwd();
 const SOURCE_FILE_DEFAULT = "mastergo-dsl.json";
 const OUT_DIR = join(ROOT, "dsl");
