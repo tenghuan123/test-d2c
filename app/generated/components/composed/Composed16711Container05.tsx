@@ -6,10 +6,7 @@ type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Container05({ data = {} }: GeneratedPageProps) {
   return (
-    <Container
-      className="flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]"
-      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-    >
+    <Container className="flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]">
       <Image
         className="rounded-[4px]"
         src={String(data?.["406Src"] ?? "/assets/image/image_4.png")}

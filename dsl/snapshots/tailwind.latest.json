@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-03-09T09:34:47.537Z",
+  "generatedAt": "2026-03-10T02:35:44.488Z",
   "componentCount": 2,
   "components": [
     {
@@ -11,11 +11,8 @@
         "id": "218:1350",
         "nodeType": "FRAME",
         "name": "容器 1449",
-        "className": "flex flex-col gap-0 h-[171px] items-start justify-start w-[514px]",
-        "style": {
-          "maxWidth": "100%",
-          "padding": "0px 0px 0px 0px"
-        },
+        "className": "flex flex-col gap-[0px] h-[171px] items-start justify-start max-w-full p-[0px] w-[514px]",
+        "style": {},
         "errors": [],
         "children": [
           {
@@ -31,44 +28,32 @@
             "id": "218:4331",
             "nodeType": "INSTANCE",
             "name": "抽屉/常驻按钮",
-            "className": "bg-[#fefefe] flex flex-col gap-4 h-[170px] items-start justify-start w-[514px]",
-            "style": {
-              "maxWidth": "100%",
-              "padding": "28px 40px 28px 40px"
-            },
+            "className": "bg-[#fefefe] flex flex-col gap-[16px] h-[170px] items-start justify-start max-w-full p-[28px_40px_28px_40px] w-[514px]",
+            "style": {},
             "errors": [],
             "children": [
               {
                 "id": "218:4331/218:3180",
                 "nodeType": "FRAME",
                 "name": "容器 1447",
-                "className": "flex flex-row gap-10 h-[42px] items-center justify-start w-[434px]",
-                "style": {
-                  "maxWidth": "100%",
-                  "padding": "0px 0px 0px 0px"
-                },
+                "className": "flex flex-row gap-[40px] h-[42px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                "style": {},
                 "errors": [],
                 "children": [
                   {
                     "id": "218:4331/218:3203",
                     "nodeType": "FRAME",
                     "name": "容器 944",
-                    "className": "flex flex-row gap-3 h-[22px] items-start justify-start w-[56px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "0px 0px 0px 0px"
-                    },
+                    "className": "flex flex-row gap-[12px] h-[22px] items-start justify-start max-w-full p-[0px] w-[56px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4331/218:3204",
                         "nodeType": "FRAME",
                         "name": "容器 943",
-                        "className": "flex flex-row gap-2 h-[22px] items-center justify-start w-[56px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[8px] h-[22px] items-center justify-start max-w-full p-[0px] w-[56px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -116,11 +101,8 @@
                     "id": "218:4331/218:3181",
                     "nodeType": "FRAME",
                     "name": "容器 1446",
-                    "className": "flex flex-row gap-3 h-[42px] items-center justify-start w-[338px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "0px 0px 0px 0px"
-                    },
+                    "className": "flex flex-row gap-[12px] h-[42px] items-center justify-start max-w-full p-[0px] w-[338px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
@@ -136,11 +118,8 @@
                         "id": "218:4331/218:3182",
                         "nodeType": "FRAME",
                         "name": "容器 1445",
-                        "className": "flex flex-row gap-1 h-[42px] items-center justify-start w-[113px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[4px] h-[42px] items-center justify-start max-w-full p-[0px] w-[113px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -164,22 +143,16 @@
                                 "id": "218:4331/218:3184",
                                 "nodeType": "FRAME",
                                 "name": "容器 1441",
-                                "className": "flex flex-col gap-0 h-[42px] items-start justify-center w-[67px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[42px] items-start justify-center max-w-full p-[0px] w-[67px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
                                     "id": "218:4331/218:3185",
                                     "nodeType": "FRAME",
                                     "name": "容器 1443",
-                                    "className": "flex flex-col gap-1 h-[42px] items-start justify-start w-[67px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-col gap-[4px] h-[42px] items-start justify-start max-w-full p-[0px] w-[67px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -194,11 +167,8 @@
                                             "id": "218:4331/218:3187",
                                             "nodeType": "FRAME",
                                             "name": "容器 1440",
-                                            "className": "flex flex-row gap-1 h-[42px] items-center justify-start w-[67px]",
-                                            "style": {
-                                              "maxWidth": "100%",
-                                              "padding": "0px 0px 0px 0px"
-                                            },
+                                            "className": "flex flex-row gap-[4px] h-[42px] items-center justify-start max-w-full p-[0px] w-[67px]",
+                                            "style": {},
                                             "errors": [],
                                             "children": [
                                               {
@@ -214,11 +184,8 @@
                                                 "id": "218:4331/218:3188",
                                                 "nodeType": "FRAME",
                                                 "name": "容器 1438",
-                                                "className": "flex flex-col gap-0 h-[22px] items-start justify-start w-[14px]",
-                                                "style": {
-                                                  "maxWidth": "100%",
-                                                  "padding": "8px 0px 0px 0px"
-                                                },
+                                                "className": "flex flex-col gap-[0px] h-[22px] items-start justify-start max-w-full p-[8px_0px_0px_0px] w-[14px]",
+                                                "style": {},
                                                 "errors": [],
                                                 "children": [
                                                   {
@@ -252,11 +219,8 @@
                 "id": "218:4331/218:3209",
                 "nodeType": "INSTANCE",
                 "name": "L-168px",
-                "className": "bg-[#0d0d0d] flex flex-col gap-0 h-[56px] items-center justify-center rounded-[55px] w-[434px]",
-                "style": {
-                  "maxWidth": "100%",
-                  "padding": "16px 40px 16px 40px"
-                },
+                "className": "bg-[#0d0d0d] flex flex-col gap-[0px] h-[56px] items-center justify-center max-w-full p-[16px_40px_16px_40px] rounded-[55px] w-[434px]",
+                "style": {},
                 "errors": [],
                 "children": [
                   {
@@ -283,22 +247,16 @@
         "id": "218:1332",
         "nodeType": "FRAME",
         "name": "容器 1670",
-        "className": "flex flex-col gap-8 h-[1055px] items-center justify-start w-[514px]",
-        "style": {
-          "maxWidth": "100%",
-          "padding": "0px 0px 0px 0px"
-        },
+        "className": "flex flex-col gap-[32px] h-[1055px] items-center justify-start max-w-full p-[0px] w-[514px]",
+        "style": {},
         "errors": [],
         "children": [
           {
             "id": "218:1343",
             "nodeType": "FRAME",
             "name": "容器 1183",
-            "className": "flex flex-row gap-6 h-[72px] items-center justify-start w-[514px]",
-            "style": {
-              "maxWidth": "100%",
-              "padding": "36px 40px 0px 40px"
-            },
+            "className": "flex flex-row gap-[24px] h-[72px] items-center justify-start max-w-full p-[36px_40px_0px_40px] w-[514px]",
+            "style": {},
             "errors": [],
             "children": [
               {
@@ -363,66 +321,48 @@
             "id": "218:1333",
             "nodeType": "FRAME",
             "name": "容器 1669",
-            "className": "flex flex-col gap-5 h-[951px] items-center justify-start w-[514px]",
-            "style": {
-              "maxWidth": "100%",
-              "padding": "0px 20px 0px 20px"
-            },
+            "className": "flex flex-col gap-[20px] h-[951px] items-center justify-start max-w-full p-[0px_20px_0px_20px] w-[514px]",
+            "style": {},
             "errors": [],
             "children": [
               {
                 "id": "218:1334",
                 "nodeType": "FRAME",
                 "name": "容器 1672",
-                "className": "flex flex-col gap-0 h-[43px] items-start justify-start w-[474px]",
-                "style": {
-                  "maxWidth": "100%",
-                  "padding": "0px 20px 0px 20px"
-                },
+                "className": "flex flex-col gap-[0px] h-[43px] items-start justify-start max-w-full p-[0px_20px_0px_20px] w-[474px]",
+                "style": {},
                 "errors": [],
                 "children": [
                   {
                     "id": "403:0378",
                     "nodeType": "FRAME",
                     "name": "组 365",
-                    "className": "flex flex-col gap-0 h-[43px] items-start justify-center w-[434px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "0px 0px 0px 0px"
-                    },
+                    "className": "flex flex-col gap-[0px] h-[43px] items-start justify-center max-w-full p-[0px] w-[434px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "403:0383",
                         "nodeType": "FRAME",
                         "name": "base/all/16-have-number",
-                        "className": "flex flex-row gap-10 h-[43px] items-start justify-start w-[242px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[40px] h-[43px] items-start justify-start max-w-full p-[0px] w-[242px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
                             "id": "403:0384",
                             "nodeType": "INSTANCE",
                             "name": "base/16px-have-number 1",
-                            "className": "flex flex-col gap-4 h-[43px] items-start justify-start w-[54px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-col gap-[16px] h-[43px] items-start justify-start max-w-full p-[0px] w-[54px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
                                 "id": "403:0384/218:1935",
                                 "nodeType": "FRAME",
                                 "name": "容器 1518",
-                                "className": "flex flex-row gap-1 h-[24px] items-start justify-start w-[54px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 4px 0px 4px"
-                                },
+                                "className": "flex flex-row gap-[4px] h-[24px] items-start justify-start max-w-full p-[0px_4px_0px_4px] w-[54px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -460,22 +400,16 @@
                             "id": "403:0390",
                             "nodeType": "INSTANCE",
                             "name": "base/16px-have-number 3",
-                            "className": "flex flex-col gap-4 h-[43px] items-start justify-start w-[54px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-col gap-[16px] h-[43px] items-start justify-start max-w-full p-[0px] w-[54px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
                                 "id": "403:0390/218:2006",
                                 "nodeType": "FRAME",
                                 "name": "容器 1518",
-                                "className": "flex flex-row gap-1 h-[24px] items-start justify-start w-[54px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 4px 0px 4px"
-                                },
+                                "className": "flex flex-row gap-[4px] h-[24px] items-start justify-start max-w-full p-[0px_4px_0px_4px] w-[54px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -513,22 +447,16 @@
                             "id": "403:0396",
                             "nodeType": "INSTANCE",
                             "name": "base/16px-have-number 2",
-                            "className": "flex flex-col gap-4 h-[43px] items-start justify-start w-[54px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-col gap-[16px] h-[43px] items-start justify-start max-w-full p-[0px] w-[54px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
                                 "id": "403:0396/218:2006",
                                 "nodeType": "FRAME",
                                 "name": "容器 1518",
-                                "className": "flex flex-row gap-1 h-[24px] items-start justify-start w-[54px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 4px 0px 4px"
-                                },
+                                "className": "flex flex-row gap-[4px] h-[24px] items-start justify-start max-w-full p-[0px_4px_0px_4px] w-[54px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -581,33 +509,24 @@
                 "id": "218:1342",
                 "nodeType": "FRAME",
                 "name": "容器 1408",
-                "className": "flex flex-col gap-0 h-[888px] items-start justify-start w-[474px]",
-                "style": {
-                  "maxWidth": "100%",
-                  "padding": "0px 0px 0px 0px"
-                },
+                "className": "flex flex-col gap-[0px] h-[888px] items-start justify-start max-w-full p-[0px] w-[474px]",
+                "style": {},
                 "errors": [],
                 "children": [
                   {
                     "id": "218:4471",
                     "nodeType": "INSTANCE",
                     "name": "购物车list",
-                    "className": "flex flex-col gap-3 h-[148px] items-start justify-start rounded-[8px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[8px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4471/218:3293",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -642,11 +561,8 @@
                             "id": "218:4471/218:3295",
                             "nodeType": "FRAME",
                             "name": "容器 1519",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -662,11 +578,8 @@
                                 "id": "218:4471/218:3296",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -682,11 +595,8 @@
                                     "id": "218:4471/218:3297",
                                     "nodeType": "FRAME",
                                     "name": "容器 1674",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -728,11 +638,8 @@
                         "id": "218:4471/218:3280",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
-                        "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -748,12 +655,8 @@
                             "id": "218:4471/218:3281",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
-                            "className": "flex flex-row h-[30px] items-center justify-start w-[41px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "gap": "2px",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[41px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -769,11 +672,8 @@
                                 "id": "218:4471/218:3282",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
-                                "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "2px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -797,22 +697,16 @@
                     "id": "218:4452",
                     "nodeType": "INSTANCE",
                     "name": "购物车list/nor 1",
-                    "className": "flex flex-col gap-3 h-[148px] items-start justify-start rounded-[8px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[8px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4452/218:3293",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -847,11 +741,8 @@
                             "id": "218:4452/218:3295",
                             "nodeType": "FRAME",
                             "name": "容器 1519",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -867,11 +758,8 @@
                                 "id": "218:4452/218:3296",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -887,11 +775,8 @@
                                     "id": "218:4452/218:3297",
                                     "nodeType": "FRAME",
                                     "name": "容器 1674",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -933,11 +818,8 @@
                         "id": "218:4452/218:3280",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
-                        "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -953,12 +835,8 @@
                             "id": "218:4452/218:3281",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
-                            "className": "flex flex-row h-[30px] items-center justify-start w-[49px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "gap": "2px",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[49px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -974,11 +852,8 @@
                                 "id": "218:4452/218:3282",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
-                                "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "2px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1002,22 +877,16 @@
                     "id": "218:4414",
                     "nodeType": "INSTANCE",
                     "name": "购物车list/nor 8",
-                    "className": "flex flex-col gap-3 h-[148px] items-start justify-start rounded-[8px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[8px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4414/218:3293",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1061,11 +930,8 @@
                             "id": "218:4414/218:3295",
                             "nodeType": "FRAME",
                             "name": "容器 1519",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1081,11 +947,8 @@
                                 "id": "218:4414/218:3296",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1101,11 +964,8 @@
                                     "id": "218:4414/218:3297",
                                     "nodeType": "FRAME",
                                     "name": "容器 1674",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -1147,11 +1007,8 @@
                         "id": "218:4414/218:3280",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
-                        "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1167,12 +1024,8 @@
                             "id": "218:4414/218:3281",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
-                            "className": "flex flex-row h-[30px] items-center justify-start w-[49px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "gap": "2px",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[49px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1188,11 +1041,8 @@
                                 "id": "218:4414/218:3282",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
-                                "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "2px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1216,22 +1066,16 @@
                     "id": "218:4681",
                     "nodeType": "INSTANCE",
                     "name": "购物车list 1",
-                    "className": "bg-[#f5f5f5] flex flex-col gap-3 h-[148px] items-start justify-start rounded-[12px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "bg-[#f5f5f5] flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[12px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4681/218:3467",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1275,11 +1119,8 @@
                             "id": "218:4681/218:3469",
                             "nodeType": "FRAME",
                             "name": "容器 1520",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1295,11 +1136,8 @@
                                 "id": "218:4681/218:3471",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1315,11 +1153,8 @@
                                     "id": "218:4681/218:3472",
                                     "nodeType": "FRAME",
                                     "name": "容器 1675",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -1361,11 +1196,8 @@
                         "id": "218:4681/218:3450",
                         "nodeType": "FRAME",
                         "name": "容器 1452",
-                        "className": "flex flex-row gap-15 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 36px"
-                        },
+                        "className": "flex flex-row gap-[60px] h-[30px] items-center justify-start max-w-full p-[0px_0px_0px_36px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1381,11 +1213,8 @@
                             "id": "218:4681/218:3454",
                             "nodeType": "FRAME",
                             "name": "容器 1398",
-                            "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[310px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[310px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1401,12 +1230,8 @@
                                 "id": "218:4681/218:3455",
                                 "nodeType": "FRAME",
                                 "name": "容器 1188",
-                                "className": "flex flex-row h-[30px] items-center justify-start w-[53px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "gap": "2px",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[53px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1422,11 +1247,8 @@
                                     "id": "218:4681/218:3456",
                                     "nodeType": "FRAME",
                                     "name": "容器 1386",
-                                    "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "2px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -1452,22 +1274,16 @@
                     "id": "218:4395",
                     "nodeType": "INSTANCE",
                     "name": "购物车list/nor 7",
-                    "className": "flex flex-col gap-3 h-[148px] items-start justify-start rounded-[8px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[8px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4395/218:3293",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1502,11 +1318,8 @@
                             "id": "218:4395/218:3295",
                             "nodeType": "FRAME",
                             "name": "容器 1519",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1522,11 +1335,8 @@
                                 "id": "218:4395/218:3296",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1542,11 +1352,8 @@
                                     "id": "218:4395/218:3297",
                                     "nodeType": "FRAME",
                                     "name": "容器 1674",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -1588,11 +1395,8 @@
                         "id": "218:4395/218:3280",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
-                        "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1608,12 +1412,8 @@
                             "id": "218:4395/218:3281",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
-                            "className": "flex flex-row h-[30px] items-center justify-start w-[49px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "gap": "2px",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[49px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1629,11 +1429,8 @@
                                 "id": "218:4395/218:3282",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
-                                "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "2px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1657,22 +1454,16 @@
                     "id": "218:4433",
                     "nodeType": "INSTANCE",
                     "name": "购物车list/nor 6",
-                    "className": "flex flex-col gap-3 h-[148px] items-start justify-start rounded-[8px] w-[474px]",
-                    "style": {
-                      "maxWidth": "100%",
-                      "padding": "20px 20px 20px 20px"
-                    },
+                    "className": "flex flex-col gap-[12px] h-[148px] items-start justify-start max-w-full p-[20px] rounded-[8px] w-[474px]",
+                    "style": {},
                     "errors": [],
                     "children": [
                       {
                         "id": "218:4433/218:3293",
                         "nodeType": "FRAME",
                         "name": "容器 1401",
-                        "className": "flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1716,11 +1507,8 @@
                             "id": "218:4433/218:3295",
                             "nodeType": "FRAME",
                             "name": "容器 1519",
-                            "className": "flex flex-row gap-3 h-[66px] items-center justify-start w-[398px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[12px] h-[66px] items-center justify-start max-w-full p-[0px] w-[398px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1736,11 +1524,8 @@
                                 "id": "218:4433/218:3296",
                                 "nodeType": "FRAME",
                                 "name": "容器 1396",
-                                "className": "flex flex-col gap-3 h-[58px] items-start justify-start w-[269px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "0px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[12px] h-[58px] items-start justify-start max-w-full p-[0px] w-[269px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {
@@ -1756,11 +1541,8 @@
                                     "id": "218:4433/218:3297",
                                     "nodeType": "FRAME",
                                     "name": "容器 1674",
-                                    "className": "flex flex-row gap-3 h-[22px] items-center justify-start w-[269px]",
-                                    "style": {
-                                      "maxWidth": "100%",
-                                      "padding": "0px 0px 0px 0px"
-                                    },
+                                    "className": "flex flex-row gap-[12px] h-[22px] items-center justify-start max-w-full p-[0px] w-[269px]",
+                                    "style": {},
                                     "errors": [],
                                     "children": [
                                       {
@@ -1802,11 +1584,8 @@
                         "id": "218:4433/218:3280",
                         "nodeType": "FRAME",
                         "name": "容器 1398",
-                        "className": "flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]",
-                        "style": {
-                          "maxWidth": "100%",
-                          "padding": "0px 0px 0px 0px"
-                        },
+                        "className": "flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]",
+                        "style": {},
                         "errors": [],
                         "children": [
                           {
@@ -1822,12 +1601,8 @@
                             "id": "218:4433/218:3281",
                             "nodeType": "FRAME",
                             "name": "容器 1188",
-                            "className": "flex flex-row h-[30px] items-center justify-start w-[49px]",
-                            "style": {
-                              "maxWidth": "100%",
-                              "gap": "2px",
-                              "padding": "0px 0px 0px 0px"
-                            },
+                            "className": "flex flex-row gap-[2px] h-[30px] items-center justify-start max-w-full p-[0px] w-[49px]",
+                            "style": {},
                             "errors": [],
                             "children": [
                               {
@@ -1843,11 +1618,8 @@
                                 "id": "218:4433/218:3282",
                                 "nodeType": "FRAME",
                                 "name": "容器 1386",
-                                "className": "flex flex-col gap-0 h-[16px] items-start justify-start w-[14px]",
-                                "style": {
-                                  "maxWidth": "100%",
-                                  "padding": "2px 0px 0px 0px"
-                                },
+                                "className": "flex flex-col gap-[0px] h-[16px] items-start justify-start max-w-full p-[2px_0px_0px_0px] w-[14px]",
+                                "style": {},
                                 "errors": [],
                                 "children": [
                                   {

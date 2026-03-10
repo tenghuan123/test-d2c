@@ -6,10 +6,7 @@ type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Container01({ data = {} }: GeneratedPageProps) {
   return (
-    <Container
-      className="flex flex-row gap-4 h-[30px] items-center justify-start w-[434px]"
-      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-    >
+    <Container className="flex flex-row gap-[16px] h-[30px] items-center justify-start max-w-full p-[0px] w-[434px]">
       <Text
         className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
         value={String(data?.["nodeText"] ?? "企业授权")}

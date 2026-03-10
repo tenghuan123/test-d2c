@@ -16,10 +16,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
     <main className="min-h-screen">
       <Container>
         <Container>
-          <Container
-            className="flex flex-row gap-6 h-[72px] items-center justify-start w-[514px]"
-            style={{ maxWidth: "100%", padding: "36px 40px 0px 40px" }}
-          >
+          <Container className="flex flex-row gap-[24px] h-[72px] items-center justify-start max-w-full p-[36px_40px_0px_40px] w-[514px]">
             <Text
               className="font-[system-ui] leading-[36px] text-[#0d0d0d] text-[24px] tracking-[0px] whitespace-nowrap"
               value={String(data?.["nodeText"] ?? "购物车")}
@@ -36,22 +33,10 @@ export default function Page({ data = {} }: GeneratedPageProps) {
               </Icon>
             </Icon>
           </Container>
-          <Container
-            className="flex flex-col gap-5 h-[951px] items-center justify-start w-[514px]"
-            style={{ maxWidth: "100%", padding: "0px 20px 0px 20px" }}
-          >
-            <Container
-              className="flex flex-col gap-0 h-[43px] items-start justify-start w-[474px]"
-              style={{ maxWidth: "100%", padding: "0px 20px 0px 20px" }}
-            >
-              <Section
-                className="flex flex-col gap-0 h-[43px] items-start justify-center w-[434px]"
-                style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-              >
-                <List
-                  className="flex flex-row gap-10 h-[43px] items-start justify-start w-[242px]"
-                  style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-                >
+          <Container className="flex flex-col gap-[20px] h-[951px] items-center justify-start max-w-full p-[0px_20px_0px_20px] w-[514px]">
+            <Container className="flex flex-col gap-[0px] h-[43px] items-start justify-start max-w-full p-[0px_20px_0px_20px] w-[474px]">
+              <Section className="flex flex-col gap-[0px] h-[43px] items-start justify-center max-w-full p-[0px] w-[434px]">
+                <List className="flex flex-row gap-[40px] h-[43px] items-start justify-start max-w-full p-[0px] w-[242px]">
                   <Composed16711Card01 data={data} />
                   <Composed16711Card01 data={data} />
                   <Composed16711Card01 data={data} />
@@ -59,10 +44,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 <Container className="bg-[#ededed] rounded-[0.5px]" />
               </Section>
             </Container>
-            <Container
-              className="flex flex-col gap-0 h-[888px] items-start justify-start w-[474px]"
-              style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-            >
+            <Container className="flex flex-col gap-[0px] h-[888px] items-start justify-start max-w-full p-[0px] w-[474px]">
               <Composed16711List01 data={data} />
               <Composed16711List01 data={data} />
               <Composed16711List01 data={data} />
@@ -74,22 +56,10 @@ export default function Page({ data = {} }: GeneratedPageProps) {
         </Container>
         <Container>
           <Container className="bg-[#f0f0f0] rounded-[0.5px]" />
-          <Button
-            className="bg-[#fefefe] flex flex-col gap-4 h-[170px] items-start justify-start w-[514px]"
-            style={{ maxWidth: "100%", padding: "28px 40px 28px 40px" }}
-          >
-            <Container
-              className="flex flex-row gap-10 h-[42px] items-center justify-start w-[434px]"
-              style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-            >
-              <Container
-                className="flex flex-row gap-3 h-[22px] items-start justify-start w-[56px]"
-                style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-              >
-                <Container
-                  className="flex flex-row gap-2 h-[22px] items-center justify-start w-[56px]"
-                  style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-                >
+          <Button className="bg-[#fefefe] flex flex-col gap-[16px] h-[170px] items-start justify-start max-w-full p-[28px_40px_28px_40px] w-[514px]">
+            <Container className="flex flex-row gap-[40px] h-[42px] items-center justify-start max-w-full p-[0px] w-[434px]">
+              <Container className="flex flex-row gap-[12px] h-[22px] items-start justify-start max-w-full p-[0px] w-[56px]">
+                <Container className="flex flex-row gap-[8px] h-[22px] items-center justify-start max-w-full p-[0px] w-[56px]">
                   <Composed16711Input01 data={data} />
                   <Text
                     className="font-[system-ui] leading-[22px] text-[#0d0d0d] text-[14px] tracking-[0px] whitespace-nowrap"
@@ -97,50 +67,26 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                   />
                 </Container>
               </Container>
-              <Container
-                className="flex flex-row gap-3 h-[42px] items-center justify-start w-[338px]"
-                style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-              >
+              <Container className="flex flex-row gap-[12px] h-[42px] items-center justify-start max-w-full p-[0px] w-[338px]">
                 <Text
                   className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
                   value={String(data?.["5Text"] ?? "已选 5 件")}
                 />
-                <Container
-                  className="flex flex-row gap-1 h-[42px] items-center justify-start w-[113px]"
-                  style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-                >
+                <Container className="flex flex-row gap-[4px] h-[42px] items-center justify-start max-w-full p-[0px] w-[113px]">
                   <Text
                     className="font-[system-ui] leading-[22px] text-[#404040] text-[14px] tracking-[0px] whitespace-nowrap"
                     value={String(data?.["nodeText"] ?? "总计：")}
                   />
                   <Container>
-                    <Container
-                      className="flex flex-col gap-0 h-[42px] items-start justify-center w-[67px]"
-                      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-                    >
-                      <Container
-                        className="flex flex-col gap-1 h-[42px] items-start justify-start w-[67px]"
-                        style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-                      >
+                    <Container className="flex flex-col gap-[0px] h-[42px] items-start justify-center max-w-full p-[0px] w-[67px]">
+                      <Container className="flex flex-col gap-[4px] h-[42px] items-start justify-start max-w-full p-[0px] w-[67px]">
                         <Container>
-                          <Container
-                            className="flex flex-row gap-1 h-[42px] items-center justify-start w-[67px]"
-                            style={{
-                              maxWidth: "100%",
-                              padding: "0px 0px 0px 0px",
-                            }}
-                          >
+                          <Container className="flex flex-row gap-[4px] h-[42px] items-center justify-start max-w-full p-[0px] w-[67px]">
                             <Text
                               className="font-[system-ui] leading-[42px] text-[#ee4a4a] text-[28px] tracking-[0px] whitespace-nowrap"
                               value={String(data?.["738Text"] ?? "738")}
                             />
-                            <Container
-                              className="flex flex-col gap-0 h-[22px] items-start justify-start w-[14px]"
-                              style={{
-                                maxWidth: "100%",
-                                padding: "8px 0px 0px 0px",
-                              }}
-                            >
+                            <Container className="flex flex-col gap-[0px] h-[22px] items-start justify-start max-w-full p-[8px_0px_0px_0px] w-[14px]">
                               <Text
                                 className="font-[system-ui] leading-[1] text-[#ee4a4a] text-[14px] tracking-[0px] whitespace-nowrap"
                                 value={String(data?.["nodeText"] ?? "元")}
@@ -154,10 +100,7 @@ export default function Page({ data = {} }: GeneratedPageProps) {
                 </Container>
               </Container>
             </Container>
-            <Button
-              className="bg-[#0d0d0d] flex flex-col gap-0 h-[56px] items-center justify-center rounded-[55px] w-[434px]"
-              style={{ maxWidth: "100%", padding: "16px 40px 16px 40px" }}
-            >
+            <Button className="bg-[#0d0d0d] flex flex-col gap-[0px] h-[56px] items-center justify-center max-w-full p-[16px_40px_16px_40px] rounded-[55px] w-[434px]">
               <Text
                 className="font-[system-ui] leading-[24px] text-[#fefefe] text-[16px] tracking-[0px] whitespace-nowrap"
                 value={String(data?.["nodeText"] ?? "立即购买")}

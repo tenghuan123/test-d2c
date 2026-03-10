@@ -7,14 +7,8 @@ type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Card01({ data = {} }: GeneratedPageProps) {
   return (
-    <Card
-      className="flex flex-col gap-4 h-[43px] items-start justify-start w-[54px]"
-      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-    >
-      <Container
-        className="flex flex-row gap-1 h-[24px] items-start justify-start w-[54px]"
-        style={{ maxWidth: "100%", padding: "0px 4px 0px 4px" }}
-      >
+    <Card className="flex flex-col gap-[16px] h-[43px] items-start justify-start max-w-full p-[0px] w-[54px]">
+      <Container className="flex flex-row gap-[4px] h-[24px] items-start justify-start max-w-full p-[0px_4px_0px_4px] w-[54px]">
         <Text
           className="font-[system-ui] leading-[24px] text-[#0d0d0d] text-[16px] tracking-[0px] whitespace-nowrap"
           value={String(data?.["nodeText"] ?? "视频")}

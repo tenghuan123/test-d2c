@@ -40,6 +40,23 @@ function mapBoxSpacing(prefix, raw) {
     return [`${prefix}y-${v}`, `${prefix}x-${h}`];
   }
 
+  if (parts.length >= 3) {
+    const pxValues = parts.map(p => {
+      const num = Number(p.replace("px", ""));
+      return Number.isFinite(num) ? num : null;
+    }).filter(n => n !== null);
+    if (pxValues.length >= 3) {
+      const uniqueValues = [...new Set(pxValues)];
+      if (uniqueValues.length === 1) {
+        return [`${prefix}-[${pxValues[0]}px]`];
+      }
+      if (pxValues.length === 4) {
+        return [`${prefix}-[${pxValues[0]}px_${pxValues[1]}px_${pxValues[2]}px_${pxValues[3]}px]`];
+      }
+      return [`${prefix}-[${pxValues.join("_")}px]`];
+    }
+  }
+
   return [];
 }
 
@@ -229,7 +246,7 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
 
   if (typeof layout?.width === "number" && layout.width > 0) {
     classes.push(`w-[${layout.width}px]`);
-    style.maxWidth = "100%";
+    if (layout.width > 0) classes.push("max-w-full");
   }
 
   if (typeof layout?.height === "number" && layout.height > 0) {
@@ -261,9 +278,18 @@ export function mapDslNodeToTailwind(node, tokenStore, options = {}) {
     if (items) classes.push(items);
     else if (flex.alignItems) style.alignItems = flex.alignItems;
 
-    const gapClasses = mapBoxSpacing("gap", flex.gap);
-    if (gapClasses.length > 0) classes.push(...gapClasses);
-    else if (flex.gap) style.gap = flex.gap;
+    if (typeof flex.gap === "string" && flex.gap.includes("px")) {
+      const pxValue = flex.gap.replace("px", "");
+      if (Number.isFinite(Number(pxValue))) {
+        classes.push(`gap-[${flex.gap}]`);
+      } else {
+        style.gap = flex.gap;
+      }
+    } else {
+      const gapClasses = mapBoxSpacing("gap", flex.gap);
+      if (gapClasses.length > 0) classes.push(...gapClasses);
+      else if (flex.gap) style.gap = flex.gap;
+    }
 
     const paddingClasses = mapBoxSpacing("p", flex.padding);
     if (paddingClasses.length > 0) classes.push(...paddingClasses);

@@ -6,10 +6,7 @@ type GeneratedPageProps = { data?: Record<string, unknown> };
 
 export function Composed16711Container04({ data = {} }: GeneratedPageProps) {
   return (
-    <Container
-      className="flex flex-row gap-4 h-[66px] items-center justify-start w-[434px]"
-      style={{ maxWidth: "100%", padding: "0px 0px 0px 0px" }}
-    >
+    <Container className="flex flex-row gap-[16px] h-[66px] items-center justify-start max-w-full p-[0px] w-[434px]">
       <Composed16711Input01 data={data} />
       <Composed16711Container05 data={data} />
     </Container>
